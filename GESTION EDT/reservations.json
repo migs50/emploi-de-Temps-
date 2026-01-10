@@ -1,24 +1,2 @@
-[
-  {
-    "id": 1,
-    "salle_id": 5,
-    "enseignant_id": 1,
-    "date": "2026-02-15",
-    "heure_debut": "14:00",
-    "heure_fin": "16:00",
-    "motif": "Examen Final - Module Programmation",
-    "statut": "confirmee",
-    "date_creation": "2026-01-10T12:09:00"
-  },
-  {
-    "id": 2,
-    "salle_id": 1,
-    "enseignant_id": 2,
-    "date": "2026-02-20",
-    "heure_debut": "09:00",
-    "heure_fin": "12:00",
-    "motif": "Conférence Mathématiques Appliquées",
-    "statut": "en_attente",
-    "date_creation": "2026-01-10T12:09:00"
-  }
-]
+
+[]

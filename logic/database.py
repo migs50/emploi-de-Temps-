@@ -306,3 +306,15 @@ if __name__ == "__main__":
         print(f"\n✓ Fichier de test '{test_file}' supprimé")
     
     print("\n=== Tests terminés ===")
+import json
+import os
+
+def charger_json(chemin):
+    if not os.path.exists(chemin):
+        return []
+    with open(chemin, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+def sauvegarder_json(chemin, data):
+    with open(chemin, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=4, ensure_ascii=False)

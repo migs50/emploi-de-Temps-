@@ -1,1 +1,29 @@
-[]
+[
+    {
+        "module": "Analyse",
+        "enseignant": "Dr Ait",
+        "groupe": "G1",
+        "jour": "Lundi",
+        "debut": "09:00",
+        "fin": "10:30",
+        "salle": "Amphi A"
+    },
+    {
+        "module": "Algorithmique",
+        "enseignant": "Dr Karim",
+        "groupe": "G1",
+        "jour": "Lundi",
+        "debut": "10:45",
+        "fin": "12:15",
+        "salle": "Amphi A"
+    },
+    {
+        "module": "Python",
+        "enseignant": "Mme Salma",
+        "groupe": "G2",
+        "jour": "Lundi",
+        "debut": "09:00",
+        "fin": "10:30",
+        "salle": "Amphi B"
+    }
+]

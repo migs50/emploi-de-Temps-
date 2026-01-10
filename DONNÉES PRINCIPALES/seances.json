@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "module": "Analyse",
+    "type": "Cours",
+    "enseignant": "Dr Ait",
+    "filiere": "AD",
+    "groupe": "G1",
+    "effectif": 60,
+    "duree": 1,
+    "priorite": 1
+  },
+  {
+    "id": 2,
+    "module": "Algorithmique",
+    "type": "TD",
+    "enseignant": "Dr Karim",
+    "filiere": "AD",
+    "groupe": "G1",
+    "effectif": 30,
+    "duree": 1,
+    "priorite": 2
+  },
+  {
+    "id": 3,
+    "module": "Python",
+    "type": "TP",
+    "enseignant": "Mme Salma",
+    "filiere": "AD",
+    "groupe": "G2",
+    "effectif": 25,
+    "duree": 1,
+    "priorite": 3
+  }
+]
