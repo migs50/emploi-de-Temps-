@@ -1,0 +1,522 @@
+[
+  {
+    "id": 1,
+    "nom": "GEGM-1-Cours",
+    "filiere_id": 1,
+    "effectif": 150,
+    "type": "Cours",
+    "annee": 1
+  },
+  {
+    "id": 2,
+    "nom": "GEGM-1-G1",
+    "filiere_id": 1,
+    "effectif": 30,
+    "type": "TP/TD",
+    "annee": 1
+  },
+  {
+    "id": 3,
+    "nom": "GEGM-1-G2",
+    "filiere_id": 1,
+    "effectif": 30,
+    "type": "TP/TD",
+    "annee": 1
+  },
+  {
+    "id": 4,
+    "nom": "GEGM-1-G3",
+    "filiere_id": 1,
+    "effectif": 30,
+    "type": "TP/TD",
+    "annee": 1
+  },
+  {
+    "id": 5,
+    "nom": "GEGM-1-G4",
+    "filiere_id": 1,
+    "effectif": 30,
+    "type": "TP/TD",
+    "annee": 1
+  },
+  {
+    "id": 6,
+    "nom": "GEGM-1-G5",
+    "filiere_id": 1,
+    "effectif": 30,
+    "type": "TP/TD",
+    "annee": 1
+  },
+  {
+    "id": 7,
+    "nom": "GEGM-2-Cours",
+    "filiere_id": 2,
+    "effectif": 150,
+    "type": "Cours",
+    "annee": 2
+  },
+  {
+    "id": 8,
+    "nom": "GEGM-2-G1",
+    "filiere_id": 2,
+    "effectif": 30,
+    "type": "TP/TD",
+    "annee": 2
+  },
+  {
+    "id": 9,
+    "nom": "GEGM-2-G2",
+    "filiere_id": 2,
+    "effectif": 30,
+    "type": "TP/TD",
+    "annee": 2
+  },
+  {
+    "id": 10,
+    "nom": "GEGM-2-G3",
+    "filiere_id": 2,
+    "effectif": 30,
+    "type": "TP/TD",
+    "annee": 2
+  },
+  {
+    "id": 11,
+    "nom": "GEGM-2-G4",
+    "filiere_id": 2,
+    "effectif": 30,
+    "type": "TP/TD",
+    "annee": 2
+  },
+  {
+    "id": 12,
+    "nom": "GEGM-2-G5",
+    "filiere_id": 2,
+    "effectif": 30,
+    "type": "TP/TD",
+    "annee": 2
+  },
+  {
+    "id": 13,
+    "nom": "MIPC-1-Cours",
+    "filiere_id": 3,
+    "effectif": 200,
+    "type": "Cours",
+    "annee": 1
+  },
+  {
+    "id": 14,
+    "nom": "MIPC-1-G1",
+    "filiere_id": 3,
+    "effectif": 30,
+    "type": "TP/TD",
+    "annee": 1
+  },
+  {
+    "id": 15,
+    "nom": "MIPC-1-G2",
+    "filiere_id": 3,
+    "effectif": 30,
+    "type": "TP/TD",
+    "annee": 1
+  },
+  {
+    "id": 16,
+    "nom": "MIPC-1-G3",
+    "filiere_id": 3,
+    "effectif": 30,
+    "type": "TP/TD",
+    "annee": 1
+  },
+  {
+    "id": 17,
+    "nom": "MIPC-1-G4",
+    "filiere_id": 3,
+    "effectif": 30,
+    "type": "TP/TD",
+    "annee": 1
+  },
+  {
+    "id": 18,
+    "nom": "MIPC-1-G5",
+    "filiere_id": 3,
+    "effectif": 30,
+    "type": "TP/TD",
+    "annee": 1
+  },
+  {
+    "id": 19,
+    "nom": "MIPC-1-G6",
+    "filiere_id": 3,
+    "effectif": 30,
+    "type": "TP/TD",
+    "annee": 1
+  },
+  {
+    "id": 20,
+    "nom": "MIPC-1-G7",
+    "filiere_id": 3,
+    "effectif": 20,
+    "type": "TP/TD",
+    "annee": 1
+  },
+  {
+    "id": 21,
+    "nom": "MIPC-2-Cours",
+    "filiere_id": 4,
+    "effectif": 200,
+    "type": "Cours",
+    "annee": 2
+  },
+  {
+    "id": 22,
+    "nom": "MIPC-2-G1",
+    "filiere_id": 4,
+    "effectif": 30,
+    "type": "TP/TD",
+    "annee": 2
+  },
+  {
+    "id": 23,
+    "nom": "MIPC-2-G2",
+    "filiere_id": 4,
+    "effectif": 30,
+    "type": "TP/TD",
+    "annee": 2
+  },
+  {
+    "id": 24,
+    "nom": "MIPC-2-G3",
+    "filiere_id": 4,
+    "effectif": 30,
+    "type": "TP/TD",
+    "annee": 2
+  },
+  {
+    "id": 25,
+    "nom": "MIPC-2-G4",
+    "filiere_id": 4,
+    "effectif": 30,
+    "type": "TP/TD",
+    "annee": 2
+  },
+  {
+    "id": 26,
+    "nom": "MIPC-2-G5",
+    "filiere_id": 4,
+    "effectif": 30,
+    "type": "TP/TD",
+    "annee": 2
+  },
+  {
+    "id": 27,
+    "nom": "MIPC-2-G6",
+    "filiere_id": 4,
+    "effectif": 30,
+    "type": "TP/TD",
+    "annee": 2
+  },
+  {
+    "id": 28,
+    "nom": "MIPC-2-G7",
+    "filiere_id": 4,
+    "effectif": 20,
+    "type": "TP/TD",
+    "annee": 2
+  },
+  {
+    "id": 29,
+    "nom": "BCG-1-Cours",
+    "filiere_id": 5,
+    "effectif": 130,
+    "type": "Cours",
+    "annee": 1
+  },
+  {
+    "id": 30,
+    "nom": "BCG-1-G1",
+    "filiere_id": 5,
+    "effectif": 30,
+    "type": "TP/TD",
+    "annee": 1
+  },
+  {
+    "id": 31,
+    "nom": "BCG-1-G2",
+    "filiere_id": 5,
+    "effectif": 30,
+    "type": "TP/TD",
+    "annee": 1
+  },
+  {
+    "id": 32,
+    "nom": "BCG-1-G3",
+    "filiere_id": 5,
+    "effectif": 30,
+    "type": "TP/TD",
+    "annee": 1
+  },
+  {
+    "id": 33,
+    "nom": "BCG-1-G4",
+    "filiere_id": 5,
+    "effectif": 30,
+    "type": "TP/TD",
+    "annee": 1
+  },
+  {
+    "id": 34,
+    "nom": "BCG-1-G5",
+    "filiere_id": 5,
+    "effectif": 10,
+    "type": "TP/TD",
+    "annee": 1
+  },
+  {
+    "id": 35,
+    "nom": "BCG-2-Cours",
+    "filiere_id": 6,
+    "effectif": 130,
+    "type": "Cours",
+    "annee": 2
+  },
+  {
+    "id": 36,
+    "nom": "BCG-2-G1",
+    "filiere_id": 6,
+    "effectif": 30,
+    "type": "TP/TD",
+    "annee": 2
+  },
+  {
+    "id": 37,
+    "nom": "BCG-2-G2",
+    "filiere_id": 6,
+    "effectif": 30,
+    "type": "TP/TD",
+    "annee": 2
+  },
+  {
+    "id": 38,
+    "nom": "BCG-2-G3",
+    "filiere_id": 6,
+    "effectif": 30,
+    "type": "TP/TD",
+    "annee": 2
+  },
+  {
+    "id": 39,
+    "nom": "BCG-2-G4",
+    "filiere_id": 6,
+    "effectif": 30,
+    "type": "TP/TD",
+    "annee": 2
+  },
+  {
+    "id": 40,
+    "nom": "BCG-2-G5",
+    "filiere_id": 6,
+    "effectif": 10,
+    "type": "TP/TD",
+    "annee": 2
+  },
+  {
+    "id": 41,
+    "nom": "GC-1-Unique",
+    "filiere_id": 7,
+    "effectif": 27,
+    "type": "Tous",
+    "annee": 1
+  },
+  {
+    "id": 42,
+    "nom": "AD-1-Unique",
+    "filiere_id": 8,
+    "effectif": 80,
+    "type": "Tous",
+    "annee": 1
+  },
+  {
+    "id": 43,
+    "nom": "SSD-1-Unique",
+    "filiere_id": 9,
+    "effectif": 36,
+    "type": "Tous",
+    "annee": 1
+  },
+  {
+    "id": 44,
+    "nom": "TAC-1-Unique",
+    "filiere_id": 10,
+    "effectif": 30,
+    "type": "Tous",
+    "annee": 1
+  },
+  {
+    "id": 45,
+    "nom": "IDAI-1-Unique",
+    "filiere_id": 11,
+    "effectif": 76,
+    "type": "Tous",
+    "annee": 1
+  },
+  {
+    "id": 46,
+    "nom": "AISD-1-Unique",
+    "filiere_id": 12,
+    "effectif": 32,
+    "type": "Tous",
+    "annee": 1
+  },
+  {
+    "id": 47,
+    "nom": "AISD-2-Unique",
+    "filiere_id": 13,
+    "effectif": 32,
+    "type": "Tous",
+    "annee": 2
+  },
+  {
+    "id": 48,
+    "nom": "GC-M-1-Unique",
+    "filiere_id": 14,
+    "effectif": 34,
+    "type": "Tous",
+    "annee": 1
+  },
+  {
+    "id": 49,
+    "nom": "GC-M-2-Unique",
+    "filiere_id": 15,
+    "effectif": 34,
+    "type": "Tous",
+    "annee": 2
+  },
+  {
+    "id": 50,
+    "nom": "SE-1-Unique",
+    "filiere_id": 16,
+    "effectif": 21,
+    "type": "Tous",
+    "annee": 1
+  },
+  {
+    "id": 51,
+    "nom": "SE-2-Unique",
+    "filiere_id": 17,
+    "effectif": 21,
+    "type": "Tous",
+    "annee": 2
+  },
+  {
+    "id": 52,
+    "nom": "AAIS-1-Unique",
+    "filiere_id": 18,
+    "effectif": 27,
+    "type": "Tous",
+    "annee": 1
+  },
+  {
+    "id": 53,
+    "nom": "AAIS-2-Unique",
+    "filiere_id": 19,
+    "effectif": 27,
+    "type": "Tous",
+    "annee": 2
+  },
+  {
+    "id": 54,
+    "nom": "AA-1-Unique",
+    "filiere_id": 20,
+    "effectif": 30,
+    "type": "Tous",
+    "annee": 1
+  },
+  {
+    "id": 55,
+    "nom": "AA-2-Unique",
+    "filiere_id": 21,
+    "effectif": 30,
+    "type": "Tous",
+    "annee": 2
+  },
+  {
+    "id": 56,
+    "nom": "AA-3-Unique",
+    "filiere_id": 22,
+    "effectif": 30,
+    "type": "Tous",
+    "annee": 3
+  },
+  {
+    "id": 57,
+    "nom": "IND-1-Unique",
+    "filiere_id": 23,
+    "effectif": 25,
+    "type": "Tous",
+    "annee": 1
+  },
+  {
+    "id": 58,
+    "nom": "IND-2-Unique",
+    "filiere_id": 24,
+    "effectif": 25,
+    "type": "Tous",
+    "annee": 2
+  },
+  {
+    "id": 59,
+    "nom": "IND-3-Unique",
+    "filiere_id": 25,
+    "effectif": 25,
+    "type": "Tous",
+    "annee": 3
+  },
+  {
+    "id": 60,
+    "nom": "GEMI-1-Unique",
+    "filiere_id": 26,
+    "effectif": 26,
+    "type": "Tous",
+    "annee": 1
+  },
+  {
+    "id": 61,
+    "nom": "GEMI-2-Unique",
+    "filiere_id": 27,
+    "effectif": 26,
+    "type": "Tous",
+    "annee": 2
+  },
+  {
+    "id": 62,
+    "nom": "GEMI-3-Unique",
+    "filiere_id": 28,
+    "effectif": 26,
+    "type": "Tous",
+    "annee": 3
+  },
+  {
+    "id": 63,
+    "nom": "LSI-1-Unique",
+    "filiere_id": 29,
+    "effectif": 28,
+    "type": "Tous",
+    "annee": 1
+  },
+  {
+    "id": 64,
+    "nom": "LSI-2-Unique",
+    "filiere_id": 30,
+    "effectif": 28,
+    "type": "Tous",
+    "annee": 2
+  },
+  {
+    "id": 65,
+    "nom": "LSI-3-Unique",
+    "filiere_id": 31,
+    "effectif": 28,
+    "type": "Tous",
+    "annee": 3
+  }
+]

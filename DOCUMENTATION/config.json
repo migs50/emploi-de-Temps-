@@ -1,0 +1,41 @@
+{
+  "version": "2.0",
+  "date_creation": "2026-01-08T21:51:00",
+  "structure": {
+    "filieres": 31,
+    "groupes": 65,
+    "modules": 186,
+    "salles": 50,
+    "etudiants": 1764
+  },
+  "horaires": {
+    "ouverture": "09:00",
+    "fermeture": "17:30",
+    "duree_seance": 90,
+    "duree_pause": 15,
+    "jours_travail": [
+      "Lundi",
+      "Mardi",
+      "Mercredi",
+      "Jeudi",
+      "Vendredi",
+      "Samedi"
+    ],
+    "creneaux_par_semaine": 26
+  },
+  "organisation": {
+    "DEUST": {
+      "cours": "Tous ensemble en amphi",
+      "tp_td": "Groupes de 30 étudiants max"
+    },
+    "Licence": {
+      "organisation": "Groupe unique non divisé"
+    },
+    "Master": {
+      "organisation": "Groupe unique non divisé"
+    },
+    "Cycle": {
+      "organisation": "Groupe unique non divisé"
+    }
+  }
+}

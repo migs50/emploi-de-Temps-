@@ -1,0 +1,542 @@
+[
+  {
+    "id": 1,
+    "nom": "El Mahdi",
+    "prenom": "Jamila",
+    "email": "jamila.el mahdi@universite.ma",
+    "departement_id": 1,
+    "specialite": "Biochimie",
+    "telephone": "+212 6 64 20 52 91"
+  },
+  {
+    "id": 2,
+    "nom": "Haddad",
+    "prenom": "Ahmed",
+    "email": "ahmed.haddad@universite.ma",
+    "departement_id": 1,
+    "specialite": "Microbiologie",
+    "telephone": "+212 6 59 64 77 62"
+  },
+  {
+    "id": 3,
+    "nom": "El Mahdi",
+    "prenom": "Hanane",
+    "email": "hanane.el mahdi@universite.ma",
+    "departement_id": 1,
+    "specialite": "Biologie Moléculaire",
+    "telephone": "+212 6 80 25 32 61"
+  },
+  {
+    "id": 4,
+    "nom": "Tazi",
+    "prenom": "Samira",
+    "email": "samira.tazi@universite.ma",
+    "departement_id": 1,
+    "specialite": "Biologie Moléculaire",
+    "telephone": "+212 6 18 22 94 27"
+  },
+  {
+    "id": 5,
+    "nom": "Idrissi",
+    "prenom": "Youssef",
+    "email": "youssef.idrissi@universite.ma",
+    "departement_id": 1,
+    "specialite": "Microbiologie",
+    "telephone": "+212 6 61 27 38 46"
+  },
+  {
+    "id": 6,
+    "nom": "Fassi",
+    "prenom": "Fatima",
+    "email": "fatima.fassi@universite.ma",
+    "departement_id": 1,
+    "specialite": "Biologie Moléculaire",
+    "telephone": "+212 6 33 50 41 53"
+  },
+  {
+    "id": 7,
+    "nom": "Wahbi",
+    "prenom": "Khadija",
+    "email": "khadija.wahbi@universite.ma",
+    "departement_id": 1,
+    "specialite": "Zoologie",
+    "telephone": "+212 6 19 58 34 50"
+  },
+  {
+    "id": 8,
+    "nom": "Lamrani",
+    "prenom": "Nabil",
+    "email": "nabil.lamrani@universite.ma",
+    "departement_id": 1,
+    "specialite": "Biochimie",
+    "telephone": "+212 6 45 98 55 34"
+  },
+  {
+    "id": 9,
+    "nom": "Drissi",
+    "prenom": "Abdellatif",
+    "email": "abdellatif.drissi@universite.ma",
+    "departement_id": 1,
+    "specialite": "Biochimie",
+    "telephone": "+212 6 42 34 55 86"
+  },
+  {
+    "id": 10,
+    "nom": "Alami",
+    "prenom": "Abdellatif",
+    "email": "abdellatif.alami@universite.ma",
+    "departement_id": 1,
+    "specialite": "Microbiologie",
+    "telephone": "+212 6 22 41 19 79"
+  },
+  {
+    "id": 11,
+    "nom": "Bennani",
+    "prenom": "Fatima",
+    "email": "fatima.bennani@universite.ma",
+    "departement_id": 1,
+    "specialite": "Biochimie",
+    "telephone": "+212 6 92 77 79 63"
+  },
+  {
+    "id": 12,
+    "nom": "Chakir",
+    "prenom": "Amina",
+    "email": "amina.chakir@universite.ma",
+    "departement_id": 1,
+    "specialite": "Biochimie",
+    "telephone": "+212 6 27 83 48 32"
+  },
+  {
+    "id": 13,
+    "nom": "Wahbi",
+    "prenom": "Hafsa",
+    "email": "hafsa.wahbi@universite.ma",
+    "departement_id": 1,
+    "specialite": "Zoologie",
+    "telephone": "+212 6 28 90 82 78"
+  },
+  {
+    "id": 14,
+    "nom": "Lamrani",
+    "prenom": "Zakaria",
+    "email": "zakaria.lamrani@universite.ma",
+    "departement_id": 1,
+    "specialite": "Zoologie",
+    "telephone": "+212 6 26 31 20 75"
+  },
+  {
+    "id": 15,
+    "nom": "Naciri",
+    "prenom": "Mehdi",
+    "email": "mehdi.naciri@universite.ma",
+    "departement_id": 1,
+    "specialite": "Microbiologie",
+    "telephone": "+212 6 16 95 76 96"
+  },
+  {
+    "id": 16,
+    "nom": "El Amrani",
+    "prenom": "Omar",
+    "email": "omar.el amrani@universite.ma",
+    "departement_id": 2,
+    "specialite": "Géométrie",
+    "telephone": "+212 6 18 23 93 88"
+  },
+  {
+    "id": 17,
+    "nom": "Chraibi",
+    "prenom": "Jamila",
+    "email": "jamila.chraibi@universite.ma",
+    "departement_id": 2,
+    "specialite": "Algèbre",
+    "telephone": "+212 6 57 74 19 39"
+  },
+  {
+    "id": 18,
+    "nom": "Hamdi",
+    "prenom": "Hamza",
+    "email": "hamza.hamdi@universite.ma",
+    "departement_id": 2,
+    "specialite": "Statistiques",
+    "telephone": "+212 6 69 42 85 96"
+  },
+  {
+    "id": 19,
+    "nom": "Bennani",
+    "prenom": "Hamza",
+    "email": "hamza.bennani@universite.ma",
+    "departement_id": 2,
+    "specialite": "Probabilités",
+    "telephone": "+212 6 64 22 31 28"
+  },
+  {
+    "id": 20,
+    "nom": "Kabbaj",
+    "prenom": "Nadia",
+    "email": "nadia.kabbaj@universite.ma",
+    "departement_id": 2,
+    "specialite": "Probabilités",
+    "telephone": "+212 6 83 43 46 89"
+  },
+  {
+    "id": 21,
+    "nom": "Kabbaj",
+    "prenom": "Zineb",
+    "email": "zineb.kabbaj@universite.ma",
+    "departement_id": 2,
+    "specialite": "Analyse Mathématique",
+    "telephone": "+212 6 99 80 10 52"
+  },
+  {
+    "id": 22,
+    "nom": "Idrissi",
+    "prenom": "Nabil",
+    "email": "nabil.idrissi@universite.ma",
+    "departement_id": 2,
+    "specialite": "Analyse Mathématique",
+    "telephone": "+212 6 57 67 15 93"
+  },
+  {
+    "id": 23,
+    "nom": "Bennis",
+    "prenom": "Omar",
+    "email": "omar.bennis@universite.ma",
+    "departement_id": 2,
+    "specialite": "Probabilités",
+    "telephone": "+212 6 61 13 12 92"
+  },
+  {
+    "id": 24,
+    "nom": "Wahbi",
+    "prenom": "Nadia",
+    "email": "nadia.wahbi@universite.ma",
+    "departement_id": 2,
+    "specialite": "Probabilités",
+    "telephone": "+212 6 82 64 32 83"
+  },
+  {
+    "id": 25,
+    "nom": "Ouazzani",
+    "prenom": "Rajae",
+    "email": "rajae.ouazzani@universite.ma",
+    "departement_id": 2,
+    "specialite": "Mathématiques Appliquées",
+    "telephone": "+212 6 97 92 46 80"
+  },
+  {
+    "id": 26,
+    "nom": "Chakir",
+    "prenom": "Amine",
+    "email": "amine.chakir@universite.ma",
+    "departement_id": 2,
+    "specialite": "Statistiques",
+    "telephone": "+212 6 34 23 72 36"
+  },
+  {
+    "id": 27,
+    "nom": "Alami",
+    "prenom": "Khadija",
+    "email": "khadija.alami@universite.ma",
+    "departement_id": 2,
+    "specialite": "Probabilités",
+    "telephone": "+212 6 59 14 44 92"
+  },
+  {
+    "id": 28,
+    "nom": "Kabbaj",
+    "prenom": "Fatima",
+    "email": "fatima.kabbaj@universite.ma",
+    "departement_id": 2,
+    "specialite": "Algèbre",
+    "telephone": "+212 6 86 16 91 56"
+  },
+  {
+    "id": 29,
+    "nom": "Filali",
+    "prenom": "Rajae",
+    "email": "rajae.filali@universite.ma",
+    "departement_id": 2,
+    "specialite": "Probabilités",
+    "telephone": "+212 6 74 53 23 38"
+  },
+  {
+    "id": 30,
+    "nom": "Chakir",
+    "prenom": "Nabil",
+    "email": "nabil.chakir@universite.ma",
+    "departement_id": 2,
+    "specialite": "Analyse Mathématique",
+    "telephone": "+212 6 11 24 93 22"
+  },
+  {
+    "id": 31,
+    "nom": "Yazidi",
+    "prenom": "Hamza",
+    "email": "hamza.yazidi@universite.ma",
+    "departement_id": 3,
+    "specialite": "Physique des Matériaux",
+    "telephone": "+212 6 56 52 85 76"
+  },
+  {
+    "id": 32,
+    "nom": "Lamrani",
+    "prenom": "Ahmed",
+    "email": "ahmed.lamrani@universite.ma",
+    "departement_id": 3,
+    "specialite": "Physique Quantique",
+    "telephone": "+212 6 51 94 14 55"
+  },
+  {
+    "id": 33,
+    "nom": "Raissi",
+    "prenom": "Khalid",
+    "email": "khalid.raissi@universite.ma",
+    "departement_id": 3,
+    "specialite": "Physique Quantique",
+    "telephone": "+212 6 60 91 53 52"
+  },
+  {
+    "id": 34,
+    "nom": "Alami",
+    "prenom": "Hanane",
+    "email": "hanane.alami@universite.ma",
+    "departement_id": 3,
+    "specialite": "Physique des Matériaux",
+    "telephone": "+212 6 72 16 38 18"
+  },
+  {
+    "id": 35,
+    "nom": "Bennani",
+    "prenom": "Nabil",
+    "email": "nabil.bennani@universite.ma",
+    "departement_id": 3,
+    "specialite": "Électromagnétisme",
+    "telephone": "+212 6 65 91 28 59"
+  },
+  {
+    "id": 36,
+    "nom": "El Amrani",
+    "prenom": "Nabil",
+    "email": "nabil.el amrani@universite.ma",
+    "departement_id": 3,
+    "specialite": "Physique des Matériaux",
+    "telephone": "+212 6 94 26 64 93"
+  },
+  {
+    "id": 37,
+    "nom": "Ouazzani",
+    "prenom": "Hafsa",
+    "email": "hafsa.ouazzani@universite.ma",
+    "departement_id": 3,
+    "specialite": "Physique Quantique",
+    "telephone": "+212 6 16 64 27 98"
+  },
+  {
+    "id": 38,
+    "nom": "Sabri",
+    "prenom": "Loubna",
+    "email": "loubna.sabri@universite.ma",
+    "departement_id": 3,
+    "specialite": "Optique",
+    "telephone": "+212 6 77 67 76 57"
+  },
+  {
+    "id": 39,
+    "nom": "Mansouri",
+    "prenom": "Amina",
+    "email": "amina.mansouri@universite.ma",
+    "departement_id": 3,
+    "specialite": "Électromagnétisme",
+    "telephone": "+212 6 53 22 70 37"
+  },
+  {
+    "id": 40,
+    "nom": "Lamrani",
+    "prenom": "Rachid",
+    "email": "rachid.lamrani@universite.ma",
+    "departement_id": 3,
+    "specialite": "Physique Quantique",
+    "telephone": "+212 6 57 10 74 11"
+  },
+  {
+    "id": 41,
+    "nom": "Yazidi",
+    "prenom": "Mehdi",
+    "email": "mehdi.yazidi@universite.ma",
+    "departement_id": 3,
+    "specialite": "Thermodynamique",
+    "telephone": "+212 6 14 49 28 15"
+  },
+  {
+    "id": 42,
+    "nom": "Drissi",
+    "prenom": "Hanane",
+    "email": "hanane.drissi@universite.ma",
+    "departement_id": 3,
+    "specialite": "Thermodynamique",
+    "telephone": "+212 6 89 55 71 17"
+  },
+  {
+    "id": 43,
+    "nom": "Ziani",
+    "prenom": "Samira",
+    "email": "samira.ziani@universite.ma",
+    "departement_id": 3,
+    "specialite": "Thermodynamique",
+    "telephone": "+212 6 70 73 11 98"
+  },
+  {
+    "id": 44,
+    "nom": "Jabri",
+    "prenom": "Nabil",
+    "email": "nabil.jabri@universite.ma",
+    "departement_id": 3,
+    "specialite": "Électromagnétisme",
+    "telephone": "+212 6 56 29 27 62"
+  },
+  {
+    "id": 45,
+    "nom": "Sabri",
+    "prenom": "Houda",
+    "email": "houda.sabri@universite.ma",
+    "departement_id": 3,
+    "specialite": "Physique des Matériaux",
+    "telephone": "+212 6 56 83 71 19"
+  },
+  {
+    "id": 46,
+    "nom": "Raissi",
+    "prenom": "Youssef",
+    "email": "youssef.raissi@universite.ma",
+    "departement_id": 4,
+    "specialite": "Systèmes d'Information",
+    "telephone": "+212 6 99 84 41 20"
+  },
+  {
+    "id": 47,
+    "nom": "Sabri",
+    "prenom": "Rajae",
+    "email": "rajae.sabri@universite.ma",
+    "departement_id": 4,
+    "specialite": "Base de Données",
+    "telephone": "+212 6 50 70 74 85"
+  },
+  {
+    "id": 48,
+    "nom": "Jabri",
+    "prenom": "Mustapha",
+    "email": "mustapha.jabri@universite.ma",
+    "departement_id": 4,
+    "specialite": "Réseaux Informatiques",
+    "telephone": "+212 6 15 59 98 54"
+  },
+  {
+    "id": 49,
+    "nom": "Raissi",
+    "prenom": "Omar",
+    "email": "omar.raissi@universite.ma",
+    "departement_id": 4,
+    "specialite": "Intelligence Artificielle",
+    "telephone": "+212 6 67 69 54 14"
+  },
+  {
+    "id": 50,
+    "nom": "Driss",
+    "prenom": "Mustapha",
+    "email": "mustapha.driss@universite.ma",
+    "departement_id": 4,
+    "specialite": "Développement Web",
+    "telephone": "+212 6 91 14 41 27"
+  },
+  {
+    "id": 51,
+    "nom": "Hamdi",
+    "prenom": "Mustapha",
+    "email": "mustapha.hamdi@universite.ma",
+    "departement_id": 4,
+    "specialite": "Base de Données",
+    "telephone": "+212 6 54 29 42 17"
+  },
+  {
+    "id": 52,
+    "nom": "Filali",
+    "prenom": "Mustapha",
+    "email": "mustapha.filali@universite.ma",
+    "departement_id": 4,
+    "specialite": "Base de Données",
+    "telephone": "+212 6 92 41 18 92"
+  },
+  {
+    "id": 53,
+    "nom": "Sabri",
+    "prenom": "Rachid",
+    "email": "rachid.sabri@universite.ma",
+    "departement_id": 4,
+    "specialite": "Intelligence Artificielle",
+    "telephone": "+212 6 14 31 56 64"
+  },
+  {
+    "id": 54,
+    "nom": "Guessous",
+    "prenom": "Khalid",
+    "email": "khalid.guessous@universite.ma",
+    "departement_id": 4,
+    "specialite": "Programmation",
+    "telephone": "+212 6 39 77 18 18"
+  },
+  {
+    "id": 55,
+    "nom": "Filali",
+    "prenom": "Karim",
+    "email": "karim.filali@universite.ma",
+    "departement_id": 4,
+    "specialite": "Systèmes d'Information",
+    "telephone": "+212 6 52 55 28 51"
+  },
+  {
+    "id": 56,
+    "nom": "Kabbaj",
+    "prenom": "Samir",
+    "email": "samir.kabbaj@universite.ma",
+    "departement_id": 4,
+    "specialite": "Réseaux Informatiques",
+    "telephone": "+212 6 86 50 51 74"
+  },
+  {
+    "id": 57,
+    "nom": "El Amrani",
+    "prenom": "Hassan",
+    "email": "hassan.el amrani@universite.ma",
+    "departement_id": 4,
+    "specialite": "Développement Web",
+    "telephone": "+212 6 46 46 20 39"
+  },
+  {
+    "id": 58,
+    "nom": "Lamrani",
+    "prenom": "Omar",
+    "email": "omar.lamrani@universite.ma",
+    "departement_id": 4,
+    "specialite": "Systèmes d'Information",
+    "telephone": "+212 6 99 69 76 55"
+  },
+  {
+    "id": 59,
+    "nom": "Haddad",
+    "prenom": "Khalid",
+    "email": "khalid.haddad@universite.ma",
+    "departement_id": 4,
+    "specialite": "Systèmes d'Information",
+    "telephone": "+212 6 96 60 40 23"
+  },
+  {
+    "id": 60,
+    "nom": "Ghali",
+    "prenom": "Hafsa",
+    "email": "hafsa.ghali@universite.ma",
+    "departement_id": 4,
+    "specialite": "Programmation",
+    "telephone": "+212 6 89 33 10 46"
+  }
+]

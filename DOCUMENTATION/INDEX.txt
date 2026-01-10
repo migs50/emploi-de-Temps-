@@ -1,0 +1,36 @@
+
+projet_edt/
+├── README.md ..................... Documentation complète
+├── config.json ................... Configuration du système
+│
+├── 📊 DONNÉES PRINCIPALES
+│   ├── salles.json ............... 50 salles
+│   ├── filieres.json ............. 31 filières-années
+│   ├── groupes.json .............. 65 groupes
+│   ├── modules.json .............. 186 modules
+│   └── enseignants.json .......... 5 enseignants
+│
+├── 📅 GESTION EDT
+│   ├── emplois_du_temps.json ..... Emploi du temps généré
+│   ├── reservations.json ......... Réservations de salles
+│   └── indisponibilites.json ..... Indisponibilités
+│
+└── 📄 DOCUMENTATION
+    ├── INDEX.txt ................. Ce fichier
+    └── README.md ................. Documentation détaillée
+
+🎯 DÉMARRAGE RAPIDE:
+   1. Lire README.md
+   2. Consulter config.json
+   3. Explorer les fichiers JSON
+   4. Générer l'emploi du temps
+
+📊 CHIFFRES CLÉS:
+   • 31 filières-années
+   • 1764 étudiants
+   • 65 groupes
+   • 186 modules
+   • 50 salles
+   • 26 créneaux/semaine
+
+✨ Système 100% opérationnel !

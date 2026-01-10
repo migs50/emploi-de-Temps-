@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "salle_id": 10,
+    "date_debut": "2026-03-01",
+    "date_fin": "2026-03-05",
+    "motif": "Maintenance équipements laboratoire",
+    "type": "maintenance",
+    "date_creation": "2026-01-08T21:51:00"
+  },
+  {
+    "id": 2,
+    "enseignant_id": 3,
+    "date_debut": "2026-02-10",
+    "date_fin": "2026-02-12",
+    "motif": "Formation continue",
+    "type": "absence",
+    "date_creation": "2026-01-08T21:51:00"
+  }
+]

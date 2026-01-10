@@ -1,0 +1,785 @@
+[
+  {
+    "id": 1,
+    "nom": "Amphi A",
+    "capacite": 400,
+    "type": "Amphi",
+    "equipements": [
+      "datashow",
+      "sono",
+      "wifi",
+      "tableau",
+      "micro"
+    ],
+    "batiment": "Biblio",
+    "etage": 0,
+    "departement_id": null
+  },
+  {
+    "id": 2,
+    "nom": "Amphi B",
+    "capacite": 400,
+    "type": "Amphi",
+    "equipements": [
+      "datashow",
+      "sono",
+      "wifi",
+      "tableau",
+      "micro"
+    ],
+    "batiment": "Biblio",
+    "etage": 0,
+    "departement_id": null
+  },
+  {
+    "id": 3,
+    "nom": "Amphi C",
+    "capacite": 400,
+    "type": "Amphi",
+    "equipements": [
+      "datashow",
+      "sono",
+      "wifi",
+      "tableau",
+      "micro"
+    ],
+    "batiment": "Biblio",
+    "etage": 0,
+    "departement_id": null
+  },
+  {
+    "id": 4,
+    "nom": "TP-A1",
+    "capacite": 30,
+    "type": "TP",
+    "equipements": [
+      "datashow",
+      "wifi",
+      "equipment_labo_bio",
+      "paillasse",
+      "microscopes"
+    ],
+    "batiment": "A",
+    "etage": 1,
+    "departement_id": 1
+  },
+  {
+    "id": 5,
+    "nom": "TP-C1",
+    "capacite": 30,
+    "type": "TP",
+    "equipements": [
+      "datashow",
+      "wifi",
+      "ordinateurs",
+      "logiciels_math"
+    ],
+    "batiment": "C",
+    "etage": 2,
+    "departement_id": 2
+  },
+  {
+    "id": 6,
+    "nom": "TP-D1",
+    "capacite": 30,
+    "type": "TP",
+    "equipements": [
+      "datashow",
+      "wifi",
+      "equipment_labo_physique",
+      "oscilloscopes",
+      "multimètres"
+    ],
+    "batiment": "D",
+    "etage": 3,
+    "departement_id": 3
+  },
+  {
+    "id": 7,
+    "nom": "TP-E1",
+    "capacite": 30,
+    "type": "TP",
+    "equipements": [
+      "datashow",
+      "wifi",
+      "ordinateurs",
+      "serveur",
+      "switch_reseau"
+    ],
+    "batiment": "E",
+    "etage": 1,
+    "departement_id": 4
+  },
+  {
+    "id": 8,
+    "nom": "TP-A2",
+    "capacite": 30,
+    "type": "TP",
+    "equipements": [
+      "datashow",
+      "wifi",
+      "equipment_labo_bio",
+      "paillasse",
+      "microscopes"
+    ],
+    "batiment": "A",
+    "etage": 2,
+    "departement_id": 1
+  },
+  {
+    "id": 9,
+    "nom": "TP-C2",
+    "capacite": 30,
+    "type": "TP",
+    "equipements": [
+      "datashow",
+      "wifi",
+      "ordinateurs",
+      "logiciels_math"
+    ],
+    "batiment": "C",
+    "etage": 3,
+    "departement_id": 2
+  },
+  {
+    "id": 10,
+    "nom": "TP-D2",
+    "capacite": 30,
+    "type": "TP",
+    "equipements": [
+      "datashow",
+      "wifi",
+      "equipment_labo_physique",
+      "oscilloscopes",
+      "multimètres"
+    ],
+    "batiment": "D",
+    "etage": 1,
+    "departement_id": 3
+  },
+  {
+    "id": 11,
+    "nom": "TP-E2",
+    "capacite": 30,
+    "type": "TP",
+    "equipements": [
+      "datashow",
+      "wifi",
+      "ordinateurs",
+      "serveur",
+      "switch_reseau"
+    ],
+    "batiment": "E",
+    "etage": 2,
+    "departement_id": 4
+  },
+  {
+    "id": 12,
+    "nom": "TP-A3",
+    "capacite": 30,
+    "type": "TP",
+    "equipements": [
+      "datashow",
+      "wifi",
+      "equipment_labo_bio",
+      "paillasse",
+      "microscopes"
+    ],
+    "batiment": "A",
+    "etage": 3,
+    "departement_id": 1
+  },
+  {
+    "id": 13,
+    "nom": "TP-C3",
+    "capacite": 30,
+    "type": "TP",
+    "equipements": [
+      "datashow",
+      "wifi",
+      "ordinateurs",
+      "logiciels_math"
+    ],
+    "batiment": "C",
+    "etage": 1,
+    "departement_id": 2
+  },
+  {
+    "id": 14,
+    "nom": "TP-D3",
+    "capacite": 30,
+    "type": "TP",
+    "equipements": [
+      "datashow",
+      "wifi",
+      "equipment_labo_physique",
+      "oscilloscopes",
+      "multimètres"
+    ],
+    "batiment": "D",
+    "etage": 2,
+    "departement_id": 3
+  },
+  {
+    "id": 15,
+    "nom": "TP-E3",
+    "capacite": 30,
+    "type": "TP",
+    "equipements": [
+      "datashow",
+      "wifi",
+      "ordinateurs",
+      "serveur",
+      "switch_reseau"
+    ],
+    "batiment": "E",
+    "etage": 3,
+    "departement_id": 4
+  },
+  {
+    "id": 16,
+    "nom": "TP-A4",
+    "capacite": 30,
+    "type": "TP",
+    "equipements": [
+      "datashow",
+      "wifi",
+      "equipment_labo_bio",
+      "paillasse",
+      "microscopes"
+    ],
+    "batiment": "A",
+    "etage": 1,
+    "departement_id": 1
+  },
+  {
+    "id": 17,
+    "nom": "TP-C4",
+    "capacite": 30,
+    "type": "TP",
+    "equipements": [
+      "datashow",
+      "wifi",
+      "ordinateurs",
+      "logiciels_math"
+    ],
+    "batiment": "C",
+    "etage": 2,
+    "departement_id": 2
+  },
+  {
+    "id": 18,
+    "nom": "TP-D4",
+    "capacite": 30,
+    "type": "TP",
+    "equipements": [
+      "datashow",
+      "wifi",
+      "equipment_labo_physique",
+      "oscilloscopes",
+      "multimètres"
+    ],
+    "batiment": "D",
+    "etage": 3,
+    "departement_id": 3
+  },
+  {
+    "id": 19,
+    "nom": "TP-E4",
+    "capacite": 30,
+    "type": "TP",
+    "equipements": [
+      "datashow",
+      "wifi",
+      "ordinateurs",
+      "serveur",
+      "switch_reseau"
+    ],
+    "batiment": "E",
+    "etage": 1,
+    "departement_id": 4
+  },
+  {
+    "id": 20,
+    "nom": "TP-A5",
+    "capacite": 30,
+    "type": "TP",
+    "equipements": [
+      "datashow",
+      "wifi",
+      "equipment_labo_bio",
+      "paillasse",
+      "microscopes"
+    ],
+    "batiment": "A",
+    "etage": 2,
+    "departement_id": 1
+  },
+  {
+    "id": 21,
+    "nom": "TP-C5",
+    "capacite": 30,
+    "type": "TP",
+    "equipements": [
+      "datashow",
+      "wifi",
+      "ordinateurs",
+      "logiciels_math"
+    ],
+    "batiment": "C",
+    "etage": 3,
+    "departement_id": 2
+  },
+  {
+    "id": 22,
+    "nom": "TP-D5",
+    "capacite": 30,
+    "type": "TP",
+    "equipements": [
+      "datashow",
+      "wifi",
+      "equipment_labo_physique",
+      "oscilloscopes",
+      "multimètres"
+    ],
+    "batiment": "D",
+    "etage": 1,
+    "departement_id": 3
+  },
+  {
+    "id": 23,
+    "nom": "TP-E5",
+    "capacite": 30,
+    "type": "TP",
+    "equipements": [
+      "datashow",
+      "wifi",
+      "ordinateurs",
+      "serveur",
+      "switch_reseau"
+    ],
+    "batiment": "E",
+    "etage": 2,
+    "departement_id": 4
+  },
+  {
+    "id": 24,
+    "nom": "TP-A6",
+    "capacite": 30,
+    "type": "TP",
+    "equipements": [
+      "datashow",
+      "wifi",
+      "equipment_labo_bio",
+      "paillasse",
+      "microscopes"
+    ],
+    "batiment": "A",
+    "etage": 3,
+    "departement_id": 1
+  },
+  {
+    "id": 25,
+    "nom": "TP-C6",
+    "capacite": 30,
+    "type": "TP",
+    "equipements": [
+      "datashow",
+      "wifi",
+      "ordinateurs",
+      "logiciels_math"
+    ],
+    "batiment": "C",
+    "etage": 1,
+    "departement_id": 2
+  },
+  {
+    "id": 26,
+    "nom": "TP-D6",
+    "capacite": 30,
+    "type": "TP",
+    "equipements": [
+      "datashow",
+      "wifi",
+      "equipment_labo_physique",
+      "oscilloscopes",
+      "multimètres"
+    ],
+    "batiment": "D",
+    "etage": 2,
+    "departement_id": 3
+  },
+  {
+    "id": 27,
+    "nom": "TP-E6",
+    "capacite": 30,
+    "type": "TP",
+    "equipements": [
+      "datashow",
+      "wifi",
+      "ordinateurs",
+      "serveur",
+      "switch_reseau"
+    ],
+    "batiment": "E",
+    "etage": 3,
+    "departement_id": 4
+  },
+  {
+    "id": 28,
+    "nom": "TP-A7",
+    "capacite": 30,
+    "type": "TP",
+    "equipements": [
+      "datashow",
+      "wifi",
+      "equipment_labo_bio",
+      "paillasse",
+      "microscopes"
+    ],
+    "batiment": "A",
+    "etage": 1,
+    "departement_id": 1
+  },
+  {
+    "id": 29,
+    "nom": "TP-C7",
+    "capacite": 30,
+    "type": "TP",
+    "equipements": [
+      "datashow",
+      "wifi",
+      "ordinateurs",
+      "logiciels_math"
+    ],
+    "batiment": "C",
+    "etage": 2,
+    "departement_id": 2
+  },
+  {
+    "id": 30,
+    "nom": "TP-D7",
+    "capacite": 30,
+    "type": "TP",
+    "equipements": [
+      "datashow",
+      "wifi",
+      "equipment_labo_physique",
+      "oscilloscopes",
+      "multimètres"
+    ],
+    "batiment": "D",
+    "etage": 3,
+    "departement_id": 3
+  },
+  {
+    "id": 31,
+    "nom": "Cours-A1",
+    "capacite": 25,
+    "type": "Cours",
+    "equipements": [
+      "datashow",
+      "wifi",
+      "tableau",
+      "prise"
+    ],
+    "batiment": "A",
+    "etage": 1,
+    "departement_id": 1
+  },
+  {
+    "id": 32,
+    "nom": "Cours-C1",
+    "capacite": 25,
+    "type": "Cours",
+    "equipements": [
+      "datashow",
+      "wifi",
+      "tableau",
+      "prise"
+    ],
+    "batiment": "C",
+    "etage": 2,
+    "departement_id": 2
+  },
+  {
+    "id": 33,
+    "nom": "Cours-D1",
+    "capacite": 25,
+    "type": "Cours",
+    "equipements": [
+      "datashow",
+      "wifi",
+      "tableau",
+      "prise"
+    ],
+    "batiment": "D",
+    "etage": 3,
+    "departement_id": 3
+  },
+  {
+    "id": 34,
+    "nom": "Cours-E1",
+    "capacite": 25,
+    "type": "Cours",
+    "equipements": [
+      "datashow",
+      "wifi",
+      "tableau",
+      "prise"
+    ],
+    "batiment": "E",
+    "etage": 1,
+    "departement_id": 4
+  },
+  {
+    "id": 35,
+    "nom": "Cours-A2",
+    "capacite": 25,
+    "type": "Cours",
+    "equipements": [
+      "datashow",
+      "wifi",
+      "tableau",
+      "prise"
+    ],
+    "batiment": "A",
+    "etage": 2,
+    "departement_id": 1
+  },
+  {
+    "id": 36,
+    "nom": "Cours-C2",
+    "capacite": 25,
+    "type": "Cours",
+    "equipements": [
+      "datashow",
+      "wifi",
+      "tableau",
+      "prise"
+    ],
+    "batiment": "C",
+    "etage": 3,
+    "departement_id": 2
+  },
+  {
+    "id": 37,
+    "nom": "Cours-D2",
+    "capacite": 25,
+    "type": "Cours",
+    "equipements": [
+      "datashow",
+      "wifi",
+      "tableau",
+      "prise"
+    ],
+    "batiment": "D",
+    "etage": 1,
+    "departement_id": 3
+  },
+  {
+    "id": 38,
+    "nom": "Cours-E2",
+    "capacite": 25,
+    "type": "Cours",
+    "equipements": [
+      "datashow",
+      "wifi",
+      "tableau",
+      "prise"
+    ],
+    "batiment": "E",
+    "etage": 2,
+    "departement_id": 4
+  },
+  {
+    "id": 39,
+    "nom": "Cours-A3",
+    "capacite": 25,
+    "type": "Cours",
+    "equipements": [
+      "datashow",
+      "wifi",
+      "tableau",
+      "prise"
+    ],
+    "batiment": "A",
+    "etage": 3,
+    "departement_id": 1
+  },
+  {
+    "id": 40,
+    "nom": "Cours-C3",
+    "capacite": 25,
+    "type": "Cours",
+    "equipements": [
+      "datashow",
+      "wifi",
+      "tableau",
+      "prise"
+    ],
+    "batiment": "C",
+    "etage": 1,
+    "departement_id": 2
+  },
+  {
+    "id": 41,
+    "nom": "TD-A1",
+    "capacite": 50,
+    "type": "TD",
+    "equipements": [
+      "datashow",
+      "wifi",
+      "tableau",
+      "prise",
+      "tables_groupe"
+    ],
+    "batiment": "A",
+    "etage": 1,
+    "departement_id": 1
+  },
+  {
+    "id": 42,
+    "nom": "TD-C1",
+    "capacite": 50,
+    "type": "TD",
+    "equipements": [
+      "datashow",
+      "wifi",
+      "tableau",
+      "prise",
+      "tables_groupe"
+    ],
+    "batiment": "C",
+    "etage": 2,
+    "departement_id": 2
+  },
+  {
+    "id": 43,
+    "nom": "TD-D1",
+    "capacite": 50,
+    "type": "TD",
+    "equipements": [
+      "datashow",
+      "wifi",
+      "tableau",
+      "prise",
+      "tables_groupe"
+    ],
+    "batiment": "D",
+    "etage": 3,
+    "departement_id": 3
+  },
+  {
+    "id": 44,
+    "nom": "TD-E1",
+    "capacite": 50,
+    "type": "TD",
+    "equipements": [
+      "datashow",
+      "wifi",
+      "tableau",
+      "prise",
+      "tables_groupe"
+    ],
+    "batiment": "E",
+    "etage": 1,
+    "departement_id": 4
+  },
+  {
+    "id": 45,
+    "nom": "TD-A2",
+    "capacite": 50,
+    "type": "TD",
+    "equipements": [
+      "datashow",
+      "wifi",
+      "tableau",
+      "prise",
+      "tables_groupe"
+    ],
+    "batiment": "A",
+    "etage": 2,
+    "departement_id": 1
+  },
+  {
+    "id": 46,
+    "nom": "TD-C2",
+    "capacite": 50,
+    "type": "TD",
+    "equipements": [
+      "datashow",
+      "wifi",
+      "tableau",
+      "prise",
+      "tables_groupe"
+    ],
+    "batiment": "C",
+    "etage": 3,
+    "departement_id": 2
+  },
+  {
+    "id": 47,
+    "nom": "Grande-A1",
+    "capacite": 90,
+    "type": "Cours",
+    "equipements": [
+      "datashow",
+      "wifi",
+      "tableau",
+      "prise",
+      "sono"
+    ],
+    "batiment": "A",
+    "etage": 2,
+    "departement_id": 1
+  },
+  {
+    "id": 48,
+    "nom": "Grande-C2",
+    "capacite": 90,
+    "type": "Cours",
+    "equipements": [
+      "datashow",
+      "wifi",
+      "tableau",
+      "prise",
+      "sono"
+    ],
+    "batiment": "C",
+    "etage": 2,
+    "departement_id": 2
+  },
+  {
+    "id": 49,
+    "nom": "Grande-D3",
+    "capacite": 90,
+    "type": "Cours",
+    "equipements": [
+      "datashow",
+      "wifi",
+      "tableau",
+      "prise",
+      "sono"
+    ],
+    "batiment": "D",
+    "etage": 2,
+    "departement_id": 3
+  },
+  {
+    "id": 50,
+    "nom": "Grande-E4",
+    "capacite": 90,
+    "type": "Cours",
+    "equipements": [
+      "datashow",
+      "wifi",
+      "tableau",
+      "prise",
+      "sono"
+    ],
+    "batiment": "E",
+    "etage": 2,
+    "departement_id": 4
+  }
+]
