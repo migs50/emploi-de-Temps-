@@ -1,312 +1,386 @@
-[
-  {
-    "id": 1,
-    "code": "GEGM-1",
-    "nom": "Génie Électrique Génie Mécanique - Année 1",
-    "niveau": "DEUST",
-    "annee": 1,
-    "effectif": 150,
-    "departement_id": 3,
-    "duree_totale": 2
-  },
-  {
-    "id": 2,
-    "code": "GEGM-2",
-    "nom": "Génie Électrique Génie Mécanique - Année 2",
-    "niveau": "DEUST",
-    "annee": 2,
-    "effectif": 150,
-    "departement_id": 3,
-    "duree_totale": 2
-  },
-  {
-    "id": 3,
-    "code": "MIPC-1",
-    "nom": "Math Informatique Physique Chimie - Année 1",
-    "niveau": "DEUST",
-    "annee": 1,
-    "effectif": 200,
-    "departement_id": 2,
-    "duree_totale": 2
-  },
-  {
-    "id": 4,
-    "code": "MIPC-2",
-    "nom": "Math Informatique Physique Chimie - Année 2",
-    "niveau": "DEUST",
-    "annee": 2,
-    "effectif": 200,
-    "departement_id": 2,
-    "duree_totale": 2
-  },
-  {
-    "id": 5,
-    "code": "BCG-1",
-    "nom": "Biologie Chimie Géologie - Année 1",
-    "niveau": "DEUST",
-    "annee": 1,
-    "effectif": 130,
-    "departement_id": 1,
-    "duree_totale": 2
-  },
-  {
-    "id": 6,
-    "code": "BCG-2",
-    "nom": "Biologie Chimie Géologie - Année 2",
-    "niveau": "DEUST",
-    "annee": 2,
-    "effectif": 130,
-    "departement_id": 1,
-    "duree_totale": 2
-  },
-  {
-    "id": 7,
-    "code": "GC-1",
-    "nom": "Génie Civil - Année 1",
-    "niveau": "Licence",
-    "annee": 1,
-    "effectif": 27,
-    "departement_id": 3,
-    "duree_totale": 1
-  },
-  {
-    "id": 8,
-    "code": "AD-1",
-    "nom": "Analytique de Données - Année 1",
-    "niveau": "Licence",
-    "annee": 1,
-    "effectif": 80,
-    "departement_id": 4,
-    "duree_totale": 1
-  },
-  {
-    "id": 9,
-    "code": "SSD-1",
-    "nom": "Statistique Science de Données - Année 1",
-    "niveau": "Licence",
-    "annee": 1,
-    "effectif": 36,
-    "departement_id": 2,
-    "duree_totale": 1
-  },
-  {
-    "id": 10,
-    "code": "TAC-1",
-    "nom": "Techniques d'Analyses Chimiques - Année 1",
-    "niveau": "Licence",
-    "annee": 1,
-    "effectif": 30,
-    "departement_id": 1,
-    "duree_totale": 1
-  },
-  {
-    "id": 11,
-    "code": "IDAI-1",
-    "nom": "Ingénieur Développement Applications Informatiques - Année 1",
-    "niveau": "Licence",
-    "annee": 1,
-    "effectif": 76,
-    "departement_id": 4,
-    "duree_totale": 1
-  },
-  {
-    "id": 12,
-    "code": "AISD-1",
-    "nom": "AI et Science de Données - Année 1",
-    "niveau": "Master",
-    "annee": 1,
-    "effectif": 32,
-    "departement_id": 4,
-    "duree_totale": 2
-  },
-  {
-    "id": 13,
-    "code": "AISD-2",
-    "nom": "AI et Science de Données - Année 2",
-    "niveau": "Master",
-    "annee": 2,
-    "effectif": 32,
-    "departement_id": 4,
-    "duree_totale": 2
-  },
-  {
-    "id": 14,
-    "code": "GC-M-1",
-    "nom": "Génie Civil Master - Année 1",
-    "niveau": "Master",
-    "annee": 1,
-    "effectif": 34,
-    "departement_id": 3,
-    "duree_totale": 2
-  },
-  {
-    "id": 15,
-    "code": "GC-M-2",
-    "nom": "Génie Civil Master - Année 2",
-    "niveau": "Master",
-    "annee": 2,
-    "effectif": 34,
-    "departement_id": 3,
-    "duree_totale": 2
-  },
-  {
-    "id": 16,
-    "code": "SE-1",
-    "nom": "Science Environnement - Année 1",
-    "niveau": "Master",
-    "annee": 1,
-    "effectif": 21,
-    "departement_id": 1,
-    "duree_totale": 2
-  },
-  {
-    "id": 17,
-    "code": "SE-2",
-    "nom": "Science Environnement - Année 2",
-    "niveau": "Master",
-    "annee": 2,
-    "effectif": 21,
-    "departement_id": 1,
-    "duree_totale": 2
-  },
-  {
-    "id": 18,
-    "code": "AAIS-1",
-    "nom": "Analyse Appliquée et Ingénierie Statistiques - Année 1",
-    "niveau": "Master",
-    "annee": 1,
-    "effectif": 27,
-    "departement_id": 2,
-    "duree_totale": 2
-  },
-  {
-    "id": 19,
-    "code": "AAIS-2",
-    "nom": "Analyse Appliquée et Ingénierie Statistiques - Année 2",
-    "niveau": "Master",
-    "annee": 2,
-    "effectif": 27,
-    "departement_id": 2,
-    "duree_totale": 2
-  },
-  {
-    "id": 20,
-    "code": "AA-1",
-    "nom": "Agro Alimentaire - Année 1",
-    "niveau": "Cycle",
-    "annee": 1,
-    "effectif": 30,
-    "departement_id": 1,
-    "duree_totale": 3
-  },
-  {
-    "id": 21,
-    "code": "AA-2",
-    "nom": "Agro Alimentaire - Année 2",
-    "niveau": "Cycle",
-    "annee": 2,
-    "effectif": 30,
-    "departement_id": 1,
-    "duree_totale": 3
-  },
-  {
-    "id": 22,
-    "code": "AA-3",
-    "nom": "Agro Alimentaire - Année 3",
-    "niveau": "Cycle",
-    "annee": 3,
-    "effectif": 30,
-    "departement_id": 1,
-    "duree_totale": 3
-  },
-  {
-    "id": 23,
-    "code": "IND-1",
-    "nom": "Industrielle - Année 1",
-    "niveau": "Cycle",
-    "annee": 1,
-    "effectif": 25,
-    "departement_id": 3,
-    "duree_totale": 3
-  },
-  {
-    "id": 24,
-    "code": "IND-2",
-    "nom": "Industrielle - Année 2",
-    "niveau": "Cycle",
-    "annee": 2,
-    "effectif": 25,
-    "departement_id": 3,
-    "duree_totale": 3
-  },
-  {
-    "id": 25,
-    "code": "IND-3",
-    "nom": "Industrielle - Année 3",
-    "niveau": "Cycle",
-    "annee": 3,
-    "effectif": 25,
-    "departement_id": 3,
-    "duree_totale": 3
-  },
-  {
-    "id": 26,
-    "code": "GEMI-1",
-    "nom": "Génie Électrique et Management Industriel - Année 1",
-    "niveau": "Cycle",
-    "annee": 1,
-    "effectif": 26,
-    "departement_id": 3,
-    "duree_totale": 3
-  },
-  {
-    "id": 27,
-    "code": "GEMI-2",
-    "nom": "Génie Électrique et Management Industriel - Année 2",
-    "niveau": "Cycle",
-    "annee": 2,
-    "effectif": 26,
-    "departement_id": 3,
-    "duree_totale": 3
-  },
-  {
-    "id": 28,
-    "code": "GEMI-3",
-    "nom": "Génie Électrique et Management Industriel - Année 3",
-    "niveau": "Cycle",
-    "annee": 3,
-    "effectif": 26,
-    "departement_id": 3,
-    "duree_totale": 3
-  },
-  {
-    "id": 29,
-    "code": "LSI-1",
-    "nom": "Logiciel et Système Intelligent - Année 1",
-    "niveau": "Cycle",
-    "annee": 1,
-    "effectif": 28,
-    "departement_id": 4,
-    "duree_totale": 3
-  },
-  {
-    "id": 30,
-    "code": "LSI-2",
-    "nom": "Logiciel et Système Intelligent - Année 2",
-    "niveau": "Cycle",
-    "annee": 2,
-    "effectif": 28,
-    "departement_id": 4,
-    "duree_totale": 3
-  },
-  {
-    "id": 31,
-    "code": "LSI-3",
-    "nom": "Logiciel et Système Intelligent - Année 3",
-    "niveau": "Cycle",
-    "annee": 3,
-    "effectif": 28,
-    "departement_id": 4,
-    "duree_totale": 3
+{
+  "version": "3.0",
+  "date": "2026-01-10",
+  "description": "Filières organisées par département et niveau",
+  "departements": [
+    {
+      "id": 1,
+      "nom": "Sciences Biologiques et Chimiques",
+      "code": "SBC"
+    },
+    {
+      "id": 2,
+      "nom": "Sciences Mathématiques et Informatiques",
+      "code": "SMI"
+    },
+    {
+      "id": 3,
+      "nom": "Sciences de l'Ingénieur",
+      "code": "SI"
+    },
+    {
+      "id": 4,
+      "nom": "Informatique et Data Science",
+      "code": "IDS"
+    }
+  ],
+  "filieres": [
+    {
+      "id": 1,
+      "code": "GEGM-1",
+      "nom": "Génie Électrique Génie Mécanique - Année 1",
+      "niveau": "DEUST",
+      "annee": 1,
+      "effectif": 150,
+      "departement_id": 3,
+      "duree_totale": 2,
+      "modules": [1, 2, 3, 4, 5, 6]
+    },
+    {
+      "id": 2,
+      "code": "GEGM-2",
+      "nom": "Génie Électrique Génie Mécanique - Année 2",
+      "niveau": "DEUST",
+      "annee": 2,
+      "effectif": 150,
+      "departement_id": 3,
+      "duree_totale": 2,
+      "modules": [7, 8, 9, 10, 11, 12]
+    },
+    {
+      "id": 3,
+      "code": "MIPC-1",
+      "nom": "Math Informatique Physique Chimie - Année 1",
+      "niveau": "DEUST",
+      "annee": 1,
+      "effectif": 200,
+      "departement_id": 2,
+      "duree_totale": 2,
+      "modules": [13, 14, 15, 16, 17, 18]
+    },
+    {
+      "id": 4,
+      "code": "MIPC-2",
+      "nom": "Math Informatique Physique Chimie - Année 2",
+      "niveau": "DEUST",
+      "annee": 2,
+      "effectif": 200,
+      "departement_id": 2,
+      "duree_totale": 2,
+      "modules": [19, 20, 21, 22, 23, 24]
+    },
+    {
+      "id": 5,
+      "code": "BCG-1",
+      "nom": "Biologie Chimie Géologie - Année 1",
+      "niveau": "DEUST",
+      "annee": 1,
+      "effectif": 130,
+      "departement_id": 1,
+      "duree_totale": 2,
+      "modules": [25, 26, 27, 28, 29, 30]
+    },
+    {
+      "id": 6,
+      "code": "BCG-2",
+      "nom": "Biologie Chimie Géologie - Année 2",
+      "niveau": "DEUST",
+      "annee": 2,
+      "effectif": 130,
+      "departement_id": 1,
+      "duree_totale": 2,
+      "modules": [31, 32, 33, 34, 35, 36]
+    },
+    {
+      "id": 7,
+      "code": "GC-1",
+      "nom": "Génie Civil - Année 1",
+      "niveau": "Licence",
+      "annee": 1,
+      "effectif": 27,
+      "departement_id": 3,
+      "duree_totale": 1,
+      "modules": [37, 38, 39, 40, 41, 42]
+    },
+    {
+      "id": 8,
+      "code": "AD-1",
+      "nom": "Analytique de Données - Année 1",
+      "niveau": "Licence",
+      "annee": 1,
+      "effectif": 80,
+      "departement_id": 4,
+      "duree_totale": 1,
+      "modules": [43, 44, 45, 46, 47, 48]
+    },
+    {
+      "id": 9,
+      "code": "SSD-1",
+      "nom": "Statistique Science de Données - Année 1",
+      "niveau": "Licence",
+      "annee": 1,
+      "effectif": 36,
+      "departement_id": 2,
+      "duree_totale": 1,
+      "modules": [49, 50, 51, 52, 53, 54]
+    },
+    {
+      "id": 10,
+      "code": "TAC-1",
+      "nom": "Techniques d'Analyses Chimiques - Année 1",
+      "niveau": "Licence",
+      "annee": 1,
+      "effectif": 30,
+      "departement_id": 1,
+      "duree_totale": 1,
+      "modules": [55, 56, 57, 58, 59, 60]
+    },
+    {
+      "id": 11,
+      "code": "IDAI-1",
+      "nom": "Ingénieur Développement Applications Informatiques - Année 1",
+      "niveau": "Licence",
+      "annee": 1,
+      "effectif": 76,
+      "departement_id": 4,
+      "duree_totale": 1,
+      "modules": [61, 62, 63, 64, 65, 66]
+    },
+    {
+      "id": 12,
+      "code": "AISD-1",
+      "nom": "AI et Science de Données - Année 1",
+      "niveau": "Master",
+      "annee": 1,
+      "effectif": 32,
+      "departement_id": 4,
+      "duree_totale": 2,
+      "modules": [67, 68, 69, 70, 71, 72]
+    },
+    {
+      "id": 13,
+      "code": "AISD-2",
+      "nom": "AI et Science de Données - Année 2",
+      "niveau": "Master",
+      "annee": 2,
+      "effectif": 32,
+      "departement_id": 4,
+      "duree_totale": 2,
+      "modules": [73, 74, 75, 76, 77, 78]
+    },
+    {
+      "id": 14,
+      "code": "GC-M-1",
+      "nom": "Génie Civil Master - Année 1",
+      "niveau": "Master",
+      "annee": 1,
+      "effectif": 34,
+      "departement_id": 3,
+      "duree_totale": 2,
+      "modules": [79, 80, 81, 82, 83, 84]
+    },
+    {
+      "id": 15,
+      "code": "GC-M-2",
+      "nom": "Génie Civil Master - Année 2",
+      "niveau": "Master",
+      "annee": 2,
+      "effectif": 34,
+      "departement_id": 3,
+      "duree_totale": 2,
+      "modules": [85, 86, 87, 88, 89, 90]
+    },
+    {
+      "id": 16,
+      "code": "SE-1",
+      "nom": "Science Environnement - Année 1",
+      "niveau": "Master",
+      "annee": 1,
+      "effectif": 21,
+      "departement_id": 1,
+      "duree_totale": 2,
+      "modules": [91, 92, 93, 94, 95, 96]
+    },
+    {
+      "id": 17,
+      "code": "SE-2",
+      "nom": "Science Environnement - Année 2",
+      "niveau": "Master",
+      "annee": 2,
+      "effectif": 21,
+      "departement_id": 1,
+      "duree_totale": 2,
+      "modules": [97, 98, 99, 100, 101, 102]
+    },
+    {
+      "id": 18,
+      "code": "AAIS-1",
+      "nom": "Analyse Appliquée et Ingénierie Statistiques - Année 1",
+      "niveau": "Master",
+      "annee": 1,
+      "effectif": 27,
+      "departement_id": 2,
+      "duree_totale": 2,
+      "modules": [103, 104, 105, 106, 107, 108]
+    },
+    {
+      "id": 19,
+      "code": "AAIS-2",
+      "nom": "Analyse Appliquée et Ingénierie Statistiques - Année 2",
+      "niveau": "Master",
+      "annee": 2,
+      "effectif": 27,
+      "departement_id": 2,
+      "duree_totale": 2,
+      "modules": [109, 110, 111, 112, 113, 114]
+    },
+    {
+      "id": 20,
+      "code": "AA-1",
+      "nom": "Agro Alimentaire - Année 1",
+      "niveau": "Cycle",
+      "annee": 1,
+      "effectif": 30,
+      "departement_id": 1,
+      "duree_totale": 3,
+      "modules": [115, 116, 117, 118, 119, 120]
+    },
+    {
+      "id": 21,
+      "code": "AA-2",
+      "nom": "Agro Alimentaire - Année 2",
+      "niveau": "Cycle",
+      "annee": 2,
+      "effectif": 30,
+      "departement_id": 1,
+      "duree_totale": 3,
+      "modules": [121, 122, 123, 124, 125, 126]
+    },
+    {
+      "id": 22,
+      "code": "AA-3",
+      "nom": "Agro Alimentaire - Année 3",
+      "niveau": "Cycle",
+      "annee": 3,
+      "effectif": 30,
+      "departement_id": 1,
+      "duree_totale": 3,
+      "modules": [127, 128, 129, 130, 131, 132]
+    },
+    {
+      "id": 23,
+      "code": "IND-1",
+      "nom": "Industrielle - Année 1",
+      "niveau": "Cycle",
+      "annee": 1,
+      "effectif": 25,
+      "departement_id": 3,
+      "duree_totale": 3,
+      "modules": [133, 134, 135, 136, 137, 138]
+    },
+    {
+      "id": 24,
+      "code": "IND-2",
+      "nom": "Industrielle - Année 2",
+      "niveau": "Cycle",
+      "annee": 2,
+      "effectif": 25,
+      "departement_id": 3,
+      "duree_totale": 3,
+      "modules": [139, 140, 141, 142, 143, 144]
+    },
+    {
+      "id": 25,
+      "code": "IND-3",
+      "nom": "Industrielle - Année 3",
+      "niveau": "Cycle",
+      "annee": 3,
+      "effectif": 25,
+      "departement_id": 3,
+      "duree_totale": 3,
+      "modules": [145, 146, 147, 148, 149, 150]
+    },
+    {
+      "id": 26,
+      "code": "GEMI-1",
+      "nom": "Génie Électrique et Management Industriel - Année 1",
+      "niveau": "Cycle",
+      "annee": 1,
+      "effectif": 26,
+      "departement_id": 3,
+      "duree_totale": 3,
+      "modules": [151, 152, 153, 154, 155, 156]
+    },
+    {
+      "id": 27,
+      "code": "GEMI-2",
+      "nom": "Génie Électrique et Management Industriel - Année 2",
+      "niveau": "Cycle",
+      "annee": 2,
+      "effectif": 26,
+      "departement_id": 3,
+      "duree_totale": 3,
+      "modules": [157, 158, 159, 160, 161, 162]
+    },
+    {
+      "id": 28,
+      "code": "GEMI-3",
+      "nom": "Génie Électrique et Management Industriel - Année 3",
+      "niveau": "Cycle",
+      "annee": 3,
+      "effectif": 26,
+      "departement_id": 3,
+      "duree_totale": 3,
+      "modules": [163, 164, 165, 166, 167, 168]
+    },
+    {
+      "id": 29,
+      "code": "LSI-1",
+      "nom": "Logiciel et Système Intelligent - Année 1",
+      "niveau": "Cycle",
+      "annee": 1,
+      "effectif": 28,
+      "departement_id": 4,
+      "duree_totale": 3,
+      "modules": [169, 170, 171, 172, 173, 174]
+    },
+    {
+      "id": 30,
+      "code": "LSI-2",
+      "nom": "Logiciel et Système Intelligent - Année 2",
+      "niveau": "Cycle",
+      "annee": 2,
+      "effectif": 28,
+      "departement_id": 4,
+      "duree_totale": 3,
+      "modules": [175, 176, 177, 178, 179, 180]
+    },
+    {
+      "id": 31,
+      "code": "LSI-3",
+      "nom": "Logiciel et Système Intelligent - Année 3",
+      "niveau": "Cycle",
+      "annee": 3,
+      "effectif": 28,
+      "departement_id": 4,
+      "duree_totale": 3,
+      "modules": [181, 182, 183, 184, 185, 186]
+    }
+  ],
+  "statistiques": {
+    "total_filieres": 31,
+    "total_etudiants": 1550,
+    "repartition_par_niveau": {
+      "DEUST": 6,
+      "Licence": 5,
+      "Master": 8,
+      "Cycle": 12
+    },
+    "repartition_par_departement": {
+      "SBC": 8,
+      "SMI": 4,
+      "SI": 11,
+      "IDS": 8
+    }
   }
-]
+}

@@ -9,7 +9,9 @@
     "nb_seances_td": 14,
     "nb_seances_tp": 8,
     "annee": 1,
-    "enseignant_id": 37
+    "enseignant_id": 1,
+    "enseignant": "Dr. Hassan Al-Mansouri",
+    "specialite_enseignant": "Mathématiques Appliquées"
   },
   {
     "id": 2,
@@ -21,7 +23,9 @@
     "nb_seances_td": 14,
     "nb_seances_tp": 8,
     "annee": 1,
-    "enseignant_id": 40
+    "enseignant_id": 2,
+    "enseignant": "Dr. Fatima Benali",
+    "specialite_enseignant": "Analyse Numérique"
   },
   {
     "id": 3,
@@ -33,7 +37,9 @@
     "nb_seances_td": 12,
     "nb_seances_tp": 0,
     "annee": 1,
-    "enseignant_id": 44
+    "enseignant_id": 27,
+    "enseignant": "Dr. Rachid Belhachemi",
+    "specialite_enseignant": "Français TEC"
   },
   {
     "id": 4,
@@ -45,7 +51,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 12,
     "annee": 1,
-    "enseignant_id": 34
+    "enseignant_id": 5,
+    "enseignant": "Pr. Mohammed Abdelilah",
+    "specialite_enseignant": "Électricité Générale"
   },
   {
     "id": 5,
@@ -57,7 +65,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 12,
     "annee": 1,
-    "enseignant_id": 37
+    "enseignant_id": 6,
+    "enseignant": "Dr. Leila Mansour",
+    "specialite_enseignant": "Électronique Numérique"
   },
   {
     "id": 6,
@@ -69,7 +79,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 14,
     "annee": 1,
-    "enseignant_id": 32
+    "enseignant_id": 11,
+    "enseignant": "Dr. Youssef Bennouna",
+    "specialite_enseignant": "Programmation Orientée Objet"
   },
   {
     "id": 7,
@@ -81,7 +93,9 @@
     "nb_seances_td": 12,
     "nb_seances_tp": 10,
     "annee": 2,
-    "enseignant_id": 36
+    "enseignant_id": 4,
+    "enseignant": "Dr. Karim Saadaoui",
+    "specialite_enseignant": "Probabilités et Statistiques"
   },
   {
     "id": 8,
@@ -93,7 +107,9 @@
     "nb_seances_td": 12,
     "nb_seances_tp": 8,
     "annee": 2,
-    "enseignant_id": 45
+    "enseignant_id": 25,
+    "enseignant": "Dr. Zahra Bennani",
+    "specialite_enseignant": "Management et Qualité"
   },
   {
     "id": 9,
@@ -105,7 +121,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 14,
     "annee": 2,
-    "enseignant_id": 41
+    "enseignant_id": 11,
+    "enseignant": "Dr. Youssef Bennouna",
+    "specialite_enseignant": "Programmation Orientée Objet"
   },
   {
     "id": 10,
@@ -117,7 +135,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 12,
     "annee": 2,
-    "enseignant_id": 43
+    "enseignant_id": 6,
+    "enseignant": "Dr. Leila Mansour",
+    "specialite_enseignant": "Électronique Numérique"
   },
   {
     "id": 11,
@@ -129,7 +149,9 @@
     "nb_seances_td": 12,
     "nb_seances_tp": 0,
     "annee": 2,
-    "enseignant_id": 32
+    "enseignant_id": 27,
+    "enseignant": "Dr. Rachid Belhachemi",
+    "specialite_enseignant": "Français TEC"
   },
   {
     "id": 12,
@@ -141,7 +163,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 10,
     "annee": 2,
-    "enseignant_id": 33
+    "enseignant_id": 9,
+    "enseignant": "Pr. Samir Khaddor",
+    "specialite_enseignant": "Mécanique des Fluides"
   },
   {
     "id": 13,
@@ -153,7 +177,9 @@
     "nb_seances_td": 14,
     "nb_seances_tp": 8,
     "annee": 1,
-    "enseignant_id": 30
+    "enseignant_id": 3,
+    "enseignant": "Pr. Ahmed Benjelloun",
+    "specialite_enseignant": "Algèbre Linéaire"
   },
   {
     "id": 14,
@@ -165,7 +191,9 @@
     "nb_seances_td": 14,
     "nb_seances_tp": 8,
     "annee": 1,
-    "enseignant_id": 20
+    "enseignant_id": 2,
+    "enseignant": "Dr. Fatima Benali",
+    "specialite_enseignant": "Analyse Numérique"
   },
   {
     "id": 15,
@@ -177,7 +205,9 @@
     "nb_seances_td": 12,
     "nb_seances_tp": 0,
     "annee": 1,
-    "enseignant_id": 28
+    "enseignant_id": 27,
+    "enseignant": "Dr. Rachid Belhachemi",
+    "specialite_enseignant": "Français TEC"
   },
   {
     "id": 16,
@@ -189,7 +219,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 12,
     "annee": 1,
-    "enseignant_id": 27
+    "enseignant_id": 5,
+    "enseignant": "Pr. Mohammed Abdelilah",
+    "specialite_enseignant": "Électricité Générale"
   },
   {
     "id": 17,
@@ -201,7 +233,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 12,
     "annee": 1,
-    "enseignant_id": 22
+    "enseignant_id": 6,
+    "enseignant": "Dr. Leila Mansour",
+    "specialite_enseignant": "Électronique Numérique"
   },
   {
     "id": 18,
@@ -213,7 +247,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 14,
     "annee": 1,
-    "enseignant_id": 28
+    "enseignant_id": 11,
+    "enseignant": "Dr. Youssef Bennouna",
+    "specialite_enseignant": "Programmation Orientée Objet"
   },
   {
     "id": 19,
@@ -225,7 +261,9 @@
     "nb_seances_td": 12,
     "nb_seances_tp": 10,
     "annee": 2,
-    "enseignant_id": 22
+    "enseignant_id": 4,
+    "enseignant": "Dr. Karim Saadaoui",
+    "specialite_enseignant": "Probabilités et Statistiques"
   },
   {
     "id": 20,
@@ -237,7 +275,9 @@
     "nb_seances_td": 14,
     "nb_seances_tp": 8,
     "annee": 2,
-    "enseignant_id": 24
+    "enseignant_id": 2,
+    "enseignant": "Dr. Fatima Benali",
+    "specialite_enseignant": "Analyse Numérique"
   },
   {
     "id": 21,
@@ -249,7 +289,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 14,
     "annee": 2,
-    "enseignant_id": 22
+    "enseignant_id": 11,
+    "enseignant": "Dr. Youssef Bennouna",
+    "specialite_enseignant": "Programmation Orientée Objet"
   },
   {
     "id": 22,
@@ -261,7 +303,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 12,
     "annee": 2,
-    "enseignant_id": 23
+    "enseignant_id": 18,
+    "enseignant": "Dr. Hocine Medel",
+    "specialite_enseignant": "Chimie Générale"
   },
   {
     "id": 23,
@@ -273,7 +317,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 12,
     "annee": 2,
-    "enseignant_id": 27
+    "enseignant_id": 5,
+    "enseignant": "Pr. Mohammed Abdelilah",
+    "specialite_enseignant": "Électricité Générale"
   },
   {
     "id": 24,
@@ -285,7 +331,9 @@
     "nb_seances_td": 12,
     "nb_seances_tp": 0,
     "annee": 2,
-    "enseignant_id": 27
+    "enseignant_id": 28,
+    "enseignant": "Dr. Nadia Lahsen",
+    "specialite_enseignant": "English"
   },
   {
     "id": 25,
@@ -297,7 +345,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 12,
     "annee": 1,
-    "enseignant_id": 14
+    "enseignant_id": 19,
+    "enseignant": "Dr. Yasmine Bouchta",
+    "specialite_enseignant": "Biologie Cellulaire"
   },
   {
     "id": 26,
@@ -309,7 +359,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 12,
     "annee": 1,
-    "enseignant_id": 5
+    "enseignant_id": 39,
+    "enseignant": "Dr. Amal Diallo",
+    "specialite_enseignant": "Physique Industrielle"
   },
   {
     "id": 27,
@@ -321,7 +373,9 @@
     "nb_seances_td": 12,
     "nb_seances_tp": 8,
     "annee": 1,
-    "enseignant_id": 14
+    "enseignant_id": 19,
+    "enseignant": "Dr. Yasmine Bouchta",
+    "specialite_enseignant": "Biologie Cellulaire"
   },
   {
     "id": 28,
@@ -333,7 +387,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 10,
     "annee": 1,
-    "enseignant_id": 1
+    "enseignant_id": 18,
+    "enseignant": "Dr. Hocine Medel",
+    "specialite_enseignant": "Chimie Générale"
   },
   {
     "id": 29,
@@ -345,7 +401,9 @@
     "nb_seances_td": 14,
     "nb_seances_tp": 8,
     "annee": 1,
-    "enseignant_id": 9
+    "enseignant_id": 1,
+    "enseignant": "Dr. Hassan Al-Mansouri",
+    "specialite_enseignant": "Mathématiques Appliquées"
   },
   {
     "id": 30,
@@ -357,7 +415,9 @@
     "nb_seances_td": 12,
     "nb_seances_tp": 0,
     "annee": 1,
-    "enseignant_id": 14
+    "enseignant_id": 27,
+    "enseignant": "Dr. Rachid Belhachemi",
+    "specialite_enseignant": "Français TEC"
   },
   {
     "id": 31,
@@ -369,7 +429,9 @@
     "nb_seances_td": 12,
     "nb_seances_tp": 10,
     "annee": 2,
-    "enseignant_id": 13
+    "enseignant_id": 4,
+    "enseignant": "Dr. Karim Saadaoui",
+    "specialite_enseignant": "Probabilités et Statistiques"
   },
   {
     "id": 32,
@@ -381,7 +443,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 12,
     "annee": 2,
-    "enseignant_id": 12
+    "enseignant_id": 18,
+    "enseignant": "Dr. Hocine Medel",
+    "specialite_enseignant": "Chimie Générale"
   },
   {
     "id": 33,
@@ -393,7 +457,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 12,
     "annee": 2,
-    "enseignant_id": 13
+    "enseignant_id": 18,
+    "enseignant": "Dr. Hocine Medel",
+    "specialite_enseignant": "Chimie Générale"
   },
   {
     "id": 34,
@@ -405,7 +471,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 12,
     "annee": 2,
-    "enseignant_id": 2
+    "enseignant_id": 20,
+    "enseignant": "Dr. Mohamed Rachid",
+    "specialite_enseignant": "Microbiologie"
   },
   {
     "id": 35,
@@ -417,7 +485,9 @@
     "nb_seances_td": 12,
     "nb_seances_tp": 8,
     "annee": 2,
-    "enseignant_id": 3
+    "enseignant_id": 19,
+    "enseignant": "Dr. Yasmine Bouchta",
+    "specialite_enseignant": "Biologie Cellulaire"
   },
   {
     "id": 36,
@@ -429,7 +499,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 12,
     "annee": 2,
-    "enseignant_id": 7
+    "enseignant_id": 5,
+    "enseignant": "Pr. Mohammed Abdelilah",
+    "specialite_enseignant": "Électricité Générale"
   },
   {
     "id": 37,
@@ -441,7 +513,9 @@
     "nb_seances_td": 12,
     "nb_seances_tp": 10,
     "annee": 1,
-    "enseignant_id": 40
+    "enseignant_id": 9,
+    "enseignant": "Pr. Samir Khaddor",
+    "specialite_enseignant": "Mécanique des Fluides"
   },
   {
     "id": 38,
@@ -453,7 +527,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 10,
     "annee": 1,
-    "enseignant_id": 41
+    "enseignant_id": 22,
+    "enseignant": "Dr. Aissa Benani",
+    "specialite_enseignant": "Géotechnique"
   },
   {
     "id": 39,
@@ -465,7 +541,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 10,
     "annee": 1,
-    "enseignant_id": 44
+    "enseignant_id": 21,
+    "enseignant": "Pr. Jamal Saidouni",
+    "specialite_enseignant": "Génie Parasismique"
   },
   {
     "id": 40,
@@ -477,7 +555,9 @@
     "nb_seances_td": 12,
     "nb_seances_tp": 10,
     "annee": 1,
-    "enseignant_id": 37
+    "enseignant_id": 10,
+    "enseignant": "Dr. Hicham Rahmani",
+    "specialite_enseignant": "Résistance des Matériaux"
   },
   {
     "id": 41,
@@ -489,7 +569,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 14,
     "annee": 1,
-    "enseignant_id": 33
+    "enseignant_id": 21,
+    "enseignant": "Pr. Jamal Saidouni",
+    "specialite_enseignant": "Génie Parasismique"
   },
   {
     "id": 42,
@@ -501,7 +583,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 12,
     "annee": 1,
-    "enseignant_id": 40
+    "enseignant_id": 23,
+    "enseignant": "Dr. Fatma Lebhar",
+    "specialite_enseignant": "Matériaux de Construction"
   },
   {
     "id": 43,
@@ -513,7 +597,9 @@
     "nb_seances_td": 14,
     "nb_seances_tp": 8,
     "annee": 1,
-    "enseignant_id": 47
+    "enseignant_id": 1,
+    "enseignant": "Dr. Hassan Al-Mansouri",
+    "specialite_enseignant": "Mathématiques Appliquées"
   },
   {
     "id": 44,
@@ -525,7 +611,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 14,
     "annee": 1,
-    "enseignant_id": 47
+    "enseignant_id": 41,
+    "enseignant": "Dr. Mourad Selma",
+    "specialite_enseignant": "Théorie des Graphes"
   },
   {
     "id": 45,
@@ -537,7 +625,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 14,
     "annee": 1,
-    "enseignant_id": 57
+    "enseignant_id": 12,
+    "enseignant": "Dr. Amina Ouadir",
+    "specialite_enseignant": "Bases de Données"
   },
   {
     "id": 46,
@@ -549,7 +639,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 14,
     "annee": 1,
-    "enseignant_id": 47
+    "enseignant_id": 11,
+    "enseignant": "Dr. Youssef Bennouna",
+    "specialite_enseignant": "Programmation Orientée Objet"
   },
   {
     "id": 47,
@@ -561,7 +653,9 @@
     "nb_seances_td": 8,
     "nb_seances_tp": 16,
     "annee": 1,
-    "enseignant_id": 56
+    "enseignant_id": 13,
+    "enseignant": "Pr. Abdelmajid Zaoui",
+    "specialite_enseignant": "Technologies Web"
   },
   {
     "id": 48,
@@ -573,7 +667,9 @@
     "nb_seances_td": 12,
     "nb_seances_tp": 0,
     "annee": 1,
-    "enseignant_id": 48
+    "enseignant_id": 29,
+    "enseignant": "Dr. Amira Dahy",
+    "specialite_enseignant": "Soft Skills & Leadership"
   },
   {
     "id": 49,
@@ -585,7 +681,9 @@
     "nb_seances_td": 12,
     "nb_seances_tp": 0,
     "annee": 1,
-    "enseignant_id": 26
+    "enseignant_id": 28,
+    "enseignant": "Dr. Nadia Lahsen",
+    "specialite_enseignant": "English"
   },
   {
     "id": 50,
@@ -597,7 +695,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 14,
     "annee": 1,
-    "enseignant_id": 24
+    "enseignant_id": 12,
+    "enseignant": "Dr. Amina Ouadir",
+    "specialite_enseignant": "Bases de Données"
   },
   {
     "id": 51,
@@ -609,7 +709,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 14,
     "annee": 1,
-    "enseignant_id": 26
+    "enseignant_id": 11,
+    "enseignant": "Dr. Youssef Bennouna",
+    "specialite_enseignant": "Programmation Orientée Objet"
   },
   {
     "id": 52,
@@ -621,7 +723,9 @@
     "nb_seances_td": 12,
     "nb_seances_tp": 10,
     "annee": 1,
-    "enseignant_id": 18
+    "enseignant_id": 4,
+    "enseignant": "Dr. Karim Saadaoui",
+    "specialite_enseignant": "Probabilités et Statistiques"
   },
   {
     "id": 53,
@@ -633,7 +737,9 @@
     "nb_seances_td": 14,
     "nb_seances_tp": 8,
     "annee": 1,
-    "enseignant_id": 26
+    "enseignant_id": 3,
+    "enseignant": "Pr. Ahmed Benjelloun",
+    "specialite_enseignant": "Algèbre Linéaire"
   },
   {
     "id": 54,
@@ -645,7 +751,9 @@
     "nb_seances_td": 12,
     "nb_seances_tp": 10,
     "annee": 1,
-    "enseignant_id": 18
+    "enseignant_id": 52,
+    "enseignant": "Dr. Mehdi Khalilzadeh",
+    "specialite_enseignant": "Optimisation et Recherche Opérationnelle"
   },
   {
     "id": 55,
@@ -657,7 +765,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 12,
     "annee": 1,
-    "enseignant_id": 5
+    "enseignant_id": 18,
+    "enseignant": "Dr. Hocine Medel",
+    "specialite_enseignant": "Chimie Générale"
   },
   {
     "id": 56,
@@ -669,7 +779,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 12,
     "annee": 1,
-    "enseignant_id": 15
+    "enseignant_id": 18,
+    "enseignant": "Dr. Hocine Medel",
+    "specialite_enseignant": "Chimie Générale"
   },
   {
     "id": 57,
@@ -681,7 +793,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 12,
     "annee": 1,
-    "enseignant_id": 6
+    "enseignant_id": 18,
+    "enseignant": "Dr. Hocine Medel",
+    "specialite_enseignant": "Chimie Générale"
   },
   {
     "id": 58,
@@ -693,7 +807,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 14,
     "annee": 1,
-    "enseignant_id": 7
+    "enseignant_id": 18,
+    "enseignant": "Dr. Hocine Medel",
+    "specialite_enseignant": "Chimie Générale"
   },
   {
     "id": 59,
@@ -705,7 +821,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 14,
     "annee": 1,
-    "enseignant_id": 3
+    "enseignant_id": 39,
+    "enseignant": "Dr. Amal Diallo",
+    "specialite_enseignant": "Physique Industrielle"
   },
   {
     "id": 60,
@@ -717,7 +835,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 14,
     "annee": 1,
-    "enseignant_id": 4
+    "enseignant_id": 18,
+    "enseignant": "Dr. Hocine Medel",
+    "specialite_enseignant": "Chimie Générale"
   },
   {
     "id": 61,
@@ -729,7 +849,9 @@
     "nb_seances_td": 12,
     "nb_seances_tp": 10,
     "annee": 1,
-    "enseignant_id": 50
+    "enseignant_id": 42,
+    "enseignant": "Dr. Soraya Benazza",
+    "specialite_enseignant": "Design Patterns & Architecture"
   },
   {
     "id": 62,
@@ -741,7 +863,9 @@
     "nb_seances_td": 8,
     "nb_seances_tp": 16,
     "annee": 1,
-    "enseignant_id": 52
+    "enseignant_id": 13,
+    "enseignant": "Pr. Abdelmajid Zaoui",
+    "specialite_enseignant": "Technologies Web"
   },
   {
     "id": 63,
@@ -753,7 +877,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 14,
     "annee": 1,
-    "enseignant_id": 50
+    "enseignant_id": 12,
+    "enseignant": "Dr. Amina Ouadir",
+    "specialite_enseignant": "Bases de Données"
   },
   {
     "id": 64,
@@ -765,7 +891,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 14,
     "annee": 1,
-    "enseignant_id": 59
+    "enseignant_id": 42,
+    "enseignant": "Dr. Soraya Benazza",
+    "specialite_enseignant": "Design Patterns & Architecture"
   },
   {
     "id": 65,
@@ -777,7 +905,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 14,
     "annee": 1,
-    "enseignant_id": 48
+    "enseignant_id": 47,
+    "enseignant": "Dr. Abdelaziz Meilleur",
+    "specialite_enseignant": "Réseaux et Télécommunications"
   },
   {
     "id": 66,
@@ -789,8 +919,11 @@
     "nb_seances_td": 12,
     "nb_seances_tp": 0,
     "annee": 1,
-    "enseignant_id": 46
+    "enseignant_id": 29,
+    "enseignant": "Dr. Amira Dahy",
+    "specialite_enseignant": "Soft Skills & Leadership"
   },
+  
   {
     "id": 67,
     "code": "AISD-1-M1",
@@ -801,7 +934,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 12,
     "annee": 1,
-    "enseignant_id": 47
+    "enseignant_id": 15,
+    "enseignant": "Dr. Khalid El Moumen",
+    "specialite_enseignant": "Intelligence Artificielle"
   },
   {
     "id": 68,
@@ -813,7 +948,9 @@
     "nb_seances_td": 14,
     "nb_seances_tp": 8,
     "annee": 1,
-    "enseignant_id": 48
+    "enseignant_id": 48,
+    "enseignant": "Dr. Laila Youssef",
+    "specialite_enseignant": "Modélisation Mathématique"
   },
   {
     "id": 69,
@@ -825,7 +962,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 14,
     "annee": 1,
-    "enseignant_id": 51
+    "enseignant_id": 42,
+    "enseignant": "Dr. Soraya Benazza",
+    "specialite_enseignant": "Design Patterns & Architecture"
   },
   {
     "id": 70,
@@ -837,7 +976,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 14,
     "annee": 1,
-    "enseignant_id": 58
+    "enseignant_id": 12,
+    "enseignant": "Dr. Amina Ouadir",
+    "specialite_enseignant": "Bases de Données"
   },
   {
     "id": 71,
@@ -849,7 +990,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 14,
     "annee": 1,
-    "enseignant_id": 49
+    "enseignant_id": 16,
+    "enseignant": "Dr. Samira Bloul",
+    "specialite_enseignant": "Machine Learning"
   },
   {
     "id": 72,
@@ -861,7 +1004,9 @@
     "nb_seances_td": 12,
     "nb_seances_tp": 0,
     "annee": 1,
-    "enseignant_id": 58
+    "enseignant_id": 28,
+    "enseignant": "Dr. Nadia Lahsen",
+    "specialite_enseignant": "English"
   },
   {
     "id": 73,
@@ -873,7 +1018,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 14,
     "annee": 2,
-    "enseignant_id": 51
+    "enseignant_id": 17,
+    "enseignant": "Dr. Mohamed Salah",
+    "specialite_enseignant": "Big Data & Analytics"
   },
   {
     "id": 74,
@@ -885,7 +1032,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 14,
     "annee": 2,
-    "enseignant_id": 50
+    "enseignant_id": 16,
+    "enseignant": "Dr. Samira Bloul",
+    "specialite_enseignant": "Machine Learning"
   },
   {
     "id": 75,
@@ -897,7 +1046,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 14,
     "annee": 2,
-    "enseignant_id": 47
+    "enseignant_id": 17,
+    "enseignant": "Dr. Mohamed Salah",
+    "specialite_enseignant": "Big Data & Analytics"
   },
   {
     "id": 76,
@@ -909,7 +1060,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 14,
     "annee": 2,
-    "enseignant_id": 55
+    "enseignant_id": 58,
+    "enseignant": "Dr. Khalil Amirouche",
+    "specialite_enseignant": "Blockchain et Crypto"
   },
   {
     "id": 77,
@@ -921,7 +1074,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 14,
     "annee": 2,
-    "enseignant_id": 58
+    "enseignant_id": 44,
+    "enseignant": "Dr. Selma Ouazzani",
+    "specialite_enseignant": "Cloud Computing"
   },
   {
     "id": 78,
@@ -933,7 +1088,9 @@
     "nb_seances_td": 12,
     "nb_seances_tp": 0,
     "annee": 2,
-    "enseignant_id": 57
+    "enseignant_id": 59,
+    "enseignant": "Dr. Sonia Bekkali",
+    "specialite_enseignant": "Intelligence Économique"
   },
   {
     "id": 79,
@@ -945,7 +1102,9 @@
     "nb_seances_td": 12,
     "nb_seances_tp": 10,
     "annee": 1,
-    "enseignant_id": 44
+    "enseignant_id": 49,
+    "enseignant": "Dr. Fatemah Reza",
+    "specialite_enseignant": "Méthodes Numériques"
   },
   {
     "id": 80,
@@ -957,7 +1116,9 @@
     "nb_seances_td": 12,
     "nb_seances_tp": 10,
     "annee": 1,
-    "enseignant_id": 32
+    "enseignant_id": 21,
+    "enseignant": "Pr. Jamal Saidouni",
+    "specialite_enseignant": "Génie Parasismique"
   },
   {
     "id": 81,
@@ -969,7 +1130,9 @@
     "nb_seances_td": 14,
     "nb_seances_tp": 8,
     "annee": 1,
-    "enseignant_id": 37
+    "enseignant_id": 48,
+    "enseignant": "Dr. Laila Youssef",
+    "specialite_enseignant": "Modélisation Mathématique"
   },
   {
     "id": 82,
@@ -981,7 +1144,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 10,
     "annee": 1,
-    "enseignant_id": 43
+    "enseignant_id": 22,
+    "enseignant": "Dr. Aissa Benani",
+    "specialite_enseignant": "Géotechnique"
   },
   {
     "id": 83,
@@ -993,7 +1158,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 10,
     "annee": 1,
-    "enseignant_id": 34
+    "enseignant_id": 22,
+    "enseignant": "Dr. Aissa Benani",
+    "specialite_enseignant": "Géotechnique"
   },
   {
     "id": 84,
@@ -1005,7 +1172,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 12,
     "annee": 1,
-    "enseignant_id": 36
+    "enseignant_id": 23,
+    "enseignant": "Dr. Fatma Lebhar",
+    "specialite_enseignant": "Matériaux de Construction"
   },
   {
     "id": 85,
@@ -1017,7 +1186,9 @@
     "nb_seances_td": 12,
     "nb_seances_tp": 10,
     "annee": 2,
-    "enseignant_id": 33
+    "enseignant_id": 21,
+    "enseignant": "Pr. Jamal Saidouni",
+    "specialite_enseignant": "Génie Parasismique"
   },
   {
     "id": 86,
@@ -1029,7 +1200,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 12,
     "annee": 2,
-    "enseignant_id": 45
+    "enseignant_id": 9,
+    "enseignant": "Pr. Samir Khaddor",
+    "specialite_enseignant": "Mécanique des Fluides"
   },
   {
     "id": 87,
@@ -1041,7 +1214,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 10,
     "annee": 2,
-    "enseignant_id": 43
+    "enseignant_id": 23,
+    "enseignant": "Dr. Fatma Lebhar",
+    "specialite_enseignant": "Matériaux de Construction"
   },
   {
     "id": 88,
@@ -1053,7 +1228,9 @@
     "nb_seances_td": 12,
     "nb_seances_tp": 8,
     "annee": 2,
-    "enseignant_id": 41
+    "enseignant_id": 50,
+    "enseignant": "Dr. Habib Najjar",
+    "specialite_enseignant": "Urbanisme et Construction Durable"
   },
   {
     "id": 89,
@@ -1065,7 +1242,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 10,
     "annee": 2,
-    "enseignant_id": 39
+    "enseignant_id": 31,
+    "enseignant": "Dr. Hana Benali",
+    "specialite_enseignant": "Efficacité Énergétique"
   },
   {
     "id": 90,
@@ -1077,7 +1256,9 @@
     "nb_seances_td": 12,
     "nb_seances_tp": 8,
     "annee": 2,
-    "enseignant_id": 36
+    "enseignant_id": 51,
+    "enseignant": "Dr. Zaineb Larbi",
+    "specialite_enseignant": "BIM et Gestion de Projet"
   },
   {
     "id": 91,
@@ -1089,7 +1270,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 10,
     "annee": 1,
-    "enseignant_id": 4
+    "enseignant_id": 30,
+    "enseignant": "Pr. Salem Mansour",
+    "specialite_enseignant": "Thermodynamique Industrielle"
   },
   {
     "id": 92,
@@ -1101,7 +1284,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 10,
     "annee": 1,
-    "enseignant_id": 5
+    "enseignant_id": 30,
+    "enseignant": "Pr. Salem Mansour",
+    "specialite_enseignant": "Thermodynamique Industrielle"
   },
   {
     "id": 93,
@@ -1113,7 +1298,9 @@
     "nb_seances_td": 14,
     "nb_seances_tp": 8,
     "annee": 1,
-    "enseignant_id": 12
+    "enseignant_id": 48,
+    "enseignant": "Dr. Laila Youssef",
+    "specialite_enseignant": "Modélisation Mathématique"
   },
   {
     "id": 94,
@@ -1125,7 +1312,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 10,
     "annee": 1,
-    "enseignant_id": 6
+    "enseignant_id": 9,
+    "enseignant": "Pr. Samir Khaddor",
+    "specialite_enseignant": "Mécanique des Fluides"
   },
   {
     "id": 95,
@@ -1137,7 +1326,9 @@
     "nb_seances_td": 12,
     "nb_seances_tp": 10,
     "annee": 1,
-    "enseignant_id": 12
+    "enseignant_id": 49,
+    "enseignant": "Dr. Fatemah Reza",
+    "specialite_enseignant": "Méthodes Numériques"
   },
   {
     "id": 96,
@@ -1149,7 +1340,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 12,
     "annee": 1,
-    "enseignant_id": 4
+    "enseignant_id": 32,
+    "enseignant": "Dr. Karim Badri",
+    "specialite_enseignant": "Énergies Renouvelables"
   },
   {
     "id": 97,
@@ -1161,7 +1354,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 10,
     "annee": 2,
-    "enseignant_id": 11
+    "enseignant_id": 31,
+    "enseignant": "Dr. Hana Benali",
+    "specialite_enseignant": "Efficacité Énergétique"
   },
   {
     "id": 98,
@@ -1173,7 +1368,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 14,
     "annee": 2,
-    "enseignant_id": 10
+    "enseignant_id": 32,
+    "enseignant": "Dr. Karim Badri",
+    "specialite_enseignant": "Énergies Renouvelables"
   },
   {
     "id": 99,
@@ -1185,7 +1382,9 @@
     "nb_seances_td": 12,
     "nb_seances_tp": 10,
     "annee": 2,
-    "enseignant_id": 9
+    "enseignant_id": 31,
+    "enseignant": "Dr. Hana Benali",
+    "specialite_enseignant": "Efficacité Énergétique"
   },
   {
     "id": 100,
@@ -1197,7 +1396,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 12,
     "annee": 2,
-    "enseignant_id": 2
+    "enseignant_id": 32,
+    "enseignant": "Dr. Karim Badri",
+    "specialite_enseignant": "Énergies Renouvelables"
   },
   {
     "id": 101,
@@ -1209,7 +1410,9 @@
     "nb_seances_td": 12,
     "nb_seances_tp": 8,
     "annee": 2,
-    "enseignant_id": 8
+    "enseignant_id": 25,
+    "enseignant": "Dr. Zahra Bennani",
+    "specialite_enseignant": "Management et Qualité"
   },
   {
     "id": 102,
@@ -1221,7 +1424,9 @@
     "nb_seances_td": 12,
     "nb_seances_tp": 0,
     "annee": 2,
-    "enseignant_id": 13
+    "enseignant_id": 24,
+    "enseignant": "Pr. Noureddine Khaled",
+    "specialite_enseignant": "Gestion de Production"
   },
   {
     "id": 103,
@@ -1233,7 +1438,9 @@
     "nb_seances_td": 12,
     "nb_seances_tp": 0,
     "annee": 1,
-    "enseignant_id": 18
+    "enseignant_id": 28,
+    "enseignant": "Dr. Nadia Lahsen",
+    "specialite_enseignant": "English"
   },
   {
     "id": 104,
@@ -1245,7 +1452,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 14,
     "annee": 1,
-    "enseignant_id": 20
+    "enseignant_id": 17,
+    "enseignant": "Dr. Mohamed Salah",
+    "specialite_enseignant": "Big Data & Analytics"
   },
   {
     "id": 105,
@@ -1257,7 +1466,9 @@
     "nb_seances_td": 12,
     "nb_seances_tp": 10,
     "annee": 1,
-    "enseignant_id": 19
+    "enseignant_id": 48,
+    "enseignant": "Dr. Laila Youssef",
+    "specialite_enseignant": "Modélisation Mathématique"
   },
   {
     "id": 106,
@@ -1269,7 +1480,9 @@
     "nb_seances_td": 12,
     "nb_seances_tp": 10,
     "annee": 1,
-    "enseignant_id": 21
+    "enseignant_id": 49,
+    "enseignant": "Dr. Fatemah Reza",
+    "specialite_enseignant": "Méthodes Numériques"
   },
   {
     "id": 107,
@@ -1281,7 +1494,9 @@
     "nb_seances_td": 14,
     "nb_seances_tp": 8,
     "annee": 1,
-    "enseignant_id": 25
+    "enseignant_id": 4,
+    "enseignant": "Dr. Karim Saadaoui",
+    "specialite_enseignant": "Probabilités et Statistiques"
   },
   {
     "id": 108,
@@ -1293,7 +1508,9 @@
     "nb_seances_td": 14,
     "nb_seances_tp": 8,
     "annee": 1,
-    "enseignant_id": 29
+    "enseignant_id": 2,
+    "enseignant": "Dr. Fatima Benali",
+    "specialite_enseignant": "Analyse Numérique"
   },
   {
     "id": 109,
@@ -1305,7 +1522,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 14,
     "annee": 2,
-    "enseignant_id": 18
+    "enseignant_id": 17,
+    "enseignant": "Dr. Mohamed Salah",
+    "specialite_enseignant": "Big Data & Analytics"
   },
   {
     "id": 110,
@@ -1317,7 +1536,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 14,
     "annee": 2,
-    "enseignant_id": 23
+    "enseignant_id": 4,
+    "enseignant": "Dr. Karim Saadaoui",
+    "specialite_enseignant": "Probabilités et Statistiques"
   },
   {
     "id": 111,
@@ -1329,7 +1550,9 @@
     "nb_seances_td": 14,
     "nb_seances_tp": 8,
     "annee": 2,
-    "enseignant_id": 16
+    "enseignant_id": 48,
+    "enseignant": "Dr. Laila Youssef",
+    "specialite_enseignant": "Modélisation Mathématique"
   },
   {
     "id": 112,
@@ -1341,7 +1564,9 @@
     "nb_seances_td": 12,
     "nb_seances_tp": 10,
     "annee": 2,
-    "enseignant_id": 20
+    "enseignant_id": 52,
+    "enseignant": "Dr. Mehdi Khalilzadeh",
+    "specialite_enseignant": "Optimisation"
   },
   {
     "id": 113,
@@ -1353,7 +1578,9 @@
     "nb_seances_td": 12,
     "nb_seances_tp": 10,
     "annee": 2,
-    "enseignant_id": 17
+    "enseignant_id": 17,
+    "enseignant": "Dr. Mohamed Salah",
+    "specialite_enseignant": "Big Data & Analytics"
   },
   {
     "id": 114,
@@ -1365,7 +1592,9 @@
     "nb_seances_td": 12,
     "nb_seances_tp": 0,
     "annee": 2,
-    "enseignant_id": 19
+    "enseignant_id": 28,
+    "enseignant": "Dr. Nadia Lahsen",
+    "specialite_enseignant": "English"
   },
   {
     "id": 115,
@@ -1377,7 +1606,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 14,
     "annee": 1,
-    "enseignant_id": 2
+    "enseignant_id": 33,
+    "enseignant": "Dr. Hamza Bouazza",
+    "specialite_enseignant": "Techniques d'Analyses Alimentaires"
   },
   {
     "id": 116,
@@ -1389,7 +1620,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 14,
     "annee": 1,
-    "enseignant_id": 13
+    "enseignant_id": 34,
+    "enseignant": "Dr. Samia Zarkaoui",
+    "specialite_enseignant": "Microbiologie Alimentaire"
   },
   {
     "id": 117,
@@ -1401,7 +1634,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 12,
     "annee": 1,
-    "enseignant_id": 9
+    "enseignant_id": 35,
+    "enseignant": "Dr. Layla Bouhamidi",
+    "specialite_enseignant": "Biochimie Alimentaire"
   },
   {
     "id": 118,
@@ -1413,7 +1648,9 @@
     "nb_seances_td": 12,
     "nb_seances_tp": 10,
     "annee": 1,
-    "enseignant_id": 9
+    "enseignant_id": 40,
+    "enseignant": "Dr. Nouara Abdelaziz",
+    "specialite_enseignant": "Biostatistique"
   },
   {
     "id": 119,
@@ -1425,7 +1662,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 10,
     "annee": 1,
-    "enseignant_id": 6
+    "enseignant_id": 36,
+    "enseignant": "Dr. Walid Saidane",
+    "specialite_enseignant": "Production Animale"
   },
   {
     "id": 120,
@@ -1437,7 +1676,9 @@
     "nb_seances_td": 12,
     "nb_seances_tp": 0,
     "annee": 1,
-    "enseignant_id": 1
+    "enseignant_id": 28,
+    "enseignant": "Dr. Nadia Lahsen",
+    "specialite_enseignant": "English"
   },
   {
     "id": 121,
@@ -1449,7 +1690,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 12,
     "annee": 2,
-    "enseignant_id": 12
+    "enseignant_id": 36,
+    "enseignant": "Dr. Walid Saidane",
+    "specialite_enseignant": "Production Animale"
   },
   {
     "id": 122,
@@ -1461,7 +1704,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 14,
     "annee": 2,
-    "enseignant_id": 3
+    "enseignant_id": 37,
+    "enseignant": "Dr. Souad Bensizerara",
+    "specialite_enseignant": "Transformation Alimentaire"
   },
   {
     "id": 123,
@@ -1473,7 +1718,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 14,
     "annee": 2,
-    "enseignant_id": 11
+    "enseignant_id": 37,
+    "enseignant": "Dr. Souad Bensizerara",
+    "specialite_enseignant": "Transformation Alimentaire"
   },
   {
     "id": 124,
@@ -1485,7 +1732,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 10,
     "annee": 2,
-    "enseignant_id": 14
+    "enseignant_id": 38,
+    "enseignant": "Dr. Mohamed Khaoula",
+    "specialite_enseignant": "Agronomie"
   },
   {
     "id": 125,
@@ -1497,7 +1746,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 12,
     "annee": 2,
-    "enseignant_id": 9
+    "enseignant_id": 39,
+    "enseignant": "Dr. Amal Diallo",
+    "specialite_enseignant": "Physique Industrielle"
   },
   {
     "id": 126,
@@ -1509,7 +1760,9 @@
     "nb_seances_td": 12,
     "nb_seances_tp": 0,
     "annee": 2,
-    "enseignant_id": 14
+    "enseignant_id": 27,
+    "enseignant": "Dr. Rachid Belhachemi",
+    "specialite_enseignant": "Français TEC"
   },
   {
     "id": 127,
@@ -1521,7 +1774,9 @@
     "nb_seances_td": 5,
     "nb_seances_tp": 0,
     "annee": 3,
-    "enseignant_id": 9
+    "enseignant_id": 35,
+    "enseignant": "Dr. Layla Bouhamidi",
+    "specialite_enseignant": "Biochimie Alimentaire"
   },
   {
     "id": 128,
@@ -1533,7 +1788,9 @@
     "nb_seances_td": 12,
     "nb_seances_tp": 8,
     "annee": 3,
-    "enseignant_id": 7
+    "enseignant_id": 25,
+    "enseignant": "Dr. Zahra Bennani",
+    "specialite_enseignant": "Management et Qualité"
   },
   {
     "id": 129,
@@ -1545,7 +1802,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 12,
     "annee": 3,
-    "enseignant_id": 12
+    "enseignant_id": 37,
+    "enseignant": "Dr. Souad Bensizerara",
+    "specialite_enseignant": "Transformation Alimentaire"
   },
   {
     "id": 130,
@@ -1557,7 +1816,9 @@
     "nb_seances_td": 12,
     "nb_seances_tp": 8,
     "annee": 3,
-    "enseignant_id": 8
+    "enseignant_id": 26,
+    "enseignant": "Dr. Ahmed Ouazzani",
+    "specialite_enseignant": "Logistique et Supply Chain"
   },
   {
     "id": 131,
@@ -1569,7 +1830,9 @@
     "nb_seances_td": 12,
     "nb_seances_tp": 0,
     "annee": 3,
-    "enseignant_id": 1
+    "enseignant_id": 25,
+    "enseignant": "Dr. Zahra Bennani",
+    "specialite_enseignant": "Management et Qualité"
   },
   {
     "id": 132,
@@ -1581,7 +1844,9 @@
     "nb_seances_td": 12,
     "nb_seances_tp": 0,
     "annee": 3,
-    "enseignant_id": 2
+    "enseignant_id": 54,
+    "enseignant": "Dr. Yasin Hamoud",
+    "specialite_enseignant": "Comptabilité et Finance"
   },
   {
     "id": 133,
@@ -1593,7 +1858,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 14,
     "annee": 1,
-    "enseignant_id": 34
+    "enseignant_id": 11,
+    "enseignant": "Dr. Youssef Bennouna",
+    "specialite_enseignant": "Programmation Orientée Objet"
   },
   {
     "id": 134,
@@ -1605,7 +1872,9 @@
     "nb_seances_td": 12,
     "nb_seances_tp": 8,
     "annee": 1,
-    "enseignant_id": 33
+    "enseignant_id": 1,
+    "enseignant": "Dr. Hassan Al-Mansouri",
+    "specialite_enseignant": "Mathématiques Appliquées"
   },
   {
     "id": 135,
@@ -1617,7 +1886,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 12,
     "annee": 1,
-    "enseignant_id": 40
+    "enseignant_id": 5,
+    "enseignant": "Pr. Mohammed Abdelilah",
+    "specialite_enseignant": "Électricité Générale"
   },
   {
     "id": 136,
@@ -1629,7 +1900,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 10,
     "annee": 1,
-    "enseignant_id": 35
+    "enseignant_id": 9,
+    "enseignant": "Pr. Samir Khaddor",
+    "specialite_enseignant": "Mécanique des Fluides"
   },
   {
     "id": 137,
@@ -1641,7 +1914,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 12,
     "annee": 1,
-    "enseignant_id": 33
+    "enseignant_id": 6,
+    "enseignant": "Dr. Leila Mansour",
+    "specialite_enseignant": "Électronique Numérique"
   },
   {
     "id": 138,
@@ -1653,7 +1928,9 @@
     "nb_seances_td": 12,
     "nb_seances_tp": 0,
     "annee": 1,
-    "enseignant_id": 35
+    "enseignant_id": 27,
+    "enseignant": "Dr. Rachid Belhachemi",
+    "specialite_enseignant": "Français TEC"
   },
   {
     "id": 139,
@@ -1665,7 +1942,9 @@
     "nb_seances_td": 12,
     "nb_seances_tp": 8,
     "annee": 2,
-    "enseignant_id": 41
+    "enseignant_id": 24,
+    "enseignant": "Pr. Noureddine Khaled",
+    "specialite_enseignant": "Gestion de Production"
   },
   {
     "id": 140,
@@ -1677,7 +1956,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 12,
     "annee": 2,
-    "enseignant_id": 44
+    "enseignant_id": 5,
+    "enseignant": "Pr. Mohammed Abdelilah",
+    "specialite_enseignant": "Électricité Générale"
   },
   {
     "id": 141,
@@ -1689,7 +1970,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 10,
     "annee": 2,
-    "enseignant_id": 43
+    "enseignant_id": 10,
+    "enseignant": "Dr. Hicham Rahmani",
+    "specialite_enseignant": "Résistance des Matériaux"
   },
   {
     "id": 142,
@@ -1701,7 +1984,9 @@
     "nb_seances_td": 12,
     "nb_seances_tp": 10,
     "annee": 2,
-    "enseignant_id": 36
+    "enseignant_id": 52,
+    "enseignant": "Dr. Mehdi Khalilzadeh",
+    "specialite_enseignant": "Optimisation"
   },
   {
     "id": 143,
@@ -1713,7 +1998,9 @@
     "nb_seances_td": 8,
     "nb_seances_tp": 12,
     "annee": 2,
-    "enseignant_id": 40
+    "enseignant_id": 9,
+    "enseignant": "Pr. Samir Khaddor",
+    "specialite_enseignant": "Mécanique des Fluides"
   },
   {
     "id": 144,
@@ -1725,7 +2012,9 @@
     "nb_seances_td": 12,
     "nb_seances_tp": 0,
     "annee": 2,
-    "enseignant_id": 41
+    "enseignant_id": 28,
+    "enseignant": "Dr. Nadia Lahsen",
+    "specialite_enseignant": "English"
   },
   {
     "id": 145,
@@ -1737,7 +2026,9 @@
     "nb_seances_td": 12,
     "nb_seances_tp": 8,
     "annee": 3,
-    "enseignant_id": 33
+    "enseignant_id": 53,
+    "enseignant": "Dr. Malika Abidi",
+    "specialite_enseignant": "Gestion des Ressources Humaines"
   },
   {
     "id": 146,
@@ -1749,7 +2040,9 @@
     "nb_seances_td": 12,
     "nb_seances_tp": 8,
     "annee": 3,
-    "enseignant_id": 45
+    "enseignant_id": 24,
+    "enseignant": "Pr. Noureddine Khaled",
+    "specialite_enseignant": "Gestion de Production"
   },
   {
     "id": 147,
@@ -1761,7 +2054,9 @@
     "nb_seances_td": 12,
     "nb_seances_tp": 10,
     "annee": 3,
-    "enseignant_id": 45
+    "enseignant_id": 25,
+    "enseignant": "Dr. Zahra Bennani",
+    "specialite_enseignant": "Management et Qualité"
   },
   {
     "id": 148,
@@ -1773,7 +2068,9 @@
     "nb_seances_td": 12,
     "nb_seances_tp": 8,
     "annee": 3,
-    "enseignant_id": 41
+    "enseignant_id": 26,
+    "enseignant": "Dr. Ahmed Ouazzani",
+    "specialite_enseignant": "Logistique et Supply Chain"
   },
   {
     "id": 149,
@@ -1785,7 +2082,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 12,
     "annee": 3,
-    "enseignant_id": 40
+    "enseignant_id": 25,
+    "enseignant": "Dr. Zahra Bennani",
+    "specialite_enseignant": "Management et Qualité"
   },
   {
     "id": 150,
@@ -1797,7 +2096,9 @@
     "nb_seances_td": 12,
     "nb_seances_tp": 8,
     "annee": 3,
-    "enseignant_id": 39
+    "enseignant_id": 24,
+    "enseignant": "Pr. Noureddine Khaled",
+    "specialite_enseignant": "Gestion de Production"
   },
   {
     "id": 151,
@@ -1809,7 +2110,9 @@
     "nb_seances_td": 12,
     "nb_seances_tp": 10,
     "annee": 1,
-    "enseignant_id": 39
+    "enseignant_id": 1,
+    "enseignant": "Dr. Hassan Al-Mansouri",
+    "specialite_enseignant": "Mathématiques Appliquées"
   },
   {
     "id": 152,
@@ -1821,7 +2124,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 12,
     "annee": 1,
-    "enseignant_id": 34
+    "enseignant_id": 6,
+    "enseignant": "Dr. Leila Mansour",
+    "specialite_enseignant": "Électronique Numérique"
   },
   {
     "id": 153,
@@ -1833,7 +2138,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 12,
     "annee": 1,
-    "enseignant_id": 37
+    "enseignant_id": 5,
+    "enseignant": "Pr. Mohammed Abdelilah",
+    "specialite_enseignant": "Électricité Générale"
   },
   {
     "id": 154,
@@ -1845,7 +2152,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 10,
     "annee": 1,
-    "enseignant_id": 36
+    "enseignant_id": 9,
+    "enseignant": "Pr. Samir Khaddor",
+    "specialite_enseignant": "Mécanique des Fluides"
   },
   {
     "id": 155,
@@ -1857,7 +2166,9 @@
     "nb_seances_td": 8,
     "nb_seances_tp": 14,
     "annee": 1,
-    "enseignant_id": 42
+    "enseignant_id": 11,
+    "enseignant": "Dr. Youssef Bennouna",
+    "specialite_enseignant": "Programmation Orientée Objet"
   },
   {
     "id": 156,
@@ -1869,7 +2180,9 @@
     "nb_seances_td": 12,
     "nb_seances_tp": 0,
     "annee": 1,
-    "enseignant_id": 42
+    "enseignant_id": 27,
+    "enseignant": "Dr. Rachid Belhachemi",
+    "specialite_enseignant": "Français TEC"
   },
   {
     "id": 157,
@@ -1881,7 +2194,9 @@
     "nb_seances_td": 12,
     "nb_seances_tp": 8,
     "annee": 2,
-    "enseignant_id": 33
+    "enseignant_id": 1,
+    "enseignant": "Dr. Hassan Al-Mansouri",
+    "specialite_enseignant": "Mathématiques Appliquées"
   },
   {
     "id": 158,
@@ -1893,7 +2208,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 12,
     "annee": 2,
-    "enseignant_id": 33
+    "enseignant_id": 5,
+    "enseignant": "Pr. Mohammed Abdelilah",
+    "specialite_enseignant": "Électricité Générale"
   },
   {
     "id": 159,
@@ -1905,7 +2222,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 12,
     "annee": 2,
-    "enseignant_id": 45
+    "enseignant_id": 7,
+    "enseignant": "Dr. Rachid Farah",
+    "specialite_enseignant": "Traitement du Signal"
   },
   {
     "id": 160,
@@ -1917,7 +2236,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 12,
     "annee": 2,
-    "enseignant_id": 32
+    "enseignant_id": 8,
+    "enseignant": "Dr. Nadia Benyakoub",
+    "specialite_enseignant": "Automatique et Contrôle"
   },
   {
     "id": 161,
@@ -1929,7 +2250,9 @@
     "nb_seances_td": 8,
     "nb_seances_tp": 12,
     "annee": 2,
-    "enseignant_id": 39
+    "enseignant_id": 60,
+    "enseignant": "Dr. Hassan Yousfi",
+    "specialite_enseignant": "Vibrologie"
   },
   {
     "id": 162,
@@ -1941,7 +2264,9 @@
     "nb_seances_td": 12,
     "nb_seances_tp": 0,
     "annee": 2,
-    "enseignant_id": 32
+    "enseignant_id": 28,
+    "enseignant": "Dr. Nadia Lahsen",
+    "specialite_enseignant": "English"
   },
   {
     "id": 163,
@@ -1953,7 +2278,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 12,
     "annee": 3,
-    "enseignant_id": 35
+    "enseignant_id": 8,
+    "enseignant": "Dr. Nadia Benyakoub",
+    "specialite_enseignant": "Automatique et Contrôle"
   },
   {
     "id": 164,
@@ -1965,7 +2292,9 @@
     "nb_seances_td": 12,
     "nb_seances_tp": 8,
     "annee": 3,
-    "enseignant_id": 37
+    "enseignant_id": 25,
+    "enseignant": "Dr. Zahra Bennani",
+    "specialite_enseignant": "Management et Qualité"
   },
   {
     "id": 165,
@@ -1977,7 +2306,9 @@
     "nb_seances_td": 8,
     "nb_seances_tp": 14,
     "annee": 3,
-    "enseignant_id": 35
+    "enseignant_id": 46,
+    "enseignant": "Dr. Karima Daoud",
+    "specialite_enseignant": "IoT et Systèmes Embarqués"
   },
   {
     "id": 166,
@@ -1989,7 +2320,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 12,
     "annee": 3,
-    "enseignant_id": 44
+    "enseignant_id": 47,
+    "enseignant": "Dr. Abdelaziz Meilleur",
+    "specialite_enseignant": "Réseaux et Télécommunications"
   },
   {
     "id": 167,
@@ -2001,7 +2334,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 12,
     "annee": 3,
-    "enseignant_id": 44
+    "enseignant_id": 8,
+    "enseignant": "Dr. Nadia Benyakoub",
+    "specialite_enseignant": "Automatique et Contrôle"
   },
   {
     "id": 168,
@@ -2013,7 +2348,9 @@
     "nb_seances_td": 12,
     "nb_seances_tp": 8,
     "annee": 3,
-    "enseignant_id": 44
+    "enseignant_id": 31,
+    "enseignant": "Dr. Hana Benali",
+    "specialite_enseignant": "Efficacité Énergétique"
   },
   {
     "id": 169,
@@ -2025,7 +2362,9 @@
     "nb_seances_td": 12,
     "nb_seances_tp": 8,
     "annee": 1,
-    "enseignant_id": 46
+    "enseignant_id": 41,
+    "enseignant": "Dr. Mourad Selma",
+    "specialite_enseignant": "Théorie des Graphes"
   },
   {
     "id": 170,
@@ -2037,7 +2376,9 @@
     "nb_seances_td": 8,
     "nb_seances_tp": 16,
     "annee": 1,
-    "enseignant_id": 56
+    "enseignant_id": 14,
+    "enseignant": "Dr. Zineb Hadj",
+    "specialite_enseignant": "Système d'Exploitation"
   },
   {
     "id": 171,
@@ -2049,7 +2390,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 14,
     "annee": 1,
-    "enseignant_id": 54
+    "enseignant_id": 11,
+    "enseignant": "Dr. Youssef Bennouna",
+    "specialite_enseignant": "Programmation Orientée Objet"
   },
   {
     "id": 172,
@@ -2061,7 +2404,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 14,
     "annee": 1,
-    "enseignant_id": 56
+    "enseignant_id": 12,
+    "enseignant": "Dr. Amina Ouadir",
+    "specialite_enseignant": "Bases de Données"
   },
   {
     "id": 173,
@@ -2073,7 +2418,9 @@
     "nb_seances_td": 8,
     "nb_seances_tp": 16,
     "annee": 1,
-    "enseignant_id": 46
+    "enseignant_id": 13,
+    "enseignant": "Pr. Abdelmajid Zaoui",
+    "specialite_enseignant": "Technologies Web"
   },
   {
     "id": 174,
@@ -2085,7 +2432,9 @@
     "nb_seances_td": 12,
     "nb_seances_tp": 0,
     "annee": 1,
-    "enseignant_id": 47
+    "enseignant_id": 28,
+    "enseignant": "Dr. Nadia Lahsen",
+    "specialite_enseignant": "English"
   },
   {
     "id": 175,
@@ -2097,7 +2446,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 14,
     "annee": 2,
-    "enseignant_id": 48
+    "enseignant_id": 15,
+    "enseignant": "Dr. Khalid El Moumen",
+    "specialite_enseignant": "Intelligence Artificielle"
   },
   {
     "id": 176,
@@ -2109,7 +2460,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 14,
     "annee": 2,
-    "enseignant_id": 56
+    "enseignant_id": 12,
+    "enseignant": "Dr. Amina Ouadir",
+    "specialite_enseignant": "Bases de Données"
   },
   {
     "id": 177,
@@ -2121,7 +2474,9 @@
     "nb_seances_td": 8,
     "nb_seances_tp": 14,
     "annee": 2,
-    "enseignant_id": 58
+    "enseignant_id": 46,
+    "enseignant": "Dr. Karima Daoud",
+    "specialite_enseignant": "IoT et Systèmes Embarqués"
   },
   {
     "id": 178,
@@ -2133,7 +2488,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 14,
     "annee": 2,
-    "enseignant_id": 59
+    "enseignant_id": 13,
+    "enseignant": "Pr. Abdelmajid Zaoui",
+    "specialite_enseignant": "Technologies Web"
   },
   {
     "id": 179,
@@ -2145,7 +2502,9 @@
     "nb_seances_td": 12,
     "nb_seances_tp": 10,
     "annee": 2,
-    "enseignant_id": 47
+    "enseignant_id": 42,
+    "enseignant": "Dr. Soraya Benazza",
+    "specialite_enseignant": "Design Patterns"
   },
   {
     "id": 180,
@@ -2157,7 +2516,9 @@
     "nb_seances_td": 12,
     "nb_seances_tp": 0,
     "annee": 2,
-    "enseignant_id": 47
+    "enseignant_id": 28,
+    "enseignant": "Dr. Nadia Lahsen",
+    "specialite_enseignant": "English"
   },
   {
     "id": 181,
@@ -2169,7 +2530,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 14,
     "annee": 3,
-    "enseignant_id": 56
+    "enseignant_id": 17,
+    "enseignant": "Dr. Mohamed Salah",
+    "specialite_enseignant": "Big Data & Analytics"
   },
   {
     "id": 182,
@@ -2181,7 +2544,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 14,
     "annee": 3,
-    "enseignant_id": 58
+    "enseignant_id": 16,
+    "enseignant": "Dr. Samira Bloul",
+    "specialite_enseignant": "Machine Learning"
   },
   {
     "id": 183,
@@ -2193,7 +2558,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 14,
     "annee": 3,
-    "enseignant_id": 55
+    "enseignant_id": 43,
+    "enseignant": "Dr. Bilal Hammouni",
+    "specialite_enseignant": "Sécurité Informatique"
   },
   {
     "id": 184,
@@ -2205,7 +2572,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 14,
     "annee": 3,
-    "enseignant_id": 60
+    "enseignant_id": 44,
+    "enseignant": "Dr. Selma Ouazzani",
+    "specialite_enseignant": "Cloud Computing"
   },
   {
     "id": 185,
@@ -2217,7 +2586,9 @@
     "nb_seances_td": 12,
     "nb_seances_tp": 8,
     "annee": 3,
-    "enseignant_id": 51
+    "enseignant_id": 29,
+    "enseignant": "Dr. Amira Dahy",
+    "specialite_enseignant": "Soft Skills & Leadership"
   },
   {
     "id": 186,
@@ -2229,6 +2600,8 @@
     "nb_seances_td": 12,
     "nb_seances_tp": 0,
     "annee": 3,
-    "enseignant_id": 55
+    "enseignant_id": 28,
+    "enseignant": "Dr. Nadia Lahsen",
+    "specialite_enseignant": "English"
   }
 ]
