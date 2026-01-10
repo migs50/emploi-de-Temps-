@@ -6,7 +6,7 @@
     "date_fin": "2026-03-05",
     "motif": "Maintenance équipements laboratoire",
     "type": "maintenance",
-    "date_creation": "2026-01-08T21:51:00"
+    "date_creation": "2026-01-10T12:09:00"
   },
   {
     "id": 2,
@@ -15,6 +15,6 @@
     "date_fin": "2026-02-12",
     "motif": "Formation continue",
     "type": "absence",
-    "date_creation": "2026-01-08T21:51:00"
+    "date_creation": "2026-01-10T12:09:00"
   }
 ]

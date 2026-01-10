@@ -1,0 +1,1336 @@
+{
+  "version": "2.2",
+  "date_creation": "2026-01-10T13:01:00",
+  "date_modification": "2026-01-10T13:01:00",
+  "description": "Enseignants avec 3-5 modules maximum, répartis sur différentes filières selon leur spécialité",
+  "structure": {
+    "nombre_enseignants": 60,
+    "modules_min_par_enseignant": 3,
+    "modules_max_par_enseignant": 5,
+    "total_filieres_couvertes": 31
+  },
+  "enseignants": [
+    {
+      "id": 1,
+      "nom": "Dr. Hassan Al-Mansouri",
+      "prenom": "Hassan",
+      "email": "h.mansouri@universite.edu",
+      "telephone": "+212612345001",
+      "specialite": "Mathématiques Appliquées",
+      "diplome": "Doctorat Mathématiques",
+      "modules": [
+        1,
+        7,
+        32,
+        80
+      ],
+      "filieres": [
+        1,
+        3,
+        15,
+        25
+      ],
+      "charge_horaire_max": 400,
+      "charge_horaire_actuelle": 0
+    },
+    {
+      "id": 2,
+      "nom": "Dr. Fatima Benali",
+      "prenom": "Fatima",
+      "email": "f.benali@universite.edu",
+      "telephone": "+212612345002",
+      "specialite": "Analyse Numérique",
+      "diplome": "Doctorat Mathématiques",
+      "modules": [
+        2,
+        8,
+        41,
+        81
+      ],
+      "filieres": [
+        1,
+        2,
+        18,
+        25
+      ],
+      "charge_horaire_max": 400,
+      "charge_horaire_actuelle": 0
+    },
+    {
+      "id": 3,
+      "nom": "Pr. Ahmed Benjelloun",
+      "prenom": "Ahmed",
+      "email": "a.benjelloun@universite.edu",
+      "telephone": "+212612345003",
+      "specialite": "Algèbre Linéaire",
+      "diplome": "HDR Mathématiques",
+      "modules": [
+        1,
+        7,
+        42,
+        92
+      ],
+      "filieres": [
+        1,
+        3,
+        18,
+        22
+      ],
+      "charge_horaire_max": 380,
+      "charge_horaire_actuelle": 0
+    },
+    {
+      "id": 4,
+      "nom": "Dr. Karim Saadaoui",
+      "prenom": "Karim",
+      "email": "k.saadaoui@universite.edu",
+      "telephone": "+212612345004",
+      "specialite": "Probabilités et Statistiques",
+      "diplome": "Doctorat Mathématiques",
+      "modules": [
+        11,
+        17,
+        44,
+        66,
+        95
+      ],
+      "filieres": [
+        2,
+        4,
+        5,
+        11,
+        22
+      ],
+      "charge_horaire_max": 400,
+      "charge_horaire_actuelle": 0
+    },
+    {
+      "id": 5,
+      "nom": "Pr. Mohammed Abdelilah",
+      "prenom": "Mohammed",
+      "email": "m.abdelilah@universite.edu",
+      "telephone": "+212612345005",
+      "specialite": "Électricité Générale",
+      "diplome": "HDR Génie Électrique",
+      "modules": [
+        3,
+        9,
+        24,
+        56
+      ],
+      "filieres": [
+        1,
+        3,
+        5,
+        7
+      ],
+      "charge_horaire_max": 420,
+      "charge_horaire_actuelle": 0
+    },
+    {
+      "id": 6,
+      "nom": "Dr. Leila Mansour",
+      "prenom": "Leila",
+      "email": "l.mansour@universite.edu",
+      "telephone": "+212612345006",
+      "specialite": "Électronique Numérique",
+      "diplome": "Doctorat Électronique",
+      "modules": [
+        12,
+        36,
+        57,
+        99
+      ],
+      "filieres": [
+        4,
+        7,
+        8,
+        9
+      ],
+      "charge_horaire_max": 400,
+      "charge_horaire_actuelle": 0
+    },
+    {
+      "id": 7,
+      "nom": "Dr. Rachid Farah",
+      "prenom": "Rachid",
+      "email": "r.farah@universite.edu",
+      "telephone": "+212612345007",
+      "specialite": "Traitement du Signal",
+      "diplome": "Doctorat Signal Processing",
+      "modules": [
+        60,
+        61,
+        62
+      ],
+      "filieres": [
+        7,
+        8,
+        9
+      ],
+      "charge_horaire_max": 380,
+      "charge_horaire_actuelle": 0
+    },
+    {
+      "id": 8,
+      "nom": "Dr. Nadia Benyakoub",
+      "prenom": "Nadia",
+      "email": "n.benyakoub@universite.edu",
+      "telephone": "+212612345008",
+      "specialite": "Automatique et Contrôle",
+      "diplome": "Doctorat Automatique",
+      "modules": [
+        39,
+        62,
+        63,
+        71
+      ],
+      "filieres": [
+        7,
+        8,
+        9
+      ],
+      "charge_horaire_max": 400,
+      "charge_horaire_actuelle": 0
+    },
+    {
+      "id": 9,
+      "nom": "Pr. Samir Khaddor",
+      "prenom": "Samir",
+      "email": "s.khaddor@universite.edu",
+      "telephone": "+212612345009",
+      "specialite": "Mécanique des Fluides",
+      "diplome": "HDR Mécanique",
+      "modules": [
+        35,
+        46,
+        86,
+        88
+      ],
+      "filieres": [
+        7,
+        8,
+        24,
+        26
+      ],
+      "charge_horaire_max": 420,
+      "charge_horaire_actuelle": 0
+    },
+    {
+      "id": 10,
+      "nom": "Dr. Hicham Rahmani",
+      "prenom": "Hicham",
+      "email": "h.rahmani@universite.edu",
+      "telephone": "+212612345010",
+      "specialite": "Résistance des Matériaux",
+      "diplome": "Doctorat Mécanique",
+      "modules": [
+        47,
+        48,
+        76,
+        77
+      ],
+      "filieres": [
+        15,
+        17,
+        25,
+        26
+      ],
+      "charge_horaire_max": 400,
+      "charge_horaire_actuelle": 0
+    },
+    {
+      "id": 11,
+      "nom": "Dr. Youssef Bennouna",
+      "prenom": "Youssef",
+      "email": "y.bennouna@universite.edu",
+      "telephone": "+212612345011",
+      "specialite": "Programmation Orientée Objet",
+      "diplome": "Doctorat Informatique",
+      "modules": [
+        6,
+        13,
+        50,
+        54,
+        68
+      ],
+      "filieres": [
+        1,
+        3,
+        8,
+        19,
+        20
+      ],
+      "charge_horaire_max": 450,
+      "charge_horaire_actuelle": 0
+    },
+    {
+      "id": 12,
+      "nom": "Dr. Amina Ouadir",
+      "prenom": "Amina",
+      "email": "a.ouadir@universite.edu",
+      "telephone": "+212612345012",
+      "specialite": "Bases de Données",
+      "diplome": "Doctorat Informatique",
+      "modules": [
+        25,
+        52,
+        53,
+        68,
+        83
+      ],
+      "filieres": [
+        10,
+        18,
+        19,
+        20,
+        21
+      ],
+      "charge_horaire_max": 420,
+      "charge_horaire_actuelle": 0
+    },
+    {
+      "id": 13,
+      "nom": "Pr. Abdelmajid Zaoui",
+      "prenom": "Abdelmajid",
+      "email": "a.zaoui@universite.edu",
+      "telephone": "+212612345013",
+      "specialite": "Technologies Web",
+      "diplome": "HDR Informatique",
+      "modules": [
+        30,
+        54,
+        55,
+        74
+      ],
+      "filieres": [
+        10,
+        18,
+        19,
+        21
+      ],
+      "charge_horaire_max": 400,
+      "charge_horaire_actuelle": 0
+    },
+    {
+      "id": 14,
+      "nom": "Dr. Zineb Hadj",
+      "prenom": "Zineb",
+      "email": "z.hadj@universite.edu",
+      "telephone": "+212612345014",
+      "specialite": "Système d'Exploitation",
+      "diplome": "Doctorat Informatique",
+      "modules": [
+        23,
+        27,
+        55,
+        69
+      ],
+      "filieres": [
+        10,
+        19,
+        20,
+        21
+      ],
+      "charge_horaire_max": 400,
+      "charge_horaire_actuelle": 0
+    },
+    {
+      "id": 15,
+      "nom": "Dr. Khalid El Moumen",
+      "prenom": "Khalid",
+      "email": "k.elmoumen@universite.edu",
+      "telephone": "+212612345015",
+      "specialite": "Intelligence Artificielle",
+      "diplome": "Doctorat IA",
+      "modules": [
+        24,
+        65,
+        82,
+        83,
+        94
+      ],
+      "filieres": [
+        10,
+        20,
+        21,
+        22,
+        23
+      ],
+      "charge_horaire_max": 420,
+      "charge_horaire_actuelle": 0
+    },
+    {
+      "id": 16,
+      "nom": "Dr. Samira Bloul",
+      "prenom": "Samira",
+      "email": "s.bloul@universite.edu",
+      "telephone": "+212612345016",
+      "specialite": "Machine Learning",
+      "diplome": "Doctorat ML",
+      "modules": [
+        66,
+        83,
+        84,
+        85
+      ],
+      "filieres": [
+        10,
+        20,
+        21,
+        22
+      ],
+      "charge_horaire_max": 400,
+      "charge_horaire_actuelle": 0
+    },
+    {
+      "id": 17,
+      "nom": "Dr. Mohamed Salah",
+      "prenom": "Mohamed",
+      "email": "m.salah@universite.edu",
+      "telephone": "+212612345017",
+      "specialite": "Big Data & Analytics",
+      "diplome": "Doctorat Data Science",
+      "modules": [
+        51,
+        67,
+        84,
+        94
+      ],
+      "filieres": [
+        10,
+        18,
+        20,
+        22
+      ],
+      "charge_horaire_max": 400,
+      "charge_horaire_actuelle": 0
+    },
+    {
+      "id": 18,
+      "nom": "Dr. Hocine Medel",
+      "prenom": "Hocine",
+      "email": "h.medel@universite.edu",
+      "telephone": "+212612345018",
+      "specialite": "Chimie Générale",
+      "diplome": "Doctorat Chimie",
+      "modules": [
+        19,
+        20,
+        88,
+        89
+      ],
+      "filieres": [
+        2,
+        5,
+        6,
+        27
+      ],
+      "charge_horaire_max": 400,
+      "charge_horaire_actuelle": 0
+    },
+    {
+      "id": 19,
+      "nom": "Dr. Yasmine Bouchta",
+      "prenom": "Yasmine",
+      "email": "y.bouchta@universite.edu",
+      "telephone": "+212612345019",
+      "specialite": "Biologie Cellulaire",
+      "diplome": "Doctorat Biologie",
+      "modules": [
+        16,
+        17,
+        18,
+        21
+      ],
+      "filieres": [
+        5,
+        6,
+        11,
+        12
+      ],
+      "charge_horaire_max": 380,
+      "charge_horaire_actuelle": 0
+    },
+    {
+      "id": 20,
+      "nom": "Dr. Mohamed Rachid",
+      "prenom": "Mohamed",
+      "email": "m.rachid@universite.edu",
+      "telephone": "+212612345020",
+      "specialite": "Microbiologie",
+      "diplome": "Doctorat Microbiologie",
+      "modules": [
+        33,
+        34,
+        20,
+        21
+      ],
+      "filieres": [
+        5,
+        6,
+        11,
+        12
+      ],
+      "charge_horaire_max": 400,
+      "charge_horaire_actuelle": 0
+    },
+    {
+      "id": 21,
+      "nom": "Pr. Jamal Saidouni",
+      "prenom": "Jamal",
+      "email": "j.saidouni@universite.edu",
+      "telephone": "+212612345021",
+      "specialite": "Génie Parasismique",
+      "diplome": "HDR Génie Civil",
+      "modules": [
+        46,
+        76,
+        77,
+        79
+      ],
+      "filieres": [
+        15,
+        17,
+        25,
+        26
+      ],
+      "charge_horaire_max": 420,
+      "charge_horaire_actuelle": 0
+    },
+    {
+      "id": 22,
+      "nom": "Dr. Aissa Benani",
+      "prenom": "Aissa",
+      "email": "a.benani@universite.edu",
+      "telephone": "+212612345022",
+      "specialite": "Géotechnique",
+      "diplome": "Doctorat Génie Civil",
+      "modules": [
+        45,
+        80,
+        81
+      ],
+      "filieres": [
+        15,
+        17,
+        25
+      ],
+      "charge_horaire_max": 400,
+      "charge_horaire_actuelle": 0
+    },
+    {
+      "id": 23,
+      "nom": "Dr. Fatma Lebhar",
+      "prenom": "Fatma",
+      "email": "f.lebhar@universite.edu",
+      "telephone": "+212612345023",
+      "specialite": "Matériaux de Construction",
+      "diplome": "Doctorat Génie Civil",
+      "modules": [
+        49,
+        82,
+        87
+      ],
+      "filieres": [
+        15,
+        17,
+        24
+      ],
+      "charge_horaire_max": 400,
+      "charge_horaire_actuelle": 0
+    },
+    {
+      "id": 24,
+      "nom": "Pr. Noureddine Khaled",
+      "prenom": "Noureddine",
+      "email": "n.khaled@universite.edu",
+      "telephone": "+212612345024",
+      "specialite": "Gestion de Production",
+      "diplome": "HDR Génie Industriel",
+      "modules": [
+        51,
+        56,
+        57,
+        72,
+        73
+      ],
+      "filieres": [
+        8,
+        9,
+        10
+      ],
+      "charge_horaire_max": 430,
+      "charge_horaire_actuelle": 0
+    },
+    {
+      "id": 25,
+      "nom": "Dr. Zahra Bennani",
+      "prenom": "Zahra",
+      "email": "z.bennani@universite.edu",
+      "telephone": "+212612345025",
+      "specialite": "Management et Qualité",
+      "diplome": "Doctorat Management",
+      "modules": [
+        58,
+        59,
+        71,
+        74
+      ],
+      "filieres": [
+        8,
+        9,
+        10
+      ],
+      "charge_horaire_max": 400,
+      "charge_horaire_actuelle": 0
+    },
+    {
+      "id": 26,
+      "nom": "Dr. Ahmed Ouazzani",
+      "prenom": "Ahmed",
+      "email": "a.ouazzani@universite.edu",
+      "telephone": "+212612345026",
+      "specialite": "Logistique et Supply Chain",
+      "diplome": "Doctorat Logistique",
+      "modules": [
+        59,
+        73,
+        74,
+        75
+      ],
+      "filieres": [
+        9,
+        10
+      ],
+      "charge_horaire_max": 400,
+      "charge_horaire_actuelle": 0
+    },
+    {
+      "id": 27,
+      "nom": "Dr. Rachid Belhachemi",
+      "prenom": "Rachid",
+      "email": "r.belhachemi@universite.edu",
+      "telephone": "+212612345027",
+      "specialite": "Français TEC",
+      "diplome": "Doctorat Français",
+      "modules": [
+        4,
+        10,
+        14,
+        40
+      ],
+      "filieres": [
+        1,
+        2,
+        3,
+        11
+      ],
+      "charge_horaire_max": 350,
+      "charge_horaire_actuelle": 0
+    },
+    {
+      "id": 28,
+      "nom": "Dr. Nadia Lahsen",
+      "prenom": "Nadia",
+      "email": "n.lahsen@universite.edu",
+      "telephone": "+212612345028",
+      "specialite": "English",
+      "diplome": "Doctorat Anglais",
+      "modules": [
+        31,
+        37,
+        43,
+        61,
+        70
+      ],
+      "filieres": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "charge_horaire_max": 350,
+      "charge_horaire_actuelle": 0
+    },
+    {
+      "id": 29,
+      "nom": "Dr. Amira Dahy",
+      "prenom": "Amira",
+      "email": "a.dahy@universite.edu",
+      "telephone": "+212612345029",
+      "specialite": "Soft Skills & Leadership",
+      "diplome": "Doctorat Management",
+      "modules": [
+        53,
+        70,
+        75,
+        87
+      ],
+      "filieres": [
+        18,
+        19,
+        20,
+        23
+      ],
+      "charge_horaire_max": 360,
+      "charge_horaire_actuelle": 0
+    },
+    {
+      "id": 30,
+      "nom": "Pr. Salem Mansour",
+      "prenom": "Salem",
+      "email": "s.mansour@universite.edu",
+      "telephone": "+212612345030",
+      "specialite": "Thermodynamique Industrielle",
+      "diplome": "HDR Génie Énergétique",
+      "modules": [
+        84,
+        85,
+        90,
+        91
+      ],
+      "filieres": [
+        24,
+        25,
+        26
+      ],
+      "charge_horaire_max": 420,
+      "charge_horaire_actuelle": 0
+    },
+    {
+      "id": 31,
+      "nom": "Dr. Hana Benali",
+      "prenom": "Hana",
+      "email": "h.benali@universite.edu",
+      "telephone": "+212612345031",
+      "specialite": "Efficacité Énergétique",
+      "diplome": "Doctorat Énergie",
+      "modules": [
+        91,
+        92,
+        93
+      ],
+      "filieres": [
+        24,
+        26
+      ],
+      "charge_horaire_max": 400,
+      "charge_horaire_actuelle": 0
+    },
+    {
+      "id": 32,
+      "nom": "Dr. Karim Badri",
+      "prenom": "Karim",
+      "email": "k.badri@universite.edu",
+      "telephone": "+212612345032",
+      "specialite": "Énergies Renouvelables",
+      "diplome": "Doctorat Énergies Renouvelables",
+      "modules": [
+        90,
+        91,
+        92
+      ],
+      "filieres": [
+        24,
+        26
+      ],
+      "charge_horaire_max": 400,
+      "charge_horaire_actuelle": 0
+    },
+    {
+      "id": 33,
+      "nom": "Dr. Hamza Bouazza",
+      "prenom": "Hamza",
+      "email": "h.bouazza@universite.edu",
+      "telephone": "+212612345033",
+      "specialite": "Techniques d'Analyses",
+      "diplome": "Doctorat Agroalimentaire",
+      "modules": [
+        32,
+        88,
+        89,
+        90
+      ],
+      "filieres": [
+        11,
+        12,
+        27,
+        28
+      ],
+      "charge_horaire_max": 400,
+      "charge_horaire_actuelle": 0
+    },
+    {
+      "id": 34,
+      "nom": "Dr. Samia Zarkaoui",
+      "prenom": "Samia",
+      "email": "s.zarkaoui@universite.edu",
+      "telephone": "+212612345034",
+      "specialite": "Microbiologie Alimentaire",
+      "diplome": "Doctorat Microbiologie",
+      "modules": [
+        33,
+        38,
+        39
+      ],
+      "filieres": [
+        11,
+        13,
+        14
+      ],
+      "charge_horaire_max": 400,
+      "charge_horaire_actuelle": 0
+    },
+    {
+      "id": 35,
+      "nom": "Dr. Layla Bouhamidi",
+      "prenom": "Layla",
+      "email": "l.bouhamidi@universite.edu",
+      "telephone": "+212612345035",
+      "specialite": "Biochimie Alimentaire",
+      "diplome": "Doctorat Biochimie",
+      "modules": [
+        34,
+        89,
+        91
+      ],
+      "filieres": [
+        11,
+        12,
+        27
+      ],
+      "charge_horaire_max": 400,
+      "charge_horaire_actuelle": 0
+    },
+    {
+      "id": 36,
+      "nom": "Dr. Walid Saidane",
+      "prenom": "Walid",
+      "email": "w.saidane@universite.edu",
+      "telephone": "+212612345036",
+      "specialite": "Production et Zootechnie",
+      "diplome": "Doctorat Production Animale",
+      "modules": [
+        36,
+        38,
+        39,
+        44
+      ],
+      "filieres": [
+        11,
+        12,
+        13,
+        14
+      ],
+      "charge_horaire_max": 400,
+      "charge_horaire_actuelle": 0
+    },
+    {
+      "id": 37,
+      "nom": "Dr. Souad Bensizerara",
+      "prenom": "Souad",
+      "email": "s.bensizerara@universite.edu",
+      "telephone": "+212612345037",
+      "specialite": "Transformation des Produits Alimentaires",
+      "diplome": "Doctorat Technologie Alimentaire",
+      "modules": [
+        39,
+        40,
+        44,
+        45
+      ],
+      "filieres": [
+        12,
+        13,
+        14
+      ],
+      "charge_horaire_max": 400,
+      "charge_horaire_actuelle": 0
+    },
+    {
+      "id": 38,
+      "nom": "Dr. Mohamed Khaoula",
+      "prenom": "Mohamed",
+      "email": "m.khaoula@universite.edu",
+      "telephone": "+212612345038",
+      "specialite": "Itinéraires Techniques",
+      "diplome": "Doctorat Agronomie",
+      "modules": [
+        41,
+        42,
+        43
+      ],
+      "filieres": [
+        13,
+        14
+      ],
+      "charge_horaire_max": 400,
+      "charge_horaire_actuelle": 0
+    },
+    {
+      "id": 39,
+      "nom": "Dr. Amal Diallo",
+      "prenom": "Amal",
+      "email": "a.diallo@universite.edu",
+      "telephone": "+212612345039",
+      "specialite": "Physique Industrielle",
+      "diplome": "Doctorat Physique",
+      "modules": [
+        17,
+        42,
+        88
+      ],
+      "filieres": [
+        5,
+        13,
+        27
+      ],
+      "charge_horaire_max": 400,
+      "charge_horaire_actuelle": 0
+    },
+    {
+      "id": 40,
+      "nom": "Dr. Nouara Abdelaziz",
+      "prenom": "Nouara",
+      "email": "n.abdelaziz@universite.edu",
+      "telephone": "+212612345040",
+      "specialite": "Biostatistique & Plan d'Expérience",
+      "diplome": "Doctorat Statistiques",
+      "modules": [
+        35,
+        53,
+        97
+      ],
+      "filieres": [
+        11,
+        20,
+        22
+      ],
+      "charge_horaire_max": 400,
+      "charge_horaire_actuelle": 0
+    },
+    {
+      "id": 41,
+      "nom": "Dr. Mourad Selma",
+      "prenom": "Mourad",
+      "email": "m.selma@universite.edu",
+      "telephone": "+212612345041",
+      "specialite": "Théorie des Graphes",
+      "diplome": "Doctorat Informatique",
+      "modules": [
+        24,
+        51,
+        67
+      ],
+      "filieres": [
+        10,
+        18,
+        21
+      ],
+      "charge_horaire_max": 400,
+      "charge_horaire_actuelle": 0
+    },
+    {
+      "id": 42,
+      "nom": "Dr. Soraya Benazza",
+      "prenom": "Soraya",
+      "email": "s.benazza@universite.edu",
+      "telephone": "+212612345042",
+      "specialite": "Design Patterns & Architecture",
+      "diplome": "Doctorat Informatique",
+      "modules": [
+        26,
+        54,
+        69,
+        70
+      ],
+      "filieres": [
+        10,
+        19,
+        21
+      ],
+      "charge_horaire_max": 400,
+      "charge_horaire_actuelle": 0
+    },
+    {
+      "id": 43,
+      "nom": "Dr. Bilal Hammouni",
+      "prenom": "Bilal",
+      "email": "b.hammouni@universite.edu",
+      "telephone": "+212612345043",
+      "specialite": "Sécurité Informatique",
+      "diplome": "Doctorat Cybersécurité",
+      "modules": [
+        29,
+        68,
+        85,
+        86
+      ],
+      "filieres": [
+        10,
+        21,
+        23
+      ],
+      "charge_horaire_max": 400,
+      "charge_horaire_actuelle": 0
+    },
+    {
+      "id": 44,
+      "nom": "Dr. Selma Ouazzani",
+      "prenom": "Selma",
+      "email": "s.ouazzani@universite.edu",
+      "telephone": "+212612345044",
+      "specialite": "Cloud Computing",
+      "diplome": "Doctorat Cloud",
+      "modules": [
+        30,
+        85,
+        86,
+        87
+      ],
+      "filieres": [
+        10,
+        21,
+        23
+      ],
+      "charge_horaire_max": 400,
+      "charge_horaire_actuelle": 0
+    },
+    {
+      "id": 45,
+      "nom": "Dr. Jamal Benismaili",
+      "prenom": "Jamal",
+      "email": "j.benismaili@universite.edu",
+      "telephone": "+212612345045",
+      "specialite": "Vision par Ordinateur",
+      "diplome": "Doctorat IA",
+      "modules": [
+        66,
+        83,
+        84
+      ],
+      "filieres": [
+        21,
+        23
+      ],
+      "charge_horaire_max": 400,
+      "charge_horaire_actuelle": 0
+    },
+    {
+      "id": 46,
+      "nom": "Dr. Karima Daoud",
+      "prenom": "Karima",
+      "email": "k.daoud@universite.edu",
+      "telephone": "+212612345046",
+      "specialite": "IoT et Systèmes Embarqués",
+      "diplome": "Doctorat IoT",
+      "modules": [
+        29,
+        63,
+        64,
+        71
+      ],
+      "filieres": [
+        10,
+        7,
+        9
+      ],
+      "charge_horaire_max": 400,
+      "charge_horaire_actuelle": 0
+    },
+    {
+      "id": 47,
+      "nom": "Dr. Abdelaziz Meilleur",
+      "prenom": "Abdelaziz",
+      "email": "a.meilleur@universite.edu",
+      "telephone": "+212612345047",
+      "specialite": "Réseaux et Télécommunications",
+      "diplome": "Doctorat Réseaux",
+      "modules": [
+        55,
+        64,
+        99
+      ],
+      "filieres": [
+        7,
+        19
+      ],
+      "charge_horaire_max": 400,
+      "charge_horaire_actuelle": 0
+    },
+    {
+      "id": 48,
+      "nom": "Dr. Laila Youssef",
+      "prenom": "Laila",
+      "email": "l.youssef@universite.edu",
+      "telephone": "+212612345048",
+      "specialite": "Modélisation Mathématique",
+      "diplome": "Doctorat Mathématiques",
+      "modules": [
+        41,
+        92,
+        93,
+        94
+      ],
+      "filieres": [
+        8,
+        22,
+        23
+      ],
+      "charge_horaire_max": 400,
+      "charge_horaire_actuelle": 0
+    },
+    {
+      "id": 49,
+      "nom": "Dr. Fatemah Reza",
+      "prenom": "Fatemah",
+      "email": "f.reza@universite.edu",
+      "telephone": "+212612345049",
+      "specialite": "Méthodes Numériques",
+      "diplome": "Doctorat Analyse Numérique",
+      "modules": [
+        81,
+        85,
+        95
+      ],
+      "filieres": [
+        25,
+        24,
+        22
+      ],
+      "charge_horaire_max": 400,
+      "charge_horaire_actuelle": 0
+    },
+    {
+      "id": 50,
+      "nom": "Dr. Habib Najjar",
+      "prenom": "Habib",
+      "email": "h.najjar@universite.edu",
+      "telephone": "+212612345050",
+      "specialite": "Urbanisme et Construction Durable",
+      "diplome": "Doctorat Urbanisme",
+      "modules": [
+        78,
+        79,
+        80
+      ],
+      "filieres": [
+        17,
+        26
+      ],
+      "charge_horaire_max": 400,
+      "charge_horaire_actuelle": 0
+    },
+    {
+      "id": 51,
+      "nom": "Dr. Zaineb Larbi",
+      "prenom": "Zaineb",
+      "email": "z.larbi@universite.edu",
+      "telephone": "+212612345051",
+      "specialite": "BIM et Gestion de Projet",
+      "diplome": "Doctorat Génie Civil",
+      "modules": [
+        76,
+        81,
+        93
+      ],
+      "filieres": [
+        17,
+        26
+      ],
+      "charge_horaire_max": 400,
+      "charge_horaire_actuelle": 0
+    },
+    {
+      "id": 52,
+      "nom": "Dr. Mehdi Khalilzadeh",
+      "prenom": "Mehdi",
+      "email": "m.khalilzadeh@universite.edu",
+      "telephone": "+212612345052",
+      "specialite": "Optimisation et Recherche Opérationnelle",
+      "diplome": "Doctorat Optimisation",
+      "modules": [
+        58,
+        75,
+        96,
+        97
+      ],
+      "filieres": [
+        9,
+        20,
+        22,
+        23
+      ],
+      "charge_horaire_max": 400,
+      "charge_horaire_actuelle": 0
+    },
+    {
+      "id": 53,
+      "nom": "Dr. Malika Abidi",
+      "prenom": "Malika",
+      "email": "m.abidi@universite.edu",
+      "telephone": "+212612345053",
+      "specialite": "Gestion des Ressources Humaines",
+      "diplome": "Doctorat Management",
+      "modules": [
+        71,
+        72,
+        74
+      ],
+      "filieres": [
+        9,
+        7,
+        10
+      ],
+      "charge_horaire_max": 380,
+      "charge_horaire_actuelle": 0
+    },
+    {
+      "id": 54,
+      "nom": "Dr. Yasin Hamoud",
+      "prenom": "Yasin",
+      "email": "y.hamoud@universite.edu",
+      "telephone": "+212612345054",
+      "specialite": "Comptabilité et Finance",
+      "diplome": "Doctorat Comptabilité",
+      "modules": [
+        11,
+        14,
+        71
+      ],
+      "filieres": [
+        4,
+        9,
+        10
+      ],
+      "charge_horaire_max": 380,
+      "charge_horaire_actuelle": 0
+    },
+    {
+      "id": 55,
+      "nom": "Dr. Nisrine Belkadi",
+      "prenom": "Nisrine",
+      "email": "n.belkadi@universite.edu",
+      "telephone": "+212612345055",
+      "specialite": "Systèmes Embarqués Temps Réel",
+      "diplome": "Doctorat Systèmes",
+      "modules": [
+        63,
+        64,
+        99,
+        100
+      ],
+      "filieres": [
+        7,
+        9
+      ],
+      "charge_horaire_max": 400,
+      "charge_horaire_actuelle": 0
+    },
+    {
+      "id": 56,
+      "nom": "Dr. Tarek Benismaili",
+      "prenom": "Tarek",
+      "email": "t.benismaili@universite.edu",
+      "telephone": "+212612345056",
+      "specialite": "Applications Web Distribuées",
+      "diplome": "Doctorat Informatique",
+      "modules": [
+        30,
+        54,
+        74
+      ],
+      "filieres": [
+        10,
+        18,
+        21
+      ],
+      "charge_horaire_max": 400,
+      "charge_horaire_actuelle": 0
+    },
+    {
+      "id": 57,
+      "nom": "Dr. Rania El-Hilali",
+      "prenom": "Rania",
+      "email": "r.elhilali@universite.edu",
+      "telephone": "+212612345057",
+      "specialite": "Génie Logiciel",
+      "diplome": "Doctorat Génie Logiciel",
+      "modules": [
+        28,
+        54,
+        69,
+        70
+      ],
+      "filieres": [
+        10,
+        19,
+        21
+      ],
+      "charge_horaire_max": 400,
+      "charge_horaire_actuelle": 0
+    },
+    {
+      "id": 58,
+      "nom": "Dr. Khalil Amirouche",
+      "prenom": "Khalil",
+      "email": "k.amirouche@universite.edu",
+      "telephone": "+212612345058",
+      "specialite": "Blockchain et Crypto",
+      "diplome": "Doctorat Blockchain",
+      "modules": [
+        85,
+        86
+      ],
+      "filieres": [
+        21,
+        23
+      ],
+      "charge_horaire_max": 400,
+      "charge_horaire_actuelle": 0
+    },
+    {
+      "id": 59,
+      "nom": "Dr. Sonia Bekkali",
+      "prenom": "Sonia",
+      "email": "s.bekkali@universite.edu",
+      "telephone": "+212612345059",
+      "specialite": "Intelligence Économique",
+      "diplome": "Doctorat Management",
+      "modules": [
+        70,
+        75,
+        87
+      ],
+      "filieres": [
+        10,
+        21,
+        23
+      ],
+      "charge_horaire_max": 380,
+      "charge_horaire_actuelle": 0
+    },
+    {
+      "id": 60,
+      "nom": "Dr. Hassan Yousfi",
+      "prenom": "Hassan",
+      "email": "h.yousfi@universite.edu",
+      "telephone": "+212612345060",
+      "specialite": "Vibrologie et Acoustique",
+      "diplome": "Doctorat Mécanique",
+      "modules": [
+        57,
+        59,
+        100
+      ],
+      "filieres": [
+        8,
+        9
+      ],
+      "charge_horaire_max": 400,
+      "charge_horaire_actuelle": 0
+    }
+  ]
+}
