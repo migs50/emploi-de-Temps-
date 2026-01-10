@@ -1,5 +1,5 @@
 import json
-from database import charger_json, sauvegarder_json
+from logic.database import charger_json, sauvegarder_json
 
 # ================== CRENEAUX ==================
 
@@ -17,6 +17,8 @@ CRENEAUX_VENDREDI = [
     ("14:15", "15:45"),
     ("16:00", "17:30")
 ]
+
+from logic.optimization import trier_jours_par_charge
 
 CRENEAUX_SAMEDI = [
     ("09:00", "10:30"),
@@ -58,11 +60,29 @@ def detecter_conflits(edt, seance):
 
 # ================== TROUVER SALLE ==================
 
-def trouver_salle_libre(salles, edt, jour, debut, capacite):
+def trouver_salle_libre(salles, edt, jour, debut, capacite, type_seance):
+    # Filter candidates by type match first
+    candidats = []
     for salle in salles:
-        if salle["capacite"] < capacite:
+        if salle.get("type") == "Préparation":
             continue
+            
+        # Strict matching logic
+        if type_seance == "TP" and salle.get("type") != "TP":
+            continue
+        if type_seance == "TD" and salle.get("type") != "TD":
+            continue
+        if type_seance == "Cours" and salle.get("type") not in ["Amphi", "Cours"]:
+            continue
+            
+        # Capacity check
+        if salle["capacite"] >= capacite:
+            candidats.append(salle)
+            
+    # Sort candidates by capacity (fit best)
+    candidats.sort(key=lambda s: s["capacite"])
 
+    for salle in candidats:
         occupee = False
         for s in edt:
             if s["jour"] == jour and s["debut"] == debut and s["salle"] == salle["nom"]:
@@ -98,7 +118,7 @@ def proposer_solution(salles, edt, seance):
         )
         if debut:
             salle = trouver_salle_libre(
-                salles, edt, jour, debut, seance["effectif"]
+                salles, edt, jour, debut, seance["effectif"], seance.get("type", "Cours")
             )
             if salle:
                 seance.update({
@@ -122,20 +142,24 @@ def generer_edt():
 
     for seance in seances:
         placee = False
+        
+        # Sort days to balance load (soft constraint)
+        jours_tries = trier_jours_par_charge(edt, seance["groupe"], JOURS)
 
-        for jour in JOURS:
+        for jour in jours_tries:
             debut, fin = trouver_creneau_libre(
                 edt, jour, seance["enseignant"], seance["groupe"]
             )
 
             if debut:
                 salle = trouver_salle_libre(
-                    salles, edt, jour, debut, seance["effectif"]
+                    salles, edt, jour, debut, seance["effectif"], seance["type"]
                 )
 
                 if salle:
                     nouvelle_seance = {
                         "module": seance["module"],
+                        "type": seance["type"],
                         "enseignant": seance["enseignant"],
                         "groupe": seance["groupe"],
                         "jour": jour,

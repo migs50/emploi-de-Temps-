@@ -39,53 +39,63 @@ def generate_seances():
         filiere = filieres_map[filiere_id]
         effectif = filiere.get('effectif', 30)
         filiere_code = filiere.get('code', 'UNKNOWN')
+        niveau = filiere.get('niveau', '').lower()
+        nom = filiere.get('nom', '').lower()
         
-        # Calculate number of groups for TD/TP (assuming max capacity ~30-35 for TD rooms)
-        # Using 35 to be safe or 30? salles.json says 30 for TPs, 50 for TDs.
-        # Let's use 30 for TP and 50 for TD.
-        nb_groupes_td = math.ceil(effectif / 50)
-        nb_groupes_tp = math.ceil(effectif / 30)
+        # Logic for groups:
+        # If Licence, Master, Cycle -> No groups (1 group)
+        # Else (DEUST, etc) -> Split
+        no_group_levels = ["licence", "master", "cycle", "cycle ingénieur"]
         
-        # --- COURS ---
-        if mod.get('nb_seances_cours', 0) > 0:
-            # 1 Cours per week for the whole promo
+        is_no_group = False
+        for lvl in no_group_levels:
+            if lvl in niveau or lvl in nom:
+                is_no_group = True
+                break
+        
+        if is_no_group:
+            nb_groupes_td = 1
+            nb_groupes_tp = 1
+        else:
+            # Standard calculation for DEUST
+            nb_groupes_td = math.ceil(effectif / 50)
+            nb_groupes_tp = math.ceil(effectif / 30)
+        
+        # --- COURS (Toujours 1 par module) ---
+        seance = {
+            "id": seance_id_counter,
+            "module": mod['nom'],
+            "type": "Cours",
+            "enseignant": mod.get('enseignant', 'Inconnu'),
+            "filiere": filiere_code,
+            "groupe": filiere_code, # Whole promo
+            "effectif": effectif,
+            "duree": 90,
+            "priorite": 1
+        }
+        seances.append(seance)
+        seance_id_counter += 1
+            
+        # --- TD (Toujours 1 par groupe par module) ---
+        for g in range(1, nb_groupes_td + 1):
+            groupe_name = f"{filiere_code}-G{g}" if nb_groupes_td > 1 else filiere_code
             seance = {
                 "id": seance_id_counter,
                 "module": mod['nom'],
-                "type": "Cours",
+                "type": "TD",
                 "enseignant": mod.get('enseignant', 'Inconnu'),
                 "filiere": filiere_code,
-                "groupe": filiere_code, # Whole promo
-                "effectif": effectif,
-                "duree": 90, # 1h30 in minutes
-                "priorite": 1
+                "groupe": groupe_name,
+                "effectif": math.ceil(effectif / nb_groupes_td),
+                "duree": 90,
+                "priorite": 2
             }
             seances.append(seance)
             seance_id_counter += 1
-            
-        # --- TD ---
-        # 1 TD per week per group
-        if mod.get('nb_seances_td', 0) > 0:
-            for g in range(1, nb_groupes_td + 1):
-                groupe_name = f"{filiere_code}-G{g}" if nb_groupes_td > 1 else filiere_code
-                seance = {
-                    "id": seance_id_counter,
-                    "module": mod['nom'],
-                    "type": "TD",
-                    "enseignant": mod.get('enseignant', 'Inconnu'),
-                    "filiere": filiere_code,
-                    "groupe": groupe_name,
-                    "effectif": math.ceil(effectif / nb_groupes_td),
-                    "duree": 90,
-                    "priorite": 2
-                }
-                seances.append(seance)
-                seance_id_counter += 1
 
-        # --- TP ---
-        # 1 TP per week per group
+        # --- TP (1 par groupe si indiqué dans module) ---
         if mod.get('nb_seances_tp', 0) > 0:
-             for g in range(1, nb_groupes_tp + 1):
+            for g in range(1, nb_groupes_tp + 1):
                 groupe_name = f"{filiere_code}-G{g}" if nb_groupes_tp > 1 else filiere_code
                 seance = {
                     "id": seance_id_counter,

@@ -1,4 +1,4 @@
-from database import charger_json, sauvegarder_json
+from logic.database import charger_json, sauvegarder_json
 
 def salle_disponible(salle, jour, debut):
     edt = charger_json("GESTION EDT/emplois_du_temps.json")

@@ -1,4 +1,4 @@
-from conflict_manager import detecter_conflits
+from logic.conflict_manager import detecter_conflits
 
 # ================== CRENEAUX ==================
 
@@ -52,6 +52,19 @@ def trouver_salle_libre(salles, edt, jour, debut, capacite):
     return None
 
 
+def calculer_charge_par_jour(edt, groupe):
+    charge = {jour: 0 for jour in JOURS}
+    for s in edt:
+        if s["groupe"] == groupe or (s["type"] == "Cours" and groupe.startswith(s["groupe"])):
+            # Add duration (approx 90min = 1.5h, or count slots)
+            charge[s["jour"]] += 1
+    return charge
+
+def trier_jours_par_charge(edt, groupe, jours_disponibles):
+    charge = calculer_charge_par_jour(edt, groupe)
+    # Sort days by load ascending (prefer empty days first)
+    return sorted(jours_disponibles, key=lambda j: charge[j])
+
 def trouver_creneau_libre(edt, jour, enseignant, groupe):
     for debut, fin in get_creneaux(jour):
         libre = True
@@ -59,6 +72,7 @@ def trouver_creneau_libre(edt, jour, enseignant, groupe):
             if s["jour"] == jour and s["debut"] == debut:
                 if s["enseignant"] == enseignant or s["groupe"] == groupe:
                     libre = False
+                    break
         if libre:
             return debut, fin
     return None, None
