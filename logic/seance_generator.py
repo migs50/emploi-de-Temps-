@@ -54,8 +54,17 @@ def generate_seances():
                 break
         
         if is_no_group:
-            nb_groupes_td = 1
-            nb_groupes_tp = 1
+            # Check if effectif exceeds capacity of TD/TP rooms
+            # Standard TD room ~50, TP room ~30
+            if effectif > 50:
+                 nb_groupes_td = math.ceil(effectif / 50)
+            else:
+                 nb_groupes_td = 1
+                 
+            if effectif > 30:
+                 nb_groupes_tp = math.ceil(effectif / 30)
+            else:
+                 nb_groupes_tp = 1
         else:
             # Standard calculation for DEUST
             nb_groupes_td = math.ceil(effectif / 50)

@@ -49,17 +49,17 @@
   },
   {
     "id": 4,
-  "nom": "Bibliothèque",
-  "capacite": 60,
-  "type": "Préparation",
-  "usage": "Espace réservé à la révision, au travail personnel et à la préparation des étudiants",
-  "equipements": [
-    "wifi",
-    "prise"
-  ],
-  "batiment": null,
-  "etage": 0,
-  "departement_id": null
+    "nom": "Bibliothèque",
+    "capacite": 60,
+    "type": "Préparation",
+    "usage": "Espace réservé à la révision, au travail personnel et à la préparation des étudiants",
+    "equipements": [
+      "wifi",
+      "prise"
+    ],
+    "batiment": null,
+    "etage": 0,
+    "departement_id": null
   },
   {
     "id": 5,
@@ -735,7 +735,7 @@
   {
     "id": 48,
     "nom": "Grande-A1",
-    "capacite": 90,
+    "capacite": 200,
     "type": "Cours",
     "equipements": [
       "datashow",
@@ -751,7 +751,7 @@
   {
     "id": 49,
     "nom": "Grande-C2",
-    "capacite": 90,
+    "capacite": 200,
     "type": "Cours",
     "equipements": [
       "datashow",
@@ -767,7 +767,7 @@
   {
     "id": 50,
     "nom": "Grande-D3",
-    "capacite": 90,
+    "capacite": 200,
     "type": "Cours",
     "equipements": [
       "datashow",
@@ -783,7 +783,7 @@
   {
     "id": 51,
     "nom": "Grande-E4",
-    "capacite": 90,
+    "capacite": 200,
     "type": "Cours",
     "equipements": [
       "datashow",
