@@ -1,5 +1,30 @@
 from conflict_manager import detecter_conflits
 
+# ================== CRENEAUX ==================
+
+CRENEAUX_LUN_JEU = [
+    ("09:00", "10:30"),
+    ("10:45", "12:15"),
+    ("12:30", "14:00"),
+    ("14:15", "15:45"),
+    ("16:00", "17:30")
+]
+
+CRENEAUX_VENDREDI = [
+    ("09:00", "10:30"),
+    ("10:45", "12:15"),
+    ("14:15", "15:45"),
+    ("16:00", "17:30")
+]
+
+CRENEAUX_SAMEDI = [
+    ("09:00", "10:30"),
+    ("10:45", "12:15")
+]
+
+JOURS = ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi"]
+
+
 def get_creneaux(jour):
     if jour in ["Lundi", "Mardi", "Mercredi", "Jeudi"]:
         return CRENEAUX_LUN_JEU
