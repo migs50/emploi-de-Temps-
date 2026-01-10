@@ -43,32 +43,25 @@ def generate_seances():
         nom = filiere.get('nom', '').lower()
         
         # Logic for groups:
-        # If Licence, Master, Cycle -> No groups (1 group)
-        # Else (DEUST, etc) -> Split
-        no_group_levels = ["licence", "master", "cycle", "cycle ingénieur"]
+        # DEUST (MIPC, BCG, GEGM) -> Split into groups for TD/TP
+        # Licence, Master, Cycle -> No splitting (Whole class for everything)
         
-        is_no_group = False
-        for lvl in no_group_levels:
-            if lvl in niveau or lvl in nom:
-                is_no_group = True
-                break
+        split_keywords = ["deust", "mipc", "bcg", "gegm"]
+        is_split_filiere = False
         
-        if is_no_group:
-            # Check if effectif exceeds capacity of TD/TP rooms
-            # Standard TD room ~50, TP room ~30
-            if effectif > 50:
-                 nb_groupes_td = math.ceil(effectif / 50)
-            else:
-                 nb_groupes_td = 1
-                 
-            if effectif > 30:
-                 nb_groupes_tp = math.ceil(effectif / 30)
-            else:
-                 nb_groupes_tp = 1
-        else:
-            # Standard calculation for DEUST
+        # Check by niveau or code/nom
+        if niveau in ["deust"] or any(k in nom for k in split_keywords) or any(k in filiere_code.lower() for k in split_keywords):
+            is_split_filiere = True
+            
+        if is_split_filiere:
+            # Standard splitting for DEUST
             nb_groupes_td = math.ceil(effectif / 50)
             nb_groupes_tp = math.ceil(effectif / 30)
+        else:
+            # NO SPLIT for Licence, Master, Cycle (AD, IDAI, SSD, GC, TAC, AISD, etc.)
+            # They stay as 1 group even if effectif is large (will go to Grande Salles)
+            nb_groupes_td = 1
+            nb_groupes_tp = 1
         
         # --- COURS (Toujours 1 par module) ---
         seance = {

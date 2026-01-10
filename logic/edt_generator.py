@@ -61,23 +61,38 @@ def detecter_conflits(edt, seance):
 # ================== TROUVER SALLE ==================
 
 def trouver_salle_libre(salles, edt, jour, debut, capacite, type_seance):
-    # Filter candidates by type match first
+    # Filter candidates by type match
     candidats = []
+    
+    # Determine allowed room types based on session type and capacity needs
+    allowed_types = []
+    
+    if type_seance == "Cours":
+        allowed_types = ["Amphi", "Cours"]
+    elif type_seance == "TD":
+        # If small group, prefer TD rooms. If large (Licence/Master whole class), needs Amphi/Cours
+        if capacite > 50:
+             allowed_types = ["Amphi", "Cours"]
+        else:
+             allowed_types = ["TD"]
+    elif type_seance == "TP":
+        # If small group, prefer TP rooms. If large, needs Amphi/Cours (as per user request)
+        if capacite > 30:
+             allowed_types = ["Amphi", "Cours"]
+        else:
+             allowed_types = ["TP"]
+    
+    # Fallback/Loose matching: If strict matching might fail, we could allow overlap, 
+    # but the user was specific about "grands salles" for whole filieres.
+    
     for salle in salles:
-        if salle.get("type") == "Préparation":
+        salle_type = salle.get("type")
+        if salle_type == "Préparation":
             continue
             
-        # Strict matching logic
-        if type_seance == "TP" and salle.get("type") != "TP":
-            continue
-        if type_seance == "TD" and salle.get("type") != "TD":
-            continue
-        if type_seance == "Cours" and salle.get("type") not in ["Amphi", "Cours"]:
-            continue
-            
-        # Capacity check
-        if salle["capacite"] >= capacite:
-            candidats.append(salle)
+        if salle_type in allowed_types:
+             if salle["capacite"] >= capacite:
+                candidats.append(salle)
             
     # Sort candidates by capacity (fit best)
     candidats.sort(key=lambda s: s["capacite"])

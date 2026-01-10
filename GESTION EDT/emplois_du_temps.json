@@ -2893,1591 +2893,1111 @@
         "module": "Mathématiques pour la science des données",
         "type": "TD",
         "enseignant": "Dr. Hassan Al-Mansouri",
-        "groupe": "AD-1-G1",
+        "groupe": "AD-1",
+        "jour": "Jeudi",
+        "debut": "09:00",
+        "fin": "10:30",
+        "salle": "Grande-D3"
+    },
+    {
+        "module": "Mathématiques pour la science des données",
+        "type": "TP",
+        "enseignant": "Dr. Hassan Al-Mansouri",
+        "groupe": "AD-1",
         "jour": "Vendredi",
         "debut": "14:15",
         "fin": "15:45",
-        "salle": "TD-E1"
-    },
-    {
-        "module": "Mathématiques pour la science des données",
-        "type": "TD",
-        "enseignant": "Dr. Hassan Al-Mansouri",
-        "groupe": "AD-1-G2",
-        "jour": "Vendredi",
-        "debut": "16:00",
-        "fin": "17:30",
-        "salle": "TD-A2"
-    },
-    {
-        "module": "Mathématiques pour la science des données",
-        "type": "TP",
-        "enseignant": "Dr. Hassan Al-Mansouri",
-        "groupe": "AD-1-G1",
-        "jour": "Jeudi",
-        "debut": "09:00",
-        "fin": "10:30",
-        "salle": "TP-C2"
-    },
-    {
-        "module": "Mathématiques pour la science des données",
-        "type": "TP",
-        "enseignant": "Dr. Hassan Al-Mansouri",
-        "groupe": "AD-1-G2",
-        "jour": "Jeudi",
-        "debut": "10:45",
-        "fin": "12:15",
-        "salle": "TP-D2"
-    },
-    {
-        "module": "Mathématiques pour la science des données",
-        "type": "TP",
-        "enseignant": "Dr. Hassan Al-Mansouri",
-        "groupe": "AD-1-G3",
-        "jour": "Jeudi",
-        "debut": "12:30",
-        "fin": "14:00",
-        "salle": "TP-D2"
-    },
-    {
-        "module": "Structures des données avancées et théorie des graphes",
-        "type": "Cours",
-        "enseignant": "Dr. Mourad Selma",
-        "groupe": "AD-1",
-        "jour": "Mardi",
-        "debut": "09:00",
-        "fin": "10:30",
-        "salle": "Amphi A"
-    },
-    {
-        "module": "Structures des données avancées et théorie des graphes",
-        "type": "TD",
-        "enseignant": "Dr. Mourad Selma",
-        "groupe": "AD-1-G1",
-        "jour": "Mercredi",
-        "debut": "09:00",
-        "fin": "10:30",
-        "salle": "TD-A2"
-    },
-    {
-        "module": "Structures des données avancées et théorie des graphes",
-        "type": "TD",
-        "enseignant": "Dr. Mourad Selma",
-        "groupe": "AD-1-G2",
-        "jour": "Mercredi",
-        "debut": "10:45",
-        "fin": "12:15",
-        "salle": "TD-E1"
-    },
-    {
-        "module": "Structures des données avancées et théorie des graphes",
-        "type": "TP",
-        "enseignant": "Dr. Mourad Selma",
-        "groupe": "AD-1-G1",
-        "jour": "Samedi",
-        "debut": "09:00",
-        "fin": "10:30",
-        "salle": "TP-E1"
-    },
-    {
-        "module": "Structures des données avancées et théorie des graphes",
-        "type": "TP",
-        "enseignant": "Dr. Mourad Selma",
-        "groupe": "AD-1-G2",
-        "jour": "Samedi",
-        "debut": "10:45",
-        "fin": "12:15",
-        "salle": "TP-D2"
-    },
-    {
-        "module": "Structures des données avancées et théorie des graphes",
-        "type": "TP",
-        "enseignant": "Dr. Mourad Selma",
-        "groupe": "AD-1-G3",
-        "jour": "Mercredi",
-        "debut": "12:30",
-        "fin": "14:00",
-        "salle": "TP-C3"
-    },
-    {
-        "module": "Fondamentaux des bases de données",
-        "type": "Cours",
-        "enseignant": "Dr. Amina Ouadir",
-        "groupe": "AD-1",
-        "jour": "Mercredi",
-        "debut": "09:00",
-        "fin": "10:30",
-        "salle": "Grande-E4"
-    },
-    {
-        "module": "Fondamentaux des bases de données",
-        "type": "TD",
-        "enseignant": "Dr. Amina Ouadir",
-        "groupe": "AD-1-G1",
-        "jour": "Lundi",
-        "debut": "09:00",
-        "fin": "10:30",
-        "salle": "TD-C2"
-    },
-    {
-        "module": "Fondamentaux des bases de données",
-        "type": "TD",
-        "enseignant": "Dr. Amina Ouadir",
-        "groupe": "AD-1-G2",
-        "jour": "Lundi",
-        "debut": "10:45",
-        "fin": "12:15",
-        "salle": "TD-C2"
-    },
-    {
-        "module": "Fondamentaux des bases de données",
-        "type": "TP",
-        "enseignant": "Dr. Amina Ouadir",
-        "groupe": "AD-1-G1",
-        "jour": "Mardi",
-        "debut": "09:00",
-        "fin": "10:30",
-        "salle": "TP-A2"
-    },
-    {
-        "module": "Fondamentaux des bases de données",
-        "type": "TP",
-        "enseignant": "Dr. Amina Ouadir",
-        "groupe": "AD-1-G2",
-        "jour": "Mardi",
-        "debut": "10:45",
-        "fin": "12:15",
-        "salle": "TP-C2"
-    },
-    {
-        "module": "Fondamentaux des bases de données",
-        "type": "TP",
-        "enseignant": "Dr. Amina Ouadir",
-        "groupe": "AD-1-G3",
-        "jour": "Vendredi",
-        "debut": "09:00",
-        "fin": "10:30",
-        "salle": "TP-E2"
-    },
-    {
-        "module": "Développement WEB",
-        "type": "Cours",
-        "enseignant": "Pr. Abdelmajid Zaoui",
-        "groupe": "AD-1",
-        "jour": "Jeudi",
-        "debut": "09:00",
-        "fin": "10:30",
-        "salle": "Grande-D3"
-    },
-    {
-        "module": "Développement WEB",
-        "type": "TD",
-        "enseignant": "Pr. Abdelmajid Zaoui",
-        "groupe": "AD-1-G1",
-        "jour": "Vendredi",
-        "debut": "09:00",
-        "fin": "10:30",
-        "salle": "TD-E1"
-    },
-    {
-        "module": "Développement WEB",
-        "type": "TD",
-        "enseignant": "Pr. Abdelmajid Zaoui",
-        "groupe": "AD-1-G2",
-        "jour": "Mercredi",
-        "debut": "09:00",
-        "fin": "10:30",
-        "salle": "TD-C2"
-    },
-    {
-        "module": "Développement WEB",
-        "type": "TP",
-        "enseignant": "Pr. Abdelmajid Zaoui",
-        "groupe": "AD-1-G1",
-        "jour": "Samedi",
-        "debut": "10:45",
-        "fin": "12:15",
-        "salle": "TP-E2"
-    },
-    {
-        "module": "Développement WEB",
-        "type": "TP",
-        "enseignant": "Pr. Abdelmajid Zaoui",
-        "groupe": "AD-1-G2",
-        "jour": "Vendredi",
-        "debut": "10:45",
-        "fin": "12:15",
-        "salle": "TP-E2"
-    },
-    {
-        "module": "Développement WEB",
-        "type": "TP",
-        "enseignant": "Pr. Abdelmajid Zaoui",
-        "groupe": "AD-1-G3",
-        "jour": "Samedi",
-        "debut": "09:00",
-        "fin": "10:30",
-        "salle": "TP-A2"
-    },
-    {
-        "module": "Développement personnel et intelligence émotionnelle (Soft Skills)",
-        "type": "Cours",
-        "enseignant": "Dr. Amira Dahy",
-        "groupe": "AD-1",
-        "jour": "Vendredi",
-        "debut": "09:00",
-        "fin": "10:30",
-        "salle": "Amphi A"
-    },
-    {
-        "module": "Développement personnel et intelligence émotionnelle (Soft Skills)",
-        "type": "TD",
-        "enseignant": "Dr. Amira Dahy",
-        "groupe": "AD-1-G1",
-        "jour": "Mardi",
-        "debut": "10:45",
-        "fin": "12:15",
-        "salle": "TD-C2"
-    },
-    {
-        "module": "Développement personnel et intelligence émotionnelle (Soft Skills)",
-        "type": "TD",
-        "enseignant": "Dr. Amira Dahy",
-        "groupe": "AD-1-G2",
-        "jour": "Mercredi",
-        "debut": "12:30",
-        "fin": "14:00",
-        "salle": "TD-E1"
-    },
-    {
-        "module": "Anglais et Management de Projet",
-        "type": "Cours",
-        "enseignant": "Dr. Nadia Lahsen",
-        "groupe": "SSD-1",
-        "jour": "Lundi",
-        "debut": "10:45",
-        "fin": "12:15",
-        "salle": "Grande-D3"
-    },
-    {
-        "module": "Anglais et Management de Projet",
-        "type": "TD",
-        "enseignant": "Dr. Nadia Lahsen",
-        "groupe": "SSD-1",
-        "jour": "Lundi",
-        "debut": "12:30",
-        "fin": "14:00",
-        "salle": "TD-A2"
-    },
-    {
-        "module": "Base de données Relationnelles et NOSQL",
-        "type": "Cours",
-        "enseignant": "Dr. Amina Ouadir",
-        "groupe": "SSD-1",
-        "jour": "Mardi",
-        "debut": "12:30",
-        "fin": "14:00",
         "salle": "Grande-C2"
     },
     {
-        "module": "Base de données Relationnelles et NOSQL",
-        "type": "TD",
-        "enseignant": "Dr. Amina Ouadir",
-        "groupe": "SSD-1",
-        "jour": "Mercredi",
-        "debut": "10:45",
-        "fin": "12:15",
-        "salle": "TD-A2"
-    },
-    {
-        "module": "Base de données Relationnelles et NOSQL",
-        "type": "TP",
-        "enseignant": "Dr. Amina Ouadir",
-        "groupe": "SSD-1-G1",
-        "jour": "Mercredi",
-        "debut": "12:30",
-        "fin": "14:00",
-        "salle": "TP-D3"
-    },
-    {
-        "module": "Base de données Relationnelles et NOSQL",
-        "type": "TP",
-        "enseignant": "Dr. Amina Ouadir",
-        "groupe": "SSD-1-G2",
-        "jour": "Mercredi",
-        "debut": "14:15",
-        "fin": "15:45",
-        "salle": "TP-D1"
-    },
-    {
-        "module": "Intégration et Probabilité",
+        "module": "Structures des données avancées et théorie des graphes",
         "type": "Cours",
-        "enseignant": "Pr. Ahmed Benjelloun",
-        "groupe": "SSD-1",
-        "jour": "Jeudi",
-        "debut": "10:45",
-        "fin": "12:15",
-        "salle": "Grande-D3"
-    },
-    {
-        "module": "Intégration et Probabilité",
-        "type": "TD",
-        "enseignant": "Pr. Ahmed Benjelloun",
-        "groupe": "SSD-1",
-        "jour": "Vendredi",
+        "enseignant": "Dr. Mourad Selma",
+        "groupe": "AD-1",
+        "jour": "Mardi",
         "debut": "09:00",
         "fin": "10:30",
-        "salle": "TD-A2"
+        "salle": "Amphi A"
     },
     {
-        "module": "Intégration et Probabilité",
+        "module": "Structures des données avancées et théorie des graphes",
+        "type": "TD",
+        "enseignant": "Dr. Mourad Selma",
+        "groupe": "AD-1",
+        "jour": "Mercredi",
+        "debut": "09:00",
+        "fin": "10:30",
+        "salle": "Grande-E4"
+    },
+    {
+        "module": "Structures des données avancées et théorie des graphes",
         "type": "TP",
-        "enseignant": "Pr. Ahmed Benjelloun",
-        "groupe": "SSD-1-G1",
-        "jour": "Vendredi",
-        "debut": "10:45",
-        "fin": "12:15",
-        "salle": "TP-A3"
-    },
-    {
-        "module": "Intégration et Probabilité",
-        "type": "TP",
-        "enseignant": "Pr. Ahmed Benjelloun",
-        "groupe": "SSD-1-G2",
-        "jour": "Vendredi",
-        "debut": "14:15",
-        "fin": "15:45",
-        "salle": "TP-A3"
-    },
-    {
-        "module": "Optimisation et Recherche Opérationnelle",
-        "type": "Cours",
-        "enseignant": "Dr. Mehdi Khalilzadeh",
-        "groupe": "SSD-1",
+        "enseignant": "Dr. Mourad Selma",
+        "groupe": "AD-1",
         "jour": "Samedi",
         "debut": "09:00",
         "fin": "10:30",
         "salle": "Grande-E4"
     },
     {
-        "module": "Optimisation et Recherche Opérationnelle",
-        "type": "TP",
-        "enseignant": "Dr. Mehdi Khalilzadeh",
-        "groupe": "SSD-1-G1",
-        "jour": "Lundi",
-        "debut": "09:00",
-        "fin": "10:30",
-        "salle": "TP-A2"
-    },
-    {
-        "module": "Optimisation et Recherche Opérationnelle",
-        "type": "TP",
-        "enseignant": "Dr. Mehdi Khalilzadeh",
-        "groupe": "SSD-1-G2",
-        "jour": "Lundi",
-        "debut": "10:45",
-        "fin": "12:15",
-        "salle": "TP-A2"
-    },
-    {
-        "module": "Méthodes Spectroscopiques",
+        "module": "Fondamentaux des bases de données",
         "type": "Cours",
-        "enseignant": "Dr. Amal Diallo",
-        "groupe": "TAC-1",
+        "enseignant": "Dr. Amina Ouadir",
+        "groupe": "AD-1",
         "jour": "Lundi",
         "debut": "09:00",
         "fin": "10:30",
         "salle": "Amphi A"
     },
     {
-        "module": "Méthodes Spectroscopiques",
+        "module": "Fondamentaux des bases de données",
         "type": "TD",
-        "enseignant": "Dr. Amal Diallo",
-        "groupe": "TAC-1",
-        "jour": "Mercredi",
-        "debut": "12:30",
-        "fin": "14:00",
-        "salle": "TD-A2"
-    },
-    {
-        "module": "Méthodes Spectroscopiques",
-        "type": "TP",
-        "enseignant": "Dr. Amal Diallo",
-        "groupe": "TAC-1",
+        "enseignant": "Dr. Amina Ouadir",
+        "groupe": "AD-1",
         "jour": "Mardi",
         "debut": "10:45",
         "fin": "12:15",
-        "salle": "TP-D2"
+        "salle": "Grande-C2"
     },
     {
-        "module": "Modélisations avancée et Méthodes de génie logiciel",
+        "module": "Fondamentaux des bases de données",
+        "type": "TP",
+        "enseignant": "Dr. Amina Ouadir",
+        "groupe": "AD-1",
+        "jour": "Mercredi",
+        "debut": "10:45",
+        "fin": "12:15",
+        "salle": "Grande-D3"
+    },
+    {
+        "module": "Développement WEB",
         "type": "Cours",
-        "enseignant": "Dr. Soraya Benazza",
-        "groupe": "IDAI-1",
-        "jour": "Lundi",
-        "debut": "09:00",
-        "fin": "10:30",
-        "salle": "Amphi B"
+        "enseignant": "Pr. Abdelmajid Zaoui",
+        "groupe": "AD-1",
+        "jour": "Jeudi",
+        "debut": "10:45",
+        "fin": "12:15",
+        "salle": "Grande-D3"
     },
     {
-        "module": "Modélisations avancée et Méthodes de génie logiciel",
+        "module": "Développement WEB",
         "type": "TD",
-        "enseignant": "Dr. Soraya Benazza",
-        "groupe": "IDAI-1-G1",
+        "enseignant": "Pr. Abdelmajid Zaoui",
+        "groupe": "AD-1",
         "jour": "Vendredi",
         "debut": "09:00",
         "fin": "10:30",
-        "salle": "TD-C2"
+        "salle": "Amphi A"
     },
     {
-        "module": "Modélisations avancée et Méthodes de génie logiciel",
+        "module": "Développement WEB",
         "type": "TP",
-        "enseignant": "Dr. Soraya Benazza",
-        "groupe": "IDAI-1-G1",
-        "jour": "Mardi",
-        "debut": "09:00",
-        "fin": "10:30",
-        "salle": "TP-C2"
-    },
-    {
-        "module": "Modélisations avancée et Méthodes de génie logiciel",
-        "type": "TP",
-        "enseignant": "Dr. Soraya Benazza",
-        "groupe": "IDAI-1-G2",
-        "jour": "Mardi",
+        "enseignant": "Pr. Abdelmajid Zaoui",
+        "groupe": "AD-1",
+        "jour": "Samedi",
         "debut": "10:45",
         "fin": "12:15",
-        "salle": "TP-E2"
-    },
-    {
-        "module": "Modélisations avancée et Méthodes de génie logiciel",
-        "type": "TP",
-        "enseignant": "Dr. Soraya Benazza",
-        "groupe": "IDAI-1-G3",
-        "jour": "Mardi",
-        "debut": "12:30",
-        "fin": "14:00",
-        "salle": "TP-D2"
-    },
-    {
-        "module": "Développement Web",
-        "type": "Cours",
-        "enseignant": "Pr. Abdelmajid Zaoui",
-        "groupe": "IDAI-1",
-        "jour": "Mardi",
-        "debut": "09:00",
-        "fin": "10:30",
-        "salle": "Amphi B"
-    },
-    {
-        "module": "Développement Web",
-        "type": "TD",
-        "enseignant": "Pr. Abdelmajid Zaoui",
-        "groupe": "IDAI-1-G1",
-        "jour": "Mercredi",
-        "debut": "10:45",
-        "fin": "12:15",
-        "salle": "TD-C2"
-    },
-    {
-        "module": "Développement Web",
-        "type": "TD",
-        "enseignant": "Pr. Abdelmajid Zaoui",
-        "groupe": "IDAI-1-G2",
-        "jour": "Mercredi",
-        "debut": "12:30",
-        "fin": "14:00",
-        "salle": "TD-C2"
-    },
-    {
-        "module": "Développement Web",
-        "type": "TP",
-        "enseignant": "Pr. Abdelmajid Zaoui",
-        "groupe": "IDAI-1-G1",
-        "jour": "Jeudi",
-        "debut": "10:45",
-        "fin": "12:15",
-        "salle": "TP-E2"
-    },
-    {
-        "module": "Développement Web",
-        "type": "TP",
-        "enseignant": "Pr. Abdelmajid Zaoui",
-        "groupe": "IDAI-1-G2",
-        "jour": "Jeudi",
-        "debut": "12:30",
-        "fin": "14:00",
-        "salle": "TP-E2"
-    },
-    {
-        "module": "Développement Web",
-        "type": "TP",
-        "enseignant": "Pr. Abdelmajid Zaoui",
-        "groupe": "IDAI-1-G3",
-        "jour": "Mercredi",
-        "debut": "14:15",
-        "fin": "15:45",
-        "salle": "TP-E1"
-    },
-    {
-        "module": "Base de données Structurées et Non structurées",
-        "type": "Cours",
-        "enseignant": "Dr. Amina Ouadir",
-        "groupe": "IDAI-1",
-        "jour": "Mercredi",
-        "debut": "16:00",
-        "fin": "17:30",
         "salle": "Grande-A1"
     },
     {
-        "module": "Base de données Structurées et Non structurées",
-        "type": "TD",
-        "enseignant": "Dr. Amina Ouadir",
-        "groupe": "IDAI-1-G1",
+        "module": "Développement personnel et intelligence émotionnelle (Soft Skills)",
+        "type": "Cours",
+        "enseignant": "Dr. Amira Dahy",
+        "groupe": "AD-1",
         "jour": "Lundi",
+        "debut": "10:45",
+        "fin": "12:15",
+        "salle": "Grande-D3"
+    },
+    {
+        "module": "Développement personnel et intelligence émotionnelle (Soft Skills)",
+        "type": "TD",
+        "enseignant": "Dr. Amira Dahy",
+        "groupe": "AD-1",
+        "jour": "Mardi",
         "debut": "12:30",
         "fin": "14:00",
+        "salle": "Grande-C2"
+    },
+    {
+        "module": "Anglais et Management de Projet",
+        "type": "Cours",
+        "enseignant": "Dr. Nadia Lahsen",
+        "groupe": "SSD-1",
+        "jour": "Lundi",
+        "debut": "10:45",
+        "fin": "12:15",
+        "salle": "Grande-E4"
+    },
+    {
+        "module": "Anglais et Management de Projet",
+        "type": "TD",
+        "enseignant": "Dr. Nadia Lahsen",
+        "groupe": "SSD-1",
+        "jour": "Mardi",
+        "debut": "10:45",
+        "fin": "12:15",
         "salle": "TD-C2"
     },
     {
-        "module": "Base de données Structurées et Non structurées",
+        "module": "Base de données Relationnelles et NOSQL",
+        "type": "Cours",
+        "enseignant": "Dr. Amina Ouadir",
+        "groupe": "SSD-1",
+        "jour": "Mercredi",
+        "debut": "09:00",
+        "fin": "10:30",
+        "salle": "Amphi A"
+    },
+    {
+        "module": "Base de données Relationnelles et NOSQL",
         "type": "TD",
         "enseignant": "Dr. Amina Ouadir",
-        "groupe": "IDAI-1-G2",
-        "jour": "Mardi",
-        "debut": "14:15",
-        "fin": "15:45",
-        "salle": "TD-D1"
-    },
-    {
-        "module": "Base de données Structurées et Non structurées",
-        "type": "TP",
-        "enseignant": "Dr. Amina Ouadir",
-        "groupe": "IDAI-1-G1",
-        "jour": "Samedi",
-        "debut": "09:00",
-        "fin": "10:30",
-        "salle": "TP-C2"
-    },
-    {
-        "module": "Base de données Structurées et Non structurées",
-        "type": "TP",
-        "enseignant": "Dr. Amina Ouadir",
-        "groupe": "IDAI-1-G2",
+        "groupe": "SSD-1",
         "jour": "Vendredi",
-        "debut": "10:45",
-        "fin": "12:15",
-        "salle": "TP-C3"
-    },
-    {
-        "module": "Base de données Structurées et Non structurées",
-        "type": "TP",
-        "enseignant": "Dr. Amina Ouadir",
-        "groupe": "IDAI-1-G3",
-        "jour": "Jeudi",
         "debut": "09:00",
         "fin": "10:30",
-        "salle": "TP-D2"
+        "salle": "TD-E1"
     },
     {
-        "module": "Programmation Orientée Objet en C++/Java",
-        "type": "Cours",
-        "enseignant": "Dr. Soraya Benazza",
-        "groupe": "IDAI-1",
+        "module": "Base de données Relationnelles et NOSQL",
+        "type": "TP",
+        "enseignant": "Dr. Amina Ouadir",
+        "groupe": "SSD-1",
         "jour": "Jeudi",
         "debut": "09:00",
         "fin": "10:30",
         "salle": "Grande-E4"
     },
     {
-        "module": "Programmation Orientée Objet en C++/Java",
+        "module": "Intégration et Probabilité",
+        "type": "Cours",
+        "enseignant": "Pr. Ahmed Benjelloun",
+        "groupe": "SSD-1",
+        "jour": "Samedi",
+        "debut": "09:00",
+        "fin": "10:30",
+        "salle": "Amphi A"
+    },
+    {
+        "module": "Intégration et Probabilité",
         "type": "TD",
-        "enseignant": "Dr. Soraya Benazza",
-        "groupe": "IDAI-1-G1",
+        "enseignant": "Pr. Ahmed Benjelloun",
+        "groupe": "SSD-1",
+        "jour": "Lundi",
+        "debut": "12:30",
+        "fin": "14:00",
+        "salle": "TD-A2"
+    },
+    {
+        "module": "Intégration et Probabilité",
+        "type": "TP",
+        "enseignant": "Pr. Ahmed Benjelloun",
+        "groupe": "SSD-1",
+        "jour": "Jeudi",
+        "debut": "10:45",
+        "fin": "12:15",
+        "salle": "Grande-E4"
+    },
+    {
+        "module": "Optimisation et Recherche Opérationnelle",
+        "type": "Cours",
+        "enseignant": "Dr. Mehdi Khalilzadeh",
+        "groupe": "SSD-1",
         "jour": "Mardi",
-        "debut": "14:15",
-        "fin": "15:45",
+        "debut": "09:00",
+        "fin": "10:30",
+        "salle": "Amphi B"
+    },
+    {
+        "module": "Optimisation et Recherche Opérationnelle",
+        "type": "TD",
+        "enseignant": "Dr. Mehdi Khalilzadeh",
+        "groupe": "SSD-1",
+        "jour": "Mercredi",
+        "debut": "10:45",
+        "fin": "12:15",
         "salle": "TD-E1"
     },
     {
-        "module": "Programmation Orientée Objet en C++/Java",
-        "type": "TD",
-        "enseignant": "Dr. Soraya Benazza",
-        "groupe": "IDAI-1-G2",
-        "jour": "Vendredi",
-        "debut": "14:15",
-        "fin": "15:45",
-        "salle": "TD-A2"
-    },
-    {
-        "module": "Programmation Orientée Objet en C++/Java",
+        "module": "Optimisation et Recherche Opérationnelle",
         "type": "TP",
-        "enseignant": "Dr. Soraya Benazza",
-        "groupe": "IDAI-1-G1",
+        "enseignant": "Dr. Mehdi Khalilzadeh",
+        "groupe": "SSD-1",
         "jour": "Vendredi",
         "debut": "10:45",
         "fin": "12:15",
-        "salle": "TP-D3"
+        "salle": "Grande-A1"
     },
     {
-        "module": "Programmation Orientée Objet en C++/Java",
-        "type": "TP",
-        "enseignant": "Dr. Soraya Benazza",
-        "groupe": "IDAI-1-G2",
-        "jour": "Samedi",
-        "debut": "09:00",
-        "fin": "10:30",
-        "salle": "TP-D2"
-    },
-    {
-        "module": "Programmation Orientée Objet en C++/Java",
-        "type": "TP",
-        "enseignant": "Dr. Soraya Benazza",
-        "groupe": "IDAI-1-G3",
-        "jour": "Vendredi",
-        "debut": "16:00",
-        "fin": "17:30",
-        "salle": "TP-E1"
-    },
-    {
-        "module": "Systèmes et réseaux informatiques",
+        "module": "Méthodes Spectroscopiques",
         "type": "Cours",
-        "enseignant": "Dr. Abdelaziz Meilleur",
-        "groupe": "IDAI-1",
-        "jour": "Vendredi",
+        "enseignant": "Dr. Amal Diallo",
+        "groupe": "TAC-1",
+        "jour": "Lundi",
         "debut": "09:00",
         "fin": "10:30",
         "salle": "Amphi B"
     },
     {
-        "module": "Systèmes et réseaux informatiques",
+        "module": "Méthodes Spectroscopiques",
         "type": "TD",
-        "enseignant": "Dr. Abdelaziz Meilleur",
-        "groupe": "IDAI-1-G1",
-        "jour": "Vendredi",
-        "debut": "14:15",
-        "fin": "15:45",
-        "salle": "TD-C2"
+        "enseignant": "Dr. Amal Diallo",
+        "groupe": "TAC-1",
+        "jour": "Mercredi",
+        "debut": "12:30",
+        "fin": "14:00",
+        "salle": "TD-E1"
     },
     {
-        "module": "Systèmes et réseaux informatiques",
-        "type": "TD",
-        "enseignant": "Dr. Abdelaziz Meilleur",
-        "groupe": "IDAI-1-G2",
-        "jour": "Vendredi",
-        "debut": "16:00",
-        "fin": "17:30",
-        "salle": "TD-C2"
-    },
-    {
-        "module": "Systèmes et réseaux informatiques",
+        "module": "Méthodes Spectroscopiques",
         "type": "TP",
-        "enseignant": "Dr. Abdelaziz Meilleur",
-        "groupe": "IDAI-1-G1",
-        "jour": "Samedi",
+        "enseignant": "Dr. Amal Diallo",
+        "groupe": "TAC-1",
+        "jour": "Mardi",
         "debut": "10:45",
         "fin": "12:15",
-        "salle": "TP-A3"
-    },
-    {
-        "module": "Systèmes et réseaux informatiques",
-        "type": "TP",
-        "enseignant": "Dr. Abdelaziz Meilleur",
-        "groupe": "IDAI-1-G2",
-        "jour": "Lundi",
-        "debut": "09:00",
-        "fin": "10:30",
         "salle": "TP-C2"
     },
     {
-        "module": "Systèmes et réseaux informatiques",
-        "type": "TP",
-        "enseignant": "Dr. Abdelaziz Meilleur",
-        "groupe": "IDAI-1-G3",
-        "jour": "Samedi",
-        "debut": "09:00",
-        "fin": "10:30",
-        "salle": "TP-E2"
-    },
-    {
-        "module": "Développement de Soft Skills",
+        "module": "Modélisations avancée et Méthodes de génie logiciel",
         "type": "Cours",
-        "enseignant": "Dr. Amira Dahy",
+        "enseignant": "Dr. Soraya Benazza",
         "groupe": "IDAI-1",
-        "jour": "Samedi",
-        "debut": "09:00",
-        "fin": "10:30",
-        "salle": "Amphi A"
-    },
-    {
-        "module": "Développement de Soft Skills",
-        "type": "TD",
-        "enseignant": "Dr. Amira Dahy",
-        "groupe": "IDAI-1-G1",
-        "jour": "Mardi",
-        "debut": "12:30",
-        "fin": "14:00",
-        "salle": "TD-A2"
-    },
-    {
-        "module": "Théories et Systèmes de Raisonnements Intelligents",
-        "type": "Cours",
-        "enseignant": "Dr. Khalid El Moumen",
-        "groupe": "AISD-1",
         "jour": "Lundi",
         "debut": "09:00",
         "fin": "10:30",
         "salle": "Amphi C"
     },
     {
-        "module": "Théories et Systèmes de Raisonnements Intelligents",
-        "type": "TP",
-        "enseignant": "Dr. Khalid El Moumen",
-        "groupe": "AISD-1-G1",
-        "jour": "Mardi",
-        "debut": "09:00",
-        "fin": "10:30",
-        "salle": "TP-D2"
-    },
-    {
-        "module": "Théories et Systèmes de Raisonnements Intelligents",
-        "type": "TP",
-        "enseignant": "Dr. Khalid El Moumen",
-        "groupe": "AISD-1-G2",
-        "jour": "Mardi",
-        "debut": "10:45",
-        "fin": "12:15",
-        "salle": "TP-A3"
-    },
-    {
-        "module": "Mathématiques pour Analyse De données",
-        "type": "Cours",
-        "enseignant": "Dr. Laila Youssef",
-        "groupe": "AISD-1",
+        "module": "Modélisations avancée et Méthodes de génie logiciel",
+        "type": "TD",
+        "enseignant": "Dr. Soraya Benazza",
+        "groupe": "IDAI-1",
         "jour": "Mardi",
         "debut": "09:00",
         "fin": "10:30",
         "salle": "Amphi C"
     },
     {
-        "module": "Mathématiques pour Analyse De données",
+        "module": "Modélisations avancée et Méthodes de génie logiciel",
         "type": "TP",
-        "enseignant": "Dr. Laila Youssef",
-        "groupe": "AISD-1-G1",
+        "enseignant": "Dr. Soraya Benazza",
+        "groupe": "IDAI-1",
         "jour": "Mercredi",
         "debut": "09:00",
         "fin": "10:30",
-        "salle": "TP-E2"
+        "salle": "Amphi B"
     },
     {
-        "module": "Mathématiques pour Analyse De données",
-        "type": "TP",
-        "enseignant": "Dr. Laila Youssef",
-        "groupe": "AISD-1-G2",
-        "jour": "Mercredi",
-        "debut": "10:45",
-        "fin": "12:15",
-        "salle": "TP-C3"
-    },
-    {
-        "module": "Programmation Avancée",
+        "module": "Développement Web",
         "type": "Cours",
-        "enseignant": "Dr. Soraya Benazza",
-        "groupe": "AISD-1",
-        "jour": "Mercredi",
+        "enseignant": "Pr. Abdelmajid Zaoui",
+        "groupe": "IDAI-1",
+        "jour": "Jeudi",
         "debut": "09:00",
         "fin": "10:30",
         "salle": "Amphi A"
     },
     {
-        "module": "Programmation Avancée",
+        "module": "Développement Web",
         "type": "TD",
-        "enseignant": "Dr. Soraya Benazza",
-        "groupe": "AISD-1",
-        "jour": "Jeudi",
+        "enseignant": "Pr. Abdelmajid Zaoui",
+        "groupe": "IDAI-1",
+        "jour": "Vendredi",
         "debut": "10:45",
         "fin": "12:15",
-        "salle": "TD-C2"
-    },
-    {
-        "module": "Programmation Avancée",
-        "type": "TP",
-        "enseignant": "Dr. Soraya Benazza",
-        "groupe": "AISD-1-G1",
-        "jour": "Jeudi",
-        "debut": "12:30",
-        "fin": "14:00",
-        "salle": "TP-A3"
-    },
-    {
-        "module": "Programmation Avancée",
-        "type": "TP",
-        "enseignant": "Dr. Soraya Benazza",
-        "groupe": "AISD-1-G2",
-        "jour": "Jeudi",
-        "debut": "14:15",
-        "fin": "15:45",
-        "salle": "TP-D1"
-    },
-    {
-        "module": "Bases De Données Avancées",
-        "type": "Cours",
-        "enseignant": "Dr. Amina Ouadir",
-        "groupe": "AISD-1",
-        "jour": "Vendredi",
-        "debut": "14:15",
-        "fin": "15:45",
         "salle": "Grande-C2"
     },
     {
-        "module": "Bases De Données Avancées",
-        "type": "TD",
-        "enseignant": "Dr. Amina Ouadir",
-        "groupe": "AISD-1",
-        "jour": "Mardi",
-        "debut": "16:00",
-        "fin": "17:30",
-        "salle": "TD-D1"
-    },
-    {
-        "module": "Bases De Données Avancées",
+        "module": "Développement Web",
         "type": "TP",
-        "enseignant": "Dr. Amina Ouadir",
-        "groupe": "AISD-1-G1",
-        "jour": "Samedi",
-        "debut": "10:45",
-        "fin": "12:15",
-        "salle": "TP-C3"
-    },
-    {
-        "module": "Bases De Données Avancées",
-        "type": "TP",
-        "enseignant": "Dr. Amina Ouadir",
-        "groupe": "AISD-1-G2",
-        "jour": "Lundi",
-        "debut": "14:15",
-        "fin": "15:45",
-        "salle": "TP-E1"
-    },
-    {
-        "module": "Machine Learning 1",
-        "type": "Cours",
-        "enseignant": "Dr. Samira Bloul",
-        "groupe": "AISD-1",
+        "enseignant": "Pr. Abdelmajid Zaoui",
+        "groupe": "IDAI-1",
         "jour": "Samedi",
         "debut": "09:00",
         "fin": "10:30",
         "salle": "Amphi B"
     },
     {
-        "module": "Machine Learning 1",
+        "module": "Base de données Structurées et Non structurées",
+        "type": "Cours",
+        "enseignant": "Dr. Amina Ouadir",
+        "groupe": "IDAI-1",
+        "jour": "Lundi",
+        "debut": "10:45",
+        "fin": "12:15",
+        "salle": "Amphi A"
+    },
+    {
+        "module": "Base de données Structurées et Non structurées",
+        "type": "TD",
+        "enseignant": "Dr. Amina Ouadir",
+        "groupe": "IDAI-1",
+        "jour": "Mardi",
+        "debut": "12:30",
+        "fin": "14:00",
+        "salle": "Grande-D3"
+    },
+    {
+        "module": "Base de données Structurées et Non structurées",
         "type": "TP",
-        "enseignant": "Dr. Samira Bloul",
-        "groupe": "AISD-1-G1",
+        "enseignant": "Dr. Amina Ouadir",
+        "groupe": "IDAI-1",
+        "jour": "Mercredi",
+        "debut": "12:30",
+        "fin": "14:00",
+        "salle": "Grande-A1"
+    },
+    {
+        "module": "Programmation Orientée Objet en C++/Java",
+        "type": "Cours",
+        "enseignant": "Dr. Soraya Benazza",
+        "groupe": "IDAI-1",
+        "jour": "Jeudi",
+        "debut": "10:45",
+        "fin": "12:15",
+        "salle": "Amphi A"
+    },
+    {
+        "module": "Programmation Orientée Objet en C++/Java",
+        "type": "TD",
+        "enseignant": "Dr. Soraya Benazza",
+        "groupe": "IDAI-1",
+        "jour": "Vendredi",
+        "debut": "09:00",
+        "fin": "10:30",
+        "salle": "Amphi B"
+    },
+    {
+        "module": "Programmation Orientée Objet en C++/Java",
+        "type": "TP",
+        "enseignant": "Dr. Soraya Benazza",
+        "groupe": "IDAI-1",
+        "jour": "Samedi",
+        "debut": "10:45",
+        "fin": "12:15",
+        "salle": "Grande-C2"
+    },
+    {
+        "module": "Systèmes et réseaux informatiques",
+        "type": "Cours",
+        "enseignant": "Dr. Abdelaziz Meilleur",
+        "groupe": "IDAI-1",
+        "jour": "Lundi",
+        "debut": "12:30",
+        "fin": "14:00",
+        "salle": "Grande-C2"
+    },
+    {
+        "module": "Systèmes et réseaux informatiques",
+        "type": "TD",
+        "enseignant": "Dr. Abdelaziz Meilleur",
+        "groupe": "IDAI-1",
+        "jour": "Mardi",
+        "debut": "10:45",
+        "fin": "12:15",
+        "salle": "Grande-D3"
+    },
+    {
+        "module": "Systèmes et réseaux informatiques",
+        "type": "TP",
+        "enseignant": "Dr. Abdelaziz Meilleur",
+        "groupe": "IDAI-1",
+        "jour": "Mercredi",
+        "debut": "10:45",
+        "fin": "12:15",
+        "salle": "Grande-E4"
+    },
+    {
+        "module": "Développement de Soft Skills",
+        "type": "Cours",
+        "enseignant": "Dr. Amira Dahy",
+        "groupe": "IDAI-1",
+        "jour": "Jeudi",
+        "debut": "12:30",
+        "fin": "14:00",
+        "salle": "Grande-D3"
+    },
+    {
+        "module": "Développement de Soft Skills",
+        "type": "TD",
+        "enseignant": "Dr. Amira Dahy",
+        "groupe": "IDAI-1",
+        "jour": "Vendredi",
+        "debut": "14:15",
+        "fin": "15:45",
+        "salle": "Grande-D3"
+    },
+    {
+        "module": "Théories et Systèmes de Raisonnements Intelligents",
+        "type": "Cours",
+        "enseignant": "Dr. Khalid El Moumen",
+        "groupe": "AISD-1",
+        "jour": "Mercredi",
+        "debut": "09:00",
+        "fin": "10:30",
+        "salle": "Amphi C"
+    },
+    {
+        "module": "Théories et Systèmes de Raisonnements Intelligents",
+        "type": "TD",
+        "enseignant": "Dr. Khalid El Moumen",
+        "groupe": "AISD-1",
         "jour": "Lundi",
         "debut": "09:00",
         "fin": "10:30",
-        "salle": "TP-D2"
+        "salle": "TD-C2"
+    },
+    {
+        "module": "Théories et Systèmes de Raisonnements Intelligents",
+        "type": "TP",
+        "enseignant": "Dr. Khalid El Moumen",
+        "groupe": "AISD-1",
+        "jour": "Jeudi",
+        "debut": "09:00",
+        "fin": "10:30",
+        "salle": "Amphi B"
+    },
+    {
+        "module": "Mathématiques pour Analyse De données",
+        "type": "Cours",
+        "enseignant": "Dr. Laila Youssef",
+        "groupe": "AISD-1",
+        "jour": "Vendredi",
+        "debut": "09:00",
+        "fin": "10:30",
+        "salle": "Amphi C"
+    },
+    {
+        "module": "Mathématiques pour Analyse De données",
+        "type": "TD",
+        "enseignant": "Dr. Laila Youssef",
+        "groupe": "AISD-1",
+        "jour": "Lundi",
+        "debut": "10:45",
+        "fin": "12:15",
+        "salle": "TD-C2"
+    },
+    {
+        "module": "Mathématiques pour Analyse De données",
+        "type": "TP",
+        "enseignant": "Dr. Laila Youssef",
+        "groupe": "AISD-1",
+        "jour": "Samedi",
+        "debut": "09:00",
+        "fin": "10:30",
+        "salle": "Amphi C"
+    },
+    {
+        "module": "Programmation Avancée",
+        "type": "Cours",
+        "enseignant": "Dr. Soraya Benazza",
+        "groupe": "AISD-1",
+        "jour": "Mardi",
+        "debut": "10:45",
+        "fin": "12:15",
+        "salle": "Grande-E4"
+    },
+    {
+        "module": "Programmation Avancée",
+        "type": "TD",
+        "enseignant": "Dr. Soraya Benazza",
+        "groupe": "AISD-1",
+        "jour": "Mardi",
+        "debut": "12:30",
+        "fin": "14:00",
+        "salle": "TD-A2"
+    },
+    {
+        "module": "Programmation Avancée",
+        "type": "TP",
+        "enseignant": "Dr. Soraya Benazza",
+        "groupe": "AISD-1",
+        "jour": "Mercredi",
+        "debut": "10:45",
+        "fin": "12:15",
+        "salle": "Amphi A"
+    },
+    {
+        "module": "Bases De Données Avancées",
+        "type": "Cours",
+        "enseignant": "Dr. Amina Ouadir",
+        "groupe": "AISD-1",
+        "jour": "Jeudi",
+        "debut": "10:45",
+        "fin": "12:15",
+        "salle": "Amphi B"
+    },
+    {
+        "module": "Bases De Données Avancées",
+        "type": "TD",
+        "enseignant": "Dr. Amina Ouadir",
+        "groupe": "AISD-1",
+        "jour": "Lundi",
+        "debut": "12:30",
+        "fin": "14:00",
+        "salle": "TD-C2"
+    },
+    {
+        "module": "Bases De Données Avancées",
+        "type": "TP",
+        "enseignant": "Dr. Amina Ouadir",
+        "groupe": "AISD-1",
+        "jour": "Vendredi",
+        "debut": "10:45",
+        "fin": "12:15",
+        "salle": "Grande-D3"
+    },
+    {
+        "module": "Machine Learning 1",
+        "type": "Cours",
+        "enseignant": "Dr. Samira Bloul",
+        "groupe": "AISD-1",
+        "jour": "Samedi",
+        "debut": "10:45",
+        "fin": "12:15",
+        "salle": "Grande-D3"
+    },
+    {
+        "module": "Machine Learning 1",
+        "type": "TD",
+        "enseignant": "Dr. Samira Bloul",
+        "groupe": "AISD-1",
+        "jour": "Mercredi",
+        "debut": "12:30",
+        "fin": "14:00",
+        "salle": "TD-A2"
     },
     {
         "module": "Machine Learning 1",
         "type": "TP",
         "enseignant": "Dr. Samira Bloul",
-        "groupe": "AISD-1-G2",
+        "groupe": "AISD-1",
         "jour": "Jeudi",
-        "debut": "09:00",
-        "fin": "10:30",
-        "salle": "TP-E2"
+        "debut": "12:30",
+        "fin": "14:00",
+        "salle": "Grande-E4"
     },
     {
         "module": "Anglais et Technique d'Expression",
         "type": "Cours",
         "enseignant": "Dr. Nadia Lahsen",
         "groupe": "AISD-1",
-        "jour": "Lundi",
+        "jour": "Mardi",
         "debut": "14:15",
         "fin": "15:45",
-        "salle": "Grande-C2"
+        "salle": "Grande-A1"
+    },
+    {
+        "module": "Anglais et Technique d'Expression",
+        "type": "TD",
+        "enseignant": "Dr. Nadia Lahsen",
+        "groupe": "AISD-1",
+        "jour": "Vendredi",
+        "debut": "14:15",
+        "fin": "15:45",
+        "salle": "TD-E1"
     },
     {
         "module": "Multimedia mining And indexing",
         "type": "Cours",
         "enseignant": "Dr. Mohamed Salah",
         "groupe": "AISD-2",
+        "jour": "Jeudi",
+        "debut": "09:00",
+        "fin": "10:30",
+        "salle": "Amphi C"
+    },
+    {
+        "module": "Multimedia mining And indexing",
+        "type": "TD",
+        "enseignant": "Dr. Mohamed Salah",
+        "groupe": "AISD-2",
         "jour": "Mercredi",
         "debut": "09:00",
         "fin": "10:30",
+        "salle": "TD-A2"
+    },
+    {
+        "module": "Multimedia mining And indexing",
+        "type": "TP",
+        "enseignant": "Dr. Mohamed Salah",
+        "groupe": "AISD-2",
+        "jour": "Mercredi",
+        "debut": "10:45",
+        "fin": "12:15",
         "salle": "Amphi B"
     },
     {
-        "module": "Multimedia mining And indexing",
-        "type": "TP",
-        "enseignant": "Dr. Mohamed Salah",
-        "groupe": "AISD-2-G1",
-        "jour": "Lundi",
-        "debut": "09:00",
-        "fin": "10:30",
-        "salle": "TP-E2"
+        "module": "Deep and transfert learning",
+        "type": "Cours",
+        "enseignant": "Dr. Samira Bloul",
+        "groupe": "AISD-2",
+        "jour": "Jeudi",
+        "debut": "10:45",
+        "fin": "12:15",
+        "salle": "Amphi C"
     },
     {
-        "module": "Multimedia mining And indexing",
+        "module": "Deep and transfert learning",
+        "type": "TD",
+        "enseignant": "Dr. Samira Bloul",
+        "groupe": "AISD-2",
+        "jour": "Vendredi",
+        "debut": "09:00",
+        "fin": "10:30",
+        "salle": "TD-A2"
+    },
+    {
+        "module": "Deep and transfert learning",
+        "type": "TP",
+        "enseignant": "Dr. Samira Bloul",
+        "groupe": "AISD-2",
+        "jour": "Vendredi",
+        "debut": "10:45",
+        "fin": "12:15",
+        "salle": "Grande-E4"
+    },
+    {
+        "module": "Data Spaces & Data Integration & Semantic inter operability",
+        "type": "Cours",
+        "enseignant": "Dr. Mohamed Salah",
+        "groupe": "AISD-2",
+        "jour": "Mercredi",
+        "debut": "12:30",
+        "fin": "14:00",
+        "salle": "Grande-C2"
+    },
+    {
+        "module": "Data Spaces & Data Integration & Semantic inter operability",
+        "type": "TD",
+        "enseignant": "Dr. Mohamed Salah",
+        "groupe": "AISD-2",
+        "jour": "Jeudi",
+        "debut": "12:30",
+        "fin": "14:00",
+        "salle": "TD-A2"
+    },
+    {
+        "module": "Data Spaces & Data Integration & Semantic inter operability",
         "type": "TP",
         "enseignant": "Dr. Mohamed Salah",
-        "groupe": "AISD-2-G2",
+        "groupe": "AISD-2",
+        "jour": "Vendredi",
+        "debut": "14:15",
+        "fin": "15:45",
+        "salle": "Grande-E4"
+    },
+    {
+        "module": "Blockchain & sécurité applicative",
+        "type": "Cours",
+        "enseignant": "Dr. Khalil Amirouche",
+        "groupe": "AISD-2",
+        "jour": "Mercredi",
+        "debut": "14:15",
+        "fin": "15:45",
+        "salle": "Grande-D3"
+    },
+    {
+        "module": "Blockchain & sécurité applicative",
+        "type": "TD",
+        "enseignant": "Dr. Khalil Amirouche",
+        "groupe": "AISD-2",
+        "jour": "Jeudi",
+        "debut": "14:15",
+        "fin": "15:45",
+        "salle": "TD-E1"
+    },
+    {
+        "module": "Blockchain & sécurité applicative",
+        "type": "TP",
+        "enseignant": "Dr. Khalil Amirouche",
+        "groupe": "AISD-2",
+        "jour": "Vendredi",
+        "debut": "16:00",
+        "fin": "17:30",
+        "salle": "Grande-A1"
+    },
+    {
+        "module": "Technologies de virtualisation appliquées au cloud et edge computing",
+        "type": "Cours",
+        "enseignant": "Dr. Selma Ouazzani",
+        "groupe": "AISD-2",
+        "jour": "Mercredi",
+        "debut": "16:00",
+        "fin": "17:30",
+        "salle": "Grande-A1"
+    },
+    {
+        "module": "Technologies de virtualisation appliquées au cloud et edge computing",
+        "type": "TD",
+        "enseignant": "Dr. Selma Ouazzani",
+        "groupe": "AISD-2",
+        "jour": "Jeudi",
+        "debut": "16:00",
+        "fin": "17:30",
+        "salle": "TD-E1"
+    },
+    {
+        "module": "Méthodes numériques",
+        "type": "TD",
+        "enseignant": "Dr. Fatemah Reza",
+        "groupe": "GC-M-1",
+        "jour": "Mercredi",
+        "debut": "09:00",
+        "fin": "10:30",
+        "salle": "TD-C2"
+    },
+    {
+        "module": "Méthodes numériques",
+        "type": "TP",
+        "enseignant": "Dr. Fatemah Reza",
+        "groupe": "GC-M-1",
+        "jour": "Mercredi",
+        "debut": "10:45",
+        "fin": "12:15",
+        "salle": "Amphi C"
+    },
+    {
+        "module": "Calculs et Analyses des Structures",
+        "type": "Cours",
+        "enseignant": "Pr. Jamal Saidouni",
+        "groupe": "GC-M-1",
+        "jour": "Samedi",
+        "debut": "10:45",
+        "fin": "12:15",
+        "salle": "Grande-E4"
+    },
+    {
+        "module": "Calculs et Analyses des Structures",
+        "type": "TD",
+        "enseignant": "Pr. Jamal Saidouni",
+        "groupe": "GC-M-1",
+        "jour": "Vendredi",
+        "debut": "09:00",
+        "fin": "10:30",
+        "salle": "TD-C2"
+    },
+    {
+        "module": "Calculs et Analyses des Structures",
+        "type": "TP",
+        "enseignant": "Pr. Jamal Saidouni",
+        "groupe": "GC-M-1",
+        "jour": "Vendredi",
+        "debut": "10:45",
+        "fin": "12:15",
+        "salle": "Amphi A"
+    },
+    {
+        "module": "Mathématiques pour l'ingénieur",
+        "type": "Cours",
+        "enseignant": "Dr. Laila Youssef",
+        "groupe": "GC-M-1",
+        "jour": "Mercredi",
+        "debut": "12:30",
+        "fin": "14:00",
+        "salle": "Grande-D3"
+    },
+    {
+        "module": "Mathématiques pour l'ingénieur",
+        "type": "TD",
+        "enseignant": "Dr. Laila Youssef",
+        "groupe": "GC-M-1",
+        "jour": "Vendredi",
+        "debut": "14:15",
+        "fin": "15:45",
+        "salle": "TD-A2"
+    },
+    {
+        "module": "Mathématiques pour l'ingénieur",
+        "type": "TP",
+        "enseignant": "Dr. Laila Youssef",
+        "groupe": "GC-M-1",
+        "jour": "Mercredi",
+        "debut": "14:15",
+        "fin": "15:45",
+        "salle": "Grande-E4"
+    },
+    {
+        "module": "Géophysique Appliquée & Géo-risques",
+        "type": "Cours",
+        "enseignant": "Dr. Aissa Benani",
+        "groupe": "GC-M-1",
         "jour": "Lundi",
         "debut": "10:45",
         "fin": "12:15",
+        "salle": "Amphi B"
+    },
+    {
+        "module": "Géophysique Appliquée & Géo-risques",
+        "type": "TD",
+        "enseignant": "Dr. Aissa Benani",
+        "groupe": "GC-M-1",
+        "jour": "Jeudi",
+        "debut": "10:45",
+        "fin": "12:15",
+        "salle": "TD-C2"
+    },
+    {
+        "module": "Géophysique Appliquée & Géo-risques",
+        "type": "TP",
+        "enseignant": "Dr. Aissa Benani",
+        "groupe": "GC-M-1",
+        "jour": "Lundi",
+        "debut": "12:30",
+        "fin": "14:00",
+        "salle": "Grande-D3"
+    },
+    {
+        "module": "Géotechnique",
+        "type": "Cours",
+        "enseignant": "Dr. Aissa Benani",
+        "groupe": "GC-M-1",
+        "jour": "Jeudi",
+        "debut": "12:30",
+        "fin": "14:00",
+        "salle": "Amphi A"
+    },
+    {
+        "module": "Géotechnique",
+        "type": "TD",
+        "enseignant": "Dr. Aissa Benani",
+        "groupe": "GC-M-1",
+        "jour": "Jeudi",
+        "debut": "14:15",
+        "fin": "15:45",
+        "salle": "TD-A2"
+    },
+    {
+        "module": "Géotechnique",
+        "type": "TP",
+        "enseignant": "Dr. Aissa Benani",
+        "groupe": "GC-M-1",
+        "jour": "Lundi",
+        "debut": "14:15",
+        "fin": "15:45",
+        "salle": "Grande-C2"
+    },
+    {
+        "module": "Matériaux de construction",
+        "type": "Cours",
+        "enseignant": "Dr. Fatma Lebhar",
+        "groupe": "GC-M-1",
+        "jour": "Vendredi",
+        "debut": "16:00",
+        "fin": "17:30",
+        "salle": "Grande-C2"
+    },
+    {
+        "module": "Matériaux de construction",
+        "type": "TD",
+        "enseignant": "Dr. Fatma Lebhar",
+        "groupe": "GC-M-1",
+        "jour": "Mercredi",
+        "debut": "16:00",
+        "fin": "17:30",
+        "salle": "TD-C2"
+    },
+    {
+        "module": "Ouvrages de Génie Civil",
+        "type": "Cours",
+        "enseignant": "Pr. Jamal Saidouni",
+        "groupe": "GC-M-2",
+        "jour": "Vendredi",
+        "debut": "14:15",
+        "fin": "15:45",
+        "salle": "Amphi A"
+    },
+    {
+        "module": "Ouvrages de Génie Civil",
+        "type": "TD",
+        "enseignant": "Pr. Jamal Saidouni",
+        "groupe": "GC-M-2",
+        "jour": "Vendredi",
+        "debut": "16:00",
+        "fin": "17:30",
+        "salle": "TD-A2"
+    },
+    {
+        "module": "Assainissement",
+        "type": "Cours",
+        "enseignant": "Pr. Samir Khaddor",
+        "groupe": "GC-M-2",
+        "jour": "Lundi",
+        "debut": "16:00",
+        "fin": "17:30",
+        "salle": "Grande-D3"
+    },
+    {
+        "module": "Assainissement",
+        "type": "TP",
+        "enseignant": "Pr. Samir Khaddor",
+        "groupe": "GC-M-2",
+        "jour": "Mardi",
+        "debut": "10:45",
+        "fin": "12:15",
+        "salle": "Amphi A"
+    },
+    {
+        "module": "Thermodynamique Industrielle",
+        "type": "Cours",
+        "enseignant": "Pr. Salem Mansour",
+        "groupe": "SE-1",
+        "jour": "Lundi",
+        "debut": "09:00",
+        "fin": "10:30",
+        "salle": "Cours-A1"
+    },
+    {
+        "module": "Thermodynamique Industrielle",
+        "type": "TP",
+        "enseignant": "Pr. Salem Mansour",
+        "groupe": "SE-1",
+        "jour": "Mardi",
+        "debut": "09:00",
+        "fin": "10:30",
+        "salle": "TP-A2"
+    },
+    {
+        "module": "Transferts Thermiques",
+        "type": "Cours",
+        "enseignant": "Pr. Salem Mansour",
+        "groupe": "SE-1",
+        "jour": "Mercredi",
+        "debut": "09:00",
+        "fin": "10:30",
+        "salle": "Cours-A1"
+    },
+    {
+        "module": "Transferts Thermiques",
+        "type": "TD",
+        "enseignant": "Pr. Salem Mansour",
+        "groupe": "SE-1",
+        "jour": "Mercredi",
+        "debut": "10:45",
+        "fin": "12:15",
+        "salle": "TD-A2"
+    },
+    {
+        "module": "Transferts Thermiques",
+        "type": "TP",
+        "enseignant": "Pr. Salem Mansour",
+        "groupe": "SE-1",
+        "jour": "Jeudi",
+        "debut": "09:00",
+        "fin": "10:30",
         "salle": "TP-C2"
     },
     {
-        "module": "Deep and transfert learning",
+        "module": "Mathématiques de l'Ingénieur",
         "type": "Cours",
-        "enseignant": "Dr. Samira Bloul",
-        "groupe": "AISD-2",
-        "jour": "Lundi",
-        "debut": "10:45",
-        "fin": "12:15",
-        "salle": "Grande-E4"
-    },
-    {
-        "module": "Deep and transfert learning",
-        "type": "TP",
-        "enseignant": "Dr. Samira Bloul",
-        "groupe": "AISD-2-G1",
-        "jour": "Mardi",
-        "debut": "09:00",
-        "fin": "10:30",
-        "salle": "TP-E2"
-    },
-    {
-        "module": "Deep and transfert learning",
-        "type": "TP",
-        "enseignant": "Dr. Samira Bloul",
-        "groupe": "AISD-2-G2",
-        "jour": "Mardi",
-        "debut": "10:45",
-        "fin": "12:15",
-        "salle": "TP-C3"
-    },
-    {
-        "module": "Data Spaces & Data Integration & Semantic inter operability",
-        "type": "Cours",
-        "enseignant": "Dr. Mohamed Salah",
-        "groupe": "AISD-2",
-        "jour": "Jeudi",
-        "debut": "09:00",
-        "fin": "10:30",
-        "salle": "Amphi A"
-    },
-    {
-        "module": "Data Spaces & Data Integration & Semantic inter operability",
-        "type": "TP",
-        "enseignant": "Dr. Mohamed Salah",
-        "groupe": "AISD-2-G1",
-        "jour": "Vendredi",
-        "debut": "09:00",
-        "fin": "10:30",
-        "salle": "TP-A3"
-    },
-    {
-        "module": "Data Spaces & Data Integration & Semantic inter operability",
-        "type": "TP",
-        "enseignant": "Dr. Mohamed Salah",
-        "groupe": "AISD-2-G2",
+        "enseignant": "Dr. Laila Youssef",
+        "groupe": "SE-1",
         "jour": "Vendredi",
         "debut": "10:45",
         "fin": "12:15",
-        "salle": "TP-E3"
+        "salle": "Cours-A1"
     },
     {
-        "module": "Blockchain & sécurité applicative",
-        "type": "Cours",
-        "enseignant": "Dr. Khalil Amirouche",
-        "groupe": "AISD-2",
+        "module": "Mathématiques de l'Ingénieur",
+        "type": "TD",
+        "enseignant": "Dr. Laila Youssef",
+        "groupe": "SE-1",
         "jour": "Vendredi",
-        "debut": "09:00",
-        "fin": "10:30",
-        "salle": "Amphi C"
+        "debut": "16:00",
+        "fin": "17:30",
+        "salle": "TD-C2"
     },
     {
-        "module": "Blockchain & sécurité applicative",
+        "module": "Mathématiques de l'Ingénieur",
         "type": "TP",
-        "enseignant": "Dr. Khalil Amirouche",
-        "groupe": "AISD-2-G1",
+        "enseignant": "Dr. Laila Youssef",
+        "groupe": "SE-1",
         "jour": "Samedi",
-        "debut": "09:00",
-        "fin": "10:30",
-        "salle": "TP-A3"
-    },
-    {
-        "module": "Blockchain & sécurité applicative",
-        "type": "TP",
-        "enseignant": "Dr. Khalil Amirouche",
-        "groupe": "AISD-2-G2",
-        "jour": "Samedi",
-        "debut": "10:45",
-        "fin": "12:15",
-        "salle": "TP-D3"
-    },
-    {
-        "module": "Technologies de virtualisation appliquées au cloud et edge computing",
-        "type": "Cours",
-        "enseignant": "Dr. Selma Ouazzani",
-        "groupe": "AISD-2",
-        "jour": "Samedi",
-        "debut": "09:00",
-        "fin": "10:30",
-        "salle": "Amphi C"
-    },
-    {
-        "module": "Technologies de virtualisation appliquées au cloud et edge computing",
-        "type": "TP",
-        "enseignant": "Dr. Selma Ouazzani",
-        "groupe": "AISD-2-G1",
-        "jour": "Mardi",
-        "debut": "10:45",
-        "fin": "12:15",
-        "salle": "TP-D3"
-    },
-    {
-        "module": "Technologies de virtualisation appliquées au cloud et edge computing",
-        "type": "TP",
-        "enseignant": "Dr. Selma Ouazzani",
-        "groupe": "AISD-2-G2",
-        "jour": "Mardi",
-        "debut": "09:00",
-        "fin": "10:30",
-        "salle": "TP-A3"
-    },
-    {
-        "module": "Digital business strategies and leadership in the age of AI",
-        "type": "Cours",
-        "enseignant": "Dr. Sonia Bekkali",
-        "groupe": "AISD-2",
-        "jour": "Mercredi",
-        "debut": "10:45",
-        "fin": "12:15",
-        "salle": "Grande-D3"
-    },
-    {
-        "module": "Méthodes numériques",
-        "type": "Cours",
-        "enseignant": "Dr. Fatemah Reza",
-        "groupe": "GC-M-1",
-        "jour": "Mercredi",
-        "debut": "09:00",
-        "fin": "10:30",
-        "salle": "Amphi C"
-    },
-    {
-        "module": "Méthodes numériques",
-        "type": "TP",
-        "enseignant": "Dr. Fatemah Reza",
-        "groupe": "GC-M-1-G1",
-        "jour": "Lundi",
-        "debut": "09:00",
-        "fin": "10:30",
-        "salle": "TP-A3"
-    },
-    {
-        "module": "Méthodes numériques",
-        "type": "TP",
-        "enseignant": "Dr. Fatemah Reza",
-        "groupe": "GC-M-1-G2",
-        "jour": "Lundi",
         "debut": "10:45",
         "fin": "12:15",
         "salle": "TP-D2"
     },
     {
-        "module": "Calculs et Analyses des Structures",
+        "module": "Mécanique des Fluides",
         "type": "Cours",
-        "enseignant": "Pr. Jamal Saidouni",
-        "groupe": "GC-M-1",
-        "jour": "Jeudi",
-        "debut": "09:00",
-        "fin": "10:30",
-        "salle": "Amphi B"
-    },
-    {
-        "module": "Calculs et Analyses des Structures",
-        "type": "TP",
-        "enseignant": "Pr. Jamal Saidouni",
-        "groupe": "GC-M-1-G1",
+        "enseignant": "Pr. Samir Khaddor",
+        "groupe": "SE-1",
         "jour": "Mardi",
-        "debut": "09:00",
-        "fin": "10:30",
-        "salle": "TP-C3"
+        "debut": "12:30",
+        "fin": "14:00",
+        "salle": "Cours-A1"
     },
     {
-        "module": "Calculs et Analyses des Structures",
-        "type": "TP",
-        "enseignant": "Pr. Jamal Saidouni",
-        "groupe": "GC-M-1-G2",
-        "jour": "Mardi",
-        "debut": "14:15",
-        "fin": "15:45",
-        "salle": "TP-E2"
-    },
-    {
-        "module": "Mathématiques pour l'ingénieur",
-        "type": "Cours",
-        "enseignant": "Dr. Laila Youssef",
-        "groupe": "GC-M-1",
-        "jour": "Mardi",
-        "debut": "10:45",
-        "fin": "12:15",
-        "salle": "Grande-C2"
-    },
-    {
-        "module": "Mathématiques pour l'ingénieur",
+        "module": "Mécanique des Fluides",
         "type": "TD",
-        "enseignant": "Dr. Laila Youssef",
-        "groupe": "GC-M-1",
-        "jour": "Mardi",
+        "enseignant": "Pr. Samir Khaddor",
+        "groupe": "SE-1",
+        "jour": "Jeudi",
         "debut": "12:30",
         "fin": "14:00",
         "salle": "TD-C2"
     },
     {
-        "module": "Mathématiques pour l'ingénieur",
-        "type": "TP",
-        "enseignant": "Dr. Laila Youssef",
-        "groupe": "GC-M-1-G1",
-        "jour": "Vendredi",
-        "debut": "09:00",
-        "fin": "10:30",
-        "salle": "TP-C3"
-    },
-    {
-        "module": "Mathématiques pour l'ingénieur",
-        "type": "TP",
-        "enseignant": "Dr. Laila Youssef",
-        "groupe": "GC-M-1-G2",
-        "jour": "Vendredi",
-        "debut": "10:45",
-        "fin": "12:15",
-        "salle": "TP-A4"
-    },
-    {
-        "module": "Géophysique Appliquée & Géo-risques",
-        "type": "Cours",
-        "enseignant": "Dr. Aissa Benani",
-        "groupe": "GC-M-1",
-        "jour": "Lundi",
-        "debut": "10:45",
-        "fin": "12:15",
-        "salle": "Amphi A"
-    },
-    {
-        "module": "Géophysique Appliquée & Géo-risques",
-        "type": "TP",
-        "enseignant": "Dr. Aissa Benani",
-        "groupe": "GC-M-1-G1",
-        "jour": "Samedi",
-        "debut": "09:00",
-        "fin": "10:30",
-        "salle": "TP-C3"
-    },
-    {
-        "module": "Géophysique Appliquée & Géo-risques",
-        "type": "TP",
-        "enseignant": "Dr. Aissa Benani",
-        "groupe": "GC-M-1-G2",
-        "jour": "Samedi",
-        "debut": "10:45",
-        "fin": "12:15",
-        "salle": "TP-E3"
-    },
-    {
-        "module": "Géotechnique",
-        "type": "Cours",
-        "enseignant": "Dr. Aissa Benani",
-        "groupe": "GC-M-1",
-        "jour": "Lundi",
-        "debut": "12:30",
-        "fin": "14:00",
-        "salle": "Grande-C2"
-    },
-    {
-        "module": "Géotechnique",
-        "type": "TP",
-        "enseignant": "Dr. Aissa Benani",
-        "groupe": "GC-M-1-G1",
-        "jour": "Mercredi",
-        "debut": "10:45",
-        "fin": "12:15",
-        "salle": "TP-D3"
-    },
-    {
-        "module": "Géotechnique",
-        "type": "TP",
-        "enseignant": "Dr. Aissa Benani",
-        "groupe": "GC-M-1-G2",
-        "jour": "Mercredi",
-        "debut": "12:30",
-        "fin": "14:00",
-        "salle": "TP-E3"
-    },
-    {
-        "module": "Matériaux de construction",
-        "type": "Cours",
-        "enseignant": "Dr. Fatma Lebhar",
-        "groupe": "GC-M-1",
-        "jour": "Mercredi",
-        "debut": "10:45",
-        "fin": "12:15",
-        "salle": "Grande-E4"
-    },
-    {
-        "module": "Matériaux de construction",
-        "type": "TP",
-        "enseignant": "Dr. Fatma Lebhar",
-        "groupe": "GC-M-1-G1",
-        "jour": "Jeudi",
-        "debut": "09:00",
-        "fin": "10:30",
-        "salle": "TP-A3"
-    },
-    {
-        "module": "Matériaux de construction",
-        "type": "TP",
-        "enseignant": "Dr. Fatma Lebhar",
-        "groupe": "GC-M-1-G2",
-        "jour": "Jeudi",
-        "debut": "10:45",
-        "fin": "12:15",
-        "salle": "TP-A3"
-    },
-    {
-        "module": "Ouvrages de Génie Civil",
-        "type": "Cours",
-        "enseignant": "Pr. Jamal Saidouni",
-        "groupe": "GC-M-2",
-        "jour": "Mardi",
-        "debut": "16:00",
-        "fin": "17:30",
-        "salle": "Grande-C2"
-    },
-    {
-        "module": "Ouvrages de Génie Civil",
-        "type": "TP",
-        "enseignant": "Pr. Jamal Saidouni",
-        "groupe": "GC-M-2-G1",
-        "jour": "Lundi",
-        "debut": "09:00",
-        "fin": "10:30",
-        "salle": "TP-C3"
-    },
-    {
-        "module": "Ouvrages de Génie Civil",
-        "type": "TP",
-        "enseignant": "Pr. Jamal Saidouni",
-        "groupe": "GC-M-2-G2",
-        "jour": "Lundi",
-        "debut": "12:30",
-        "fin": "14:00",
-        "salle": "TP-D2"
-    },
-    {
-        "module": "Assainissement",
-        "type": "Cours",
-        "enseignant": "Pr. Samir Khaddor",
-        "groupe": "GC-M-2",
-        "jour": "Lundi",
-        "debut": "16:00",
-        "fin": "17:30",
-        "salle": "Grande-D3"
-    },
-    {
-        "module": "Assainissement",
-        "type": "TP",
-        "enseignant": "Pr. Samir Khaddor",
-        "groupe": "GC-M-2-G1",
-        "jour": "Mercredi",
-        "debut": "14:15",
-        "fin": "15:45",
-        "salle": "TP-A2"
-    },
-    {
-        "module": "Assainissement",
-        "type": "TP",
-        "enseignant": "Pr. Samir Khaddor",
-        "groupe": "GC-M-2-G2",
-        "jour": "Mercredi",
-        "debut": "16:00",
-        "fin": "17:30",
-        "salle": "TP-A2"
-    },
-    {
-        "module": "Construction Métallique",
-        "type": "Cours",
-        "enseignant": "Dr. Fatma Lebhar",
-        "groupe": "GC-M-2",
-        "jour": "Jeudi",
-        "debut": "14:15",
-        "fin": "15:45",
-        "salle": "Grande-D3"
-    },
-    {
-        "module": "Construction Métallique",
-        "type": "TD",
-        "enseignant": "Dr. Fatma Lebhar",
-        "groupe": "GC-M-2",
-        "jour": "Jeudi",
-        "debut": "16:00",
-        "fin": "17:30",
-        "salle": "TD-E1"
-    },
-    {
-        "module": "Construction Métallique",
-        "type": "TP",
-        "enseignant": "Dr. Fatma Lebhar",
-        "groupe": "GC-M-2-G1",
-        "jour": "Vendredi",
-        "debut": "09:00",
-        "fin": "10:30",
-        "salle": "TP-D3"
-    },
-    {
-        "module": "Construction Métallique",
-        "type": "TP",
-        "enseignant": "Dr. Fatma Lebhar",
-        "groupe": "GC-M-2-G2",
-        "jour": "Vendredi",
-        "debut": "10:45",
-        "fin": "12:15",
-        "salle": "TP-C4"
-    },
-    {
-        "module": "Urbanisme, Architecture et Construction durable",
-        "type": "Cours",
-        "enseignant": "Dr. Habib Najjar",
-        "groupe": "GC-M-2",
-        "jour": "Jeudi",
-        "debut": "09:00",
-        "fin": "10:30",
-        "salle": "Amphi C"
-    },
-    {
-        "module": "Urbanisme, Architecture et Construction durable",
-        "type": "TP",
-        "enseignant": "Dr. Habib Najjar",
-        "groupe": "GC-M-2-G1",
-        "jour": "Samedi",
-        "debut": "09:00",
-        "fin": "10:30",
-        "salle": "TP-D3"
-    },
-    {
-        "module": "Urbanisme, Architecture et Construction durable",
-        "type": "TP",
-        "enseignant": "Dr. Habib Najjar",
-        "groupe": "GC-M-2-G2",
-        "jour": "Samedi",
-        "debut": "10:45",
-        "fin": "12:15",
-        "salle": "TP-A4"
-    },
-    {
-        "module": "Efficacité énergétique dans les constructions",
-        "type": "Cours",
-        "enseignant": "Dr. Hana Benali",
-        "groupe": "GC-M-2",
-        "jour": "Jeudi",
-        "debut": "10:45",
-        "fin": "12:15",
-        "salle": "Grande-E4"
-    },
-    {
-        "module": "Efficacité énergétique dans les constructions",
-        "type": "TD",
-        "enseignant": "Dr. Hana Benali",
-        "groupe": "GC-M-2",
-        "jour": "Jeudi",
-        "debut": "12:30",
-        "fin": "14:00",
-        "salle": "TD-A2"
-    },
-    {
-        "module": "Efficacité énergétique dans les constructions",
-        "type": "TP",
-        "enseignant": "Dr. Hana Benali",
-        "groupe": "GC-M-2-G1",
-        "jour": "Mardi",
-        "debut": "09:00",
-        "fin": "10:30",
-        "salle": "TP-D3"
-    },
-    {
-        "module": "Efficacité énergétique dans les constructions",
-        "type": "TP",
-        "enseignant": "Dr. Hana Benali",
-        "groupe": "GC-M-2-G2",
-        "jour": "Mardi",
-        "debut": "10:45",
-        "fin": "12:15",
-        "salle": "TP-E3"
-    },
-    {
-        "module": "Management de projet & BIM",
-        "type": "TP",
-        "enseignant": "Dr. Zaineb Larbi",
-        "groupe": "GC-M-2-G1",
-        "jour": "Mercredi",
-        "debut": "09:00",
-        "fin": "10:30",
-        "salle": "TP-A3"
-    },
-    {
-        "module": "Management de projet & BIM",
-        "type": "TP",
-        "enseignant": "Dr. Zaineb Larbi",
-        "groupe": "GC-M-2-G2",
-        "jour": "Mercredi",
-        "debut": "10:45",
-        "fin": "12:15",
-        "salle": "TP-E3"
-    },
-    {
-        "module": "Thermodynamique Industrielle",
-        "type": "Cours",
-        "enseignant": "Pr. Salem Mansour",
-        "groupe": "SE-1",
-        "jour": "Lundi",
-        "debut": "09:00",
-        "fin": "10:30",
-        "salle": "Cours-A1"
-    },
-    {
-        "module": "Thermodynamique Industrielle",
-        "type": "TP",
-        "enseignant": "Pr. Salem Mansour",
-        "groupe": "SE-1",
-        "jour": "Mardi",
-        "debut": "09:00",
-        "fin": "10:30",
-        "salle": "TP-E3"
-    },
-    {
-        "module": "Transferts Thermiques",
-        "type": "Cours",
-        "enseignant": "Pr. Salem Mansour",
-        "groupe": "SE-1",
-        "jour": "Mercredi",
-        "debut": "09:00",
-        "fin": "10:30",
-        "salle": "Cours-A1"
-    },
-    {
-        "module": "Transferts Thermiques",
-        "type": "TP",
-        "enseignant": "Pr. Salem Mansour",
-        "groupe": "SE-1",
-        "jour": "Jeudi",
-        "debut": "09:00",
-        "fin": "10:30",
-        "salle": "TP-C3"
-    },
-    {
-        "module": "Mathématiques de l'Ingénieur",
-        "type": "Cours",
-        "enseignant": "Dr. Laila Youssef",
-        "groupe": "SE-1",
-        "jour": "Vendredi",
-        "debut": "14:15",
-        "fin": "15:45",
-        "salle": "Cours-A1"
-    },
-    {
-        "module": "Mathématiques de l'Ingénieur",
-        "type": "TD",
-        "enseignant": "Dr. Laila Youssef",
-        "groupe": "SE-1",
-        "jour": "Mardi",
-        "debut": "14:15",
-        "fin": "15:45",
-        "salle": "TD-A2"
-    },
-    {
-        "module": "Mathématiques de l'Ingénieur",
-        "type": "TP",
-        "enseignant": "Dr. Laila Youssef",
-        "groupe": "SE-1",
-        "jour": "Samedi",
-        "debut": "09:00",
-        "fin": "10:30",
-        "salle": "TP-E3"
-    },
-    {
-        "module": "Mécanique des Fluides",
-        "type": "Cours",
-        "enseignant": "Pr. Samir Khaddor",
-        "groupe": "SE-1",
-        "jour": "Jeudi",
-        "debut": "12:30",
-        "fin": "14:00",
-        "salle": "Cours-A1"
-    },
-    {
-        "module": "Mécanique des Fluides",
-        "type": "TD",
-        "enseignant": "Pr. Samir Khaddor",
-        "groupe": "SE-1",
-        "jour": "Jeudi",
-        "debut": "14:15",
-        "fin": "15:45",
-        "salle": "TD-E1"
-    },
-    {
         "module": "Mécanique des Fluides",
         "type": "TP",
         "enseignant": "Pr. Samir Khaddor",
         "groupe": "SE-1",
-        "jour": "Vendredi",
-        "debut": "10:45",
-        "fin": "12:15",
-        "salle": "TP-D4"
-    },
-    {
-        "module": "Méthodes Numériques",
-        "type": "Cours",
-        "enseignant": "Dr. Fatemah Reza",
-        "groupe": "SE-1",
-        "jour": "Lundi",
-        "debut": "12:30",
-        "fin": "14:00",
-        "salle": "Cours-A1"
-    },
-    {
-        "module": "Méthodes Numériques",
-        "type": "TP",
-        "enseignant": "Dr. Fatemah Reza",
-        "groupe": "SE-1",
-        "jour": "Mercredi",
-        "debut": "10:45",
-        "fin": "12:15",
-        "salle": "TP-A4"
-    },
-    {
-        "module": "Matériaux pour l'Energie",
-        "type": "Cours",
-        "enseignant": "Dr. Karim Badri",
-        "groupe": "SE-1",
-        "jour": "Samedi",
-        "debut": "10:45",
-        "fin": "12:15",
-        "salle": "Cours-A1"
-    },
-    {
-        "module": "Matériaux pour l'Energie",
-        "type": "TP",
-        "enseignant": "Dr. Karim Badri",
-        "groupe": "SE-1",
-        "jour": "Lundi",
-        "debut": "10:45",
-        "fin": "12:15",
+        "jour": "Mardi",
+        "debut": "14:15",
+        "fin": "15:45",
         "salle": "TP-E2"
+    },
+    {
+        "module": "Méthodes Numériques",
+        "type": "Cours",
+        "enseignant": "Dr. Fatemah Reza",
+        "groupe": "SE-1",
+        "jour": "Lundi",
+        "debut": "10:45",
+        "fin": "12:15",
+        "salle": "Cours-A1"
+    },
+    {
+        "module": "Méthodes Numériques",
+        "type": "TD",
+        "enseignant": "Dr. Fatemah Reza",
+        "groupe": "SE-1",
+        "jour": "Mercredi",
+        "debut": "12:30",
+        "fin": "14:00",
+        "salle": "TD-C2"
+    },
+    {
+        "module": "Méthodes Numériques",
+        "type": "TP",
+        "enseignant": "Dr. Fatemah Reza",
+        "groupe": "SE-1",
+        "jour": "Samedi",
+        "debut": "09:00",
+        "fin": "10:30",
+        "salle": "TP-E1"
+    },
+    {
+        "module": "Matériaux pour l'Energie",
+        "type": "Cours",
+        "enseignant": "Dr. Karim Badri",
+        "groupe": "SE-1",
+        "jour": "Lundi",
+        "debut": "12:30",
+        "fin": "14:00",
+        "salle": "Cours-A1"
+    },
+    {
+        "module": "Matériaux pour l'Energie",
+        "type": "TP",
+        "enseignant": "Dr. Karim Badri",
+        "groupe": "SE-1",
+        "jour": "Jeudi",
+        "debut": "10:45",
+        "fin": "12:15",
+        "salle": "TP-D2"
     },
     {
         "module": "Energétique du bâtiment",
@@ -4495,9 +4015,9 @@
         "enseignant": "Dr. Hana Benali",
         "groupe": "SE-2",
         "jour": "Mardi",
-        "debut": "12:30",
-        "fin": "14:00",
-        "salle": "TP-E2"
+        "debut": "09:00",
+        "fin": "10:30",
+        "salle": "TP-C2"
     },
     {
         "module": "Utilisation de l'Energie Solaire",
@@ -4511,13 +4031,23 @@
     },
     {
         "module": "Utilisation de l'Energie Solaire",
+        "type": "TD",
+        "enseignant": "Dr. Karim Badri",
+        "groupe": "SE-2",
+        "jour": "Mercredi",
+        "debut": "10:45",
+        "fin": "12:15",
+        "salle": "TD-C2"
+    },
+    {
+        "module": "Utilisation de l'Energie Solaire",
         "type": "TP",
         "enseignant": "Dr. Karim Badri",
         "groupe": "SE-2",
         "jour": "Jeudi",
         "debut": "09:00",
         "fin": "10:30",
-        "salle": "TP-D3"
+        "salle": "TP-D2"
     },
     {
         "module": "Efficacité Energétique (Bâtiment & Industrie)",
@@ -4528,16 +4058,6 @@
         "debut": "09:00",
         "fin": "10:30",
         "salle": "Cours-A1"
-    },
-    {
-        "module": "Efficacité Energétique (Bâtiment & Industrie)",
-        "type": "TD",
-        "enseignant": "Dr. Hana Benali",
-        "groupe": "SE-2",
-        "jour": "Mardi",
-        "debut": "14:15",
-        "fin": "15:45",
-        "salle": "TD-C2"
     },
     {
         "module": "Efficacité Energétique (Bâtiment & Industrie)",
@@ -4547,7 +4067,7 @@
         "jour": "Samedi",
         "debut": "09:00",
         "fin": "10:30",
-        "salle": "TP-A4"
+        "salle": "TP-A2"
     },
     {
         "module": "Bioénergie",
@@ -4555,8 +4075,8 @@
         "enseignant": "Dr. Karim Badri",
         "groupe": "SE-2",
         "jour": "Lundi",
-        "debut": "12:30",
-        "fin": "14:00",
+        "debut": "10:45",
+        "fin": "12:15",
         "salle": "Cours-C1"
     },
     {
@@ -4564,10 +4084,10 @@
         "type": "TP",
         "enseignant": "Dr. Karim Badri",
         "groupe": "SE-2",
-        "jour": "Mercredi",
+        "jour": "Mardi",
         "debut": "10:45",
         "fin": "12:15",
-        "salle": "TP-C4"
+        "salle": "TP-D2"
     },
     {
         "module": "Gestion de la maintenance et Sureté de fonctionnement",
@@ -4584,10 +4104,10 @@
         "type": "TD",
         "enseignant": "Dr. Zahra Bennani",
         "groupe": "SE-2",
-        "jour": "Jeudi",
-        "debut": "16:00",
-        "fin": "17:30",
-        "salle": "TD-A2"
+        "jour": "Mardi",
+        "debut": "12:30",
+        "fin": "14:00",
+        "salle": "TD-C2"
     },
     {
         "module": "Gestion de la maintenance et Sureté de fonctionnement",
@@ -4597,7 +4117,7 @@
         "jour": "Vendredi",
         "debut": "16:00",
         "fin": "17:30",
-        "salle": "TP-A2"
+        "salle": "TP-E1"
     },
     {
         "module": "Gestion de Projets & Gestion d'Entreprises",
@@ -4607,7 +4127,17 @@
         "jour": "Samedi",
         "debut": "10:45",
         "fin": "12:15",
-        "salle": "Cours-C1"
+        "salle": "Cours-A1"
+    },
+    {
+        "module": "Gestion de Projets & Gestion d'Entreprises",
+        "type": "TD",
+        "enseignant": "Pr. Noureddine Khaled",
+        "groupe": "SE-2",
+        "jour": "Mardi",
+        "debut": "14:15",
+        "fin": "15:45",
+        "salle": "TD-D1"
     },
     {
         "module": "Anglais Scientifique I & Soft Skills",
@@ -4615,8 +4145,8 @@
         "enseignant": "Dr. Nadia Lahsen",
         "groupe": "AAIS-1",
         "jour": "Lundi",
-        "debut": "16:00",
-        "fin": "17:30",
+        "debut": "12:30",
+        "fin": "14:00",
         "salle": "Grande-E4"
     },
     {
@@ -4625,8 +4155,8 @@
         "enseignant": "Dr. Mohamed Salah",
         "groupe": "AAIS-1",
         "jour": "Mercredi",
-        "debut": "10:45",
-        "fin": "12:15",
+        "debut": "14:15",
+        "fin": "15:45",
         "salle": "Amphi A"
     },
     {
@@ -4637,27 +4167,17 @@
         "jour": "Mardi",
         "debut": "09:00",
         "fin": "10:30",
-        "salle": "TP-A4"
+        "salle": "TP-D2"
     },
     {
         "module": "Modélisation et calcul fractionnaire",
         "type": "Cours",
         "enseignant": "Dr. Laila Youssef",
         "groupe": "AAIS-1",
-        "jour": "Vendredi",
-        "debut": "16:00",
-        "fin": "17:30",
-        "salle": "Grande-A1"
-    },
-    {
-        "module": "Modélisation et calcul fractionnaire",
-        "type": "TD",
-        "enseignant": "Dr. Laila Youssef",
-        "groupe": "AAIS-1",
         "jour": "Mardi",
-        "debut": "16:00",
-        "fin": "17:30",
-        "salle": "TD-E1"
+        "debut": "10:45",
+        "fin": "12:15",
+        "salle": "Amphi B"
     },
     {
         "module": "Modélisation et calcul fractionnaire",
@@ -4667,116 +4187,126 @@
         "jour": "Jeudi",
         "debut": "09:00",
         "fin": "10:30",
-        "salle": "TP-E3"
+        "salle": "TP-E2"
     },
     {
         "module": "Analyse Numérique Matricielle Avancée",
         "type": "Cours",
-        "enseignant": "Dr. Fatemah Reza",
-        "groupe": "AAIS-1",
-        "jour": "Lundi",
-        "debut": "14:15",
-        "fin": "15:45",
-        "salle": "Grande-D3"
-    },
-    {
-        "module": "Analyse Numérique Matricielle Avancée",
-        "type": "TP",
         "enseignant": "Dr. Fatemah Reza",
         "groupe": "AAIS-1",
         "jour": "Samedi",
+        "debut": "10:45",
+        "fin": "12:15",
+        "salle": "Amphi A"
+    },
+    {
+        "module": "Analyse Numérique Matricielle Avancée",
+        "type": "TP",
+        "enseignant": "Dr. Fatemah Reza",
+        "groupe": "AAIS-1",
+        "jour": "Vendredi",
         "debut": "09:00",
         "fin": "10:30",
-        "salle": "TP-C4"
+        "salle": "TP-E2"
     },
     {
         "module": "Analyses de données / BIGDATA",
         "type": "Cours",
-        "enseignant": "Dr. Mohamed Salah",
-        "groupe": "AAIS-2",
-        "jour": "Lundi",
-        "debut": "12:30",
-        "fin": "14:00",
-        "salle": "Grande-D3"
-    },
-    {
-        "module": "Analyses de données / BIGDATA",
-        "type": "TP",
         "enseignant": "Dr. Mohamed Salah",
         "groupe": "AAIS-2",
         "jour": "Mardi",
         "debut": "10:45",
         "fin": "12:15",
-        "salle": "TP-A4"
+        "salle": "Amphi C"
+    },
+    {
+        "module": "Analyses de données / BIGDATA",
+        "type": "TP",
+        "enseignant": "Dr. Mohamed Salah",
+        "groupe": "AAIS-2",
+        "jour": "Lundi",
+        "debut": "09:00",
+        "fin": "10:30",
+        "salle": "TP-A2"
     },
     {
         "module": "Semi Groupes et équation d'évolution",
         "type": "Cours",
+        "enseignant": "Dr. Laila Youssef",
+        "groupe": "AAIS-2",
+        "jour": "Lundi",
+        "debut": "12:30",
+        "fin": "14:00",
+        "salle": "Amphi A"
+    },
+    {
+        "module": "Semi Groupes et équation d'évolution",
+        "type": "TP",
         "enseignant": "Dr. Laila Youssef",
         "groupe": "AAIS-2",
         "jour": "Mercredi",
-        "debut": "12:30",
-        "fin": "14:00",
-        "salle": "Grande-A1"
-    },
-    {
-        "module": "Semi Groupes et équation d'évolution",
-        "type": "TP",
-        "enseignant": "Dr. Laila Youssef",
-        "groupe": "AAIS-2",
-        "jour": "Jeudi",
-        "debut": "10:45",
-        "fin": "12:15",
-        "salle": "TP-C3"
+        "debut": "09:00",
+        "fin": "10:30",
+        "salle": "TP-E2"
     },
     {
         "module": "Optimisation et contrôle Optimal",
         "type": "Cours",
         "enseignant": "Dr. Mehdi Khalilzadeh",
         "groupe": "AAIS-2",
-        "jour": "Samedi",
-        "debut": "10:45",
-        "fin": "12:15",
-        "salle": "Grande-A1"
+        "jour": "Mardi",
+        "debut": "12:30",
+        "fin": "14:00",
+        "salle": "Grande-E4"
+    },
+    {
+        "module": "Optimisation et contrôle Optimal",
+        "type": "TD",
+        "enseignant": "Dr. Mehdi Khalilzadeh",
+        "groupe": "AAIS-2",
+        "jour": "Mardi",
+        "debut": "14:15",
+        "fin": "15:45",
+        "salle": "TD-E1"
     },
     {
         "module": "Optimisation et contrôle Optimal",
         "type": "TP",
         "enseignant": "Dr. Mehdi Khalilzadeh",
         "groupe": "AAIS-2",
-        "jour": "Vendredi",
+        "jour": "Jeudi",
         "debut": "09:00",
         "fin": "10:30",
-        "salle": "TP-E3"
+        "salle": "TP-A3"
     },
     {
         "module": "Séries chronologiques et Méthodes de prévision",
         "type": "Cours",
         "enseignant": "Dr. Mohamed Salah",
         "groupe": "AAIS-2",
-        "jour": "Lundi",
-        "debut": "14:15",
-        "fin": "15:45",
-        "salle": "Grande-E4"
+        "jour": "Mercredi",
+        "debut": "16:00",
+        "fin": "17:30",
+        "salle": "Grande-C2"
     },
     {
         "module": "Séries chronologiques et Méthodes de prévision",
         "type": "TD",
         "enseignant": "Dr. Mohamed Salah",
         "groupe": "AAIS-2",
-        "jour": "Jeudi",
-        "debut": "12:30",
-        "fin": "14:00",
-        "salle": "TD-C2"
+        "jour": "Mardi",
+        "debut": "16:00",
+        "fin": "17:30",
+        "salle": "TD-D1"
     },
     {
         "module": "Séries chronologiques et Méthodes de prévision",
         "type": "TP",
         "enseignant": "Dr. Mohamed Salah",
         "groupe": "AAIS-2",
-        "jour": "Mardi",
-        "debut": "12:30",
-        "fin": "14:00",
+        "jour": "Vendredi",
+        "debut": "09:00",
+        "fin": "10:30",
         "salle": "TP-A3"
     },
     {
@@ -4787,7 +4317,7 @@
         "jour": "Vendredi",
         "debut": "10:45",
         "fin": "12:15",
-        "salle": "Grande-A1"
+        "salle": "Amphi B"
     },
     {
         "module": "Techniques d'analyses",
@@ -4797,7 +4327,7 @@
         "jour": "Lundi",
         "debut": "09:00",
         "fin": "10:30",
-        "salle": "TP-D3"
+        "salle": "TP-C2"
     },
     {
         "module": "Microbiologie alimentaire",
@@ -4807,7 +4337,7 @@
         "jour": "Lundi",
         "debut": "10:45",
         "fin": "12:15",
-        "salle": "Amphi B"
+        "salle": "Amphi C"
     },
     {
         "module": "Microbiologie alimentaire",
@@ -4817,17 +4347,17 @@
         "jour": "Mardi",
         "debut": "09:00",
         "fin": "10:30",
-        "salle": "TP-C4"
+        "salle": "TP-E2"
     },
     {
         "module": "Biochimie alimentaire",
         "type": "Cours",
         "enseignant": "Dr. Layla Bouhamidi",
         "groupe": "AA-1",
-        "jour": "Mardi",
-        "debut": "10:45",
-        "fin": "12:15",
-        "salle": "Grande-D3"
+        "jour": "Lundi",
+        "debut": "12:30",
+        "fin": "14:00",
+        "salle": "Amphi B"
     },
     {
         "module": "Biochimie alimentaire",
@@ -4837,17 +4367,17 @@
         "jour": "Mercredi",
         "debut": "09:00",
         "fin": "10:30",
-        "salle": "TP-C3"
+        "salle": "TP-A3"
     },
     {
         "module": "Biostatistique, analyse des données et plan d'expérience",
         "type": "Cours",
         "enseignant": "Dr. Nouara Abdelaziz",
         "groupe": "AA-1",
-        "jour": "Mercredi",
-        "debut": "10:45",
-        "fin": "12:15",
-        "salle": "Amphi B"
+        "jour": "Lundi",
+        "debut": "14:15",
+        "fin": "15:45",
+        "salle": "Grande-D3"
     },
     {
         "module": "Biostatistique, analyse des données et plan d'expérience",
@@ -4857,17 +4387,17 @@
         "jour": "Jeudi",
         "debut": "09:00",
         "fin": "10:30",
-        "salle": "TP-A4"
+        "salle": "TP-C3"
     },
     {
         "module": "Physiologie et nutrition animale",
         "type": "Cours",
         "enseignant": "Dr. Walid Saidane",
         "groupe": "AA-1",
-        "jour": "Jeudi",
-        "debut": "10:45",
-        "fin": "12:15",
-        "salle": "Amphi A"
+        "jour": "Lundi",
+        "debut": "16:00",
+        "fin": "17:30",
+        "salle": "Grande-E4"
     },
     {
         "module": "Physiologie et nutrition animale",
@@ -4877,27 +4407,47 @@
         "jour": "Vendredi",
         "debut": "09:00",
         "fin": "10:30",
-        "salle": "TP-A4"
+        "salle": "TP-C3"
     },
     {
         "module": "Langues Etrangères Anglais",
         "type": "Cours",
         "enseignant": "Dr. Nadia Lahsen",
         "groupe": "AA-1",
+        "jour": "Mardi",
+        "debut": "12:30",
+        "fin": "14:00",
+        "salle": "Amphi A"
+    },
+    {
+        "module": "Langues Etrangères Anglais",
+        "type": "TD",
+        "enseignant": "Dr. Nadia Lahsen",
+        "groupe": "AA-1",
+        "jour": "Mardi",
+        "debut": "16:00",
+        "fin": "17:30",
+        "salle": "TD-E1"
+    },
+    {
+        "module": "Production animale / Zootechnie et santé animale",
+        "type": "Cours",
+        "enseignant": "Dr. Walid Saidane",
+        "groupe": "AA-2",
+        "jour": "Vendredi",
+        "debut": "10:45",
+        "fin": "12:15",
+        "salle": "Amphi C"
+    },
+    {
+        "module": "Production animale / Zootechnie et santé animale",
+        "type": "TD",
+        "enseignant": "Dr. Walid Saidane",
+        "groupe": "AA-2",
         "jour": "Vendredi",
         "debut": "14:15",
         "fin": "15:45",
-        "salle": "Grande-D3"
-    },
-    {
-        "module": "Production animale / Zootechnie et santé animale",
-        "type": "Cours",
-        "enseignant": "Dr. Walid Saidane",
-        "groupe": "AA-2",
-        "jour": "Vendredi",
-        "debut": "10:45",
-        "fin": "12:15",
-        "salle": "Grande-C2"
+        "salle": "TD-C2"
     },
     {
         "module": "Production animale / Zootechnie et santé animale",
@@ -4907,17 +4457,7 @@
         "jour": "Lundi",
         "debut": "09:00",
         "fin": "10:30",
-        "salle": "TP-E3"
-    },
-    {
-        "module": "Transformation des Produits alimentaires d'origine végétale",
-        "type": "Cours",
-        "enseignant": "Dr. Souad Bensizerara",
-        "groupe": "AA-2",
-        "jour": "Lundi",
-        "debut": "10:45",
-        "fin": "12:15",
-        "salle": "Amphi C"
+        "salle": "TP-D2"
     },
     {
         "module": "Transformation des Produits alimentaires d'origine végétale",
@@ -4927,17 +4467,7 @@
         "jour": "Mardi",
         "debut": "09:00",
         "fin": "10:30",
-        "salle": "TP-D4"
-    },
-    {
-        "module": "Transformation des produits alimentaires d'origine animale",
-        "type": "Cours",
-        "enseignant": "Dr. Souad Bensizerara",
-        "groupe": "AA-2",
-        "jour": "Mardi",
-        "debut": "10:45",
-        "fin": "12:15",
-        "salle": "Grande-E4"
+        "salle": "TP-A3"
     },
     {
         "module": "Transformation des produits alimentaires d'origine animale",
@@ -4947,17 +4477,7 @@
         "jour": "Mercredi",
         "debut": "09:00",
         "fin": "10:30",
-        "salle": "TP-D3"
-    },
-    {
-        "module": "Itinéraires techniques en production végétale",
-        "type": "Cours",
-        "enseignant": "Dr. Mohamed Khaoula",
-        "groupe": "AA-2",
-        "jour": "Mercredi",
-        "debut": "10:45",
-        "fin": "12:15",
-        "salle": "Amphi C"
+        "salle": "TP-C3"
     },
     {
         "module": "Itinéraires techniques en production végétale",
@@ -4967,17 +4487,17 @@
         "jour": "Jeudi",
         "debut": "09:00",
         "fin": "10:30",
-        "salle": "TP-C4"
+        "salle": "TP-D3"
     },
     {
         "module": "Physique Industrielle",
         "type": "Cours",
         "enseignant": "Dr. Amal Diallo",
         "groupe": "AA-2",
-        "jour": "Jeudi",
-        "debut": "14:15",
-        "fin": "15:45",
-        "salle": "Grande-E4"
+        "jour": "Mardi",
+        "debut": "12:30",
+        "fin": "14:00",
+        "salle": "Amphi B"
     },
     {
         "module": "Physique Industrielle",
@@ -4985,8 +4505,8 @@
         "enseignant": "Dr. Amal Diallo",
         "groupe": "AA-2",
         "jour": "Jeudi",
-        "debut": "16:00",
-        "fin": "17:30",
+        "debut": "14:15",
+        "fin": "15:45",
         "salle": "TD-C2"
     },
     {
@@ -4997,77 +4517,77 @@
         "jour": "Samedi",
         "debut": "09:00",
         "fin": "10:30",
-        "salle": "TP-D4"
+        "salle": "TP-C2"
     },
     {
         "module": "Français 2",
         "type": "Cours",
         "enseignant": "Dr. Rachid Belhachemi",
         "groupe": "AA-2",
-        "jour": "Vendredi",
+        "jour": "Mercredi",
         "debut": "16:00",
         "fin": "17:30",
-        "salle": "Grande-C2"
+        "salle": "Grande-D3"
     },
     {
         "module": "Français 2",
         "type": "TD",
         "enseignant": "Dr. Rachid Belhachemi",
         "groupe": "AA-2",
+        "jour": "Jeudi",
+        "debut": "16:00",
+        "fin": "17:30",
+        "salle": "TD-A2"
+    },
+    {
+        "module": "Management de la qualité agroalimentaire",
+        "type": "Cours",
+        "enseignant": "Dr. Zahra Bennani",
+        "groupe": "AA-3",
         "jour": "Mercredi",
+        "debut": "12:30",
+        "fin": "14:00",
+        "salle": "Grande-E4"
+    },
+    {
+        "module": "Management de la qualité agroalimentaire",
+        "type": "TD",
+        "enseignant": "Dr. Zahra Bennani",
+        "groupe": "AA-3",
+        "jour": "Jeudi",
         "debut": "16:00",
         "fin": "17:30",
         "salle": "TD-C2"
     },
     {
         "module": "Management de la qualité agroalimentaire",
-        "type": "Cours",
-        "enseignant": "Dr. Zahra Bennani",
-        "groupe": "AA-3",
-        "jour": "Mardi",
-        "debut": "10:45",
-        "fin": "12:15",
-        "salle": "Amphi A"
-    },
-    {
-        "module": "Management de la qualité agroalimentaire",
         "type": "TP",
         "enseignant": "Dr. Zahra Bennani",
         "groupe": "AA-3",
         "jour": "Lundi",
         "debut": "09:00",
         "fin": "10:30",
-        "salle": "TP-A4"
-    },
-    {
-        "module": "Innovation et développement produit",
-        "type": "Cours",
-        "enseignant": "Dr. Souad Bensizerara",
-        "groupe": "AA-3",
-        "jour": "Lundi",
-        "debut": "12:30",
-        "fin": "14:00",
-        "salle": "Grande-E4"
+        "salle": "TP-E2"
     },
     {
         "module": "Innovation et développement produit",
         "type": "TP",
         "enseignant": "Dr. Souad Bensizerara",
         "groupe": "AA-3",
-        "jour": "Mercredi",
+        "jour": "Mardi",
         "debut": "10:45",
         "fin": "12:15",
-        "salle": "TP-D4"
+        "salle": "TP-E2"
     },
     {
         "module": "Gestion de la chaîne agroalimentaire",
         "type": "TP",
         "enseignant": "Dr. Ahmed Ouazzani",
         "groupe": "AA-3",
-        "jour": "Jeudi",
+        "jour": "Vendredi",
         "debut": "09:00",
         "fin": "10:30",
-        "salle": "TP-D4"
+        "salle": "TP-D3"
     },
     {
         "module": "Législation et normes alimentaires",
@@ -5075,19 +4595,19 @@
         "enseignant": "Dr. Zahra Bennani",
         "groupe": "AA-3",
         "jour": "Mardi",
-        "debut": "12:30",
-        "fin": "14:00",
-        "salle": "Grande-D3"
+        "debut": "14:15",
+        "fin": "15:45",
+        "salle": "Grande-C2"
     },
     {
-        "module": "Entrepreneuriat et gestion d'entreprise",
-        "type": "Cours",
-        "enseignant": "Dr. Yasin Hamoud",
+        "module": "Législation et normes alimentaires",
+        "type": "TD",
+        "enseignant": "Dr. Zahra Bennani",
         "groupe": "AA-3",
-        "jour": "Jeudi",
-        "debut": "10:45",
-        "fin": "12:15",
-        "salle": "Amphi B"
+        "jour": "Mardi",
+        "debut": "16:00",
+        "fin": "17:30",
+        "salle": "TD-A2"
     },
     {
         "module": "Mathématiques appliquées",
@@ -5095,16 +4615,16 @@
         "enseignant": "Dr. Hassan Al-Mansouri",
         "groupe": "IND-1",
         "jour": "Jeudi",
-        "debut": "14:15",
-        "fin": "15:45",
-        "salle": "Cours-C1"
+        "debut": "10:45",
+        "fin": "12:15",
+        "salle": "Cours-A1"
     },
     {
         "module": "Mathématiques appliquées",
         "type": "TP",
         "enseignant": "Dr. Hassan Al-Mansouri",
         "groupe": "IND-1",
-        "jour": "Jeudi",
+        "jour": "Vendredi",
         "debut": "16:00",
         "fin": "17:30",
         "salle": "TP-A2"
@@ -5115,8 +4635,8 @@
         "enseignant": "Pr. Samir Khaddor",
         "groupe": "IND-1",
         "jour": "Mardi",
-        "debut": "10:45",
-        "fin": "12:15",
+        "debut": "16:00",
+        "fin": "17:30",
         "salle": "Cours-A1"
     },
     {
@@ -5124,10 +4644,10 @@
         "type": "TP",
         "enseignant": "Pr. Samir Khaddor",
         "groupe": "IND-1",
-        "jour": "Vendredi",
+        "jour": "Mercredi",
         "debut": "14:15",
         "fin": "15:45",
-        "salle": "TP-C3"
+        "salle": "TP-D1"
     },
     {
         "module": "Français TEC 1",
@@ -5157,7 +4677,7 @@
         "jour": "Mardi",
         "debut": "09:00",
         "fin": "10:30",
-        "salle": "TP-E4"
+        "salle": "TP-C3"
     },
     {
         "module": "RDM I et vibration mécanique",
@@ -5177,7 +4697,7 @@
         "jour": "Jeudi",
         "debut": "09:00",
         "fin": "10:30",
-        "salle": "TP-E4"
+        "salle": "TP-E3"
     },
     {
         "module": "Optimisation des Processus & Outils d'Aide à la Décision",
@@ -5185,28 +4705,28 @@
         "enseignant": "Dr. Mehdi Khalilzadeh",
         "groupe": "IND-2",
         "jour": "Vendredi",
-        "debut": "10:45",
-        "fin": "12:15",
-        "salle": "Cours-A1"
+        "debut": "09:00",
+        "fin": "10:30",
+        "salle": "Cours-C1"
     },
     {
         "module": "Optimisation des Processus & Outils d'Aide à la Décision",
         "type": "TP",
         "enseignant": "Dr. Mehdi Khalilzadeh",
         "groupe": "IND-2",
-        "jour": "Lundi",
-        "debut": "12:30",
-        "fin": "14:00",
-        "salle": "TP-E2"
+        "jour": "Samedi",
+        "debut": "09:00",
+        "fin": "10:30",
+        "salle": "TP-D2"
     },
     {
         "module": "Machines Industrielles",
         "type": "Cours",
         "enseignant": "Pr. Samir Khaddor",
         "groupe": "IND-2",
-        "jour": "Mardi",
-        "debut": "12:30",
-        "fin": "14:00",
+        "jour": "Mercredi",
+        "debut": "16:00",
+        "fin": "17:30",
         "salle": "Cours-A1"
     },
     {
@@ -5215,18 +4735,18 @@
         "enseignant": "Pr. Samir Khaddor",
         "groupe": "IND-2",
         "jour": "Jeudi",
-        "debut": "16:00",
-        "fin": "17:30",
-        "salle": "TP-C2"
+        "debut": "14:15",
+        "fin": "15:45",
+        "salle": "TP-D1"
     },
     {
         "module": "Anglais 2",
         "type": "Cours",
         "enseignant": "Dr. Nadia Lahsen",
         "groupe": "IND-2",
-        "jour": "Mercredi",
-        "debut": "10:45",
-        "fin": "12:15",
+        "jour": "Lundi",
+        "debut": "14:15",
+        "fin": "15:45",
         "salle": "Cours-A1"
     },
     {
@@ -5247,7 +4767,7 @@
         "jour": "Mardi",
         "debut": "09:00",
         "fin": "10:30",
-        "salle": "TP-A5"
+        "salle": "TP-D3"
     },
     {
         "module": "Gestion de Production et Management de projet",
@@ -5267,7 +4787,7 @@
         "jour": "Jeudi",
         "debut": "09:00",
         "fin": "10:30",
-        "salle": "TP-A5"
+        "salle": "TP-A4"
     },
     {
         "module": "QSE et Lean Manufacturing",
@@ -5287,7 +4807,7 @@
         "jour": "Lundi",
         "debut": "10:45",
         "fin": "12:15",
-        "salle": "TP-A3"
+        "salle": "TP-A2"
     },
     {
         "module": "Logistique, Gestion intégrée & transport",
@@ -5295,8 +4815,8 @@
         "enseignant": "Dr. Ahmed Ouazzani",
         "groupe": "IND-3",
         "jour": "Vendredi",
-        "debut": "09:00",
-        "fin": "10:30",
+        "debut": "10:45",
+        "fin": "12:15",
         "salle": "Cours-C1"
     },
     {
@@ -5307,7 +4827,7 @@
         "jour": "Mardi",
         "debut": "10:45",
         "fin": "12:15",
-        "salle": "TP-C4"
+        "salle": "TP-A3"
     },
     {
         "module": "Outils de la qualité et six sigma",
@@ -5315,8 +4835,8 @@
         "enseignant": "Dr. Zahra Bennani",
         "groupe": "IND-3",
         "jour": "Mercredi",
-        "debut": "12:30",
-        "fin": "14:00",
+        "debut": "14:15",
+        "fin": "15:45",
         "salle": "Cours-A1"
     },
     {
@@ -5327,7 +4847,7 @@
         "jour": "Samedi",
         "debut": "10:45",
         "fin": "12:15",
-        "salle": "TP-C4"
+        "salle": "TP-E2"
     },
     {
         "module": "Innovation Et développement durable",
@@ -5337,7 +4857,7 @@
         "jour": "Jeudi",
         "debut": "10:45",
         "fin": "12:15",
-        "salle": "Cours-A1"
+        "salle": "Cours-C1"
     },
     {
         "module": "Innovation Et développement durable",
@@ -5345,49 +4865,59 @@
         "enseignant": "Pr. Noureddine Khaled",
         "groupe": "IND-3",
         "jour": "Vendredi",
-        "debut": "10:45",
-        "fin": "12:15",
-        "salle": "TP-E4"
+        "debut": "09:00",
+        "fin": "10:30",
+        "salle": "TP-E3"
     },
     {
-        "module": "Energétique et MDF",
+        "module": "Mathématiques pour l'Ingénieur I",
         "type": "Cours",
-        "enseignant": "Pr. Samir Khaddor",
+        "enseignant": "Dr. Hassan Al-Mansouri",
         "groupe": "GEMI-1",
-        "jour": "Mardi",
+        "jour": "Jeudi",
+        "debut": "12:30",
+        "fin": "14:00",
+        "salle": "Amphi B"
+    },
+    {
+        "module": "Mathématiques pour l'Ingénieur I",
+        "type": "TP",
+        "enseignant": "Dr. Hassan Al-Mansouri",
+        "groupe": "GEMI-1",
+        "jour": "Jeudi",
         "debut": "14:15",
         "fin": "15:45",
-        "salle": "Grande-A1"
-    },
-    {
-        "module": "Energétique et MDF",
-        "type": "TD",
-        "enseignant": "Pr. Samir Khaddor",
-        "groupe": "GEMI-1",
-        "jour": "Mardi",
-        "debut": "16:00",
-        "fin": "17:30",
-        "salle": "TD-A2"
+        "salle": "TP-E1"
     },
     {
         "module": "Energétique et MDF",
         "type": "TP",
         "enseignant": "Pr. Samir Khaddor",
         "groupe": "GEMI-1",
-        "jour": "Jeudi",
-        "debut": "09:00",
-        "fin": "10:30",
-        "salle": "TP-C5"
+        "jour": "Vendredi",
+        "debut": "10:45",
+        "fin": "12:15",
+        "salle": "TP-E2"
     },
     {
         "module": "Langues Etrangères 1: Français (TEC)",
         "type": "Cours",
         "enseignant": "Dr. Rachid Belhachemi",
         "groupe": "GEMI-1",
+        "jour": "Vendredi",
+        "debut": "16:00",
+        "fin": "17:30",
+        "salle": "Grande-D3"
+    },
+    {
+        "module": "Mathématiques Pour l'Ingénieur II",
+        "type": "Cours",
+        "enseignant": "Dr. Hassan Al-Mansouri",
+        "groupe": "GEMI-2",
         "jour": "Jeudi",
-        "debut": "14:15",
-        "fin": "15:45",
-        "salle": "Amphi A"
+        "debut": "16:00",
+        "fin": "17:30",
+        "salle": "Grande-A1"
     },
     {
         "module": "Traitement du Signal",
@@ -5397,7 +4927,7 @@
         "jour": "Lundi",
         "debut": "09:00",
         "fin": "10:30",
-        "salle": "TP-C4"
+        "salle": "TP-A3"
     },
     {
         "module": "Automatique avancée",
@@ -5407,17 +4937,7 @@
         "jour": "Mardi",
         "debut": "09:00",
         "fin": "10:30",
-        "salle": "TP-C5"
-    },
-    {
-        "module": "Machines Industrielles",
-        "type": "Cours",
-        "enseignant": "Dr. Hassan Yousfi",
-        "groupe": "GEMI-2",
-        "jour": "Mardi",
-        "debut": "10:45",
-        "fin": "12:15",
-        "salle": "Amphi B"
+        "salle": "TP-E3"
     },
     {
         "module": "Machines Industrielles",
@@ -5427,7 +4947,7 @@
         "jour": "Mercredi",
         "debut": "09:00",
         "fin": "10:30",
-        "salle": "TP-E3"
+        "salle": "TP-D3"
     },
     {
         "module": "Langues Etrangères 3: Anglais",
@@ -5437,17 +4957,7 @@
         "jour": "Vendredi",
         "debut": "16:00",
         "fin": "17:30",
-        "salle": "Grande-D3"
-    },
-    {
-        "module": "Modélisation et Commande des machines",
-        "type": "Cours",
-        "enseignant": "Dr. Nadia Benyakoub",
-        "groupe": "GEMI-3",
-        "jour": "Mardi",
-        "debut": "10:45",
-        "fin": "12:15",
-        "salle": "Amphi C"
+        "salle": "Grande-E4"
     },
     {
         "module": "Modélisation et Commande des machines",
@@ -5457,7 +4967,7 @@
         "jour": "Lundi",
         "debut": "09:00",
         "fin": "10:30",
-        "salle": "TP-D4"
+        "salle": "TP-C3"
     },
     {
         "module": "Amélioration des processus industriels et assurance qualité",
@@ -5465,19 +4975,19 @@
         "enseignant": "Dr. Zahra Bennani",
         "groupe": "GEMI-3",
         "jour": "Mercredi",
-        "debut": "14:15",
-        "fin": "15:45",
-        "salle": "Grande-D3"
+        "debut": "16:00",
+        "fin": "17:30",
+        "salle": "Grande-E4"
     },
     {
         "module": "Amélioration des processus industriels et assurance qualité",
         "type": "TP",
         "enseignant": "Dr. Zahra Bennani",
         "groupe": "GEMI-3",
-        "jour": "Lundi",
-        "debut": "12:30",
-        "fin": "14:00",
-        "salle": "TP-A3"
+        "jour": "Mardi",
+        "debut": "10:45",
+        "fin": "12:15",
+        "salle": "TP-C3"
     },
     {
         "module": "Systèmes embarqués et Temps réel",
@@ -5487,37 +4997,37 @@
         "jour": "Jeudi",
         "debut": "09:00",
         "fin": "10:30",
-        "salle": "TP-D5"
-    },
-    {
-        "module": "Réseaux et Télécommunication",
-        "type": "Cours",
-        "enseignant": "Dr. Abdelaziz Meilleur",
-        "groupe": "GEMI-3",
-        "jour": "Vendredi",
-        "debut": "10:45",
-        "fin": "12:15",
-        "salle": "Grande-D3"
+        "salle": "TP-C4"
     },
     {
         "module": "Réseaux et Télécommunication",
         "type": "TP",
         "enseignant": "Dr. Abdelaziz Meilleur",
         "groupe": "GEMI-3",
-        "jour": "Mardi",
+        "jour": "Vendredi",
         "debut": "09:00",
         "fin": "10:30",
-        "salle": "TP-D5"
+        "salle": "TP-A4"
     },
     {
         "module": "Automatique avancée et Electronique des Systèmes",
         "type": "Cours",
         "enseignant": "Dr. Nadia Benyakoub",
         "groupe": "GEMI-3",
-        "jour": "Jeudi",
-        "debut": "10:45",
-        "fin": "12:15",
+        "jour": "Mardi",
+        "debut": "12:30",
+        "fin": "14:00",
         "salle": "Amphi C"
+    },
+    {
+        "module": "Automatique avancée et Electronique des Systèmes",
+        "type": "TD",
+        "enseignant": "Dr. Nadia Benyakoub",
+        "groupe": "GEMI-3",
+        "jour": "Mardi",
+        "debut": "14:15",
+        "fin": "15:45",
+        "salle": "TD-A2"
     },
     {
         "module": "Automatique avancée et Electronique des Systèmes",
@@ -5527,17 +5037,17 @@
         "jour": "Samedi",
         "debut": "09:00",
         "fin": "10:30",
-        "salle": "TP-E4"
+        "salle": "TP-E2"
     },
     {
         "module": "Innovation et Développement Durable",
         "type": "Cours",
         "enseignant": "Dr. Hana Benali",
         "groupe": "GEMI-3",
-        "jour": "Vendredi",
-        "debut": "14:15",
-        "fin": "15:45",
-        "salle": "Grande-E4"
+        "jour": "Samedi",
+        "debut": "10:45",
+        "fin": "12:15",
+        "salle": "Amphi B"
     },
     {
         "module": "Innovation et Développement Durable",
@@ -5554,20 +5064,20 @@
         "type": "TP",
         "enseignant": "Dr. Hana Benali",
         "groupe": "GEMI-3",
-        "jour": "Mercredi",
-        "debut": "09:00",
-        "fin": "10:30",
-        "salle": "TP-A4"
+        "jour": "Lundi",
+        "debut": "10:45",
+        "fin": "12:15",
+        "salle": "TP-C2"
     },
     {
         "module": "Théorie des graphes et applications",
         "type": "Cours",
         "enseignant": "Dr. Mourad Selma",
         "groupe": "LSI-1",
-        "jour": "Mercredi",
-        "debut": "14:15",
-        "fin": "15:45",
-        "salle": "Grande-E4"
+        "jour": "Samedi",
+        "debut": "10:45",
+        "fin": "12:15",
+        "salle": "Amphi C"
     },
     {
         "module": "Théorie des graphes et applications",
@@ -5577,7 +5087,7 @@
         "jour": "Lundi",
         "debut": "09:00",
         "fin": "10:30",
-        "salle": "TP-E4"
+        "salle": "TP-D3"
     },
     {
         "module": "Système d'exploitation LINUX",
@@ -5587,117 +5097,107 @@
         "jour": "Mardi",
         "debut": "09:00",
         "fin": "10:30",
-        "salle": "TP-E5"
+        "salle": "TP-A4"
     },
     {
         "module": "Bases de données avancées",
         "type": "Cours",
         "enseignant": "Dr. Amina Ouadir",
-        "groupe": "LSI-1",
-        "jour": "Vendredi",
-        "debut": "16:00",
-        "fin": "17:30",
-        "salle": "Grande-E4"
-    },
-    {
-        "module": "Bases de données avancées",
-        "type": "TP",
-        "enseignant": "Dr. Amina Ouadir",
-        "groupe": "LSI-1",
-        "jour": "Jeudi",
-        "debut": "10:45",
-        "fin": "12:15",
-        "salle": "TP-D3"
-    },
-    {
-        "module": "Technologies web 1 (PHP et Frameworks)",
-        "type": "Cours",
-        "enseignant": "Pr. Abdelmajid Zaoui",
         "groupe": "LSI-1",
         "jour": "Mercredi",
-        "debut": "16:00",
-        "fin": "17:30",
-        "salle": "Grande-C2"
-    },
-    {
-        "module": "Technologies web 1 (PHP et Frameworks)",
-        "type": "TD",
-        "enseignant": "Pr. Abdelmajid Zaoui",
-        "groupe": "LSI-1",
-        "jour": "Jeudi",
         "debut": "14:15",
         "fin": "15:45",
-        "salle": "TD-A2"
+        "salle": "Amphi B"
     },
     {
-        "module": "Technologies web 1 (PHP et Frameworks)",
-        "type": "TP",
-        "enseignant": "Pr. Abdelmajid Zaoui",
-        "groupe": "LSI-1",
-        "jour": "Lundi",
-        "debut": "10:45",
-        "fin": "12:15",
-        "salle": "TP-C3"
-    },
-    {
-        "module": "Méthodologies de l'intelligence artificielle",
-        "type": "Cours",
-        "enseignant": "Dr. Khalid El Moumen",
-        "groupe": "LSI-2",
-        "jour": "Mardi",
-        "debut": "12:30",
-        "fin": "14:00",
-        "salle": "Grande-E4"
-    },
-    {
-        "module": "Méthodologies de l'intelligence artificielle",
-        "type": "TP",
-        "enseignant": "Dr. Khalid El Moumen",
-        "groupe": "LSI-2",
-        "jour": "Lundi",
-        "debut": "10:45",
-        "fin": "12:15",
-        "salle": "TP-D3"
-    },
-    {
-        "module": "Administration des bases de données",
-        "type": "Cours",
-        "enseignant": "Dr. Amina Ouadir",
-        "groupe": "LSI-2",
-        "jour": "Jeudi",
-        "debut": "12:30",
-        "fin": "14:00",
-        "salle": "Grande-D3"
-    },
-    {
-        "module": "Administration des bases de données",
+        "module": "Bases de données avancées",
         "type": "TD",
         "enseignant": "Dr. Amina Ouadir",
-        "groupe": "LSI-2",
-        "jour": "Jeudi",
+        "groupe": "LSI-1",
+        "jour": "Mardi",
         "debut": "14:15",
         "fin": "15:45",
         "salle": "TD-C2"
     },
     {
+        "module": "Bases de données avancées",
+        "type": "TP",
+        "enseignant": "Dr. Amina Ouadir",
+        "groupe": "LSI-1",
+        "jour": "Jeudi",
+        "debut": "12:30",
+        "fin": "14:00",
+        "salle": "TP-D2"
+    },
+    {
+        "module": "Technologies web 1 (PHP et Frameworks)",
+        "type": "Cours",
+        "enseignant": "Pr. Abdelmajid Zaoui",
+        "groupe": "LSI-1",
+        "jour": "Vendredi",
+        "debut": "14:15",
+        "fin": "15:45",
+        "salle": "Amphi B"
+    },
+    {
+        "module": "Technologies web 1 (PHP et Frameworks)",
+        "type": "TP",
+        "enseignant": "Pr. Abdelmajid Zaoui",
+        "groupe": "LSI-1",
+        "jour": "Lundi",
+        "debut": "10:45",
+        "fin": "12:15",
+        "salle": "TP-D2"
+    },
+    {
+        "module": "Langues Etrangères",
+        "type": "Cours",
+        "enseignant": "Dr. Nadia Lahsen",
+        "groupe": "LSI-1",
+        "jour": "Lundi",
+        "debut": "16:00",
+        "fin": "17:30",
+        "salle": "Amphi A"
+    },
+    {
+        "module": "Méthodologies de l'intelligence artificielle",
+        "type": "TP",
+        "enseignant": "Dr. Khalid El Moumen",
+        "groupe": "LSI-2",
+        "jour": "Lundi",
+        "debut": "10:45",
+        "fin": "12:15",
+        "salle": "TP-E2"
+    },
+    {
+        "module": "Administration des bases de données",
+        "type": "Cours",
+        "enseignant": "Dr. Amina Ouadir",
+        "groupe": "LSI-2",
+        "jour": "Mercredi",
+        "debut": "16:00",
+        "fin": "17:30",
+        "salle": "Amphi A"
+    },
+    {
         "module": "Administration des bases de données",
         "type": "TP",
         "enseignant": "Dr. Amina Ouadir",
         "groupe": "LSI-2",
-        "jour": "Lundi",
-        "debut": "16:00",
-        "fin": "17:30",
-        "salle": "TP-C1"
+        "jour": "Mardi",
+        "debut": "09:00",
+        "fin": "10:30",
+        "salle": "TP-C4"
     },
     {
         "module": "Internet des objets et applications",
         "type": "TP",
         "enseignant": "Dr. Karima Daoud",
         "groupe": "LSI-2",
-        "jour": "Mercredi",
-        "debut": "09:00",
-        "fin": "10:30",
-        "salle": "TP-C4"
+        "jour": "Jeudi",
+        "debut": "10:45",
+        "fin": "12:15",
+        "salle": "TP-E2"
     },
     {
         "module": "Applications web distribuées (JEE)",
@@ -5705,8 +5205,8 @@
         "enseignant": "Pr. Abdelmajid Zaoui",
         "groupe": "LSI-2",
         "jour": "Vendredi",
-        "debut": "14:15",
-        "fin": "15:45",
+        "debut": "16:00",
+        "fin": "17:30",
         "salle": "Amphi A"
     },
     {
@@ -5714,59 +5214,39 @@
         "type": "TP",
         "enseignant": "Pr. Abdelmajid Zaoui",
         "groupe": "LSI-2",
-        "jour": "Mardi",
-        "debut": "10:45",
-        "fin": "12:15",
-        "salle": "TP-D4"
+        "jour": "Lundi",
+        "debut": "09:00",
+        "fin": "10:30",
+        "salle": "TP-E3"
     },
     {
         "module": "Génie Logiciel et gestion de projets informatiques",
         "type": "Cours",
+        "enseignant": "Dr. Soraya Benazza",
+        "groupe": "LSI-2",
+        "jour": "Mardi",
+        "debut": "14:15",
+        "fin": "15:45",
+        "salle": "Grande-D3"
+    },
+    {
+        "module": "Génie Logiciel et gestion de projets informatiques",
+        "type": "TP",
         "enseignant": "Dr. Soraya Benazza",
         "groupe": "LSI-2",
         "jour": "Samedi",
-        "debut": "10:45",
-        "fin": "12:15",
-        "salle": "Grande-C2"
-    },
-    {
-        "module": "Génie Logiciel et gestion de projets informatiques",
-        "type": "TP",
-        "enseignant": "Dr. Soraya Benazza",
-        "groupe": "LSI-2",
-        "jour": "Mercredi",
-        "debut": "10:45",
-        "fin": "12:15",
-        "salle": "TP-E4"
-    },
-    {
-        "module": "Anglais 2",
-        "type": "Cours",
-        "enseignant": "Dr. Nadia Lahsen",
-        "groupe": "LSI-2",
-        "jour": "Mardi",
-        "debut": "14:15",
-        "fin": "15:45",
-        "salle": "Grande-C2"
+        "debut": "09:00",
+        "fin": "10:30",
+        "salle": "TP-A3"
     },
     {
         "module": "Business Intelligent & Big Data",
-        "type": "Cours",
+        "type": "TP",
         "enseignant": "Dr. Mohamed Salah",
         "groupe": "LSI-3",
         "jour": "Lundi",
-        "debut": "16:00",
-        "fin": "17:30",
-        "salle": "Amphi A"
-    },
-    {
-        "module": "Business Intelligent & Big Data",
-        "type": "TP",
-        "enseignant": "Dr. Mohamed Salah",
-        "groupe": "LSI-3",
-        "jour": "Mardi",
-        "debut": "14:15",
-        "fin": "15:45",
+        "debut": "10:45",
+        "fin": "12:15",
         "salle": "TP-A3"
     },
     {
@@ -5774,17 +5254,17 @@
         "type": "Cours",
         "enseignant": "Dr. Samira Bloul",
         "groupe": "LSI-3",
-        "jour": "Samedi",
-        "debut": "10:45",
-        "fin": "12:15",
-        "salle": "Grande-D3"
+        "jour": "Vendredi",
+        "debut": "14:15",
+        "fin": "15:45",
+        "salle": "Amphi C"
     },
     {
         "module": "Vision Artificielle",
         "type": "TP",
         "enseignant": "Dr. Samira Bloul",
         "groupe": "LSI-3",
-        "jour": "Mercredi",
+        "jour": "Mardi",
         "debut": "09:00",
         "fin": "10:30",
         "salle": "TP-D4"
@@ -5794,59 +5274,29 @@
         "type": "TP",
         "enseignant": "Dr. Bilal Hammouni",
         "groupe": "LSI-3",
+        "jour": "Mercredi",
+        "debut": "09:00",
+        "fin": "10:30",
+        "salle": "TP-E3"
+    },
+    {
+        "module": "Cloud Intelligence & virtualisation",
+        "type": "TP",
+        "enseignant": "Dr. Selma Ouazzani",
+        "groupe": "LSI-3",
         "jour": "Jeudi",
         "debut": "09:00",
         "fin": "10:30",
-        "salle": "TP-E5"
-    },
-    {
-        "module": "Cloud Intelligence & virtualisation",
-        "type": "Cours",
-        "enseignant": "Dr. Selma Ouazzani",
-        "groupe": "LSI-3",
-        "jour": "Mardi",
-        "debut": "12:30",
-        "fin": "14:00",
-        "salle": "Amphi A"
-    },
-    {
-        "module": "Cloud Intelligence & virtualisation",
-        "type": "TP",
-        "enseignant": "Dr. Selma Ouazzani",
-        "groupe": "LSI-3",
-        "jour": "Vendredi",
-        "debut": "09:00",
-        "fin": "10:30",
-        "salle": "TP-C4"
-    },
-    {
-        "module": "Intelligence économique & Soft Skills",
-        "type": "Cours",
-        "enseignant": "Dr. Amira Dahy",
-        "groupe": "LSI-3",
-        "jour": "Vendredi",
-        "debut": "10:45",
-        "fin": "12:15",
-        "salle": "Grande-E4"
+        "salle": "TP-D4"
     },
     {
         "module": "Intelligence économique & Soft Skills",
         "type": "TP",
         "enseignant": "Dr. Amira Dahy",
         "groupe": "LSI-3",
-        "jour": "Lundi",
+        "jour": "Samedi",
         "debut": "09:00",
         "fin": "10:30",
-        "salle": "TP-A5"
-    },
-    {
-        "module": "Anglais professionnel & Techniques de coaching",
-        "type": "Cours",
-        "enseignant": "Dr. Nadia Lahsen",
-        "groupe": "LSI-3",
-        "jour": "Mercredi",
-        "debut": "12:30",
-        "fin": "14:00",
-        "salle": "Grande-C2"
+        "salle": "TP-C3"
     }
 ]
