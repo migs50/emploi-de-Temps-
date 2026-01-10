@@ -11,7 +11,7 @@
       "tableau",
       "micro"
     ],
-    "batiment": "Biblio",
+    "batiment": null,
     "etage": 0,
     "departement_id": null
   },
@@ -27,7 +27,7 @@
       "tableau",
       "micro"
     ],
-    "batiment": "Biblio",
+    "batiment": null,
     "etage": 0,
     "departement_id": null
   },
@@ -43,12 +43,28 @@
       "tableau",
       "micro"
     ],
-    "batiment": "Biblio",
+    "batiment": null,
     "etage": 0,
     "departement_id": null
   },
   {
     "id": 4,
+    "nom": "Biblio",
+    "capacite": 60,
+    "type": "Cours",
+    "equipements": [
+      "datashow",
+      "wifi",
+      "tableau",
+      "prise",
+      "climatisation"
+    ],
+    "batiment": null,
+    "etage": 1,
+    "departement_id": null
+  },
+  {
+    "id": 5,
     "nom": "TP-A1",
     "capacite": 30,
     "type": "TP",
@@ -59,12 +75,12 @@
       "paillasse",
       "microscopes"
     ],
-    "batiment": "A",
+    "departemt": "A",
     "etage": 1,
     "departement_id": 1
   },
   {
-    "id": 5,
+    "id": 6,
     "nom": "TP-C1",
     "capacite": 30,
     "type": "TP",
@@ -74,12 +90,12 @@
       "ordinateurs",
       "logiciels_math"
     ],
-    "batiment": "C",
+    "departement": "C",
     "etage": 2,
     "departement_id": 2
   },
   {
-    "id": 6,
+    "id": 7,
     "nom": "TP-D1",
     "capacite": 30,
     "type": "TP",
@@ -95,7 +111,7 @@
     "departement_id": 3
   },
   {
-    "id": 7,
+    "id": 8,
     "nom": "TP-E1",
     "capacite": 30,
     "type": "TP",
@@ -111,7 +127,7 @@
     "departement_id": 4
   },
   {
-    "id": 8,
+    "id": 9,
     "nom": "TP-A2",
     "capacite": 30,
     "type": "TP",
@@ -127,7 +143,7 @@
     "departement_id": 1
   },
   {
-    "id": 9,
+    "id": 10,
     "nom": "TP-C2",
     "capacite": 30,
     "type": "TP",
@@ -142,7 +158,7 @@
     "departement_id": 2
   },
   {
-    "id": 10,
+    "id": 11,
     "nom": "TP-D2",
     "capacite": 30,
     "type": "TP",
@@ -158,7 +174,7 @@
     "departement_id": 3
   },
   {
-    "id": 11,
+    "id": 12,
     "nom": "TP-E2",
     "capacite": 30,
     "type": "TP",
@@ -174,7 +190,7 @@
     "departement_id": 4
   },
   {
-    "id": 12,
+    "id": 13,
     "nom": "TP-A3",
     "capacite": 30,
     "type": "TP",
@@ -190,7 +206,7 @@
     "departement_id": 1
   },
   {
-    "id": 13,
+    "id": 14,
     "nom": "TP-C3",
     "capacite": 30,
     "type": "TP",
@@ -205,7 +221,7 @@
     "departement_id": 2
   },
   {
-    "id": 14,
+    "id": 15,
     "nom": "TP-D3",
     "capacite": 30,
     "type": "TP",
@@ -221,7 +237,7 @@
     "departement_id": 3
   },
   {
-    "id": 15,
+    "id": 16,
     "nom": "TP-E3",
     "capacite": 30,
     "type": "TP",
@@ -237,7 +253,7 @@
     "departement_id": 4
   },
   {
-    "id": 16,
+    "id": 17,
     "nom": "TP-A4",
     "capacite": 30,
     "type": "TP",
@@ -253,7 +269,7 @@
     "departement_id": 1
   },
   {
-    "id": 17,
+    "id": 18,
     "nom": "TP-C4",
     "capacite": 30,
     "type": "TP",
@@ -268,7 +284,7 @@
     "departement_id": 2
   },
   {
-    "id": 18,
+    "id": 19,
     "nom": "TP-D4",
     "capacite": 30,
     "type": "TP",
@@ -284,7 +300,7 @@
     "departement_id": 3
   },
   {
-    "id": 19,
+    "id": 20,
     "nom": "TP-E4",
     "capacite": 30,
     "type": "TP",
@@ -300,7 +316,7 @@
     "departement_id": 4
   },
   {
-    "id": 20,
+    "id": 21,
     "nom": "TP-A5",
     "capacite": 30,
     "type": "TP",
@@ -316,7 +332,7 @@
     "departement_id": 1
   },
   {
-    "id": 21,
+    "id": 22,
     "nom": "TP-C5",
     "capacite": 30,
     "type": "TP",
@@ -331,7 +347,7 @@
     "departement_id": 2
   },
   {
-    "id": 22,
+    "id": 23,
     "nom": "TP-D5",
     "capacite": 30,
     "type": "TP",
@@ -347,7 +363,7 @@
     "departement_id": 3
   },
   {
-    "id": 23,
+    "id": 24,
     "nom": "TP-E5",
     "capacite": 30,
     "type": "TP",
@@ -363,7 +379,7 @@
     "departement_id": 4
   },
   {
-    "id": 24,
+    "id": 25,
     "nom": "TP-A6",
     "capacite": 30,
     "type": "TP",
@@ -379,7 +395,7 @@
     "departement_id": 1
   },
   {
-    "id": 25,
+    "id": 26,
     "nom": "TP-C6",
     "capacite": 30,
     "type": "TP",
@@ -394,7 +410,7 @@
     "departement_id": 2
   },
   {
-    "id": 26,
+    "id": 27,
     "nom": "TP-D6",
     "capacite": 30,
     "type": "TP",
@@ -410,7 +426,7 @@
     "departement_id": 3
   },
   {
-    "id": 27,
+    "id": 28,
     "nom": "TP-E6",
     "capacite": 30,
     "type": "TP",
@@ -426,7 +442,7 @@
     "departement_id": 4
   },
   {
-    "id": 28,
+    "id": 29,
     "nom": "TP-A7",
     "capacite": 30,
     "type": "TP",
@@ -442,7 +458,7 @@
     "departement_id": 1
   },
   {
-    "id": 29,
+    "id": 30,
     "nom": "TP-C7",
     "capacite": 30,
     "type": "TP",
@@ -457,7 +473,7 @@
     "departement_id": 2
   },
   {
-    "id": 30,
+    "id": 31,
     "nom": "TP-D7",
     "capacite": 30,
     "type": "TP",
@@ -473,7 +489,7 @@
     "departement_id": 3
   },
   {
-    "id": 31,
+    "id": 32,
     "nom": "Cours-A1",
     "capacite": 25,
     "type": "Cours",
@@ -488,7 +504,7 @@
     "departement_id": 1
   },
   {
-    "id": 32,
+    "id": 33,
     "nom": "Cours-C1",
     "capacite": 25,
     "type": "Cours",
@@ -503,7 +519,7 @@
     "departement_id": 2
   },
   {
-    "id": 33,
+    "id": 34,
     "nom": "Cours-D1",
     "capacite": 25,
     "type": "Cours",
@@ -518,7 +534,7 @@
     "departement_id": 3
   },
   {
-    "id": 34,
+    "id": 35,
     "nom": "Cours-E1",
     "capacite": 25,
     "type": "Cours",
@@ -533,7 +549,7 @@
     "departement_id": 4
   },
   {
-    "id": 35,
+    "id": 36,
     "nom": "Cours-A2",
     "capacite": 25,
     "type": "Cours",
@@ -548,7 +564,7 @@
     "departement_id": 1
   },
   {
-    "id": 36,
+    "id": 37,
     "nom": "Cours-C2",
     "capacite": 25,
     "type": "Cours",
@@ -563,7 +579,7 @@
     "departement_id": 2
   },
   {
-    "id": 37,
+    "id": 38,
     "nom": "Cours-D2",
     "capacite": 25,
     "type": "Cours",
@@ -578,7 +594,7 @@
     "departement_id": 3
   },
   {
-    "id": 38,
+    "id": 39,
     "nom": "Cours-E2",
     "capacite": 25,
     "type": "Cours",
@@ -593,7 +609,7 @@
     "departement_id": 4
   },
   {
-    "id": 39,
+    "id": 40,
     "nom": "Cours-A3",
     "capacite": 25,
     "type": "Cours",
@@ -608,7 +624,7 @@
     "departement_id": 1
   },
   {
-    "id": 40,
+    "id": 41,
     "nom": "Cours-C3",
     "capacite": 25,
     "type": "Cours",
@@ -623,7 +639,7 @@
     "departement_id": 2
   },
   {
-    "id": 41,
+    "id": 42,
     "nom": "TD-A1",
     "capacite": 50,
     "type": "TD",
@@ -639,7 +655,7 @@
     "departement_id": 1
   },
   {
-    "id": 42,
+    "id": 43,
     "nom": "TD-C1",
     "capacite": 50,
     "type": "TD",
@@ -655,7 +671,7 @@
     "departement_id": 2
   },
   {
-    "id": 43,
+    "id": 44,
     "nom": "TD-D1",
     "capacite": 50,
     "type": "TD",
@@ -671,7 +687,7 @@
     "departement_id": 3
   },
   {
-    "id": 44,
+    "id": 45,
     "nom": "TD-E1",
     "capacite": 50,
     "type": "TD",
@@ -687,7 +703,7 @@
     "departement_id": 4
   },
   {
-    "id": 45,
+    "id": 46,
     "nom": "TD-A2",
     "capacite": 50,
     "type": "TD",
@@ -703,7 +719,7 @@
     "departement_id": 1
   },
   {
-    "id": 46,
+    "id": 47,
     "nom": "TD-C2",
     "capacite": 50,
     "type": "TD",
@@ -719,7 +735,7 @@
     "departement_id": 2
   },
   {
-    "id": 47,
+    "id": 48,
     "nom": "Grande-A1",
     "capacite": 90,
     "type": "Cours",
@@ -735,7 +751,7 @@
     "departement_id": 1
   },
   {
-    "id": 48,
+    "id": 49,
     "nom": "Grande-C2",
     "capacite": 90,
     "type": "Cours",
@@ -751,7 +767,7 @@
     "departement_id": 2
   },
   {
-    "id": 49,
+    "id": 50,
     "nom": "Grande-D3",
     "capacite": 90,
     "type": "Cours",
@@ -767,7 +783,7 @@
     "departement_id": 3
   },
   {
-    "id": 50,
+    "id": 51,
     "nom": "Grande-E4",
     "capacite": 90,
     "type": "Cours",
