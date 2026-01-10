@@ -49,19 +49,17 @@
   },
   {
     "id": 4,
-    "nom": "Biblio",
-    "capacite": 60,
-    "type": "Cours",
-    "equipements": [
-      "datashow",
-      "wifi",
-      "tableau",
-      "prise",
-      "climatisation"
-    ],
-    "batiment": null,
-    "etage": 1,
-    "departement_id": null
+  "nom": "Bibliothèque",
+  "capacite": 60,
+  "type": "Préparation",
+  "usage": "Espace réservé à la révision, au travail personnel et à la préparation des étudiants",
+  "equipements": [
+    "wifi",
+    "prise"
+  ],
+  "batiment": null,
+  "etage": 0,
+  "departement_id": null
   },
   {
     "id": 5,
