@@ -34,6 +34,9 @@ class AdminInterface:
         # Load stats
         try:
             enseignants = charger_json("DONNÉES PRINCIPALES/enseignants_final.json")
+            if isinstance(enseignants, dict):
+                enseignants = enseignants.get("enseignants", [])
+                
             modules = charger_json("DONNÉES PRINCIPALES/modules (1).json")
             salles = charger_json("DONNÉES PRINCIPALES/salles.json")
             etudiants = 0 
@@ -141,6 +144,16 @@ class AdminInterface:
         
         try:
             data = charger_json(file_path)
+            
+            # Handle wrapped JSON (e.g. {"enseignants": [...]})
+            if isinstance(data, dict):
+                # Try to find a list value associated with a key like "enseignants", "filieres", etc.
+                # Or simply filter for list values
+                for key, value in data.items():
+                    if isinstance(value, list) and len(value) > 0 and isinstance(value[0], dict):
+                        data = value
+                        break
+            
             for item in data:
                 values = [item.get(col, "") for col in columns]
                 tree.insert("", tk.END, values=values)

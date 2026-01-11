@@ -36,7 +36,10 @@ class TeacherInterface:
 
     def load_teachers(self):
         try:
-            return charger_json("DONNÉES PRINCIPALES/enseignants_final.json")
+            data = charger_json("DONNÉES PRINCIPALES/enseignants_final.json")
+            if isinstance(data, dict):
+                return data.get("enseignants", [])
+            return data
         except:
             return []
 

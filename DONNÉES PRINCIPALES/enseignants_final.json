@@ -9,8 +9,27 @@
       "specialite": "Mathématiques Appliquées",
       "departement": "Sciences",
       "email": "h.mansouri@universite.edu",
-      "modules": [1, 13, 28, 43, 79, 93, 134, 151, 157],
-      "filieres": [1, 3, 8, 14, 16, 23, 26, 27]
+      "modules": [
+        1,
+        13,
+        28,
+        43,
+        79,
+        93,
+        134,
+        151,
+        157
+      ],
+      "filieres": [
+        1,
+        3,
+        8,
+        14,
+        16,
+        23,
+        26,
+        27
+      ]
     },
     {
       "id": 2,
@@ -18,8 +37,22 @@
       "specialite": "Analyse Numérique",
       "departement": "Sciences",
       "email": "f.benali@universite.edu",
-      "modules": [2, 14, 20, 79, 95, 106],
-      "filieres": [1, 3, 4, 14, 16, 18]
+      "modules": [
+        2,
+        14,
+        20,
+        79,
+        95,
+        106
+      ],
+      "filieres": [
+        1,
+        3,
+        4,
+        14,
+        16,
+        18
+      ]
     },
     {
       "id": 3,
@@ -27,8 +60,20 @@
       "specialite": "Algèbre Linéaire",
       "departement": "Sciences",
       "email": "a.benjelloun@universite.edu",
-      "modules": [1, 7, 13, 81, 105],
-      "filieres": [1, 2, 3, 14, 18]
+      "modules": [
+        1,
+        7,
+        13,
+        81,
+        105
+      ],
+      "filieres": [
+        1,
+        2,
+        3,
+        14,
+        18
+      ]
     },
     {
       "id": 4,
@@ -36,8 +81,22 @@
       "specialite": "Probabilités et Statistiques",
       "departement": "Sciences",
       "email": "k.saadaoui@universite.edu",
-      "modules": [7, 19, 31, 52, 107, 118],
-      "filieres": [2, 5, 6, 9, 16, 20]
+      "modules": [
+        7,
+        19,
+        31,
+        52,
+        107,
+        118
+      ],
+      "filieres": [
+        2,
+        5,
+        6,
+        9,
+        16,
+        20
+      ]
     },
     {
       "id": 5,
@@ -45,8 +104,20 @@
       "specialite": "Électricité Générale",
       "departement": "Génie Électrique",
       "email": "m.abdelilah@universite.edu",
-      "modules": [4, 16, 26, 135, 152],
-      "filieres": [1, 3, 5, 23, 26]
+      "modules": [
+        4,
+        16,
+        26,
+        135,
+        152
+      ],
+      "filieres": [
+        1,
+        3,
+        5,
+        23,
+        26
+      ]
     },
     {
       "id": 6,
@@ -54,8 +125,18 @@
       "specialite": "Électronique Numérique",
       "departement": "Génie Électrique",
       "email": "l.mansour@universite.edu",
-      "modules": [5, 10, 137, 152],
-      "filieres": [1, 2, 23, 26]
+      "modules": [
+        5,
+        10,
+        137,
+        152
+      ],
+      "filieres": [
+        1,
+        2,
+        23,
+        26
+      ]
     },
     {
       "id": 7,
@@ -63,8 +144,13 @@
       "specialite": "Traitement du Signal",
       "departement": "Génie Électrique",
       "email": "r.farah@universite.edu",
-      "modules": [159, 160],
-      "filieres": [27]
+      "modules": [
+        159,
+        160
+      ],
+      "filieres": [
+        27
+      ]
     },
     {
       "id": 8,
@@ -72,8 +158,14 @@
       "specialite": "Automatique et Contrôle",
       "departement": "Génie Électrique",
       "email": "n.benyakoub@universite.edu",
-      "modules": [160, 167],
-      "filieres": [27, 28]
+      "modules": [
+        160,
+        167
+      ],
+      "filieres": [
+        27,
+        28
+      ]
     },
     {
       "id": 9,
@@ -81,8 +173,22 @@
       "specialite": "Mécanique des Fluides",
       "departement": "Génie Mécanique",
       "email": "s.khaddor@universite.edu",
-      "modules": [12, 35, 86, 94, 136, 154],
-      "filieres": [2, 6, 15, 16, 23, 26]
+      "modules": [
+        12,
+        35,
+        86,
+        94,
+        136,
+        154
+      ],
+      "filieres": [
+        2,
+        6,
+        15,
+        16,
+        23,
+        26
+      ]
     },
     {
       "id": 10,
@@ -90,8 +196,14 @@
       "specialite": "Résistance des Matériaux",
       "departement": "Génie Mécanique",
       "email": "h.rahmani@universite.edu",
-      "modules": [40, 141],
-      "filieres": [7, 24]
+      "modules": [
+        40,
+        141
+      ],
+      "filieres": [
+        7,
+        24
+      ]
     },
     {
       "id": 11,
@@ -99,8 +211,22 @@
       "specialite": "Programmation Orientée Objet",
       "departement": "Informatique",
       "email": "y.bennouna@universite.edu",
-      "modules": [6, 9, 18, 21, 133, 171],
-      "filieres": [1, 2, 3, 4, 23, 29]
+      "modules": [
+        6,
+        9,
+        18,
+        21,
+        133,
+        171
+      ],
+      "filieres": [
+        1,
+        2,
+        3,
+        4,
+        23,
+        29
+      ]
     },
     {
       "id": 12,
@@ -108,8 +234,22 @@
       "specialite": "Bases de Données",
       "departement": "Informatique",
       "email": "a.ouadir@universite.edu",
-      "modules": [45, 50, 63, 70, 172, 176],
-      "filieres": [8, 9, 11, 12, 29, 30]
+      "modules": [
+        45,
+        50,
+        63,
+        70,
+        172,
+        176
+      ],
+      "filieres": [
+        8,
+        9,
+        11,
+        12,
+        29,
+        30
+      ]
     },
     {
       "id": 13,
@@ -117,8 +257,18 @@
       "specialite": "Technologies Web",
       "departement": "Informatique",
       "email": "a.zaoui@universite.edu",
-      "modules": [47, 62, 173, 178],
-      "filieres": [8, 11, 29, 30]
+      "modules": [
+        47,
+        62,
+        173,
+        178
+      ],
+      "filieres": [
+        8,
+        11,
+        29,
+        30
+      ]
     },
     {
       "id": 14,
@@ -126,8 +276,12 @@
       "specialite": "Système d'Exploitation",
       "departement": "Informatique",
       "email": "z.hadj@universite.edu",
-      "modules": [170],
-      "filieres": [29]
+      "modules": [
+        170
+      ],
+      "filieres": [
+        29
+      ]
     },
     {
       "id": 15,
@@ -135,8 +289,14 @@
       "specialite": "Intelligence Artificielle",
       "departement": "Informatique",
       "email": "k.elmoumen@universite.edu",
-      "modules": [67, 175],
-      "filieres": [12, 30]
+      "modules": [
+        67,
+        175
+      ],
+      "filieres": [
+        12,
+        30
+      ]
     },
     {
       "id": 16,
@@ -144,8 +304,16 @@
       "specialite": "Machine Learning",
       "departement": "Informatique",
       "email": "s.bloul@universite.edu",
-      "modules": [71, 74, 182],
-      "filieres": [12, 13, 31]
+      "modules": [
+        71,
+        74,
+        182
+      ],
+      "filieres": [
+        12,
+        13,
+        31
+      ]
     },
     {
       "id": 17,
@@ -153,8 +321,15 @@
       "specialite": "Big Data & Analytics",
       "departement": "Informatique",
       "email": "m.salah@universite.edu",
-      "modules": [109, 113, 181],
-      "filieres": [19, 31]
+      "modules": [
+        109,
+        113,
+        181
+      ],
+      "filieres": [
+        19,
+        31
+      ]
     },
     {
       "id": 18,
@@ -162,8 +337,19 @@
       "specialite": "Chimie Générale",
       "departement": "Sciences",
       "email": "h.medel@universite.edu",
-      "modules": [22, 28, 32, 55, 56],
-      "filieres": [4, 5, 6, 10]
+      "modules": [
+        22,
+        28,
+        32,
+        55,
+        56
+      ],
+      "filieres": [
+        4,
+        5,
+        6,
+        10
+      ]
     },
     {
       "id": 19,
@@ -171,8 +357,14 @@
       "specialite": "Biologie Cellulaire",
       "departement": "Sciences",
       "email": "y.bouchta@universite.edu",
-      "modules": [25, 116],
-      "filieres": [5, 20]
+      "modules": [
+        25,
+        116
+      ],
+      "filieres": [
+        5,
+        20
+      ]
     },
     {
       "id": 20,
@@ -180,8 +372,12 @@
       "specialite": "Microbiologie",
       "departement": "Sciences",
       "email": "m.rachid@universite.edu",
-      "modules": [116],
-      "filieres": [20]
+      "modules": [
+        116
+      ],
+      "filieres": [
+        20
+      ]
     },
     {
       "id": 21,
@@ -189,8 +385,15 @@
       "specialite": "Génie Parasismique",
       "departement": "Génie Civil",
       "email": "j.saidouni@universite.edu",
-      "modules": [37, 39, 79],
-      "filieres": [7, 14]
+      "modules": [
+        37,
+        39,
+        79
+      ],
+      "filieres": [
+        7,
+        14
+      ]
     },
     {
       "id": 22,
@@ -198,8 +401,15 @@
       "specialite": "Géotechnique",
       "departement": "Génie Civil",
       "email": "a.benani@universite.edu",
-      "modules": [38, 82, 83],
-      "filieres": [7, 14]
+      "modules": [
+        38,
+        82,
+        83
+      ],
+      "filieres": [
+        7,
+        14
+      ]
     },
     {
       "id": 23,
@@ -207,8 +417,18 @@
       "specialite": "Matériaux de Construction",
       "departement": "Génie Civil",
       "email": "f.lebhar@universite.edu",
-      "modules": [42, 49, 84, 87],
-      "filieres": [7, 10, 14, 15]
+      "modules": [
+        42,
+        49,
+        84,
+        87
+      ],
+      "filieres": [
+        7,
+        10,
+        14,
+        15
+      ]
     },
     {
       "id": 24,
@@ -216,8 +436,14 @@
       "specialite": "Gestion de Production",
       "departement": "Génie Industriel",
       "email": "n.khaled@universite.edu",
-      "modules": [139, 146],
-      "filieres": [24, 25]
+      "modules": [
+        139,
+        146
+      ],
+      "filieres": [
+        24,
+        25
+      ]
     },
     {
       "id": 25,
@@ -225,8 +451,16 @@
       "specialite": "Management et Qualité",
       "departement": "Génie Industriel",
       "email": "z.bennani@universite.edu",
-      "modules": [128, 147, 164],
-      "filieres": [22, 25, 28]
+      "modules": [
+        128,
+        147,
+        164
+      ],
+      "filieres": [
+        22,
+        25,
+        28
+      ]
     },
     {
       "id": 26,
@@ -234,8 +468,14 @@
       "specialite": "Logistique et Supply Chain",
       "departement": "Génie Industriel",
       "email": "a.ouazzani@universite.edu",
-      "modules": [130, 148],
-      "filieres": [22, 25]
+      "modules": [
+        130,
+        148
+      ],
+      "filieres": [
+        22,
+        25
+      ]
     },
     {
       "id": 27,
@@ -243,8 +483,22 @@
       "specialite": "Français TEC",
       "departement": "Langues",
       "email": "r.belhachemi@universite.edu",
-      "modules": [3, 15, 24, 30, 138, 156],
-      "filieres": [1, 3, 4, 5, 23, 26]
+      "modules": [
+        3,
+        15,
+        24,
+        30,
+        138,
+        156
+      ],
+      "filieres": [
+        1,
+        3,
+        4,
+        5,
+        23,
+        26
+      ]
     },
     {
       "id": 28,
@@ -252,8 +506,28 @@
       "specialite": "English",
       "departement": "Langues",
       "email": "n.lahsen@universite.edu",
-      "modules": [49, 72, 103, 120, 144, 162, 174, 180, 186],
-      "filieres": [9, 12, 18, 20, 24, 27, 29, 30, 31]
+      "modules": [
+        49,
+        72,
+        103,
+        120,
+        144,
+        162,
+        174,
+        180,
+        186
+      ],
+      "filieres": [
+        9,
+        12,
+        18,
+        20,
+        24,
+        27,
+        29,
+        30,
+        31
+      ]
     },
     {
       "id": 29,
@@ -261,8 +535,18 @@
       "specialite": "Soft Skills & Leadership",
       "departement": "Management",
       "email": "a.dahy@universite.edu",
-      "modules": [48, 66, 78, 185],
-      "filieres": [8, 11, 13, 31]
+      "modules": [
+        48,
+        66,
+        78,
+        185
+      ],
+      "filieres": [
+        8,
+        11,
+        13,
+        31
+      ]
     },
     {
       "id": 30,
@@ -270,8 +554,13 @@
       "specialite": "Thermodynamique Industrielle",
       "departement": "Génie Énergétique",
       "email": "s.mansour@universite.edu",
-      "modules": [91, 92],
-      "filieres": [16]
+      "modules": [
+        91,
+        92
+      ],
+      "filieres": [
+        16
+      ]
     },
     {
       "id": 31,
@@ -279,8 +568,14 @@
       "specialite": "Efficacité Énergétique",
       "departement": "Génie Énergétique",
       "email": "h.benali@universite.edu",
-      "modules": [89, 99],
-      "filieres": [15, 17]
+      "modules": [
+        89,
+        99
+      ],
+      "filieres": [
+        15,
+        17
+      ]
     },
     {
       "id": 32,
@@ -288,8 +583,14 @@
       "specialite": "Énergies Renouvelables",
       "departement": "Génie Énergétique",
       "email": "k.badri@universite.edu",
-      "modules": [96, 98],
-      "filieres": [16, 17]
+      "modules": [
+        96,
+        98
+      ],
+      "filieres": [
+        16,
+        17
+      ]
     },
     {
       "id": 33,
@@ -297,8 +598,12 @@
       "specialite": "Techniques d'Analyses Alimentaires",
       "departement": "Agroalimentaire",
       "email": "h.bouazza@universite.edu",
-      "modules": [115],
-      "filieres": [20]
+      "modules": [
+        115
+      ],
+      "filieres": [
+        20
+      ]
     },
     {
       "id": 34,
@@ -306,8 +611,12 @@
       "specialite": "Microbiologie Alimentaire",
       "departement": "Agroalimentaire",
       "email": "s.zarkaoui@universite.edu",
-      "modules": [116],
-      "filieres": [20]
+      "modules": [
+        116
+      ],
+      "filieres": [
+        20
+      ]
     },
     {
       "id": 35,
@@ -315,8 +624,12 @@
       "specialite": "Biochimie Alimentaire",
       "departement": "Agroalimentaire",
       "email": "l.bouhamidi@universite.edu",
-      "modules": [117],
-      "filieres": [20]
+      "modules": [
+        117
+      ],
+      "filieres": [
+        20
+      ]
     },
     {
       "id": 36,
@@ -324,8 +637,14 @@
       "specialite": "Production Animale",
       "departement": "Agroalimentaire",
       "email": "w.saidane@universite.edu",
-      "modules": [119, 121],
-      "filieres": [20, 21]
+      "modules": [
+        119,
+        121
+      ],
+      "filieres": [
+        20,
+        21
+      ]
     },
     {
       "id": 37,
@@ -333,8 +652,13 @@
       "specialite": "Transformation Alimentaire",
       "departement": "Agroalimentaire",
       "email": "s.bensizerara@universite.edu",
-      "modules": [122, 123],
-      "filieres": [21]
+      "modules": [
+        122,
+        123
+      ],
+      "filieres": [
+        21
+      ]
     },
     {
       "id": 38,
@@ -342,8 +666,12 @@
       "specialite": "Agronomie",
       "departement": "Agroalimentaire",
       "email": "m.khaoula@universite.edu",
-      "modules": [124],
-      "filieres": [21]
+      "modules": [
+        124
+      ],
+      "filieres": [
+        21
+      ]
     },
     {
       "id": 39,
@@ -351,8 +679,12 @@
       "specialite": "Physique Industrielle",
       "departement": "Sciences",
       "email": "a.diallo@universite.edu",
-      "modules": [125],
-      "filieres": [21]
+      "modules": [
+        125
+      ],
+      "filieres": [
+        21
+      ]
     },
     {
       "id": 40,
@@ -360,8 +692,12 @@
       "specialite": "Biostatistique",
       "departement": "Sciences",
       "email": "n.abdelaziz@universite.edu",
-      "modules": [118],
-      "filieres": [20]
+      "modules": [
+        118
+      ],
+      "filieres": [
+        20
+      ]
     },
     {
       "id": 41,
@@ -369,8 +705,14 @@
       "specialite": "Théorie des Graphes",
       "departement": "Informatique",
       "email": "m.selma@universite.edu",
-      "modules": [44, 169],
-      "filieres": [8, 29]
+      "modules": [
+        44,
+        169
+      ],
+      "filieres": [
+        8,
+        29
+      ]
     },
     {
       "id": 42,
@@ -378,8 +720,16 @@
       "specialite": "Design Patterns",
       "departement": "Informatique",
       "email": "s.benazza@universite.edu",
-      "modules": [61, 179],
-      "filieres": [11, 30]
+      "modules": [
+        61,
+        179,
+        46
+      ],
+      "filieres": [
+        11,
+        30,
+        8
+      ]
     },
     {
       "id": 43,
@@ -387,8 +737,12 @@
       "specialite": "Sécurité Informatique",
       "departement": "Informatique",
       "email": "b.hammouni@universite.edu",
-      "modules": [183],
-      "filieres": [31]
+      "modules": [
+        183
+      ],
+      "filieres": [
+        31
+      ]
     },
     {
       "id": 44,
@@ -396,8 +750,14 @@
       "specialite": "Cloud Computing",
       "departement": "Informatique",
       "email": "s.ouazzani@universite.edu",
-      "modules": [77, 184],
-      "filieres": [13, 31]
+      "modules": [
+        77,
+        184
+      ],
+      "filieres": [
+        13,
+        31
+      ]
     },
     {
       "id": 45,
@@ -405,8 +765,14 @@
       "specialite": "Vision par Ordinateur",
       "departement": "Informatique",
       "email": "j.benismaili@universite.edu",
-      "modules": [73, 182],
-      "filieres": [13, 31]
+      "modules": [
+        73,
+        182
+      ],
+      "filieres": [
+        13,
+        31
+      ]
     },
     {
       "id": 46,
@@ -414,8 +780,14 @@
       "specialite": "IoT et Systèmes Embarqués",
       "departement": "Informatique",
       "email": "k.daoud@universite.edu",
-      "modules": [165, 177],
-      "filieres": [28, 30]
+      "modules": [
+        165,
+        177
+      ],
+      "filieres": [
+        28,
+        30
+      ]
     },
     {
       "id": 47,
@@ -423,8 +795,12 @@
       "specialite": "Réseaux et Télécommunications",
       "departement": "Informatique",
       "email": "a.meilleur@universite.edu",
-      "modules": [166],
-      "filieres": [28]
+      "modules": [
+        166
+      ],
+      "filieres": [
+        28
+      ]
     },
     {
       "id": 48,
@@ -432,8 +808,16 @@
       "specialite": "Modélisation Mathématique",
       "departement": "Sciences",
       "email": "l.youssef@universite.edu",
-      "modules": [68, 105, 111],
-      "filieres": [12, 18, 19]
+      "modules": [
+        68,
+        105,
+        111
+      ],
+      "filieres": [
+        12,
+        18,
+        19
+      ]
     },
     {
       "id": 49,
@@ -441,8 +825,16 @@
       "specialite": "Méthodes Numériques",
       "departement": "Sciences",
       "email": "f.reza@universite.edu",
-      "modules": [79, 95, 106],
-      "filieres": [14, 16, 18]
+      "modules": [
+        79,
+        95,
+        106
+      ],
+      "filieres": [
+        14,
+        16,
+        18
+      ]
     },
     {
       "id": 50,
@@ -450,8 +842,12 @@
       "specialite": "Urbanisme",
       "departement": "Génie Civil",
       "email": "h.najjar@universite.edu",
-      "modules": [88],
-      "filieres": [15]
+      "modules": [
+        88
+      ],
+      "filieres": [
+        15
+      ]
     },
     {
       "id": 51,
@@ -459,8 +855,14 @@
       "specialite": "BIM et Gestion de Projet",
       "departement": "Génie Civil",
       "email": "z.larbi@universite.edu",
-      "modules": [80, 90],
-      "filieres": [14, 15]
+      "modules": [
+        80,
+        90
+      ],
+      "filieres": [
+        14,
+        15
+      ]
     },
     {
       "id": 52,
@@ -468,8 +870,16 @@
       "specialite": "Optimisation",
       "departement": "Sciences",
       "email": "m.khalilzadeh@universite.edu",
-      "modules": [54, 112, 142],
-      "filieres": [9, 19, 24]
+      "modules": [
+        54,
+        112,
+        142
+      ],
+      "filieres": [
+        9,
+        19,
+        24
+      ]
     },
     {
       "id": 53,
@@ -477,8 +887,12 @@
       "specialite": "Gestion des Ressources Humaines",
       "departement": "Management",
       "email": "m.abidi@universite.edu",
-      "modules": [145],
-      "filieres": [25]
+      "modules": [
+        145
+      ],
+      "filieres": [
+        25
+      ]
     },
     {
       "id": 54,
@@ -486,8 +900,16 @@
       "specialite": "Comptabilité et Finance",
       "departement": "Management",
       "email": "y.hamoud@universite.edu",
-      "modules": [8, 11, 145],
-      "filieres": [2, 4, 25]
+      "modules": [
+        8,
+        11,
+        145
+      ],
+      "filieres": [
+        2,
+        4,
+        25
+      ]
     },
     {
       "id": 55,
@@ -495,8 +917,12 @@
       "specialite": "Systèmes Embarqués",
       "departement": "Génie Électrique",
       "email": "n.belkadi@universite.edu",
-      "modules": [165],
-      "filieres": [28]
+      "modules": [
+        165
+      ],
+      "filieres": [
+        28
+      ]
     },
     {
       "id": 56,
@@ -504,8 +930,16 @@
       "specialite": "Applications Web",
       "departement": "Informatique",
       "email": "t.benismaili@universite.edu",
-      "modules": [47, 62, 173],
-      "filieres": [8, 11, 29]
+      "modules": [
+        47,
+        62,
+        173
+      ],
+      "filieres": [
+        8,
+        11,
+        29
+      ]
     },
     {
       "id": 57,
@@ -513,8 +947,14 @@
       "specialite": "Génie Logiciel",
       "departement": "Informatique",
       "email": "r.elhilali@universite.edu",
-      "modules": [61, 179],
-      "filieres": [11, 30]
+      "modules": [
+        61,
+        179
+      ],
+      "filieres": [
+        11,
+        30
+      ]
     },
     {
       "id": 58,
@@ -522,8 +962,12 @@
       "specialite": "Blockchain",
       "departement": "Informatique",
       "email": "k.amirouche@universite.edu",
-      "modules": [76],
-      "filieres": [13]
+      "modules": [
+        76
+      ],
+      "filieres": [
+        13
+      ]
     },
     {
       "id": 59,
@@ -531,8 +975,12 @@
       "specialite": "Intelligence Économique",
       "departement": "Management",
       "email": "s.bekkali@universite.edu",
-      "modules": [185],
-      "filieres": [31]
+      "modules": [
+        185
+      ],
+      "filieres": [
+        31
+      ]
     },
     {
       "id": 60,
@@ -540,8 +988,14 @@
       "specialite": "Vibrologie",
       "departement": "Génie Mécanique",
       "email": "h.yousfi@universite.edu",
-      "modules": [141, 161],
-      "filieres": [24, 27]
+      "modules": [
+        141,
+        161
+      ],
+      "filieres": [
+        24,
+        27
+      ]
     }
   ]
 }

@@ -639,9 +639,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 14,
     "annee": 1,
-    "enseignant_id": 11,
-    "enseignant": "Dr. Youssef Bennouna",
-    "specialite_enseignant": "Programmation Orientée Objet"
+    "enseignant_id": 42,
+    "enseignant": "Dr. Soraya Benazza",
+    "specialite_enseignant": "Design Patterns"
   },
   {
     "id": 47,
@@ -923,7 +923,6 @@
     "enseignant": "Dr. Amira Dahy",
     "specialite_enseignant": "Soft Skills & Leadership"
   },
-  
   {
     "id": 67,
     "code": "AISD-1-M1",

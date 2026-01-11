@@ -795,5 +795,519 @@
     "batiment": "E",
     "etage": 2,
     "departement_id": 4
+  },
+  {
+    "id": 52,
+    "nom": "Amphi F",
+    "capacite": 400,
+    "type": "Amphi",
+    "equipements": [
+      "datashow",
+      "sono",
+      "wifi",
+      "tableau",
+      "micro"
+    ],
+    "batiment": "F",
+    "etage": 0,
+    "departement_id": null
+  },
+  {
+    "id": 53,
+    "nom": "Amphi G",
+    "capacite": 400,
+    "type": "Amphi",
+    "equipements": [
+      "datashow",
+      "sono",
+      "wifi",
+      "tableau",
+      "micro"
+    ],
+    "batiment": "F",
+    "etage": 0,
+    "departement_id": null
+  },
+  {
+    "id": 54,
+    "nom": "Amphi H",
+    "capacite": 400,
+    "type": "Amphi",
+    "equipements": [
+      "datashow",
+      "sono",
+      "wifi",
+      "tableau",
+      "micro"
+    ],
+    "batiment": "G",
+    "etage": 0,
+    "departement_id": null
+  },
+  {
+    "id": 55,
+    "nom": "Amphi I",
+    "capacite": 400,
+    "type": "Amphi",
+    "equipements": [
+      "datashow",
+      "sono",
+      "wifi",
+      "tableau",
+      "micro"
+    ],
+    "batiment": "G",
+    "etage": 0,
+    "departement_id": null
+  },
+  {
+    "id": 56,
+    "nom": "Amphi J",
+    "capacite": 400,
+    "type": "Amphi",
+    "equipements": [
+      "datashow",
+      "sono",
+      "wifi",
+      "tableau",
+      "micro"
+    ],
+    "batiment": "H",
+    "etage": 0,
+    "departement_id": null
+  },
+  {
+    "id": 57,
+    "nom": "TD-F1",
+    "capacite": 50,
+    "type": "TD",
+    "equipements": [
+      "datashow",
+      "wifi",
+      "tableau"
+    ],
+    "batiment": "F",
+    "etage": 1,
+    "departement_id": null
+  },
+  {
+    "id": 58,
+    "nom": "TD-F2",
+    "capacite": 50,
+    "type": "TD",
+    "equipements": [
+      "datashow",
+      "wifi",
+      "tableau"
+    ],
+    "batiment": "F",
+    "etage": 1,
+    "departement_id": null
+  },
+  {
+    "id": 59,
+    "nom": "TD-F3",
+    "capacite": 50,
+    "type": "TD",
+    "equipements": [
+      "datashow",
+      "wifi",
+      "tableau"
+    ],
+    "batiment": "F",
+    "etage": 1,
+    "departement_id": null
+  },
+  {
+    "id": 60,
+    "nom": "TD-F4",
+    "capacite": 50,
+    "type": "TD",
+    "equipements": [
+      "datashow",
+      "wifi",
+      "tableau"
+    ],
+    "batiment": "F",
+    "etage": 2,
+    "departement_id": null
+  },
+  {
+    "id": 61,
+    "nom": "TD-F5",
+    "capacite": 50,
+    "type": "TD",
+    "equipements": [
+      "datashow",
+      "wifi",
+      "tableau"
+    ],
+    "batiment": "F",
+    "etage": 2,
+    "departement_id": null
+  },
+  {
+    "id": 62,
+    "nom": "TD-F6",
+    "capacite": 50,
+    "type": "TD",
+    "equipements": [
+      "datashow",
+      "wifi",
+      "tableau"
+    ],
+    "batiment": "F",
+    "etage": 2,
+    "departement_id": null
+  },
+  {
+    "id": 63,
+    "nom": "TD-F7",
+    "capacite": 50,
+    "type": "TD",
+    "equipements": [
+      "datashow",
+      "wifi",
+      "tableau"
+    ],
+    "batiment": "F",
+    "etage": 3,
+    "departement_id": null
+  },
+  {
+    "id": 64,
+    "nom": "TD-F8",
+    "capacite": 50,
+    "type": "TD",
+    "equipements": [
+      "datashow",
+      "wifi",
+      "tableau"
+    ],
+    "batiment": "F",
+    "etage": 3,
+    "departement_id": null
+  },
+  {
+    "id": 65,
+    "nom": "TD-F9",
+    "capacite": 50,
+    "type": "TD",
+    "equipements": [
+      "datashow",
+      "wifi",
+      "tableau"
+    ],
+    "batiment": "F",
+    "etage": 3,
+    "departement_id": null
+  },
+  {
+    "id": 66,
+    "nom": "TD-G1",
+    "capacite": 50,
+    "type": "TD",
+    "equipements": [
+      "datashow",
+      "wifi",
+      "tableau"
+    ],
+    "batiment": "G",
+    "etage": 1,
+    "departement_id": null
+  },
+  {
+    "id": 67,
+    "nom": "TD-G2",
+    "capacite": 50,
+    "type": "TD",
+    "equipements": [
+      "datashow",
+      "wifi",
+      "tableau"
+    ],
+    "batiment": "G",
+    "etage": 1,
+    "departement_id": null
+  },
+  {
+    "id": 68,
+    "nom": "TD-G3",
+    "capacite": 50,
+    "type": "TD",
+    "equipements": [
+      "datashow",
+      "wifi",
+      "tableau"
+    ],
+    "batiment": "G",
+    "etage": 1,
+    "departement_id": null
+  },
+  {
+    "id": 69,
+    "nom": "TD-G4",
+    "capacite": 50,
+    "type": "TD",
+    "equipements": [
+      "datashow",
+      "wifi",
+      "tableau"
+    ],
+    "batiment": "G",
+    "etage": 2,
+    "departement_id": null
+  },
+  {
+    "id": 70,
+    "nom": "TD-G5",
+    "capacite": 50,
+    "type": "TD",
+    "equipements": [
+      "datashow",
+      "wifi",
+      "tableau"
+    ],
+    "batiment": "G",
+    "etage": 2,
+    "departement_id": null
+  },
+  {
+    "id": 71,
+    "nom": "TD-G6",
+    "capacite": 50,
+    "type": "TD",
+    "equipements": [
+      "datashow",
+      "wifi",
+      "tableau"
+    ],
+    "batiment": "G",
+    "etage": 2,
+    "departement_id": null
+  },
+  {
+    "id": 72,
+    "nom": "TP-F1",
+    "capacite": 35,
+    "type": "TP",
+    "equipements": [
+      "datashow",
+      "wifi",
+      "PC"
+    ],
+    "batiment": "F",
+    "etage": 1,
+    "departement_id": null
+  },
+  {
+    "id": 73,
+    "nom": "TP-F2",
+    "capacite": 35,
+    "type": "TP",
+    "equipements": [
+      "datashow",
+      "wifi",
+      "PC"
+    ],
+    "batiment": "F",
+    "etage": 1,
+    "departement_id": null
+  },
+  {
+    "id": 74,
+    "nom": "TP-F3",
+    "capacite": 35,
+    "type": "TP",
+    "equipements": [
+      "datashow",
+      "wifi",
+      "PC"
+    ],
+    "batiment": "F",
+    "etage": 1,
+    "departement_id": null
+  },
+  {
+    "id": 75,
+    "nom": "TP-F4",
+    "capacite": 35,
+    "type": "TP",
+    "equipements": [
+      "datashow",
+      "wifi",
+      "PC"
+    ],
+    "batiment": "F",
+    "etage": 2,
+    "departement_id": null
+  },
+  {
+    "id": 76,
+    "nom": "TP-F5",
+    "capacite": 35,
+    "type": "TP",
+    "equipements": [
+      "datashow",
+      "wifi",
+      "PC"
+    ],
+    "batiment": "F",
+    "etage": 2,
+    "departement_id": null
+  },
+  {
+    "id": 77,
+    "nom": "TP-F6",
+    "capacite": 35,
+    "type": "TP",
+    "equipements": [
+      "datashow",
+      "wifi",
+      "PC"
+    ],
+    "batiment": "F",
+    "etage": 2,
+    "departement_id": null
+  },
+  {
+    "id": 78,
+    "nom": "TP-F7",
+    "capacite": 35,
+    "type": "TP",
+    "equipements": [
+      "datashow",
+      "wifi",
+      "PC"
+    ],
+    "batiment": "F",
+    "etage": 3,
+    "departement_id": null
+  },
+  {
+    "id": 79,
+    "nom": "TP-F8",
+    "capacite": 35,
+    "type": "TP",
+    "equipements": [
+      "datashow",
+      "wifi",
+      "PC"
+    ],
+    "batiment": "F",
+    "etage": 3,
+    "departement_id": null
+  },
+  {
+    "id": 80,
+    "nom": "TP-F9",
+    "capacite": 35,
+    "type": "TP",
+    "equipements": [
+      "datashow",
+      "wifi",
+      "PC"
+    ],
+    "batiment": "F",
+    "etage": 3,
+    "departement_id": null
+  },
+  {
+    "id": 81,
+    "nom": "TP-G1",
+    "capacite": 35,
+    "type": "TP",
+    "equipements": [
+      "datashow",
+      "wifi",
+      "PC"
+    ],
+    "batiment": "G",
+    "etage": 1,
+    "departement_id": null
+  },
+  {
+    "id": 82,
+    "nom": "TP-G2",
+    "capacite": 35,
+    "type": "TP",
+    "equipements": [
+      "datashow",
+      "wifi",
+      "PC"
+    ],
+    "batiment": "G",
+    "etage": 1,
+    "departement_id": null
+  },
+  {
+    "id": 83,
+    "nom": "TP-G3",
+    "capacite": 35,
+    "type": "TP",
+    "equipements": [
+      "datashow",
+      "wifi",
+      "PC"
+    ],
+    "batiment": "G",
+    "etage": 1,
+    "departement_id": null
+  },
+  {
+    "id": 84,
+    "nom": "TP-G4",
+    "capacite": 35,
+    "type": "TP",
+    "equipements": [
+      "datashow",
+      "wifi",
+      "PC"
+    ],
+    "batiment": "G",
+    "etage": 2,
+    "departement_id": null
+  },
+  {
+    "id": 85,
+    "nom": "TP-G5",
+    "capacite": 35,
+    "type": "TP",
+    "equipements": [
+      "datashow",
+      "wifi",
+      "PC"
+    ],
+    "batiment": "G",
+    "etage": 2,
+    "departement_id": null
+  },
+  {
+    "id": 86,
+    "nom": "TP-G6",
+    "capacite": 35,
+    "type": "TP",
+    "equipements": [
+      "datashow",
+      "wifi",
+      "PC"
+    ],
+    "batiment": "G",
+    "etage": 2,
+    "departement_id": null
+  },
+  {
+    "id": 87,
+    "nom": "TP-G7",
+    "capacite": 35,
+    "type": "TP",
+    "equipements": [
+      "datashow",
+      "wifi",
+      "PC"
+    ],
+    "batiment": "G",
+    "etage": 3,
+    "departement_id": null
   }
 ]

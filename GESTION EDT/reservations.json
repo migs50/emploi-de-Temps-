@@ -1,2 +1,9 @@
-
-[]
+[
+    {
+        "enseignant": "Dr. Fatima Benali ",
+        "salle": "Bibliothèque",
+        "jour": "Samedi",
+        "debut": "09:00",
+        "motif": "rattrapage"
+    }
+]
