@@ -113,7 +113,8 @@ def generate_seances():
                 seances.append(seance)
                 seance_id_counter += 1
                 
-        # --- EXAMEN (1 par module à la fin ou spécifique) ---
+        # --- EXAMEN (Commented out as requested) ---
+        """
         seance_examen = {
             "id": seance_id_counter,
             "module": mod['nom'],
@@ -127,6 +128,7 @@ def generate_seances():
         }
         seances.append(seance_examen)
         seance_id_counter += 1
+        """
                 
     print(f"Generated {len(seances)} sessions.")
     save_json(SEANCES_PATH, seances)

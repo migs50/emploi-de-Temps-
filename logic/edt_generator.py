@@ -183,47 +183,50 @@ def generer_edt():
 
     edt = []
 
-    for seance in seances:
-        placee = False
-        
-        # Sort days to balance load (soft constraint)
-        jours_tries = trier_jours_par_charge(edt, seance["groupe"], JOURS)
+    with open("scheduling_errors.txt", "w", encoding='utf-8') as err_file:
+        for seance in seances:
+            placee = False
+            
+            # Sort days to balance load (soft constraint)
+            jours_tries = trier_jours_par_charge(edt, seance["groupe"], JOURS)
 
-        for jour in jours_tries:
-            debut, fin = trouver_creneau_libre(
-                edt, jour, seance["enseignant"], seance["groupe"]
-            )
-
-            if debut:
-                salle = trouver_salle_libre(
-                    salles, edt, jour, debut, seance["effectif"], seance["type"],
-                    ressources_requises=seance.get("ressources_requises")
+            for jour in jours_tries:
+                debut, fin = trouver_creneau_libre(
+                    edt, jour, seance["enseignant"], seance["groupe"]
                 )
 
-                if salle:
-                    nouvelle_seance = {
-                        "id": seance.get("id"),
-                        "module": seance["module"],
-                        "type": seance["type"],
-                        "enseignant": seance["enseignant"],
-                        "groupe": seance["groupe"],
-                        "jour": jour,
-                        "debut": debut,
-                        "fin": fin,
-                        "salle": salle,
-                        "filiere": seance.get("filiere")
-                    }
+                if debut:
+                    salle = trouver_salle_libre(
+                        salles, edt, jour, debut, seance["effectif"], seance["type"],
+                        ressources_requises=seance.get("ressources_requises")
+                    )
 
-                    conflits = detecter_conflits(edt, nouvelle_seance)
-                    if not conflits:
-                        edt.append(nouvelle_seance)
-                        placee = True
-                        break
+                    if salle:
+                        nouvelle_seance = {
+                            "id": seance.get("id"),
+                            "module": seance["module"],
+                            "type": seance["type"],
+                            "enseignant": seance["enseignant"],
+                            "groupe": seance["groupe"],
+                            "jour": jour,
+                            "debut": debut,
+                            "fin": fin,
+                            "salle": salle,
+                            "filiere": seance.get("filiere")
+                        }
 
-        if not placee:
-            solution = proposer_solution(salles, edt, seance)
-            if solution:
-                edt.append(solution)
+                        conflits = detecter_conflits(edt, nouvelle_seance)
+                        if not conflits:
+                            edt.append(nouvelle_seance)
+                            placee = True
+                            break
+
+            if not placee:
+                solution = proposer_solution(salles, edt, seance)
+                if solution:
+                    edt.append(solution)
+                else:
+                    err_file.write(f"SCHEDULING_FAILURE: {seance['module']} ({seance['type']}) Group: {seance['groupe']}\n")
 
     sauvegarder_json("GESTION EDT/emplois_du_temps.json", edt)
     return edt

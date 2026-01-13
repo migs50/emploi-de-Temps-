@@ -489,7 +489,7 @@
   {
     "id": 32,
     "nom": "Cours-A1",
-    "capacite": 25,
+    "capacite": 60,
     "type": "Cours",
     "equipements": [
       "datashow",
@@ -504,7 +504,7 @@
   {
     "id": 33,
     "nom": "Cours-C1",
-    "capacite": 25,
+    "capacite": 60,
     "type": "Cours",
     "equipements": [
       "datashow",
@@ -519,7 +519,7 @@
   {
     "id": 34,
     "nom": "Cours-D1",
-    "capacite": 25,
+    "capacite": 60,
     "type": "Cours",
     "equipements": [
       "datashow",
@@ -534,7 +534,7 @@
   {
     "id": 35,
     "nom": "Cours-E1",
-    "capacite": 25,
+    "capacite": 60,
     "type": "Cours",
     "equipements": [
       "datashow",
@@ -549,7 +549,7 @@
   {
     "id": 36,
     "nom": "Cours-A2",
-    "capacite": 25,
+    "capacite": 60,
     "type": "Cours",
     "equipements": [
       "datashow",
@@ -564,7 +564,7 @@
   {
     "id": 37,
     "nom": "Cours-C2",
-    "capacite": 25,
+    "capacite": 60,
     "type": "Cours",
     "equipements": [
       "datashow",
@@ -579,7 +579,7 @@
   {
     "id": 38,
     "nom": "Cours-D2",
-    "capacite": 25,
+    "capacite": 60,
     "type": "Cours",
     "equipements": [
       "datashow",
@@ -594,7 +594,7 @@
   {
     "id": 39,
     "nom": "Cours-E2",
-    "capacite": 25,
+    "capacite": 60,
     "type": "Cours",
     "equipements": [
       "datashow",
@@ -609,7 +609,7 @@
   {
     "id": 40,
     "nom": "Cours-A3",
-    "capacite": 25,
+    "capacite": 60,
     "type": "Cours",
     "equipements": [
       "datashow",
@@ -624,7 +624,7 @@
   {
     "id": 41,
     "nom": "Cours-C3",
-    "capacite": 25,
+    "capacite": 60,
     "type": "Cours",
     "equipements": [
       "datashow",

@@ -289,9 +289,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 14,
     "annee": 2,
-    "enseignant_id": 11,
-    "enseignant": "Dr. Youssef Bennouna",
-    "specialite_enseignant": "Programmation Orientée Objet"
+    "enseignant_id": 42,
+    "enseignant": "Dr. Soraya Benazza",
+    "specialite_enseignant": "Design Patterns"
   },
   {
     "id": 22,
@@ -429,9 +429,9 @@
     "nb_seances_td": 12,
     "nb_seances_tp": 10,
     "annee": 2,
-    "enseignant_id": 4,
-    "enseignant": "Dr. Karim Saadaoui",
-    "specialite_enseignant": "Probabilités et Statistiques"
+    "enseignant_id": 16,
+    "enseignant": "Dr. Samira Bloul",
+    "specialite_enseignant": "Machine Learning"
   },
   {
     "id": 32,
@@ -443,9 +443,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 12,
     "annee": 2,
-    "enseignant_id": 18,
-    "enseignant": "Dr. Hocine Medel",
-    "specialite_enseignant": "Chimie Générale"
+    "enseignant_id": 20,
+    "enseignant": "Dr. Mohamed Rachid",
+    "specialite_enseignant": "Microbiologie"
   },
   {
     "id": 33,
@@ -485,9 +485,9 @@
     "nb_seances_td": 12,
     "nb_seances_tp": 8,
     "annee": 2,
-    "enseignant_id": 19,
-    "enseignant": "Dr. Yasmine Bouchta",
-    "specialite_enseignant": "Biologie Cellulaire"
+    "enseignant_id": 31,
+    "enseignant": "Dr. Hana Benali",
+    "specialite_enseignant": "Efficacité Énergétique"
   },
   {
     "id": 36,
@@ -499,9 +499,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 12,
     "annee": 2,
-    "enseignant_id": 5,
-    "enseignant": "Pr. Mohammed Abdelilah",
-    "specialite_enseignant": "Électricité Générale"
+    "enseignant_id": 7,
+    "enseignant": "Dr. Rachid Farah",
+    "specialite_enseignant": "Traitement du Signal"
   },
   {
     "id": 37,
@@ -723,9 +723,9 @@
     "nb_seances_td": 12,
     "nb_seances_tp": 10,
     "annee": 1,
-    "enseignant_id": 4,
-    "enseignant": "Dr. Karim Saadaoui",
-    "specialite_enseignant": "Probabilités et Statistiques"
+    "enseignant_id": 16,
+    "enseignant": "Dr. Samira Bloul",
+    "specialite_enseignant": "Machine Learning"
   },
   {
     "id": 53,
@@ -1493,9 +1493,9 @@
     "nb_seances_td": 14,
     "nb_seances_tp": 8,
     "annee": 1,
-    "enseignant_id": 4,
-    "enseignant": "Dr. Karim Saadaoui",
-    "specialite_enseignant": "Probabilités et Statistiques"
+    "enseignant_id": 16,
+    "enseignant": "Dr. Samira Bloul",
+    "specialite_enseignant": "Machine Learning"
   },
   {
     "id": 108,
@@ -1507,9 +1507,9 @@
     "nb_seances_td": 14,
     "nb_seances_tp": 8,
     "annee": 1,
-    "enseignant_id": 2,
-    "enseignant": "Dr. Fatima Benali",
-    "specialite_enseignant": "Analyse Numérique"
+    "enseignant_id": 49,
+    "enseignant": "Dr. Fatemah Reza",
+    "specialite_enseignant": "Méthodes Numériques"
   },
   {
     "id": 109,
@@ -1521,9 +1521,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 14,
     "annee": 2,
-    "enseignant_id": 17,
-    "enseignant": "Dr. Mohamed Salah",
-    "specialite_enseignant": "Big Data & Analytics"
+    "enseignant_id": 16,
+    "enseignant": "Dr. Samira Bloul",
+    "specialite_enseignant": "Machine Learning"
   },
   {
     "id": 110,
@@ -1535,9 +1535,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 14,
     "annee": 2,
-    "enseignant_id": 4,
-    "enseignant": "Dr. Karim Saadaoui",
-    "specialite_enseignant": "Probabilités et Statistiques"
+    "enseignant_id": 12,
+    "enseignant": "Dr. Amina Ouadir",
+    "specialite_enseignant": "Bases de Données"
   },
   {
     "id": 111,
@@ -1549,9 +1549,9 @@
     "nb_seances_td": 14,
     "nb_seances_tp": 8,
     "annee": 2,
-    "enseignant_id": 48,
-    "enseignant": "Dr. Laila Youssef",
-    "specialite_enseignant": "Modélisation Mathématique"
+    "enseignant_id": 3,
+    "enseignant": "Pr. Ahmed Benjelloun",
+    "specialite_enseignant": "Algèbre Linéaire"
   },
   {
     "id": 112,
@@ -1591,9 +1591,9 @@
     "nb_seances_td": 12,
     "nb_seances_tp": 0,
     "annee": 2,
-    "enseignant_id": 28,
-    "enseignant": "Dr. Nadia Lahsen",
-    "specialite_enseignant": "English"
+    "enseignant_id": 27,
+    "enseignant": "Dr. Rachid Belhachemi",
+    "specialite_enseignant": "Français TEC"
   },
   {
     "id": 115,
@@ -1857,9 +1857,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 14,
     "annee": 1,
-    "enseignant_id": 11,
-    "enseignant": "Dr. Youssef Bennouna",
-    "specialite_enseignant": "Programmation Orientée Objet"
+    "enseignant_id": 48,
+    "enseignant": "Dr. Laila Youssef",
+    "specialite_enseignant": "Modélisation Mathématique"
   },
   {
     "id": 134,
@@ -1871,9 +1871,9 @@
     "nb_seances_td": 12,
     "nb_seances_tp": 8,
     "annee": 1,
-    "enseignant_id": 1,
-    "enseignant": "Dr. Hassan Al-Mansouri",
-    "specialite_enseignant": "Mathématiques Appliquées"
+    "enseignant_id": 49,
+    "enseignant": "Dr. Fatemah Reza",
+    "specialite_enseignant": "Méthodes Numériques"
   },
   {
     "id": 135,
@@ -1885,9 +1885,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 12,
     "annee": 1,
-    "enseignant_id": 5,
-    "enseignant": "Pr. Mohammed Abdelilah",
-    "specialite_enseignant": "Électricité Générale"
+    "enseignant_id": 7,
+    "enseignant": "Dr. Rachid Farah",
+    "specialite_enseignant": "Traitement du Signal"
   },
   {
     "id": 136,
@@ -1899,9 +1899,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 10,
     "annee": 1,
-    "enseignant_id": 9,
-    "enseignant": "Pr. Samir Khaddor",
-    "specialite_enseignant": "Mécanique des Fluides"
+    "enseignant_id": 31,
+    "enseignant": "Dr. Hana Benali",
+    "specialite_enseignant": "Efficacité Énergétique"
   },
   {
     "id": 137,
@@ -1913,9 +1913,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 12,
     "annee": 1,
-    "enseignant_id": 6,
-    "enseignant": "Dr. Leila Mansour",
-    "specialite_enseignant": "Électronique Numérique"
+    "enseignant_id": 7,
+    "enseignant": "Dr. Rachid Farah",
+    "specialite_enseignant": "Traitement du Signal"
   },
   {
     "id": 138,
@@ -1927,9 +1927,9 @@
     "nb_seances_td": 12,
     "nb_seances_tp": 0,
     "annee": 1,
-    "enseignant_id": 27,
-    "enseignant": "Dr. Rachid Belhachemi",
-    "specialite_enseignant": "Français TEC"
+    "enseignant_id": 28,
+    "enseignant": "Dr. Nadia Lahsen",
+    "specialite_enseignant": "English"
   },
   {
     "id": 139,
@@ -1955,9 +1955,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 12,
     "annee": 2,
-    "enseignant_id": 5,
-    "enseignant": "Pr. Mohammed Abdelilah",
-    "specialite_enseignant": "Électricité Générale"
+    "enseignant_id": 7,
+    "enseignant": "Dr. Rachid Farah",
+    "specialite_enseignant": "Traitement du Signal"
   },
   {
     "id": 141,
@@ -2109,9 +2109,9 @@
     "nb_seances_td": 12,
     "nb_seances_tp": 10,
     "annee": 1,
-    "enseignant_id": 1,
-    "enseignant": "Dr. Hassan Al-Mansouri",
-    "specialite_enseignant": "Mathématiques Appliquées"
+    "enseignant_id": 49,
+    "enseignant": "Dr. Fatemah Reza",
+    "specialite_enseignant": "Méthodes Numériques"
   },
   {
     "id": 152,
@@ -2123,9 +2123,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 12,
     "annee": 1,
-    "enseignant_id": 6,
-    "enseignant": "Dr. Leila Mansour",
-    "specialite_enseignant": "Électronique Numérique"
+    "enseignant_id": 7,
+    "enseignant": "Dr. Rachid Farah",
+    "specialite_enseignant": "Traitement du Signal"
   },
   {
     "id": 153,
@@ -2137,9 +2137,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 12,
     "annee": 1,
-    "enseignant_id": 5,
-    "enseignant": "Pr. Mohammed Abdelilah",
-    "specialite_enseignant": "Électricité Générale"
+    "enseignant_id": 7,
+    "enseignant": "Dr. Rachid Farah",
+    "specialite_enseignant": "Traitement du Signal"
   },
   {
     "id": 154,
@@ -2151,9 +2151,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 10,
     "annee": 1,
-    "enseignant_id": 9,
-    "enseignant": "Pr. Samir Khaddor",
-    "specialite_enseignant": "Mécanique des Fluides"
+    "enseignant_id": 31,
+    "enseignant": "Dr. Hana Benali",
+    "specialite_enseignant": "Efficacité Énergétique"
   },
   {
     "id": 155,
@@ -2165,9 +2165,9 @@
     "nb_seances_td": 8,
     "nb_seances_tp": 14,
     "annee": 1,
-    "enseignant_id": 11,
-    "enseignant": "Dr. Youssef Bennouna",
-    "specialite_enseignant": "Programmation Orientée Objet"
+    "enseignant_id": 48,
+    "enseignant": "Dr. Laila Youssef",
+    "specialite_enseignant": "Modélisation Mathématique"
   },
   {
     "id": 156,
@@ -2179,9 +2179,9 @@
     "nb_seances_td": 12,
     "nb_seances_tp": 0,
     "annee": 1,
-    "enseignant_id": 27,
-    "enseignant": "Dr. Rachid Belhachemi",
-    "specialite_enseignant": "Français TEC"
+    "enseignant_id": 28,
+    "enseignant": "Dr. Nadia Lahsen",
+    "specialite_enseignant": "English"
   },
   {
     "id": 157,
@@ -2193,9 +2193,9 @@
     "nb_seances_td": 12,
     "nb_seances_tp": 8,
     "annee": 2,
-    "enseignant_id": 1,
-    "enseignant": "Dr. Hassan Al-Mansouri",
-    "specialite_enseignant": "Mathématiques Appliquées"
+    "enseignant_id": 48,
+    "enseignant": "Dr. Laila Youssef",
+    "specialite_enseignant": "Modélisation Mathématique"
   },
   {
     "id": 158,
@@ -2207,9 +2207,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 12,
     "annee": 2,
-    "enseignant_id": 5,
-    "enseignant": "Pr. Mohammed Abdelilah",
-    "specialite_enseignant": "Électricité Générale"
+    "enseignant_id": 7,
+    "enseignant": "Dr. Rachid Farah",
+    "specialite_enseignant": "Traitement du Signal"
   },
   {
     "id": 159,
@@ -2375,9 +2375,9 @@
     "nb_seances_td": 8,
     "nb_seances_tp": 16,
     "annee": 1,
-    "enseignant_id": 14,
-    "enseignant": "Dr. Zineb Hadj",
-    "specialite_enseignant": "Système d'Exploitation"
+    "enseignant_id": 15,
+    "enseignant": "Dr. Khalid El Moumen",
+    "specialite_enseignant": "Intelligence Artificielle"
   },
   {
     "id": 171,
@@ -2389,9 +2389,9 @@
     "nb_seances_td": 10,
     "nb_seances_tp": 14,
     "annee": 1,
-    "enseignant_id": 11,
-    "enseignant": "Dr. Youssef Bennouna",
-    "specialite_enseignant": "Programmation Orientée Objet"
+    "enseignant_id": 41,
+    "enseignant": "Dr. Mourad Selma",
+    "specialite_enseignant": "Théorie des Graphes"
   },
   {
     "id": 172,
@@ -2417,9 +2417,9 @@
     "nb_seances_td": 8,
     "nb_seances_tp": 16,
     "annee": 1,
-    "enseignant_id": 13,
-    "enseignant": "Pr. Abdelmajid Zaoui",
-    "specialite_enseignant": "Technologies Web"
+    "enseignant_id": 42,
+    "enseignant": "Dr. Soraya Benazza",
+    "specialite_enseignant": "Design Patterns"
   },
   {
     "id": 174,
@@ -2431,9 +2431,9 @@
     "nb_seances_td": 12,
     "nb_seances_tp": 0,
     "annee": 1,
-    "enseignant_id": 28,
-    "enseignant": "Dr. Nadia Lahsen",
-    "specialite_enseignant": "English"
+    "enseignant_id": 27,
+    "enseignant": "Dr. Rachid Belhachemi",
+    "specialite_enseignant": "Français TEC"
   },
   {
     "id": 175,
