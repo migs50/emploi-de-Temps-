@@ -82,15 +82,6 @@ class AdminInterface:
             self.create_stat_card(stats_frame, "Salles", len(salles), 0, 2)
             self.create_stat_card(stats_frame, "Étudiants", etudiants, 0, 3)
             
-            # Action buttons
-            btn_frame = ttk.Frame(self.tab_dashboard, padding=20)
-            btn_frame.pack(fill=tk.X)
-            
-            ttk.Label(btn_frame, text="Exportations Emploi du Temps :", font=("Helvetica", 10, "bold")).pack(side=tk.LEFT, padx=(0,10))
-            ttk.Button(btn_frame, text="CSV", command=self.export_edt_csv).pack(side=tk.LEFT, padx=5)
-            ttk.Button(btn_frame, text="Excel", command=self.export_edt_excel).pack(side=tk.LEFT, padx=5)
-            ttk.Button(btn_frame, text="Image (PNG)", command=self.export_edt_image).pack(side=tk.LEFT, padx=5)
-            ttk.Button(btn_frame, text="PDF", command=self.export_edt_pdf).pack(side=tk.LEFT, padx=5)
             
             # Occupation report
             rep_frame = ttk.Frame(self.tab_dashboard, padding=20)
