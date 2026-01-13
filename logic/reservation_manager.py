@@ -1,5 +1,9 @@
 from logic.database import charger_json, sauvegarder_json
 import uuid
+import json
+import csv
+import os
+import datetime
 
 def salle_disponible(salle, jour, debut):
     edt = charger_json("GESTION EDT/emplois_du_temps.json")
@@ -33,6 +37,24 @@ def modifier_statut_reservation(resa_id, nouveau_statut):
         if r["id"] == resa_id:
             r["statut"] = nouveau_statut
             sauvegarder_json("GESTION EDT/reservations.json", reservations)
+            
+            # Log notification
+            try:
+                notifs = charger_json("GESTION EDT/notifications.json") or []
+                notif = {
+                    "id": str(uuid.uuid4())[:8],
+                    "enseignant": r["enseignant"],
+                    "salle": r["salle"],
+                    "jour": r["jour"],
+                    "debut": r["debut"],
+                    "statut": nouveau_statut,
+                    "date": datetime.datetime.now().strftime("%Y-%m-%d %H:%M"),
+                    "lu": False
+                }
+                notifs.append(notif)
+                sauvegarder_json("GESTION EDT/notifications.json", notifs)
+            except: pass
+            
             return True
     return False
 

@@ -1,13 +1,15 @@
 import tkinter as tk
 from tkinter import ttk, messagebox, scrolledtext, filedialog
 import threading
-import sys
 import os
+import matplotlib.pyplot as plt
+from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
+from logic.stats_manager import get_advanced_stats
 
 # Imports logic
 from logic.edt_generator import generer_edt
 from logic.database import charger_json, sauvegarder_json
-from logic.reservation_manager import modifier_statut_reservation, get_salles_disponibles
+from logic.reservation_manager import modifier_statut_reservation, get_salles_disponibles, salle_disponible
 from logic.exporter import exporter_csv, exporter_rapport_occupation, exporter_excel, exporter_visual
 
 class AdminInterface:
@@ -24,15 +26,21 @@ class AdminInterface:
         self.tab_generate = ttk.Frame(self.notebook)
         self.tab_reservations = ttk.Frame(self.notebook)
         self.tab_occupancy = ttk.Frame(self.notebook)
+        self.tab_realtime_occ = ttk.Frame(self.notebook)
+        self.tab_stats = ttk.Frame(self.notebook)
         self.tab_availability = ttk.Frame(self.notebook)
         self.tab_data = ttk.Frame(self.notebook)
         
         self.notebook.add(self.tab_dashboard, text="Tableau de Bord")
         self.notebook.add(self.tab_generate, text="Génération EDT")
         self.notebook.add(self.tab_reservations, text="Réservations")
-        self.notebook.add(self.tab_occupancy, text="Occupation")
+        self.notebook.add(self.tab_occupancy, text="Occupation (Global)")
+        self.notebook.add(self.tab_realtime_occ, text="Occupation (Temps Réel)")
+        self.notebook.add(self.tab_stats, text="Statistiques")
         self.notebook.add(self.tab_availability, text="Disponibilités")
         self.notebook.add(self.tab_data, text="Données")
+        
+        self.notebook.bind("<<NotebookTabChanged>>", self.on_tab_change)
         
         self.setup_dashboard()
         self.setup_generation()
@@ -40,6 +48,8 @@ class AdminInterface:
         self.setup_occupancy()
         self.setup_availability()
         self.setup_data_view()
+        self.setup_stats()
+        self.setup_realtime_occupancy()
 
     def setup_dashboard(self):
         # Refresh container
@@ -165,9 +175,20 @@ class AdminInterface:
         
         item = self.tree_resa.item(selected[0])
         resa_id = item['values'][0]
+        ens = item['values'][1]
+        salle = item['values'][2]
+        jr = item['values'][3]
+        start = item['values'][4]
+        
+        # Double check availability if accepting
+        if status == "Acceptée":
+            if not salle_disponible(salle, jr, start):
+                messagebox.showerror("Conflit", f"La salle {salle} est déjà occupée le {jr} à {start}.\n\nVous ne pouvez pas accepter cette demande.")
+                return
         
         if modifier_statut_reservation(resa_id, status):
-            messagebox.showinfo("Succès", f"La demande a été {status.lower()}.")
+            msg = f"La demande de {ens} a été {status.lower()}."
+            messagebox.showinfo("Succès", msg)
             self.setup_reservations()
             self.setup_occupancy()
         else:
@@ -393,6 +414,7 @@ class AdminInterface:
         self.log_area.see(tk.END)
 
     def setup_data_view(self):
+        for w in self.tab_data.winfo_children(): w.destroy()
         nb = ttk.Notebook(self.tab_data)
         nb.pack(fill=tk.BOTH, expand=True, padx=5, pady=5)
         self.create_tree_view(nb, "Salles", "DONNÉES PRINCIPALES/salles.json", ["nom", "capacite", "type", "equipements"])
@@ -438,3 +460,132 @@ class AdminInterface:
                     values.append(val)
                 tree.insert("", tk.END, values=values)
         except Exception as e: print(f"Error: {e}")
+
+    def on_tab_change(self, event):
+        tab = self.notebook.tab(self.notebook.select(), "text")
+        if tab == "Tableau de Bord": self.setup_dashboard()
+        elif tab == "Réservations": self.setup_reservations()
+        elif tab == "Occupation (Global)": self.setup_occupancy()
+        elif tab == "Occupation (Temps Réel)": self.setup_realtime_occupancy()
+        elif tab == "Statistiques": self.setup_stats()
+        elif tab == "Données": self.setup_data_view()
+        elif tab == "Disponibilités": self.setup_availability()
+
+    def setup_stats(self):
+        for w in self.tab_stats.winfo_children(): w.destroy()
+        
+        stats = get_advanced_stats()
+        if not stats:
+            ttk.Label(self.tab_stats, text="Impossible de générer les statistiques.").pack()
+            return
+            
+        fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(12, 5))
+        
+        # Chart 1: Repartition par jour
+        jours = list(stats['repartition_jour'].keys())
+        seances = list(stats['repartition_jour'].values())
+        ax1.bar(jours, seances, color="#3498db")
+        ax1.set_title("Répartition des cours par jour")
+        ax1.tick_params(axis='x', rotation=45)
+        
+        # Chart 2: Taux d'occupation par salle (Top 5)
+        top_salles = sorted(stats['salle_stats'].items(), key=lambda x: x[1], reverse=True)[:5]
+        s_names = [x[0] for x in top_salles]
+        s_counts = [x[1] for x in top_salles]
+        ax2.pie(s_counts, labels=s_names, autopct='%1.1f%%', startangle=140, colors=plt.cm.Paired.colors)
+        ax2.set_title("Top 5 Salles les plus occupées")
+        
+        canvas = FigureCanvasTkAgg(fig, master=self.tab_stats)
+        canvas.draw()
+        canvas.get_tk_widget().pack(fill=tk.BOTH, expand=True)
+        
+        # Demand Stress (Plages)
+        demand_frame = ttk.LabelFrame(self.tab_stats, text="Plages Horaires les plus demandées", padding=10)
+        demand_frame.pack(fill=tk.X, padx=20, pady=20)
+        
+        for p, count in sorted(stats['plages_demande'].items(), key=lambda x: x[1], reverse=True)[:5]:
+            ttk.Label(demand_frame, text=f"• {p} : {count} demandes (EDT + Réservations)").pack(anchor=tk.W)
+
+    def setup_realtime_occupancy(self):
+        for w in self.tab_realtime_occ.winfo_children(): w.destroy()
+        
+        control_frame = ttk.Frame(self.tab_realtime_occ, padding=10)
+        control_frame.pack(fill=tk.X)
+        
+        ttk.Label(control_frame, text="Consulter l'état des salles pour :").pack(side=tk.LEFT, padx=5)
+        
+        self.cb_real_jour = ttk.Combobox(control_frame, values=["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi"], width=10)
+        self.cb_real_jour.current(0)
+        self.cb_real_jour.pack(side=tk.LEFT, padx=5)
+        
+        self.cb_real_heure = ttk.Combobox(control_frame, values=["09:00", "10:45", "12:30", "14:15", "16:00"], width=10)
+        self.cb_real_heure.current(0)
+        self.cb_real_heure.pack(side=tk.LEFT, padx=5)
+        
+        ttk.Button(control_frame, text="Vérifier l'Occupation", command=self.refresh_realtime_view).pack(side=tk.LEFT, padx=5)
+        
+        self.rooms_container = ttk.Frame(self.tab_realtime_occ, padding=20)
+        self.rooms_container.pack(fill=tk.BOTH, expand=True)
+        self.refresh_realtime_view()
+
+    def refresh_realtime_view(self):
+        for w in self.rooms_container.winfo_children(): w.destroy()
+        
+        jr = self.cb_real_jour.get()
+        hh = self.cb_real_heure.get()
+        
+        try:
+            salles = charger_json("DONNÉES PRINCIPALES/salles.json")
+            edt = charger_json("GESTION EDT/emplois_du_temps.json")
+            resas = charger_json("GESTION EDT/reservations.json")
+            
+            # Use Canvas for grid
+            canvas = tk.Canvas(self.rooms_container)
+            scrollbar_y = ttk.Scrollbar(self.rooms_container, orient="vertical", command=canvas.yview)
+            scrollbar_x = ttk.Scrollbar(self.rooms_container, orient="horizontal", command=canvas.xview)
+            scrollable_frame = ttk.Frame(canvas)
+            
+            scrollable_frame.bind("<Configure>", lambda e: canvas.configure(scrollregion=canvas.bbox("all")))
+            canvas.create_window((0, 0), window=scrollable_frame, anchor="nw")
+            
+            canvas.configure(yscrollcommand=scrollbar_y.set, xscrollcommand=scrollbar_x.set)
+            
+            scrollbar_y.pack(side="right", fill="y")
+            scrollbar_x.pack(side="bottom", fill="x")
+            canvas.pack(side="left", fill="both", expand=True)
+            
+            row, col = 0, 0
+            for s in salles:
+                # Check status
+                status = "LIBRE"
+                color = "#2ecc71" # Green
+                
+                # Check EDT
+                occs = [x for x in edt if x['salle'] == s['nom'] and x['jour'] == jr and x['debut'] == hh]
+                if occs:
+                    status = f"OCCUPÉE\n({occs[0]['module']})"
+                    color = "#e74c3c" # Red
+                else:
+                    # Check Accepted Reservations
+                    res_occs = [x for x in resas if x['salle'] == s['nom'] and x['jour'] == jr and x['debut'] == hh and x['statut'] == "Acceptée"]
+                    if res_occs:
+                        status = f"RÉSERVÉE\n({res_occs[0]['enseignant']})"
+                        color = "#f1c40f" # Yellow
+                
+                card = tk.Frame(scrollable_frame, bg=color, width=150, height=100, borderwidth=1, relief="solid")
+                card.grid(row=row, column=col, padx=10, pady=10)
+                card.grid_propagate(False)
+                
+                tk.Label(card, text=s['nom'], bg=color, fg="white", font=("Helvetica", 10, "bold")).pack(pady=5)
+                tk.Label(card, text=status, bg=color, fg="white", font=("Helvetica", 8)).pack()
+                
+                col += 1
+                if col > 3: # Reduced to 4 columns (0-3) to ensure visibility without horizontal scroll if possible
+                    col = 0
+                    row += 1
+            
+            # Force update to ensure scrollregion is correct
+            scrollable_frame.update_idletasks()
+            canvas.configure(scrollregion=canvas.bbox("all"))
+        except Exception as e:
+            ttk.Label(self.rooms_container, text=f"Erreur: {e}").pack()

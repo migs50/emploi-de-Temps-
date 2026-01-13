@@ -27,12 +27,17 @@ class TeacherInterface:
         
         self.tab_edt = ttk.Frame(self.notebook)
         self.tab_resa = ttk.Frame(self.notebook)
+        self.tab_notif = ttk.Frame(self.notebook)
         
         self.notebook.add(self.tab_edt, text="Mon Emploi du Temps")
         self.notebook.add(self.tab_resa, text="Réserver une Salle")
+        self.notebook.add(self.tab_notif, text="Mes Notifications")
+        
+        self.notebook.bind("<<NotebookTabChanged>>", self.on_tab_change)
         
         self.setup_edt_view()
         self.setup_reservation_view()
+        self.setup_notification_view()
 
     def load_teachers(self):
         try:
@@ -45,6 +50,12 @@ class TeacherInterface:
 
     def on_teacher_select(self, event):
         self.display_edt()
+        self.refresh_notifs()
+
+    def on_tab_change(self, event):
+        tab = self.notebook.tab(self.notebook.select(), "text")
+        if tab == "Mes Notifications":
+            self.refresh_notifs()
 
     def display_edt(self):
         # Clear previous
@@ -145,3 +156,55 @@ class TeacherInterface:
             self.entry_heure.delete(0, tk.END)
         else:
             messagebox.showerror("Erreur", "Créneau indisponible ou erreur donnée.")
+
+    def setup_notification_view(self):
+        for widget in self.tab_notif.winfo_children(): widget.destroy()
+        
+        ttk.Label(self.tab_notif, text="Décisions de l'Administration", font=("Helvetica", 12, "bold")).pack(pady=10)
+        
+        columns = ("Date", "Détails", "Statut")
+        self.tree_notif = ttk.Treeview(self.tab_notif, columns=columns, show="headings")
+        self.tree_notif.heading("Date", text="Date")
+        self.tree_notif.heading("Détails", text="Détails de la demande")
+        self.tree_notif.heading("Statut", text="Décision")
+        self.tree_notif.pack(fill=tk.BOTH, expand=True, padx=20, pady=10)
+        
+        btn_box = ttk.Frame(self.tab_notif)
+        btn_box.pack(pady=10)
+        ttk.Button(btn_box, text="Marquer comme lu", command=self.mark_as_read).pack(side=tk.LEFT, padx=5)
+        ttk.Button(btn_box, text="Rafraîchir", command=self.refresh_notifs).pack(side=tk.LEFT, padx=5)
+
+    def refresh_notifs(self):
+        if not hasattr(self, 'tree_notif'): return
+        
+        for i in self.tree_notif.get_children(): self.tree_notif.delete(i)
+        
+        teacher_name = self.selected_teacher.get()
+        if not teacher_name: return
+        
+        try:
+            notifs = charger_json("GESTION EDT/notifications.json") or []
+            # Filter for this teacher
+            my_notifs = [n for n in notifs if n["enseignant"] == teacher_name]
+            my_notifs.sort(key=lambda x: x["date"], reverse=True)
+            
+            for n in my_notifs:
+                details = f"{n['jour']} à {n['debut']} - Salle: {n['salle']}"
+                tag = "new" if not n.get("lu") else ""
+                self.tree_notif.insert("", tk.END, values=(n["date"], details, n["statut"]), tags=(tag,))
+            
+            self.tree_notif.tag_configure("new", background="#e1f5fe")
+        except: pass
+
+    def mark_as_read(self):
+        teacher_name = self.selected_teacher.get()
+        if not teacher_name: return
+        
+        try:
+            notifs = charger_json("GESTION EDT/notifications.json") or []
+            for n in notifs:
+                if n["enseignant"] == teacher_name:
+                    n["lu"] = True
+            sauvegarder_json("GESTION EDT/notifications.json", notifs)
+            self.refresh_notifs()
+        except: pass
