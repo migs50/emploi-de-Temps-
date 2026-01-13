@@ -27,7 +27,9 @@ class AdminInterface:
         self.tab_reservations = ttk.Frame(self.notebook)
         self.tab_occupancy = ttk.Frame(self.notebook)
         self.tab_realtime_occ = ttk.Frame(self.notebook)
+        self.tab_realtime_occ = ttk.Frame(self.notebook)
         self.tab_stats = ttk.Frame(self.notebook)
+        self.tab_exports = ttk.Frame(self.notebook)
         self.tab_availability = ttk.Frame(self.notebook)
         self.tab_data = ttk.Frame(self.notebook)
         
@@ -36,6 +38,7 @@ class AdminInterface:
         self.notebook.add(self.tab_reservations, text="Réservations")
         self.notebook.add(self.tab_occupancy, text="Occupation (Global)")
         self.notebook.add(self.tab_realtime_occ, text="Occupation (Temps Réel)")
+        self.notebook.add(self.tab_exports, text="Consultation & Export")
         self.notebook.add(self.tab_stats, text="Statistiques")
         self.notebook.add(self.tab_availability, text="Disponibilités")
         self.notebook.add(self.tab_data, text="Données")
@@ -49,7 +52,12 @@ class AdminInterface:
         self.setup_availability()
         self.setup_data_view()
         self.setup_stats()
+        self.setup_data_view()
+        self.setup_stats()
         self.setup_realtime_occupancy()
+        self.setup_exports()
+        
+        self.current_filtered_edt = [] # Store for export
 
     def setup_dashboard(self):
         # Refresh container
@@ -470,6 +478,168 @@ class AdminInterface:
         elif tab == "Statistiques": self.setup_stats()
         elif tab == "Données": self.setup_data_view()
         elif tab == "Disponibilités": self.setup_availability()
+        elif tab == "Consultation & Export": self.setup_exports()
+
+    def setup_exports(self):
+        for w in self.tab_exports.winfo_children(): w.destroy()
+        
+        # --- Control Panel (Left) ---
+        control_frame = ttk.Frame(self.tab_exports, padding=10, borderwidth=2, relief="groove")
+        control_frame.pack(side=tk.LEFT, fill=tk.Y, padx=10, pady=10)
+        
+        ttk.Label(control_frame, text="Filtres de Visualisation", font=("Helvetica", 12, "bold")).pack(pady=10)
+        
+        self.filter_var = tk.StringVar(value="Global")
+        
+        ttk.Radiobutton(control_frame, text="Global (Tout)", variable=self.filter_var, value="Global", command=self.update_filter_options).pack(anchor=tk.W, pady=2)
+        ttk.Radiobutton(control_frame, text="Par Filière", variable=self.filter_var, value="Filiere", command=self.update_filter_options).pack(anchor=tk.W, pady=2)
+        ttk.Radiobutton(control_frame, text="Par Enseignant", variable=self.filter_var, value="Enseignant", command=self.update_filter_options).pack(anchor=tk.W, pady=2)
+        
+        ttk.Separator(control_frame, orient="horizontal").pack(fill=tk.X, pady=10)
+        
+        self.lbl_choice = ttk.Label(control_frame, text="Sélectionner :")
+        self.lbl_choice.pack(pady=5)
+        
+        self.cb_filter_choice = ttk.Combobox(control_frame)
+        self.cb_filter_choice.pack(fill=tk.X, pady=5)
+        
+        ttk.Button(control_frame, text="🔍 Afficher", command=self.apply_filter).pack(fill=tk.X, pady=15)
+        
+        ttk.Label(control_frame, text="Exporter la vue :", font=("Helvetica", 10, "bold")).pack(pady=(20, 5))
+        
+        ttk.Button(control_frame, text="📄 PDF", command=lambda: self.export_filtered("pdf")).pack(fill=tk.X, pady=2)
+        ttk.Button(control_frame, text="📊 Excel", command=lambda: self.export_filtered("excel")).pack(fill=tk.X, pady=2)
+        ttk.Button(control_frame, text="🖼 Image", command=lambda: self.export_filtered("image")).pack(fill=tk.X, pady=2)
+        
+        # --- Display Panel (Right) ---
+        display_frame = ttk.Frame(self.tab_exports)
+        display_frame.pack(side=tk.RIGHT, fill=tk.BOTH, expand=True, padx=10, pady=10)
+        
+        columns = ("Jour", "Heure", "Module", "Type", "Salle", "Enseignant", "Groupe")
+        self.tree_export = ttk.Treeview(display_frame, columns=columns, show="headings")
+        for col in columns:
+            self.tree_export.heading(col, text=col)
+            self.tree_export.column(col, width=100)
+            
+        scrollbar = ttk.Scrollbar(display_frame, orient="vertical", command=self.tree_export.yview)
+        self.tree_export.configure(yscroll=scrollbar.set)
+        
+        self.tree_export.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
+        scrollbar.pack(side=tk.RIGHT, fill=tk.Y)
+        
+        self.update_filter_options()
+
+    def update_filter_options(self):
+        choice = self.filter_var.get()
+        self.cb_filter_choice.set("")
+        
+        if choice == "Global":
+            self.cb_filter_choice.configure(state="disabled", values=[])
+        
+        elif choice == "Filiere":
+            self.cb_filter_choice.configure(state="normal")
+            try:
+                # Extract unique filieres prefixes
+                filieres_data = charger_json("DONNÉES PRINCIPALES/filieres (1).json")
+                if isinstance(filieres_data, dict): filieres_data = filieres_data.get("filieres", [])
+                
+                # User request: Separate years (GEGM-1 vs GEGM-2)
+                codes = set()
+                for f in filieres_data:
+                    c = f.get('code', '')
+                    if c: codes.add(c)
+                
+                self.cb_filter_choice['values'] = sorted(list(codes))
+            except: self.cb_filter_choice['values'] = []
+            
+        elif choice == "Enseignant":
+            self.cb_filter_choice.configure(state="normal")
+            try:
+                # Get teachers from EDT or data? EDT is better to valid data.
+                edt = charger_json("GESTION EDT/emplois_du_temps.json")
+                teachers = sorted(list(set(s.get('enseignant', '') for s in edt if s.get('enseignant'))))
+                self.cb_filter_choice['values'] = teachers
+            except: self.cb_filter_choice['values'] = []
+
+    def apply_filter(self):
+        choice = self.filter_var.get()
+        val = self.cb_filter_choice.get()
+        self.current_filtered_edt = []
+        
+        # Clear tree
+        for i in self.tree_export.get_children(): self.tree_export.delete(i)
+        
+        if choice != "Global" and not val:
+            messagebox.showwarning("Attention", "Veuillez sélectionner une valeur à filtrer.")
+            return
+
+        try:
+            edt = charger_json("GESTION EDT/emplois_du_temps.json")
+            filtered = []
+            
+            if choice == "Global":
+                filtered = edt
+            elif choice == "Filiere":
+                # Filter by starts_with of code/groupe/filiere
+                # In EDT, we have 'filiere' field usually.
+                for s in edt:
+                    f = s.get('filiere', '') or s.get('groupe', '')
+                    # Check if 'val' is a prefix of 'f'
+                    # e.g. val="GEGM", f="GEGM-1". 
+                    if f.startswith(val):
+                        filtered.append(s)
+            elif choice == "Enseignant":
+                filtered = [s for s in edt if s.get('enseignant') == val]
+            
+            self.current_filtered_edt = filtered
+            
+            # Sort
+            day_order = {"Lundi":1, "Mardi":2, "Mercredi":3, "Jeudi":4, "Vendredi":5, "Samedi":6}
+            filtered.sort(key=lambda x: (day_order.get(x.get('jour', ''), 7), x.get('debut', '')))
+            
+            for s in filtered:
+                self.tree_export.insert("", tk.END, values=(
+                    s.get('jour'), 
+                    f"{s.get('debut')} - {s.get('fin')}", 
+                    s.get('module'), 
+                    s.get('type'), 
+                    s.get('salle'), 
+                    s.get('enseignant'), 
+                    s.get('groupe')
+                ))
+            
+            if not filtered:
+                messagebox.showinfo("Info", "Aucun cours trouvé pour ce filtre.")
+                
+        except Exception as e:
+            messagebox.showerror("Erreur", f"Erreur de filtrage: {e}")
+
+    def export_filtered(self, format_type):
+        if not self.current_filtered_edt:
+            # Auto-apply filter if user forgot to click "Afficher"
+            self.apply_filter()
+            if not self.current_filtered_edt:
+                return # apply_filter handles the warning if it fails or finds nothing
+            
+        title = f"Export {format_type.upper()}"
+        ext = f".{format_type}" if format_type != "image" else ".png"
+        if format_type == "excel": ext = ".xlsx"
+        
+        path = filedialog.asksaveasfilename(defaultextension=ext, title=title)
+        if not path: return
+        
+        success = False
+        if format_type == "pdf":
+            success = exporter_visual(self.current_filtered_edt, path, "pdf")
+        elif format_type == "image":
+            success = exporter_visual(self.current_filtered_edt, path, "png")
+        elif format_type == "excel":
+            success = exporter_excel(self.current_filtered_edt, path)
+            
+        if success:
+            messagebox.showinfo("Succès", f"Export {format_type.upper()} réussi !")
+        else:
+            messagebox.showerror("Erreur", "L'export a échoué.")
 
     def setup_stats(self):
         for w in self.tab_stats.winfo_children(): w.destroy()

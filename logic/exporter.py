@@ -2,6 +2,7 @@ import json
 import csv
 import os
 import datetime
+import textwrap
 import pandas as pd
 import matplotlib.pyplot as plt
 
@@ -44,7 +45,11 @@ def exporter_visual(edt, filename, format_ext="png"):
 
         # Professional Styling
         plt.rcParams['font.family'] = 'sans-serif'
-        fig, ax = plt.subplots(figsize=(14, len(edt) * 0.4 + 3))
+        
+        # Calculate figure height based on rows
+        # More space for wrapped text?
+        fig_height = len(edt) * 0.5 + 4
+        fig, ax = plt.subplots(figsize=(14, fig_height))
         ax.axis('off')
         
         # Color mapping for session types
@@ -61,10 +66,14 @@ def exporter_visual(edt, filename, format_ext="png"):
         header_color = "#2c3e50"
         
         for s in edt:
+            # Wrap long module names
+            module_name = s.get('module', '')
+            wrapped_module = "\n".join(textwrap.wrap(module_name, width=30))
+            
             data.append([
                 s.get('jour', ''), 
                 s.get('debut', '') + " - " + s.get('fin', ''), 
-                s.get('module', ''), 
+                wrapped_module, 
                 s.get('type', ''),
                 s.get('salle', ''), 
                 s.get('groupe', '')
@@ -72,12 +81,12 @@ def exporter_visual(edt, filename, format_ext="png"):
             # Row color based on type
             t = s.get('type', 'Cours')
             color = type_colors.get(t, "#ffffff")
-            # We apply a lighter version for the row or just use it for the "Type" cell
             cell_colors.append(["#ffffff", "#ffffff", "#ffffff", color, "#ffffff", "#ffffff"])
 
         columns = ["Jour", "Créneau", "Module", "Type", "Salle", "Groupe"]
         
-        # Create table
+        # Create table - loc='top' to allow space below? No, center is fine but we need to title above.
+        # We use bbox to position table precisely
         table = ax.table(
             cellText=data, 
             colLabels=columns, 
@@ -87,22 +96,34 @@ def exporter_visual(edt, filename, format_ext="png"):
             colColours=[header_color]*len(columns)
         )
         
-        # Style header
+        # Style header & Adjust Row Height for wrapped text
         for (row, col), cell in table.get_celld().items():
             if row == 0:
                 cell.set_text_props(color='white', weight='bold')
+                cell.set_height(0.05)
+            else:
+                # Dynamic height based on content? textwrap adds \n
+                content = data[row-1][col]
+                lines = content.count('\n') + 1
+                cell.set_height(0.04 * lines if lines > 1 else 0.04)
+                
             cell.set_edgecolor('#bdc3c7')
-            cell.set_height(0.05)
 
         table.auto_set_font_size(False)
         table.set_fontsize(10)
-        table.scale(1.2, 1.5)
         
-        # Header Info
-        plt.text(0.5, 0.98, "UNIVERSITÉ - EMPLOI DU TEMPS OFFICIEL", 
-                 horizontalalignment='center', fontsize=16, weight='bold', color="#2c3e50", transform=ax.transAxes)
-        plt.text(0.5, 0.94, f"Exporté le : {datetime.datetime.now().strftime('%d/%m/%Y %H:%M')}", 
-                 horizontalalignment='center', fontsize=10, transform=ax.transAxes)
+        # Column width adjustment
+        # Module column (index 2) needs more width
+        table.auto_set_column_width([0, 1, 3, 4, 5])
+        col_widths = {0: 0.1, 1: 0.15, 2: 0.35, 3: 0.1, 4: 0.15, 5: 0.1}
+        for i, width in col_widths.items():
+            table._cells[(0, i)].set_width(width)
+            for r in range(1, len(data)+1):
+                 table._cells[(r, i)].set_width(width)
+        
+        # Header Info - Positioned using Figure coordinates instead of Axes to avoid table overlap
+        # 0.95 is near top.
+        plt.title(f"Exporté le : {datetime.datetime.now().strftime('%d/%m/%Y %H:%M')}", fontsize=10, y=0.98)
 
         if format_ext == "pdf":
             plt.savefig(filename, format='pdf', bbox_inches='tight', dpi=300)
