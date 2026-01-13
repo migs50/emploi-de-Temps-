@@ -113,6 +113,21 @@ def generate_seances():
                 seances.append(seance)
                 seance_id_counter += 1
                 
+        # --- EXAMEN (1 par module à la fin ou spécifique) ---
+        seance_examen = {
+            "id": seance_id_counter,
+            "module": mod['nom'],
+            "type": "Examen",
+            "enseignant": mod.get('enseignant', 'Inconnu'),
+            "filiere": filiere_code,
+            "groupe": filiere_code,
+            "effectif": effectif,
+            "duree": 120, # Exams are usually 2h
+            "priorite": 0  # Highest priority for exams
+        }
+        seances.append(seance_examen)
+        seance_id_counter += 1
+                
     print(f"Generated {len(seances)} sessions.")
     save_json(SEANCES_PATH, seances)
     print(f"Saved to {SEANCES_PATH}")

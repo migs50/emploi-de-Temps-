@@ -1,0 +1,15 @@
+{
+    "blocked_slots": [
+        {
+            "enseignant": "Dr. Hassan Al-Mansouri",
+            "jour": "Lundi",
+            "debut": "12:00"
+        },
+        {
+            "enseignant": "Dr. Karim Saadaoui",
+            "jour": "Lundi",
+            "debut": "14:15",
+            "salle": "TP-G1"
+        }
+    ]
+}

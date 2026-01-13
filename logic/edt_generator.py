@@ -41,6 +41,27 @@ def get_creneaux(jour):
 
 def detecter_conflits(edt, seance):
     conflits = []
+    
+    # Load availability
+    try:
+        availability = charger_json("DONNÉES PRINCIPALES/availability.json")
+        blocked = availability.get("blocked_slots", [])
+    except:
+        blocked = []
+
+    # Check blocked slots for teacher AND rooms
+    for b in blocked:
+        meme_jour = b["jour"] == seance["jour"]
+        meme_creneau = b["debut"] == seance["debut"]
+        
+        if meme_jour and meme_creneau:
+            # Check teacher
+            if b["enseignant"] == seance["enseignant"]:
+                conflits.append("Enseignant indisponible (bloqué par admin)")
+            
+            # Check room
+            if b.get("salle") == seance["salle"]:
+                conflits.append("Salle occupée (bloquée par admin)")
 
     for s in edt:
         meme_jour = s["jour"] == seance["jour"]
@@ -60,7 +81,7 @@ def detecter_conflits(edt, seance):
 
 # ================== TROUVER SALLE ==================
 
-def trouver_salle_libre(salles, edt, jour, debut, capacite, type_seance):
+def trouver_salle_libre(salles, edt, jour, debut, capacite, type_seance, ressources_requises=None):
     # Filter candidates by type match
     candidats = []
     
@@ -70,20 +91,18 @@ def trouver_salle_libre(salles, edt, jour, debut, capacite, type_seance):
     if type_seance == "Cours":
         allowed_types = ["Amphi", "Cours"]
     elif type_seance == "TD":
-        # If small group, prefer TD rooms. If large (Licence/Master whole class), needs Amphi/Cours
         if capacite > 50:
              allowed_types = ["Amphi", "Cours"]
         else:
              allowed_types = ["TD"]
     elif type_seance == "TP":
-        # If small group, prefer TP rooms. If large, needs Amphi/Cours (as per user request)
         if capacite > 30:
              allowed_types = ["Amphi", "Cours"]
         else:
              allowed_types = ["TP"]
-    
-    # Fallback/Loose matching: If strict matching might fail, we could allow overlap, 
-    # but the user was specific about "grands salles" for whole filieres.
+    elif type_seance == "Examen":
+        # Exams ALWAYS prefer Amphis if possible, otherwise Large Cours rooms
+        allowed_types = ["Amphi", "Cours"]
     
     for salle in salles:
         salle_type = salle.get("type")
@@ -92,6 +111,11 @@ def trouver_salle_libre(salles, edt, jour, debut, capacite, type_seance):
             
         if salle_type in allowed_types:
              if salle["capacite"] >= capacite:
+                # Check resources
+                if ressources_requises:
+                    salle_resources = salle.get("equipements", [])
+                    if not all(res in salle_resources for res in ressources_requises):
+                        continue
                 candidats.append(salle)
             
     # Sort candidates by capacity (fit best)
@@ -133,7 +157,8 @@ def proposer_solution(salles, edt, seance):
         )
         if debut:
             salle = trouver_salle_libre(
-                salles, edt, jour, debut, seance["effectif"], seance.get("type", "Cours")
+                salles, edt, jour, debut, seance["effectif"], seance.get("type", "Cours"),
+                ressources_requises=seance.get("ressources_requises")
             )
             if salle:
                 seance.update({
@@ -152,6 +177,9 @@ def generer_edt():
     enseignants = charger_json("DONNÉES PRINCIPALES/enseignants_final.json")
     groupes = charger_json("DONNÉES PRINCIPALES/groupes.json")
     seances = charger_json("DONNÉES PRINCIPALES/seances.json")
+    
+    # Sort by priority (Exams first, then Cours, then TD, then TP)
+    seances.sort(key=lambda x: x.get("priorite", 10))
 
     edt = []
 
@@ -168,11 +196,13 @@ def generer_edt():
 
             if debut:
                 salle = trouver_salle_libre(
-                    salles, edt, jour, debut, seance["effectif"], seance["type"]
+                    salles, edt, jour, debut, seance["effectif"], seance["type"],
+                    ressources_requises=seance.get("ressources_requises")
                 )
 
                 if salle:
                     nouvelle_seance = {
+                        "id": seance.get("id"),
                         "module": seance["module"],
                         "type": seance["type"],
                         "enseignant": seance["enseignant"],
@@ -180,7 +210,8 @@ def generer_edt():
                         "jour": jour,
                         "debut": debut,
                         "fin": fin,
-                        "salle": salle
+                        "salle": salle,
+                        "filiere": seance.get("filiere")
                     }
 
                     conflits = detecter_conflits(edt, nouvelle_seance)
