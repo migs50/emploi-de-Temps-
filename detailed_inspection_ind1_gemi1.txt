@@ -1,0 +1,35 @@
+
+Filiere: IND-1
+  Jeudi 09:00-10:30 | Mod: Energétique et Mécanique des fluides | Type: Cours | Prof: Dr. Hana Benali
+  Jeudi 12:30-14:00 | Mod: Energétique et Mécanique des fluides | Type: TD | Prof: Dr. Hana Benali
+  Jeudi 14:15-15:45 | Mod: Mathématiques appliquées | Type: TP | Prof: Dr. Fatemah Reza
+  Jeudi 16:00-17:30 | Mod: Electronique numérique | Type: TP | Prof: Dr. Rachid Farah
+  Lundi 09:00-10:30 | Mod: Modélisation et programmation orientée objet | Type: Cours | Prof: Dr. Laila Youssef
+  Lundi 14:15-15:45 | Mod: Français TEC 1 | Type: Cours | Prof: Dr. Nadia Lahsen
+  Lundi 16:00-17:30 | Mod: Electricité industrielle | Type: TP | Prof: Dr. Rachid Farah
+  Mardi 09:00-10:30 | Mod: Mathématiques appliquées | Type: Cours | Prof: Dr. Fatemah Reza
+  Mardi 10:45-12:15 | Mod: Mathématiques appliquées | Type: TD | Prof: Dr. Fatemah Reza
+  Mardi 14:15-15:45 | Mod: Modélisation et programmation orientée objet | Type: TP | Prof: Dr. Laila Youssef
+  Mercredi 09:00-10:30 | Mod: Electricité industrielle | Type: Cours | Prof: Dr. Rachid Farah
+  Mercredi 14:15-15:45 | Mod: Electricité industrielle | Type: TD | Prof: Dr. Rachid Farah
+  Mercredi 16:00-17:30 | Mod: Français TEC 1 | Type: TD | Prof: Dr. Nadia Lahsen
+  Samedi 09:00-10:30 | Mod: Modélisation et programmation orientée objet | Type: TD | Prof: Dr. Laila Youssef
+  Vendredi 09:00-10:30 | Mod: Electronique numérique | Type: Cours | Prof: Dr. Rachid Farah
+  Vendredi 14:15-15:45 | Mod: Electronique numérique | Type: TD | Prof: Dr. Rachid Farah
+
+Filiere: GEMI-1
+  Jeudi 09:00-10:30 | Mod: Électronique et systèmes | Type: TD | Prof: Dr. Rachid Farah
+  Jeudi 10:45-12:15 | Mod: Energétique et MDF | Type: Cours | Prof: Dr. Hana Benali
+  Jeudi 12:30-14:00 | Mod: Langues Etrangères 1: Français (TEC) | Type: TD | Prof: Dr. Nadia Lahsen
+  Lundi 10:45-12:15 | Mod: Mathématiques pour l'Ingénieur I | Type: Cours | Prof: Dr. Fatemah Reza
+  Lundi 14:15-15:45 | Mod: Mathématiques pour l'Ingénieur I | Type: TD | Prof: Dr. Fatemah Reza
+  Mardi 09:00-10:30 | Mod: Langues Etrangères 1: Français (TEC) | Type: Cours | Prof: Dr. Nadia Lahsen
+  Mardi 10:45-12:15 | Mod: Électronique et systèmes | Type: Cours | Prof: Dr. Rachid Farah
+  Mardi 14:15-15:45 | Mod: Mathématiques pour l'Ingénieur I | Type: TP | Prof: Dr. Fatemah Reza
+  Mercredi 10:45-12:15 | Mod: Electricité industrielle | Type: Cours | Prof: Dr. Rachid Farah
+  Mercredi 12:30-14:00 | Mod: Energétique et MDF | Type: TD | Prof: Dr. Hana Benali
+  Mercredi 14:15-15:45 | Mod: Energétique et MDF | Type: TP | Prof: Dr. Hana Benali
+  Samedi 10:45-12:15 | Mod: Informatique | Type: TD | Prof: Dr. Laila Youssef
+  Vendredi 09:00-10:30 | Mod: Informatique | Type: Cours | Prof: Dr. Laila Youssef
+  Vendredi 10:45-12:15 | Mod: Informatique | Type: TP | Prof: Dr. Laila Youssef
+  Vendredi 16:00-17:30 | Mod: Electricité industrielle | Type: TD | Prof: Dr. Rachid Farah

@@ -1,0 +1,24 @@
+Filiere IND-1 (Expected 6 modules):
+  Cours found (6): {'Français TEC 1', 'Modélisation et programmation orientée objet', 'Electricité industrielle', 'Mathématiques appliquées', 'Energétique et Mécanique des fluides', 'Electronique numérique'}
+  TDs found (6): {'Français TEC 1', 'Modélisation et programmation orientée objet', 'Electricité industrielle', 'Mathématiques appliquées', 'Energétique et Mécanique des fluides', 'Electronique numérique'}
+  MISSING Modules from Cours:
+  Scheduled Modules Teacher Loads:
+    - Français TEC 1: Dr. Nadia Lahsen (25 sessions)
+    - Modélisation et programmation orientée objet: Dr. Laila Youssef (21 sessions)
+    - Electricité industrielle: Dr. Rachid Farah (26 sessions)
+    - Mathématiques appliquées: Dr. Fatemah Reza (18 sessions)
+    - Energétique et Mécanique des fluides: Dr. Hana Benali (26 sessions)
+    - Electronique numérique: Dr. Rachid Farah (26 sessions)
+--------------------
+Filiere GEMI-1 (Expected 6 modules):
+  Cours found (6): {'Électronique et systèmes', 'Electricité industrielle', "Mathématiques pour l'Ingénieur I", 'Langues Etrangères 1: Français (TEC)', 'Informatique', 'Energétique et MDF'}
+  TDs found (6): {'Électronique et systèmes', 'Electricité industrielle', "Mathématiques pour l'Ingénieur I", 'Langues Etrangères 1: Français (TEC)', 'Informatique', 'Energétique et MDF'}
+  MISSING Modules from Cours:
+  Scheduled Modules Teacher Loads:
+    - Électronique et systèmes: Dr. Rachid Farah (26 sessions)
+    - Electricité industrielle: Dr. Rachid Farah (26 sessions)
+    - Mathématiques pour l'Ingénieur I: Dr. Fatemah Reza (18 sessions)
+    - Langues Etrangères 1: Français (TEC): Dr. Nadia Lahsen (25 sessions)
+    - Informatique: Dr. Laila Youssef (21 sessions)
+    - Energétique et MDF: Dr. Hana Benali (26 sessions)
+--------------------

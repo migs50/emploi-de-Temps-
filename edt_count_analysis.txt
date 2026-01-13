@@ -1,0 +1,21 @@
+Filiere: MIPC-2, Unique Cours Modules: 6
+ - Statistiques & Probabilité
+ - Analyse 3
+ - Réactivité Chimie
+ - Algorithme & Programmation 2
+ - LC3
+ - Electromagnétisme
+Filiere: AAIS-2, Unique Cours Modules: 2
+ - Analyses de données / BIGDATA
+ - Modèles Mixtes et applications sous R
+Filiere: IND-2, Unique Cours Modules: 6
+ - Anglais 2
+ - Excellence opérationnelle
+ - Machines Industrielles
+ - Optimisation des Processus & Outils d'Aide à la Décision
+ - Electrotechnique et machines électriques
+ - RDM I et vibration mécanique
+Filiere: LSI-1, Unique Cours Modules: 3
+ - Théorie des graphes et applications
+ - Bases de données avancées
+ - Programmation orientée objet

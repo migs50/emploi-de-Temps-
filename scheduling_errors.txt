@@ -1,0 +1,54 @@
+SCHEDULING_FAILURE: Circuit (TP) Group: MIPC-1-G3
+SCHEDULING_FAILURE: Circuit (TP) Group: MIPC-1-G4
+SCHEDULING_FAILURE: Circuit (TP) Group: MIPC-1-G6
+SCHEDULING_FAILURE: Circuit (TP) Group: MIPC-1-G7
+SCHEDULING_FAILURE: Algorithme (TP) Group: MIPC-1-G2
+SCHEDULING_FAILURE: Algorithme (TP) Group: MIPC-1-G3
+SCHEDULING_FAILURE: Algorithme (TP) Group: MIPC-1-G4
+SCHEDULING_FAILURE: Algorithme (TP) Group: MIPC-1-G5
+SCHEDULING_FAILURE: Algorithme (TP) Group: MIPC-1-G6
+SCHEDULING_FAILURE: Algorithme (TP) Group: MIPC-1-G7
+SCHEDULING_FAILURE: Analyse 3 (TP) Group: MIPC-2-G1
+SCHEDULING_FAILURE: Analyse 3 (TP) Group: MIPC-2-G2
+SCHEDULING_FAILURE: Analyse 3 (TP) Group: MIPC-2-G3
+SCHEDULING_FAILURE: Analyse 3 (TP) Group: MIPC-2-G4
+SCHEDULING_FAILURE: Analyse 3 (TP) Group: MIPC-2-G5
+SCHEDULING_FAILURE: Analyse 3 (TP) Group: MIPC-2-G6
+SCHEDULING_FAILURE: Analyse 3 (TP) Group: MIPC-2-G7
+SCHEDULING_FAILURE: Réactivité Chimie (TP) Group: MIPC-2-G3
+SCHEDULING_FAILURE: Réactivité Chimie (TP) Group: MIPC-2-G5
+SCHEDULING_FAILURE: Réactivité Chimie (TP) Group: MIPC-2-G6
+SCHEDULING_FAILURE: Réactivité Chimie (TP) Group: MIPC-2-G7
+SCHEDULING_FAILURE: Electromagnétisme (TP) Group: MIPC-2-G1
+SCHEDULING_FAILURE: Electromagnétisme (TP) Group: MIPC-2-G2
+SCHEDULING_FAILURE: Electromagnétisme (TP) Group: MIPC-2-G3
+SCHEDULING_FAILURE: Electromagnétisme (TP) Group: MIPC-2-G4
+SCHEDULING_FAILURE: Electromagnétisme (TP) Group: MIPC-2-G5
+SCHEDULING_FAILURE: Electromagnétisme (TP) Group: MIPC-2-G6
+SCHEDULING_FAILURE: Electromagnétisme (TP) Group: MIPC-2-G7
+SCHEDULING_FAILURE: Structure de la matière (TP) Group: BCG-1-G1
+SCHEDULING_FAILURE: Structure de la matière (TP) Group: BCG-1-G2
+SCHEDULING_FAILURE: Structure de la matière (TP) Group: BCG-1-G3
+SCHEDULING_FAILURE: Structure de la matière (TP) Group: BCG-1-G4
+SCHEDULING_FAILURE: Structure de la matière (TP) Group: BCG-1-G5
+SCHEDULING_FAILURE: Chimie organique (TP) Group: BCG-2-G1
+SCHEDULING_FAILURE: Chimie organique (TP) Group: BCG-2-G2
+SCHEDULING_FAILURE: Chimie organique (TP) Group: BCG-2-G3
+SCHEDULING_FAILURE: Chimie organique (TP) Group: BCG-2-G4
+SCHEDULING_FAILURE: Chimie organique (TP) Group: BCG-2-G5
+SCHEDULING_FAILURE: Programmation Python et Programmation Orientée Objet (TP) Group: SSD-1
+SCHEDULING_FAILURE: Chimie organique avancée (TP) Group: TAC-1
+SCHEDULING_FAILURE: Chimie inorganique (TP) Group: TAC-1
+SCHEDULING_FAILURE: Thermochimie, Cinétique et Catalyse (TP) Group: TAC-1
+SCHEDULING_FAILURE: Electrochimie et Méthodes électro-analytiques (TP) Group: TAC-1
+SCHEDULING_FAILURE: Techniques d'analyse inorganiques (TP) Group: TAC-1
+SCHEDULING_FAILURE: Programmation Orientée Objet en C++/Java (TP) Group: IDAI-1
+SCHEDULING_FAILURE: Programmation Avancée (TP) Group: AISD-1
+SCHEDULING_FAILURE: Energétique et Mécanique des fluides (TP) Group: IND-1
+SCHEDULING_FAILURE: Électronique et systèmes (TP) Group: GEMI-1
+SCHEDULING_FAILURE: Electricité industrielle (TP) Group: GEMI-1
+SCHEDULING_FAILURE: Electrotechnique (TP) Group: GEMI-2
+SCHEDULING_FAILURE: Traitement du Signal (TP) Group: GEMI-2
+SCHEDULING_FAILURE: Technologies web 1 (PHP et Frameworks) (TP) Group: LSI-1
+SCHEDULING_FAILURE: Génie Logiciel et gestion de projets informatiques (TP) Group: LSI-2
+SCHEDULING_FAILURE: Vision Artificielle (TP) Group: LSI-3

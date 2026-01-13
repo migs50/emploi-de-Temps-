@@ -1,0 +1,20 @@
+Filiere MIPC-2:
+  Cours found: 6 {'LC3', 'Analyse 3', 'Réactivité Chimie', 'Algorithme & Programmation 2', 'Electromagnétisme', 'Statistiques & Probabilité'}
+  TDs found: 6 {'LC3', 'Analyse 3', 'Réactivité Chimie', 'Algorithme & Programmation 2', 'Electromagnétisme', 'Statistiques & Probabilité'}
+  TPs found: 2 {'Statistiques & Probabilité', 'Algorithme & Programmation 2'}
+--------------------
+Filiere AAIS-2:
+  Cours found: 6 {"Semi Groupes et équation d'évolution", 'Modèles Mixtes et applications sous R', 'Optimisation et contrôle Optimal', 'Séries chronologiques et Méthodes de prévision', 'Anglais Scientifique II & Soft Skills', 'Analyses de données / BIGDATA'}
+  TDs found: 6 {"Semi Groupes et équation d'évolution", 'Modèles Mixtes et applications sous R', 'Optimisation et contrôle Optimal', 'Séries chronologiques et Méthodes de prévision', 'Anglais Scientifique II & Soft Skills', 'Analyses de données / BIGDATA'}
+  TPs found: 5 {"Semi Groupes et équation d'évolution", 'Modèles Mixtes et applications sous R', 'Optimisation et contrôle Optimal', 'Séries chronologiques et Méthodes de prévision', 'Analyses de données / BIGDATA'}
+--------------------
+Filiere IND-2:
+  Cours found: 6 {'RDM I et vibration mécanique', 'Electrotechnique et machines électriques', 'Excellence opérationnelle', 'Anglais 2', "Optimisation des Processus & Outils d'Aide à la Décision", 'Machines Industrielles'}
+  TDs found: 6 {'RDM I et vibration mécanique', 'Electrotechnique et machines électriques', 'Excellence opérationnelle', 'Anglais 2', "Optimisation des Processus & Outils d'Aide à la Décision", 'Machines Industrielles'}
+  TPs found: 5 {'RDM I et vibration mécanique', 'Electrotechnique et machines électriques', 'Excellence opérationnelle', "Optimisation des Processus & Outils d'Aide à la Décision", 'Machines Industrielles'}
+--------------------
+Filiere LSI-1:
+  Cours found: 6 {'Théorie des graphes et applications', 'Programmation orientée objet', 'Langues Etrangères', 'Technologies web 1 (PHP et Frameworks)', "Système d'exploitation LINUX", 'Bases de données avancées'}
+  TDs found: 5 {'Théorie des graphes et applications', 'Programmation orientée objet', 'Technologies web 1 (PHP et Frameworks)', "Système d'exploitation LINUX", 'Bases de données avancées'}
+  TPs found: 4 {"Système d'exploitation LINUX", 'Bases de données avancées', 'Théorie des graphes et applications', 'Programmation orientée objet'}
+--------------------

@@ -1,0 +1,16 @@
+GEMI-2 Sessions found in EDT:
+Jeudi 09:00-10:30 | Mod: Automatique avancée | Type: Cours | Room: Amphi G | Prof: Dr. Nadia Benyakoub
+Jeudi 10:45-12:15 | Mod: Automatique avancée | Type: TD | Room: TD-F8 | Prof: Dr. Nadia Benyakoub
+Lundi 09:00-10:30 | Mod: Traitement du Signal | Type: TP | Room: TP-E1 | Prof: Dr. Rachid Farah
+Lundi 14:15-15:45 | Mod: Mathématiques Pour l'Ingénieur II | Type: Cours | Room: Cours-C1 | Prof: Dr. Hassan Al-Mansouri
+Lundi 16:00-17:30 | Mod: Langues Etrangères 3: Anglais | Type: Cours | Room: Cours-A1 | Prof: Dr. Nadia Lahsen
+Mardi 09:00-10:30 | Mod: Electrotechnique | Type: Cours | Room: Amphi J | Prof: Pr. Mohammed Abdelilah
+Mardi 10:45-12:15 | Mod: Automatique avancée | Type: TP | Room: TP-A2 | Prof: Dr. Nadia Benyakoub
+Mardi 16:00-17:30 | Mod: Mathématiques Pour l'Ingénieur II | Type: TD | Room: TD-F2 | Prof: Dr. Hassan Al-Mansouri
+Mercredi 09:00-10:30 | Mod: Traitement du Signal | Type: Cours | Room: Amphi F | Prof: Dr. Rachid Farah
+Mercredi 12:30-14:00 | Mod: Electrotechnique | Type: TD | Room: TD-F5 | Prof: Pr. Mohammed Abdelilah
+Mercredi 14:15-15:45 | Mod: Langues Etrangères 3: Anglais | Type: TD | Room: TD-F3 | Prof: Dr. Nadia Lahsen
+Samedi 09:00-10:30 | Mod: Machines Industrielles | Type: TP | Room: TP-D2 | Prof: Dr. Hassan Yousfi
+Samedi 10:45-12:15 | Mod: Traitement du Signal | Type: TD | Room: TD-F6 | Prof: Dr. Rachid Farah
+Vendredi 09:00-10:30 | Mod: Machines Industrielles | Type: Cours | Room: Amphi J | Prof: Dr. Hassan Yousfi
+Vendredi 10:45-12:15 | Mod: Machines Industrielles | Type: TD | Room: TD-G1 | Prof: Dr. Hassan Yousfi

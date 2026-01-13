@@ -1,0 +1,14 @@
+Total sessions found: 13
+ID: 224, Module: LC3, Type: Cours, Filiere: MIPC-2, Group: MIPC-2
+ID: 225, Module: LC3, Type: TD, Filiere: MIPC-2, Group: MIPC-2-G1
+ID: 226, Module: LC3, Type: TD, Filiere: MIPC-2, Group: MIPC-2-G2
+ID: 227, Module: LC3, Type: TD, Filiere: MIPC-2, Group: MIPC-2-G3
+ID: 228, Module: LC3, Type: TD, Filiere: MIPC-2, Group: MIPC-2-G4
+ID: 556, Module: Anglais Scientifique II & Soft Skills, Type: Cours, Filiere: AAIS-2, Group: AAIS-2
+ID: 557, Module: Anglais Scientifique II & Soft Skills, Type: TD, Filiere: AAIS-2, Group: AAIS-2
+ID: 639, Module: Anglais 2, Type: Cours, Filiere: IND-2, Group: IND-2
+ID: 640, Module: Anglais 2, Type: TD, Filiere: IND-2, Group: IND-2
+ID: 726, Module: Langues Etrangères, Type: Cours, Filiere: LSI-1, Group: LSI-1
+ID: 727, Module: Langues Etrangères, Type: TD, Filiere: LSI-1, Group: LSI-1
+ID: 743, Module: Anglais 2, Type: Cours, Filiere: LSI-2, Group: LSI-2
+ID: 744, Module: Anglais 2, Type: TD, Filiere: LSI-2, Group: LSI-2

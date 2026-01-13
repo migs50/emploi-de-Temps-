@@ -1,0 +1,20 @@
+Filiere MIPC-2 (ID 4):
+  Expected: 6 ({'Statistiques & Probabilité', 'Analyse 3', 'LC3', 'Electromagnétisme', 'Réactivité Chimie', 'Algorithme & Programmation 2'})
+  Actual: 6 ({'Statistiques & Probabilité', 'Analyse 3', 'LC3', 'Electromagnétisme', 'Réactivité Chimie', 'Algorithme & Programmation 2'})
+  All modules found in seances.json
+--------------------
+Filiere AAIS-2 (ID 19):
+  Expected: 6 ({'Séries chronologiques et Méthodes de prévision', 'Optimisation et contrôle Optimal', 'Analyses de données / BIGDATA', "Semi Groupes et équation d'évolution", 'Anglais Scientifique II & Soft Skills', 'Modèles Mixtes et applications sous R'})
+  Actual: 6 ({'Séries chronologiques et Méthodes de prévision', 'Optimisation et contrôle Optimal', 'Analyses de données / BIGDATA', "Semi Groupes et équation d'évolution", 'Anglais Scientifique II & Soft Skills', 'Modèles Mixtes et applications sous R'})
+  All modules found in seances.json
+--------------------
+Filiere IND-2 (ID 24):
+  Expected: 6 ({'Anglais 2', "Optimisation des Processus & Outils d'Aide à la Décision", 'Machines Industrielles', 'Electrotechnique et machines électriques', 'RDM I et vibration mécanique', 'Excellence opérationnelle'})
+  Actual: 6 ({'Anglais 2', "Optimisation des Processus & Outils d'Aide à la Décision", 'Machines Industrielles', 'Electrotechnique et machines électriques', 'RDM I et vibration mécanique', 'Excellence opérationnelle'})
+  All modules found in seances.json
+--------------------
+Filiere LSI-1 (ID 29):
+  Expected: 6 ({'Théorie des graphes et applications', 'Programmation orientée objet', 'Technologies web 1 (PHP et Frameworks)', 'Bases de données avancées', 'Langues Etrangères', "Système d'exploitation LINUX"})
+  Actual: 6 ({'Théorie des graphes et applications', 'Programmation orientée objet', 'Technologies web 1 (PHP et Frameworks)', 'Bases de données avancées', 'Langues Etrangères', "Système d'exploitation LINUX"})
+  All modules found in seances.json
+--------------------

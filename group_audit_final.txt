@@ -1,0 +1,39 @@
+
+Filiere: BCG-2
+Groups found: ['BCG-2', 'BCG-2-G1', 'BCG-2-G2', 'BCG-2-G3', 'BCG-2-G4', 'BCG-2-G5']
+  Group BCG-2: 6 Cours modules, 0 TD modules
+    Cours: {'Chimie organique', 'Electricité', 'Chimie minérale', 'Stratigraphique & Paléo-environnement', 'Biochimie structurale', 'Statistiques & Probabilité'}
+    TDs:   set()
+  Group BCG-2-G1: 6 Cours modules, 6 TD modules
+    Cours: {'Chimie organique', 'Electricité', 'Chimie minérale', 'Stratigraphique & Paléo-environnement', 'Biochimie structurale', 'Statistiques & Probabilité'}
+    TDs:   {'Chimie organique', 'Electricité', 'Chimie minérale', 'Stratigraphique & Paléo-environnement', 'Biochimie structurale', 'Statistiques & Probabilité'}
+  Group BCG-2-G2: 6 Cours modules, 6 TD modules
+    Cours: {'Chimie organique', 'Electricité', 'Chimie minérale', 'Stratigraphique & Paléo-environnement', 'Biochimie structurale', 'Statistiques & Probabilité'}
+    TDs:   {'Chimie organique', 'Electricité', 'Chimie minérale', 'Stratigraphique & Paléo-environnement', 'Biochimie structurale', 'Statistiques & Probabilité'}
+  Group BCG-2-G3: 6 Cours modules, 6 TD modules
+    Cours: {'Chimie organique', 'Electricité', 'Chimie minérale', 'Stratigraphique & Paléo-environnement', 'Biochimie structurale', 'Statistiques & Probabilité'}
+    TDs:   {'Chimie organique', 'Electricité', 'Chimie minérale', 'Stratigraphique & Paléo-environnement', 'Biochimie structurale', 'Statistiques & Probabilité'}
+  Group BCG-2-G4: 6 Cours modules, 0 TD modules
+    Cours: {'Chimie organique', 'Electricité', 'Chimie minérale', 'Stratigraphique & Paléo-environnement', 'Biochimie structurale', 'Statistiques & Probabilité'}
+    TDs:   set()
+  Group BCG-2-G5: 6 Cours modules, 0 TD modules
+    Cours: {'Chimie organique', 'Electricité', 'Chimie minérale', 'Stratigraphique & Paléo-environnement', 'Biochimie structurale', 'Statistiques & Probabilité'}
+    TDs:   set()
+
+Filiere: SSD-1
+Groups found: ['SSD-1']
+  Group SSD-1: 6 Cours modules, 6 TD modules
+    Cours: {'Programmation Python et Programmation Orientée Objet', 'Intégration et Probabilité', 'Statistique Mathématique et Simulation', 'Optimisation et Recherche Opérationnelle', 'Base de données Relationnelles et NOSQL', 'Anglais et Management de Projet'}
+    TDs:   {'Programmation Python et Programmation Orientée Objet', 'Intégration et Probabilité', 'Statistique Mathématique et Simulation', 'Optimisation et Recherche Opérationnelle', 'Base de données Relationnelles et NOSQL', 'Anglais et Management de Projet'}
+
+Filiere: AAIS-1
+Groups found: ['AAIS-1']
+  Group AAIS-1: 6 Cours modules, 6 TD modules
+    Cours: {'Equation différentielle stochastique (EDS)', 'Anglais Scientifique I & Soft Skills', 'Analyse fonctionnelle et applications', 'Modélisation et calcul fractionnaire', 'Analyse Numérique Matricielle Avancée', 'Programmation Avancée avec Python et R'}
+    TDs:   {'Equation différentielle stochastique (EDS)', 'Anglais Scientifique I & Soft Skills', 'Analyse fonctionnelle et applications', 'Modélisation et calcul fractionnaire', 'Analyse Numérique Matricielle Avancée', 'Programmation Avancée avec Python et R'}
+
+Filiere: GEMI-2
+Groups found: ['GEMI-2']
+  Group GEMI-2: 6 Cours modules, 6 TD modules
+    Cours: {'Machines Industrielles', 'Electrotechnique', 'Langues Etrangères 3: Anglais', 'Traitement du Signal', 'Automatique avancée', "Mathématiques Pour l'Ingénieur II"}
+    TDs:   {'Machines Industrielles', 'Electrotechnique', 'Langues Etrangères 3: Anglais', 'Traitement du Signal', 'Automatique avancée', "Mathématiques Pour l'Ingénieur II"}

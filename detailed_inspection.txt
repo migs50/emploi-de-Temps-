@@ -1,0 +1,107 @@
+
+Filiere: BCG-2
+  Jeudi 09:00-10:30 | Mod: Biochimie structurale | Type: Cours | Group: BCG-2 | Prof: Dr. Mohamed Rachid
+  Jeudi 09:00-10:30 | Mod: Stratigraphique & Paléo-environnement | Type: TP | Group: BCG-2-G2 | Prof: Dr. Hana Benali
+  Jeudi 10:45-12:15 | Mod: Biochimie structurale | Type: TD | Group: BCG-2-G1 | Prof: Dr. Mohamed Rachid
+  Jeudi 10:45-12:15 | Mod: Electricité | Type: TP | Group: BCG-2-G3 | Prof: Dr. Rachid Farah
+  Jeudi 12:30-14:00 | Mod: Biochimie structurale | Type: TD | Group: BCG-2-G2 | Prof: Dr. Mohamed Rachid
+  Jeudi 12:30-14:00 | Mod: Electricité | Type: TP | Group: BCG-2-G4 | Prof: Dr. Rachid Farah
+  Jeudi 14:15-15:45 | Mod: Biochimie structurale | Type: TD | Group: BCG-2-G3 | Prof: Dr. Mohamed Rachid
+  Jeudi 14:15-15:45 | Mod: Electricité | Type: TP | Group: BCG-2-G5 | Prof: Dr. Rachid Farah
+  Jeudi 16:00-17:30 | Mod: Biochimie structurale | Type: TP | Group: BCG-2-G1 | Prof: Dr. Mohamed Rachid
+  Lundi 09:00-10:30 | Mod: Statistiques & Probabilité | Type: Cours | Group: BCG-2 | Prof: Dr. Samira Bloul
+  Lundi 09:00-10:30 | Mod: Electricité | Type: TD | Group: BCG-2-G2 | Prof: Dr. Rachid Farah
+  Lundi 09:00-10:30 | Mod: Chimie minérale | Type: TP | Group: BCG-2-G1 | Prof: Dr. Mohamed Rachid
+  Lundi 10:45-12:15 | Mod: Chimie minérale | Type: TP | Group: BCG-2-G3 | Prof: Dr. Mohamed Rachid
+  Lundi 12:30-14:00 | Mod: Statistiques & Probabilité | Type: TD | Group: BCG-2-G1 | Prof: Dr. Samira Bloul
+  Lundi 12:30-14:00 | Mod: Chimie minérale | Type: TP | Group: BCG-2-G4 | Prof: Dr. Mohamed Rachid
+  Lundi 14:15-15:45 | Mod: Statistiques & Probabilité | Type: TD | Group: BCG-2-G2 | Prof: Dr. Samira Bloul
+  Lundi 14:15-15:45 | Mod: Chimie minérale | Type: TP | Group: BCG-2-G5 | Prof: Dr. Mohamed Rachid
+  Lundi 16:00-17:30 | Mod: Statistiques & Probabilité | Type: TD | Group: BCG-2-G3 | Prof: Dr. Samira Bloul
+  Mardi 09:00-10:30 | Mod: Chimie minérale | Type: Cours | Group: BCG-2 | Prof: Dr. Mohamed Rachid
+  Mardi 09:00-10:30 | Mod: Stratigraphique & Paléo-environnement | Type: TP | Group: BCG-2-G1 | Prof: Dr. Hana Benali
+  Mardi 10:45-12:15 | Mod: Chimie minérale | Type: TD | Group: BCG-2-G1 | Prof: Dr. Mohamed Rachid
+  Mardi 10:45-12:15 | Mod: Stratigraphique & Paléo-environnement | Type: TP | Group: BCG-2-G3 | Prof: Dr. Hana Benali
+  Mardi 12:30-14:00 | Mod: Chimie minérale | Type: TD | Group: BCG-2-G2 | Prof: Dr. Mohamed Rachid
+  Mardi 12:30-14:00 | Mod: Stratigraphique & Paléo-environnement | Type: TP | Group: BCG-2-G4 | Prof: Dr. Hana Benali
+  Mardi 14:15-15:45 | Mod: Chimie minérale | Type: TD | Group: BCG-2-G3 | Prof: Dr. Mohamed Rachid
+  Mardi 14:15-15:45 | Mod: Stratigraphique & Paléo-environnement | Type: TP | Group: BCG-2-G5 | Prof: Dr. Hana Benali
+  Mardi 16:00-17:30 | Mod: Chimie minérale | Type: TP | Group: BCG-2-G2 | Prof: Dr. Mohamed Rachid
+  Mercredi 09:00-10:30 | Mod: Chimie organique | Type: Cours | Group: BCG-2 | Prof: Dr. Hocine Medel
+  Mercredi 09:00-10:30 | Mod: Biochimie structurale | Type: TP | Group: BCG-2-G2 | Prof: Dr. Mohamed Rachid
+  Mercredi 10:45-12:15 | Mod: Statistiques & Probabilité | Type: TP | Group: BCG-2-G1 | Prof: Dr. Samira Bloul
+  Mercredi 12:30-14:00 | Mod: Chimie organique | Type: TD | Group: BCG-2-G1 | Prof: Dr. Hocine Medel
+  Mercredi 12:30-14:00 | Mod: Statistiques & Probabilité | Type: TP | Group: BCG-2-G3 | Prof: Dr. Samira Bloul
+  Mercredi 14:15-15:45 | Mod: Chimie organique | Type: TD | Group: BCG-2-G2 | Prof: Dr. Hocine Medel
+  Mercredi 14:15-15:45 | Mod: Statistiques & Probabilité | Type: TP | Group: BCG-2-G4 | Prof: Dr. Samira Bloul
+  Mercredi 16:00-17:30 | Mod: Chimie organique | Type: TD | Group: BCG-2-G3 | Prof: Dr. Hocine Medel
+  Mercredi 16:00-17:30 | Mod: Statistiques & Probabilité | Type: TP | Group: BCG-2-G5 | Prof: Dr. Samira Bloul
+  Samedi 09:00-10:30 | Mod: Electricité | Type: Cours | Group: BCG-2 | Prof: Dr. Rachid Farah
+  Samedi 09:00-10:30 | Mod: Stratigraphique & Paléo-environnement | Type: TD | Group: BCG-2-G3 | Prof: Dr. Hana Benali
+  Samedi 09:00-10:30 | Mod: Statistiques & Probabilité | Type: TP | Group: BCG-2-G2 | Prof: Dr. Samira Bloul
+  Samedi 10:45-12:15 | Mod: Electricité | Type: TD | Group: BCG-2-G1 | Prof: Dr. Rachid Farah
+  Vendredi 09:00-10:30 | Mod: Stratigraphique & Paléo-environnement | Type: Cours | Group: BCG-2 | Prof: Dr. Hana Benali
+  Vendredi 09:00-10:30 | Mod: Electricité | Type: TD | Group: BCG-2-G3 | Prof: Dr. Rachid Farah
+  Vendredi 09:00-10:30 | Mod: Biochimie structurale | Type: TP | Group: BCG-2-G4 | Prof: Dr. Mohamed Rachid
+  Vendredi 10:45-12:15 | Mod: Biochimie structurale | Type: TP | Group: BCG-2-G3 | Prof: Dr. Mohamed Rachid
+  Vendredi 10:45-12:15 | Mod: Electricité | Type: TP | Group: BCG-2-G1 | Prof: Dr. Rachid Farah
+  Vendredi 14:15-15:45 | Mod: Stratigraphique & Paléo-environnement | Type: TD | Group: BCG-2-G1 | Prof: Dr. Hana Benali
+  Vendredi 14:15-15:45 | Mod: Biochimie structurale | Type: TP | Group: BCG-2-G5 | Prof: Dr. Mohamed Rachid
+  Vendredi 14:15-15:45 | Mod: Electricité | Type: TP | Group: BCG-2-G2 | Prof: Dr. Rachid Farah
+  Vendredi 16:00-17:30 | Mod: Stratigraphique & Paléo-environnement | Type: TD | Group: BCG-2-G2 | Prof: Dr. Hana Benali
+
+Filiere: SSD-1
+  Jeudi 09:00-10:30 | Mod: Statistique Mathématique et Simulation | Type: Cours | Group: SSD-1 | Prof: Dr. Samira Bloul
+  Jeudi 10:45-12:15 | Mod: Statistique Mathématique et Simulation | Type: TP | Group: SSD-1 | Prof: Dr. Samira Bloul
+  Jeudi 14:15-15:45 | Mod: Programmation Python et Programmation Orientée Objet | Type: TD | Group: SSD-1 | Prof: Dr. Youssef Bennouna
+  Lundi 09:00-10:30 | Mod: Anglais et Management de Projet | Type: Cours | Group: SSD-1 | Prof: Dr. Nadia Lahsen
+  Lundi 10:45-12:15 | Mod: Base de données Relationnelles et NOSQL | Type: TD | Group: SSD-1 | Prof: Dr. Amina Ouadir
+  Lundi 12:30-14:00 | Mod: Base de données Relationnelles et NOSQL | Type: TP | Group: SSD-1 | Prof: Dr. Amina Ouadir
+  Mardi 09:00-10:30 | Mod: Base de données Relationnelles et NOSQL | Type: Cours | Group: SSD-1 | Prof: Dr. Amina Ouadir
+  Mardi 10:45-12:15 | Mod: Anglais et Management de Projet | Type: TD | Group: SSD-1 | Prof: Dr. Nadia Lahsen
+  Mardi 16:00-17:30 | Mod: Intégration et Probabilité | Type: TP | Group: SSD-1 | Prof: Pr. Ahmed Benjelloun
+  Mercredi 09:00-10:30 | Mod: Statistique Mathématique et Simulation | Type: TD | Group: SSD-1 | Prof: Dr. Samira Bloul
+  Mercredi 10:45-12:15 | Mod: Programmation Python et Programmation Orientée Objet | Type: Cours | Group: SSD-1 | Prof: Dr. Youssef Bennouna
+  Mercredi 12:30-14:00 | Mod: Optimisation et Recherche Opérationnelle | Type: TP | Group: SSD-1 | Prof: Dr. Mehdi Khalilzadeh
+  Samedi 09:00-10:30 | Mod: Optimisation et Recherche Opérationnelle | Type: Cours | Group: SSD-1 | Prof: Dr. Mehdi Khalilzadeh
+  Samedi 10:45-12:15 | Mod: Optimisation et Recherche Opérationnelle | Type: TD | Group: SSD-1 | Prof: Dr. Mehdi Khalilzadeh
+  Vendredi 09:00-10:30 | Mod: Intégration et Probabilité | Type: Cours | Group: SSD-1 | Prof: Pr. Ahmed Benjelloun
+  Vendredi 10:45-12:15 | Mod: Intégration et Probabilité | Type: TD | Group: SSD-1 | Prof: Pr. Ahmed Benjelloun
+
+Filiere: AAIS-1
+  Jeudi 09:00-10:30 | Mod: Analyse Numérique Matricielle Avancée | Type: Cours | Group: AAIS-1 | Prof: Dr. Fatemah Reza
+  Jeudi 10:45-12:15 | Mod: Modélisation et calcul fractionnaire | Type: TD | Group: AAIS-1 | Prof: Dr. Laila Youssef
+  Jeudi 16:00-17:30 | Mod: Equation différentielle stochastique (EDS) | Type: TP | Group: AAIS-1 | Prof: Dr. Samira Bloul
+  Lundi 10:45-12:15 | Mod: Anglais Scientifique I & Soft Skills | Type: Cours | Group: AAIS-1 | Prof: Dr. Nadia Lahsen
+  Lundi 12:30-14:00 | Mod: Modélisation et calcul fractionnaire | Type: TP | Group: AAIS-1 | Prof: Dr. Laila Youssef
+  Lundi 14:15-15:45 | Mod: Programmation Avancée avec Python et R | Type: TD | Group: AAIS-1 | Prof: Dr. Mohamed Salah
+  Mardi 09:00-10:30 | Mod: Programmation Avancée avec Python et R | Type: Cours | Group: AAIS-1 | Prof: Dr. Mohamed Salah
+  Mardi 12:30-14:00 | Mod: Anglais Scientifique I & Soft Skills | Type: TD | Group: AAIS-1 | Prof: Dr. Nadia Lahsen
+  Mardi 14:15-15:45 | Mod: Programmation Avancée avec Python et R | Type: TP | Group: AAIS-1 | Prof: Dr. Mohamed Salah
+  Mercredi 09:00-10:30 | Mod: Analyse Numérique Matricielle Avancée | Type: TD | Group: AAIS-1 | Prof: Dr. Fatemah Reza
+  Mercredi 10:45-12:15 | Mod: Analyse Numérique Matricielle Avancée | Type: TP | Group: AAIS-1 | Prof: Dr. Fatemah Reza
+  Mercredi 12:30-14:00 | Mod: Modélisation et calcul fractionnaire | Type: Cours | Group: AAIS-1 | Prof: Dr. Laila Youssef
+  Samedi 09:00-10:30 | Mod: Analyse fonctionnelle et applications | Type: Cours | Group: AAIS-1 | Prof: Dr. Fatemah Reza
+  Samedi 10:45-12:15 | Mod: Analyse fonctionnelle et applications | Type: TD | Group: AAIS-1 | Prof: Dr. Fatemah Reza
+  Vendredi 10:45-12:15 | Mod: Equation différentielle stochastique (EDS) | Type: Cours | Group: AAIS-1 | Prof: Dr. Samira Bloul
+  Vendredi 14:15-15:45 | Mod: Analyse fonctionnelle et applications | Type: TP | Group: AAIS-1 | Prof: Dr. Fatemah Reza
+  Vendredi 16:00-17:30 | Mod: Equation différentielle stochastique (EDS) | Type: TD | Group: AAIS-1 | Prof: Dr. Samira Bloul
+
+Filiere: GEMI-2
+  Jeudi 09:00-10:30 | Mod: Traitement du Signal | Type: Cours | Group: GEMI-2 | Prof: Dr. Rachid Farah
+  Jeudi 10:45-12:15 | Mod: Automatique avancée | Type: TD | Group: GEMI-2 | Prof: Dr. Nadia Benyakoub
+  Jeudi 12:30-14:00 | Mod: Automatique avancée | Type: TP | Group: GEMI-2 | Prof: Dr. Nadia Benyakoub
+  Lundi 09:00-10:30 | Mod: Mathématiques Pour l'Ingénieur II | Type: TD | Group: GEMI-2 | Prof: Dr. Laila Youssef
+  Lundi 10:45-12:15 | Mod: Electrotechnique | Type: TP | Group: GEMI-2 | Prof: Dr. Rachid Farah
+  Lundi 16:00-17:30 | Mod: Langues Etrangères 3: Anglais | Type: Cours | Group: GEMI-2 | Prof: Dr. Nadia Lahsen
+  Mardi 09:00-10:30 | Mod: Langues Etrangères 3: Anglais | Type: TD | Group: GEMI-2 | Prof: Dr. Nadia Lahsen
+  Mardi 10:45-12:15 | Mod: Mathématiques Pour l'Ingénieur II | Type: Cours | Group: GEMI-2 | Prof: Dr. Laila Youssef
+  Mardi 12:30-14:00 | Mod: Electrotechnique | Type: TD | Group: GEMI-2 | Prof: Dr. Rachid Farah
+  Mercredi 09:00-10:30 | Mod: Electrotechnique | Type: Cours | Group: GEMI-2 | Prof: Dr. Rachid Farah
+  Mercredi 12:30-14:00 | Mod: Traitement du Signal | Type: TD | Group: GEMI-2 | Prof: Dr. Rachid Farah
+  Mercredi 14:15-15:45 | Mod: Traitement du Signal | Type: TP | Group: GEMI-2 | Prof: Dr. Rachid Farah
+  Samedi 09:00-10:30 | Mod: Machines Industrielles | Type: Cours | Group: GEMI-2 | Prof: Dr. Hassan Yousfi
+  Samedi 10:45-12:15 | Mod: Mathématiques Pour l'Ingénieur II | Type: TP | Group: GEMI-2 | Prof: Dr. Laila Youssef
+  Vendredi 09:00-10:30 | Mod: Automatique avancée | Type: Cours | Group: GEMI-2 | Prof: Dr. Nadia Benyakoub
+  Vendredi 10:45-12:15 | Mod: Machines Industrielles | Type: TD | Group: GEMI-2 | Prof: Dr. Hassan Yousfi
+  Vendredi 14:15-15:45 | Mod: Machines Industrielles | Type: TP | Group: GEMI-2 | Prof: Dr. Hassan Yousfi

@@ -1,0 +1,48 @@
+Filiere BCG-2 (Expected 6 modules):
+  Cours found (6): {'Chimie organique', 'Biochimie structurale', 'Stratigraphique & Paléo-environnement', 'Electricité', 'Statistiques & Probabilité', 'Chimie minérale'}
+  TDs found (6): {'Chimie organique', 'Biochimie structurale', 'Stratigraphique & Paléo-environnement', 'Electricité', 'Statistiques & Probabilité', 'Chimie minérale'}
+  MISSING Modules from Cours:
+  Scheduled Modules Teacher Loads:
+    - Chimie organique: Dr. Hocine Medel (26 sessions)
+    - Biochimie structurale: Dr. Mohamed Rachid (18 sessions)
+    - Stratigraphique & Paléo-environnement: Dr. Hana Benali (21 sessions)
+    - Electricité: Dr. Rachid Farah (18 sessions)
+    - Statistiques & Probabilité: Dr. Samira Bloul (25 sessions)
+    - Chimie minérale: Dr. Mohamed Rachid (18 sessions)
+--------------------
+Filiere SSD-1 (Expected 6 modules):
+  Cours found (6): {'Programmation Python et Programmation Orientée Objet', 'Base de données Relationnelles et NOSQL', 'Optimisation et Recherche Opérationnelle', 'Intégration et Probabilité', 'Anglais et Management de Projet', 'Statistique Mathématique et Simulation'}
+  TDs found (6): {'Programmation Python et Programmation Orientée Objet', 'Base de données Relationnelles et NOSQL', 'Optimisation et Recherche Opérationnelle', 'Intégration et Probabilité', 'Anglais et Management de Projet', 'Statistique Mathématique et Simulation'}
+  MISSING Modules from Cours:
+  Scheduled Modules Teacher Loads:
+    - Programmation Python et Programmation Orientée Objet: Dr. Youssef Bennouna (26 sessions)
+    - Base de données Relationnelles et NOSQL: Dr. Amina Ouadir (21 sessions)
+    - Optimisation et Recherche Opérationnelle: Dr. Mehdi Khalilzadeh (9 sessions)
+    - Intégration et Probabilité: Pr. Ahmed Benjelloun (18 sessions)
+    - Anglais et Management de Projet: Dr. Nadia Lahsen (21 sessions)
+    - Statistique Mathématique et Simulation: Dr. Samira Bloul (25 sessions)
+--------------------
+Filiere AAIS-1 (Expected 6 modules):
+  Cours found (6): {'Anglais Scientifique I & Soft Skills', 'Equation différentielle stochastique (EDS)', 'Programmation Avancée avec Python et R', 'Modélisation et calcul fractionnaire', 'Analyse Numérique Matricielle Avancée', 'Analyse fonctionnelle et applications'}
+  TDs found (6): {'Anglais Scientifique I & Soft Skills', 'Equation différentielle stochastique (EDS)', 'Programmation Avancée avec Python et R', 'Modélisation et calcul fractionnaire', 'Analyse Numérique Matricielle Avancée', 'Analyse fonctionnelle et applications'}
+  MISSING Modules from Cours:
+  Scheduled Modules Teacher Loads:
+    - Anglais Scientifique I & Soft Skills: Dr. Nadia Lahsen (21 sessions)
+    - Equation différentielle stochastique (EDS): Dr. Samira Bloul (25 sessions)
+    - Programmation Avancée avec Python et R: Dr. Mohamed Salah (15 sessions)
+    - Modélisation et calcul fractionnaire: Dr. Laila Youssef (15 sessions)
+    - Analyse Numérique Matricielle Avancée: Dr. Fatemah Reza (12 sessions)
+    - Analyse fonctionnelle et applications: Dr. Fatemah Reza (12 sessions)
+--------------------
+Filiere GEMI-2 (Expected 6 modules):
+  Cours found (6): {'Machines Industrielles', "Mathématiques Pour l'Ingénieur II", 'Electrotechnique', 'Automatique avancée', 'Traitement du Signal', 'Langues Etrangères 3: Anglais'}
+  TDs found (6): {'Machines Industrielles', "Mathématiques Pour l'Ingénieur II", 'Electrotechnique', 'Automatique avancée', 'Traitement du Signal', 'Langues Etrangères 3: Anglais'}
+  MISSING Modules from Cours:
+  Scheduled Modules Teacher Loads:
+    - Machines Industrielles: Dr. Hassan Yousfi (3 sessions)
+    - Mathématiques Pour l'Ingénieur II: Dr. Laila Youssef (15 sessions)
+    - Electrotechnique: Dr. Rachid Farah (18 sessions)
+    - Automatique avancée: Dr. Nadia Benyakoub (9 sessions)
+    - Traitement du Signal: Dr. Rachid Farah (18 sessions)
+    - Langues Etrangères 3: Anglais: Dr. Nadia Lahsen (21 sessions)
+--------------------
