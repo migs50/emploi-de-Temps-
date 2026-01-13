@@ -8,7 +8,7 @@ import os
 from logic.edt_generator import generer_edt
 from logic.database import charger_json, sauvegarder_json
 from logic.reservation_manager import modifier_statut_reservation, get_salles_disponibles
-from logic.exporter import exporter_csv, exporter_rapport_occupation
+from logic.exporter import exporter_csv, exporter_rapport_occupation, exporter_excel, exporter_visual
 
 class AdminInterface:
     def __init__(self, root):
@@ -68,8 +68,16 @@ class AdminInterface:
             btn_frame = ttk.Frame(self.tab_dashboard, padding=20)
             btn_frame.pack(fill=tk.X)
             
-            ttk.Button(btn_frame, text="Exporter EDT (CSV)", command=self.export_edt_csv).pack(side=tk.LEFT, padx=5)
-            ttk.Button(btn_frame, text="Exporter Rapport Occupation", command=self.export_occ_report).pack(side=tk.LEFT, padx=5)
+            ttk.Label(btn_frame, text="Exportations Emploi du Temps :", font=("Helvetica", 10, "bold")).pack(side=tk.LEFT, padx=(0,10))
+            ttk.Button(btn_frame, text="CSV", command=self.export_edt_csv).pack(side=tk.LEFT, padx=5)
+            ttk.Button(btn_frame, text="Excel", command=self.export_edt_excel).pack(side=tk.LEFT, padx=5)
+            ttk.Button(btn_frame, text="Image (PNG)", command=self.export_edt_image).pack(side=tk.LEFT, padx=5)
+            ttk.Button(btn_frame, text="PDF", command=self.export_edt_pdf).pack(side=tk.LEFT, padx=5)
+            
+            # Occupation report
+            rep_frame = ttk.Frame(self.tab_dashboard, padding=20)
+            rep_frame.pack(fill=tk.X)
+            ttk.Button(rep_frame, text="Exporter Rapport Occupation des Salles", command=self.export_occ_report).pack(side=tk.LEFT)
             
         except Exception as e:
             ttk.Label(self.tab_dashboard, text=f"Erreur chargement données: {str(e)}", foreground="red").pack()
@@ -224,19 +232,28 @@ class AdminInterface:
         self.cb_start_avail.grid(row=2, column=1, pady=5)
         self.cb_start_avail.bind("<<ComboboxSelected>>", self.refresh_available_rooms)
         
-        ttk.Label(form, text="Salle (Libre):").grid(row=3, column=0, pady=5)
+        ttk.Label(form, text="Salle (Optionnel/Libre):").grid(row=3, column=0, pady=5)
         self.cb_salle_avail = ttk.Combobox(form, values=["Veuillez choisir jour/heure"])
         self.cb_salle_avail.grid(row=3, column=1, pady=5)
+
+        ttk.Label(form, text="Motif:").grid(row=4, column=0, pady=5)
+        self.cb_motif_avail = ttk.Combobox(form, values=["Absence", "Maintenance", "Événement", "Indisponibilité", "Examen Exceptionnel"])
+        self.cb_motif_avail.current(0)
+        self.cb_motif_avail.grid(row=4, column=1, pady=5)
         
-        ttk.Button(form, text="Bloquer", command=self.block_teacher).grid(row=4, column=1, pady=10)
+        btn_avail_frame = ttk.Frame(container)
+        btn_avail_frame.pack(pady=10)
+        ttk.Button(btn_avail_frame, text="Bloquer le créneau", command=self.block_teacher).pack(side=tk.LEFT, padx=5)
+        ttk.Button(btn_avail_frame, text="Supprimer le blocage", command=self.delete_block).pack(side=tk.LEFT, padx=5)
         
         # Current blocks
         ttk.Label(container, text="Créneaux bloqués:", font=("Helvetica", 10, "bold")).pack(pady=(20,5))
-        self.tree_blocked = ttk.Treeview(container, columns=("Enseignant", "Jour", "Heure", "Salle"), show="headings", height=5)
+        self.tree_blocked = ttk.Treeview(container, columns=("Enseignant", "Jour", "Heure", "Salle", "Motif"), show="headings", height=8)
         self.tree_blocked.heading("Enseignant", text="Enseignant")
         self.tree_blocked.heading("Jour", text="Jour")
         self.tree_blocked.heading("Heure", text="Heure")
         self.tree_blocked.heading("Salle", text="Salle")
+        self.tree_blocked.heading("Motif", text="Motif")
         self.tree_blocked.pack(fill=tk.X)
         self.refresh_blocked()
 
@@ -245,6 +262,7 @@ class AdminInterface:
         jr = self.cb_jour_avail.get()
         start = self.cb_start_avail.get()
         room = self.cb_salle_avail.get()
+        motif = self.cb_motif_avail.get()
         
         if not ens or not jr or not start:
             messagebox.showwarning("Attention", "Les champs Enseignant, Jour et Début sont requis.")
@@ -253,13 +271,43 @@ class AdminInterface:
         try:
             avail = charger_json("DONNÉES PRINCIPALES/availability.json")
             if "blocked_slots" not in avail: avail["blocked_slots"] = []
-            block_item = {"enseignant": ens, "jour": jr, "debut": start}
+            block_item = {
+                "enseignant": ens, 
+                "jour": jr, 
+                "debut": start,
+                "motif": motif or "Indisponibilité"
+            }
             if room and room != "Veuillez choisir jour/heure" and room != "Aucune salle libre": 
                 block_item["salle"] = room
             
             avail["blocked_slots"].append(block_item)
             sauvegarder_json("DONNÉES PRINCIPALES/availability.json", avail)
-            messagebox.showinfo("Succès", "Créneau bloqué.")
+            messagebox.showinfo("Succès", "Le créneau a été bloqué avec succès.")
+            self.refresh_blocked()
+        except Exception as e:
+            messagebox.showerror("Erreur", str(e))
+
+    def delete_block(self):
+        selected = self.tree_blocked.selection()
+        if not selected:
+            messagebox.showwarning("Attention", "Veuillez sélectionner un blocage à supprimer.")
+            return
+        
+        item = self.tree_blocked.item(selected[0])
+        val = item['values']
+        
+        try:
+            avail = charger_json("DONNÉES PRINCIPALES/availability.json")
+            new_list = []
+            for b in avail.get("blocked_slots", []):
+                # Simple matching
+                if b["enseignant"] == val[0] and b["jour"] == val[1] and b["debut"] == val[2]:
+                    continue
+                new_list.append(b)
+            
+            avail["blocked_slots"] = new_list
+            sauvegarder_json("DONNÉES PRINCIPALES/availability.json", avail)
+            messagebox.showinfo("Succès", "Blocage supprimé.")
             self.refresh_blocked()
         except Exception as e:
             messagebox.showerror("Erreur", str(e))
@@ -281,7 +329,13 @@ class AdminInterface:
         try:
             avail = charger_json("DONNÉES PRINCIPALES/availability.json")
             for b in avail.get("blocked_slots", []):
-                self.tree_blocked.insert("", tk.END, values=(b["enseignant"], b["jour"], b["debut"], b.get("salle", "-")))
+                self.tree_blocked.insert("", tk.END, values=(
+                    b["enseignant"], 
+                    b["jour"], 
+                    b["debut"], 
+                    b.get("salle", "-"),
+                    b.get("motif", "Indisponibilité")
+                ))
         except: pass
 
     def export_edt_csv(self):
@@ -292,6 +346,33 @@ class AdminInterface:
                 messagebox.showinfo("Succès", "Export CSV réussi.")
             else:
                 messagebox.showerror("Erreur", "L'export a échoué.")
+
+    def export_edt_excel(self):
+        path = filedialog.asksaveasfilename(defaultextension=".xlsx", filetypes=[("Excel", "*.xlsx")])
+        if path:
+            edt = charger_json("GESTION EDT/emplois_du_temps.json")
+            if exporter_excel(edt, path):
+                messagebox.showinfo("Succès", "Export Excel réussi.")
+            else:
+                messagebox.showerror("Erreur", "L'export Excel a échoué.\nVérifiez que 'openpyxl' est installé.")
+
+    def export_edt_image(self):
+        path = filedialog.asksaveasfilename(defaultextension=".png", filetypes=[("PNG Image", "*.png")])
+        if path:
+            edt = charger_json("GESTION EDT/emplois_du_temps.json")
+            if exporter_visual(edt, path, "png"):
+                messagebox.showinfo("Succès", "Export Image réussi.")
+            else:
+                messagebox.showerror("Erreur", "L'export Image a échoué.")
+
+    def export_edt_pdf(self):
+        path = filedialog.asksaveasfilename(defaultextension=".pdf", filetypes=[("PDF Document", "*.pdf")])
+        if path:
+            edt = charger_json("GESTION EDT/emplois_du_temps.json")
+            if exporter_visual(edt, path, "pdf"):
+                messagebox.showinfo("Succès", "Export PDF réussi.")
+            else:
+                messagebox.showerror("Erreur", "L'export PDF a échoué.")
 
     def export_occ_report(self):
         path = filedialog.asksaveasfilename(defaultextension=".txt", filetypes=[("Text", "*.txt")])
