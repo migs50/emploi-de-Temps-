@@ -9,7 +9,7 @@ from logic.stats_manager import get_advanced_stats
 # Imports logic
 from logic.edt_generator import generer_edt
 from logic.database import charger_json, sauvegarder_json
-from logic.reservation_manager import modifier_statut_reservation, get_salles_disponibles, salle_disponible
+from logic.reservation_manager import modifier_statut_reservation, get_salles_disponibles, salle_disponible, modifier_statut_indisponibilite
 from logic.exporter import exporter_csv, exporter_rapport_occupation, exporter_excel, exporter_visual
 
 class AdminInterface:
@@ -31,11 +31,13 @@ class AdminInterface:
         self.tab_stats = ttk.Frame(self.notebook)
         self.tab_exports = ttk.Frame(self.notebook)
         self.tab_availability = ttk.Frame(self.notebook)
+        self.tab_unavail_requests = ttk.Frame(self.notebook)
         self.tab_data = ttk.Frame(self.notebook)
         
         self.notebook.add(self.tab_dashboard, text="Tableau de Bord")
         self.notebook.add(self.tab_generate, text="Génération EDT")
         self.notebook.add(self.tab_reservations, text="Réservations")
+        self.notebook.add(self.tab_unavail_requests, text="Indisponibilités")
         self.notebook.add(self.tab_occupancy, text="Occupation (Global)")
         self.notebook.add(self.tab_realtime_occ, text="Occupation (Temps Réel)")
         self.notebook.add(self.tab_exports, text="Consultation & Export")
@@ -48,10 +50,9 @@ class AdminInterface:
         self.setup_dashboard()
         self.setup_generation()
         self.setup_reservations()
+        self.setup_unavailability_requests()
         self.setup_occupancy()
         self.setup_availability()
-        self.setup_data_view()
-        self.setup_stats()
         self.setup_data_view()
         self.setup_stats()
         self.setup_realtime_occupancy()
@@ -163,8 +164,18 @@ class AdminInterface:
         try:
             resas = charger_json("GESTION EDT/reservations.json")
             for r in resas:
-                self.tree_resa.insert("", tk.END, values=(r["id"], r["enseignant"], r["salle"], r["jour"], r["debut"], r["motif"], r["statut"]))
-        except: pass
+                # Robust loading: use .get for all fields
+                rid = r.get("id", "N/A")
+                ens = r.get("enseignant", "Inconnu")
+                salle = r.get("salle", "?")
+                jour = r.get("jour", "?")
+                debut = r.get("debut", "?")
+                motif = r.get("motif", "")
+                statut = r.get("statut", "En attente")
+                
+                self.tree_resa.insert("", tk.END, values=(rid, ens, salle, jour, debut, motif, statut))
+        except Exception as e:
+            print(f"Erreur chargement reservations: {e}")
 
     def handle_resa(self, status):
         selected = self.tree_resa.selection()
@@ -750,3 +761,60 @@ class AdminInterface:
             canvas.configure(scrollregion=canvas.bbox("all"))
         except Exception as e:
             ttk.Label(self.rooms_container, text=f"Erreur: {e}").pack()
+
+    def setup_unavailability_requests(self):
+        """Setup unavailability requests management tab"""
+        for w in self.tab_unavail_requests.winfo_children(): w.destroy()
+        
+        lbl = ttk.Label(self.tab_unavail_requests, text="Demandes d'Indisponibilité", font=("Helvetica", 14, "bold"))
+        lbl.pack(pady=10)
+        
+        columns = ("ID", "Enseignant", "Jour", "Heure", "Motif", "Détails", "Statut")
+        self.tree_unavail = ttk.Treeview(self.tab_unavail_requests, columns=columns, show="headings")
+        for col in columns: 
+            self.tree_unavail.heading(col, text=col)
+        
+        self.tree_unavail.pack(fill=tk.BOTH, expand=True, padx=20, pady=10)
+        
+        btn_box = ttk.Frame(self.tab_unavail_requests)
+        btn_box.pack(pady=10)
+        
+        ttk.Button(btn_box, text="✅ Accepter", command=lambda: self.handle_unavailability("Acceptée")).pack(side=tk.LEFT, padx=5)
+        ttk.Button(btn_box, text="❌ Rejeter", command=lambda: self.handle_unavailability("Refusée")).pack(side=tk.LEFT, padx=5)
+        ttk.Button(btn_box, text="🔄 Rafraîchir", command=self.setup_unavailability_requests).pack(side=tk.LEFT, padx=5)
+        
+        # Load data
+        try:
+            requests = charger_json("GESTION EDT/unavailability_requests.json") or []
+            for req in requests:
+                rid = req.get("id", "N/A")
+                ens = req.get("enseignant", "Inconnu")
+                jour = req.get("jour", "?")
+                debut = req.get("debut", "?")
+                motif = req.get("motif", "")
+                details = req.get("details", "")[:30] + "..." if len(req.get("details", "")) > 30 else req.get("details", "")
+                statut = req.get("statut", "En attente")
+                
+                self.tree_unavail.insert("", tk.END, values=(rid, ens, jour, debut, motif, details, statut))
+        except Exception as e:
+            print(f"Error loading unavailability requests: {e}")
+
+    def handle_unavailability(self, status):
+        """Handle unavailability request approval/rejection"""
+        selected = self.tree_unavail.selection()
+        if not selected:
+            messagebox.showwarning("Attention", "Veuillez sélectionner une demande.")
+            return
+        
+        item = self.tree_unavail.item(selected[0])
+        request_id = item['values'][0]
+        ens = item['values'][1]
+        
+        if modifier_statut_indisponibilite(request_id, status):
+            msg = f"La demande de {ens} a été {status.lower()}."
+            if status == "Acceptée":
+                msg += "\nLe créneau a été bloqué automatiquement."
+            messagebox.showinfo("Succès", msg)
+            self.setup_unavailability_requests()
+        else:
+            messagebox.showerror("Erreur", "Impossible de modifier le statut.")

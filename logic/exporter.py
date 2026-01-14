@@ -123,7 +123,7 @@ def exporter_visual(edt, filename, format_ext="png"):
         
         # Header Info - Positioned using Figure coordinates instead of Axes to avoid table overlap
         # 0.95 is near top.
-        plt.title(f"Exporté le : {datetime.datetime.now().strftime('%d/%m/%Y %H:%M')}", fontsize=10, y=0.98)
+        # Clean export: no title or timestamp
 
         if format_ext == "pdf":
             plt.savefig(filename, format='pdf', bbox_inches='tight', dpi=300)

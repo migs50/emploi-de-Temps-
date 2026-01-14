@@ -1,0 +1,52 @@
+[
+    {
+        "id": "f7987d69",
+        "enseignant": "",
+        "salle": "Amphi C",
+        "jour": "Jeudi",
+        "debut": "9:00",
+        "statut": "Refusée",
+        "date": "2026-01-14 01:02",
+        "lu": false
+    },
+    {
+        "id": "159442c1",
+        "enseignant": "Dr. Leila Mansour  (Électronique Numérique)",
+        "salle": "Amphi B",
+        "jour": "Vendredi",
+        "debut": "12:30",
+        "statut": "Acceptée",
+        "date": "2026-01-14 01:03",
+        "lu": false
+    },
+    {
+        "id": "94b836d0",
+        "enseignant": "",
+        "salle": "TP-A1",
+        "jour": "Mercredi",
+        "debut": "12:30",
+        "statut": "Refusée",
+        "date": "2026-01-14 01:04",
+        "lu": false
+    },
+    {
+        "id": "3c59ef2d",
+        "enseignant": "Dr. Tarek Benismaili  (Applications Web)",
+        "salle": "Amphi C",
+        "jour": "Jeudi",
+        "debut": "12:30",
+        "statut": "Refusée",
+        "date": "2026-01-14 01:04",
+        "lu": false
+    },
+    {
+        "id": "5f82a9ab",
+        "enseignant": "Dr. Rachid Farah  (Traitement du Signal)",
+        "salle": "-",
+        "jour": "Mercredi",
+        "debut": "10:45",
+        "statut": "Indisponibilité Refusée",
+        "date": "2026-01-14 01:38",
+        "lu": false
+    }
+]
