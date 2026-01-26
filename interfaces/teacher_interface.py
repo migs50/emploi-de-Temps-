@@ -1,7 +1,8 @@
 import tkinter as tk
-from tkinter import ttk, messagebox
+from tkinter import ttk, messagebox, filedialog
 from logic.database import charger_json, sauvegarder_json
 from logic.reservation_manager import ajouter_reservation, rechercher_salles, ajouter_demande_indisponibilite
+from logic.exporter import exporter_csv, exporter_excel, exporter_visual
 
 class TeacherInterface:
     def normalize_name(self, name):
@@ -176,6 +177,12 @@ class TeacherInterface:
         self.cb_day_filter.current(0)
         self.cb_day_filter.pack(side=tk.LEFT, padx=5)
         self.cb_day_filter.bind("<<ComboboxSelected>>", self.refresh_edt_table)
+        
+        # Export buttons
+        ttk.Label(ctrl_frame, text="  |  Exporter:").pack(side=tk.LEFT, padx=5)
+        ttk.Button(ctrl_frame, text="📄 PDF", command=self.export_pdf, width=8).pack(side=tk.LEFT, padx=2)
+        ttk.Button(ctrl_frame, text="📊 Excel", command=self.export_excel, width=8).pack(side=tk.LEFT, padx=2)
+        ttk.Button(ctrl_frame, text="🖼 Image", command=self.export_image, width=8).pack(side=tk.LEFT, padx=2)
         
         # Treeview
         columns = ("Jour", "Heure", "Module", "Salle", "Groupe")
@@ -477,3 +484,100 @@ class TeacherInterface:
             self.entry_unavail_details.delete("1.0", tk.END)
         else:
             messagebox.showerror("Erreur", "Erreur lors de l'enregistrement de la demande.")
+    
+    def get_my_sessions(self):
+        """Get current teacher's sessions for export"""
+        name = self.selected_teacher.get()
+        if not name:
+            return []
+        
+        # Find teacher info
+        teacher_nom = ""
+        teacher_id = None
+        for t in self.teachers:
+            if t['nom'] in name:
+                teacher_id = t['id']
+                teacher_nom = t['nom']
+                break
+        
+        try:
+            edt = charger_json("GESTION EDT/emplois_du_temps.json")
+            my_sessions = []
+            
+            def distinct_words(n):
+                return set(w for w in self.normalize_name(n).split() if len(w) > 2)
+            
+            teacher_tokens = distinct_words(teacher_nom)
+            if not teacher_tokens:
+                teacher_tokens = distinct_words(name.split('(')[0])
+            
+            for s in edt:
+                ens_name = s.get('enseignant', '')
+                ens_id = str(s.get('enseignant_id', ''))
+                
+                if teacher_id and str(teacher_id) == ens_id:
+                    my_sessions.append(s)
+                    continue
+                
+                target_tokens = distinct_words(ens_name)
+                if teacher_tokens and target_tokens:
+                    if teacher_tokens.issubset(target_tokens) or target_tokens.issubset(teacher_tokens):
+                        my_sessions.append(s)
+            
+            return my_sessions
+        except:
+            return []
+    
+    def export_pdf(self):
+        """Export teacher's schedule to PDF"""
+        sessions = self.get_my_sessions()
+        if not sessions:
+            messagebox.showwarning("Attention", "Aucune séance à exporter. Sélectionnez votre profil.")
+            return
+        
+        path = filedialog.asksaveasfilename(
+            defaultextension=".pdf",
+            filetypes=[("PDF", "*.pdf")],
+            initialfile=f"EDT_{self.selected_teacher.get().split('(')[0].strip()}.pdf"
+        )
+        if path:
+            if exporter_visual(sessions, path, "pdf"):
+                messagebox.showinfo("Succès", "Export PDF réussi !")
+            else:
+                messagebox.showerror("Erreur", "L'export PDF a échoué.")
+    
+    def export_excel(self):
+        """Export teacher's schedule to Excel"""
+        sessions = self.get_my_sessions()
+        if not sessions:
+            messagebox.showwarning("Attention", "Aucune séance à exporter. Sélectionnez votre profil.")
+            return
+        
+        path = filedialog.asksaveasfilename(
+            defaultextension=".xlsx",
+            filetypes=[("Excel", "*.xlsx")],
+            initialfile=f"EDT_{self.selected_teacher.get().split('(')[0].strip()}.xlsx"
+        )
+        if path:
+            if exporter_excel(sessions, path):
+                messagebox.showinfo("Succès", "Export Excel réussi !")
+            else:
+                messagebox.showerror("Erreur", "L'export Excel a échoué.")
+    
+    def export_image(self):
+        """Export teacher's schedule to Image"""
+        sessions = self.get_my_sessions()
+        if not sessions:
+            messagebox.showwarning("Attention", "Aucune séance à exporter. Sélectionnez votre profil.")
+            return
+        
+        path = filedialog.asksaveasfilename(
+            defaultextension=".png",
+            filetypes=[("PNG Image", "*.png")],
+            initialfile=f"EDT_{self.selected_teacher.get().split('(')[0].strip()}.png"
+        )
+        if path:
+            if exporter_visual(sessions, path, "png"):
+                messagebox.showinfo("Succès", "Export Image réussi !")
+            else:
+                messagebox.showerror("Erreur", "L'export Image a échoué.")

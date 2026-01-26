@@ -1,9 +1,10 @@
 import tkinter as tk
-from tkinter import ttk, messagebox
+from tkinter import ttk, messagebox, filedialog
 import os
 import datetime
 from logic.database import charger_json
 from logic.reservation_manager import get_salles_disponibles
+from logic.exporter import exporter_csv, exporter_excel, exporter_visual
 
 class StudentInterface:
     def __init__(self, root):
@@ -58,6 +59,14 @@ class StudentInterface:
         
         self.lbl_status = ttk.Label(selection_frame, text="Dernière synchro: --:--", font=("Helvetica", 9, "italic"))
         self.lbl_status.grid(row=0, column=5, padx=5, pady=5)
+        
+        # Export buttons
+        export_frame = ttk.Frame(main_frame)
+        export_frame.pack(fill=tk.X, pady=5)
+        ttk.Label(export_frame, text="Exporter mon emploi du temps:").pack(side=tk.LEFT, padx=5)
+        ttk.Button(export_frame, text="📄 PDF", command=self.export_pdf, width=10).pack(side=tk.LEFT, padx=2)
+        ttk.Button(export_frame, text="📊 Excel", command=self.export_excel, width=10).pack(side=tk.LEFT, padx=2)
+        ttk.Button(export_frame, text="🖼 Image", command=self.export_image, width=10).pack(side=tk.LEFT, padx=2)
 
         self.content_frame = ttk.Frame(main_frame)
         self.content_frame.pack(fill=tk.BOTH, expand=True)
@@ -197,3 +206,74 @@ class StudentInterface:
                 ))
             self.update_status_label()
         except: pass
+    
+    def get_my_sessions(self):
+        """Get current student's sessions for export"""
+        filiere = self.selected_filiere.get()
+        group = self.selected_group.get()
+        if not group:
+            return []
+        
+        try:
+            edt = charger_json("GESTION EDT/emplois_du_temps.json")
+            my_sessions = []
+            for s in edt:
+                if s.get('groupe') == group or (s.get('filiere') == filiere and s.get('type') == 'Cours'):
+                    my_sessions.append(s)
+            return my_sessions
+        except:
+            return []
+    
+    def export_pdf(self):
+        """Export student's schedule to PDF"""
+        sessions = self.get_my_sessions()
+        if not sessions:
+            messagebox.showwarning("Attention", "Aucune séance à exporter. Sélectionnez votre filière et groupe.")
+            return
+        
+        path = filedialog.asksaveasfilename(
+            defaultextension=".pdf",
+            filetypes=[("PDF", "*.pdf")],
+            initialfile=f"EDT_{self.selected_group.get()}.pdf"
+        )
+        if path:
+            if exporter_visual(sessions, path, "pdf"):
+                messagebox.showinfo("Succès", "Export PDF réussi !")
+            else:
+                messagebox.showerror("Erreur", "L'export PDF a échoué.")
+    
+    def export_excel(self):
+        """Export student's schedule to Excel"""
+        sessions = self.get_my_sessions()
+        if not sessions:
+            messagebox.showwarning("Attention", "Aucune séance à exporter. Sélectionnez votre filière et groupe.")
+            return
+        
+        path = filedialog.asksaveasfilename(
+            defaultextension=".xlsx",
+            filetypes=[("Excel", "*.xlsx")],
+            initialfile=f"EDT_{self.selected_group.get()}.xlsx"
+        )
+        if path:
+            if exporter_excel(sessions, path):
+                messagebox.showinfo("Succès", "Export Excel réussi !")
+            else:
+                messagebox.showerror("Erreur", "L'export Excel a échoué.")
+    
+    def export_image(self):
+        """Export student's schedule to Image"""
+        sessions = self.get_my_sessions()
+        if not sessions:
+            messagebox.showwarning("Attention", "Aucune séance à exporter. Sélectionnez votre filière et groupe.")
+            return
+        
+        path = filedialog.asksaveasfilename(
+            defaultextension=".png",
+            filetypes=[("PNG Image", "*.png")],
+            initialfile=f"EDT_{self.selected_group.get()}.png"
+        )
+        if path:
+            if exporter_visual(sessions, path, "png"):
+                messagebox.showinfo("Succès", "Export Image réussi !")
+            else:
+                messagebox.showerror("Erreur", "L'export Image a échoué.")

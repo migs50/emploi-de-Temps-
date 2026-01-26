@@ -6292,15 +6292,12 @@
         "module": "Electricité",
         "type": "TP",
         "enseignant": "Pr. Mohammed Abdelilah",
-        "filiere": "MIPC-1",
         "groupe": "MIPC-1-G5",
-        "effectif": 29,
-        "duree": 90,
-        "priorite": 3,
         "jour": "Mercredi",
         "debut": "12:30",
         "fin": "14:00",
-        "salle": "TP-D1"
+        "salle": "TP-D1",
+        "filiere": "MIPC-1"
     },
     {
         "id": 138,

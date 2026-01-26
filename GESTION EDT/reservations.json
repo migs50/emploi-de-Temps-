@@ -49,6 +49,24 @@
         "debut": "14:15",
         "motif": "Rattrapage",
         "id": "5bdffe96",
-        "statut": "En attente"
+        "statut": "Acceptée"
+    },
+    {
+        "enseignant": "Dr. Hassan Yousfi  (Vibrologie)",
+        "salle": "TP-A3",
+        "jour": "Vendredi",
+        "debut": "10:45",
+        "motif": "Rattrapage",
+        "id": "b2c02006",
+        "statut": "Acceptée"
+    },
+    {
+        "enseignant": "Dr. Fatima Benali  (Analyse Numérique)",
+        "salle": "Amphi J",
+        "jour": "Mercredi",
+        "debut": "09:00",
+        "motif": "Cours supplémentaire",
+        "id": "82942f51",
+        "statut": "Acceptée"
     }
 ]

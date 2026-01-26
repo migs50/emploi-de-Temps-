@@ -48,5 +48,35 @@
         "statut": "Indisponibilité Refusée",
         "date": "2026-01-14 01:38",
         "lu": false
+    },
+    {
+        "id": "698bc20f",
+        "enseignant": "",
+        "salle": "Grande-C2",
+        "jour": "Vendredi",
+        "debut": "14:15",
+        "statut": "Acceptée",
+        "date": "2026-01-14 09:11",
+        "lu": false
+    },
+    {
+        "id": "78c686ce",
+        "enseignant": "Dr. Hassan Yousfi  (Vibrologie)",
+        "salle": "TP-A3",
+        "jour": "Vendredi",
+        "debut": "10:45",
+        "statut": "Acceptée",
+        "date": "2026-01-14 09:12",
+        "lu": false
+    },
+    {
+        "id": "d128bd6d",
+        "enseignant": "Dr. Fatima Benali  (Analyse Numérique)",
+        "salle": "Amphi J",
+        "jour": "Mercredi",
+        "debut": "09:00",
+        "statut": "Acceptée",
+        "date": "2026-01-26 17:47",
+        "lu": false
     }
 ]
